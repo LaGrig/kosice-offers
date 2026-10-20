@@ -157,6 +157,7 @@
   "found_at": "2026-10-20",
   "expires_at": null,
   "score": 100,
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-10-20"
  }
 ]
