@@ -1,51 +1,5 @@
 [
  {
-  "id": "d202a5557853",
-  "title": {
-   "uk": "Weighsies: безкоштовна браузерна гра для перерв",
-   "ru": "Weighsies: бесплатная браузерная игра для перерывов",
-   "en": "Weighsies: free browser game for breaks",
-   "sk": "Weighsies: bezplatná prehliadačová hra na prestávky"
-  },
-  "text": {
-   "uk": "Грайте безкоштовно у браузері між парами. Weighsies — вгадайте, що збалансує ваги. Відкрийте weighsies.dev та грайте одразу.",
-   "ru": "Играйте бесплатно в браузере между парами. Weighsies — угадайте, что уравновесит весы. Откройте weighsies.dev и играйте сразу.",
-   "en": "Play free in browser between classes. Weighsies — guess what balances the scale. Open weighsies.dev and play instantly.",
-   "sk": "Hrajte zadarmo v prehliadači medzi hodinami. Weighsies — uhádnite, čo vyváži váhy. Otvorte weighsies.dev a hrajte ihneď."
-  },
-  "category": "games",
-  "link": "https://www.reddit.com/r/freegames/comments/1xa80no/browser_weighsies_guess_what_balances_the_scale/",
-  "source": "reddit-freegames",
-  "found_at": "2026-10-20",
-  "expires_at": null,
-  "score": 96,
-  "status": "active",
-  "fails": 0
- },
- {
-  "id": "8aac0d9b67a5",
-  "title": {
-   "uk": "Puttsies: безкоштовний щоденний міні-гольф у браузері",
-   "ru": "Puttsies: бесплатный ежедневный мини-гольф в браузере",
-   "en": "Puttsies: free daily mini‑golf in browser",
-   "sk": "Puttsies: bezplatný denný minigolf v prehliadači"
-  },
-  "text": {
-   "uk": "Грайте безкоштовно щодня без встановлення.\nВідкрийте puttsies.dev",
-   "ru": "Играйте бесплатно каждый день без установки.\nОткройте puttsies.dev",
-   "en": "Play free daily with no install.\nOpen puttsies.dev",
-   "sk": "Hrajte zadarmo každý deň bez inštalácie.\nOtvorte puttsies.dev"
-  },
-  "category": "games",
-  "link": "https://www.reddit.com/r/freegames/comments/1xa7dlc/browser_puttsies_free_daily_mini_golf/",
-  "source": "reddit-freegames",
-  "found_at": "2026-10-20",
-  "expires_at": null,
-  "score": 94,
-  "status": "active",
-  "fails": 0
- },
- {
   "id": "65967cfda881",
   "title": {
    "uk": "Hexweave — безкоштовна браузерна гра з поєднанням заклять",
