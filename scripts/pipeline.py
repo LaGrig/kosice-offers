@@ -6,8 +6,10 @@ from verify import link_ok, steam_ok
 
 def process(item, today_s):
     s = ask_llm('scout', {'today': today_s, 'item': item})
-    if not s or not s.get('relevant'):
-        return None, 'не релевантно'
+    if not s:
+        return None, 'скаут не ответил'
+    if not s.get('relevant'):
+        return None, 'не релевантно: ' + str(s.get('note'))
     exp = item.get('expires_at') or s.get('expires_at')
     if exp and exp < today_s:
         return None, 'срок истёк'

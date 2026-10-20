@@ -4,7 +4,7 @@ UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 def link_ok(url):
     try:
         r = requests.get(url, timeout=12, allow_redirects=True, headers=UA, stream=True)
-        if r.status_code == 403 and 'reddit.com' in url:
+        if r.status_code in (403, 429) and any(h in url for h in ('reddit.com', 'epicgames.com', 'gamerpower.com')):
             return True
         return r.status_code < 400
     except Exception:
