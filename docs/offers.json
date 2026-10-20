@@ -136,5 +136,49 @@
   "score": 100,
   "status": "active",
   "fails": 0
+ },
+ {
+  "id": "d0acf529540c",
+  "title": {
+   "uk": "GetHigh.EXE безкоштовно в Epic Games Store",
+   "ru": "GetHigh.EXE бесплатно в Epic Games Store",
+   "en": "GetHigh.EXE free on Epic Games Store",
+   "sk": "GetHigh.EXE zadarmo v Epic Games Store"
+  },
+  "text": {
+   "uk": "Гра GetHigh.EXE доступна безкоштовно в Epic Games Store.",
+   "ru": "Игра GetHigh.EXE доступна бесплатно в Epic Games Store.",
+   "en": "The game GetHigh.EXE is available for free on the Epic Games Store.",
+   "sk": "Hra GetHigh.EXE je k dispozícii zadarmo v Epic Games Store."
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/gethighexe-c83d1f",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-10-20",
+  "expires_at": null,
+  "score": 95,
+  "status": "pending"
+ },
+ {
+  "id": "dee6a56622c0",
+  "title": {
+   "uk": "Last Room безкоштовно в IndieGala (Steam/DRM-free)",
+   "ru": "Last Room бесплатно в IndieGala (Steam/DRM-free)",
+   "en": "Last Room free on IndieGala (Steam/DRM-free)",
+   "sk": "Last Room zadarmo na IndieGala (Steam/DRM-free)"
+  },
+  "text": {
+   "uk": "Гра Last Room доступна безкоштовно у IndieGala як Steam-ключ та DRM-free версія.",
+   "ru": "Игра Last Room доступна бесплатно в IndieGala как Steam-ключ и DRM-free версия.",
+   "en": "The game Last Room is available for free on IndieGala as a Steam key and DRM-free version.",
+   "sk": "Hra Last Room je k dispozícii zadarmo na IndieGala ako Steam kľúč a DRM-free verzia."
+  },
+  "category": "games",
+  "link": "https://freebies.indiegala.com/last-room",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-10-20",
+  "expires_at": null,
+  "score": 100,
+  "status": "pending"
  }
 ]
