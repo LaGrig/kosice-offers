@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang='ru'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+<title>Košice Student Deals</title>
+<script src='https://telegram.org/js/telegram-web-app.js'></script>
+<style>
+:root{--bg:var(--tg-theme-bg-color,#fff);--fg:var(--tg-theme-text-color,#111);--hint:var(--tg-theme-hint-color,#777);--card:var(--tg-theme-secondary-bg-color,#f2f3f5);--accent:var(--tg-theme-button-color,#2481cc);--accent-fg:var(--tg-theme-button-text-color,#fff)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.4 system-ui,sans-serif;padding:12px 12px 40px}
+h1{font-size:20px;margin:4px 0 10px}
+.row{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px}
+.chip{flex:none;border:0;border-radius:999px;padding:7px 14px;background:var(--card);color:var(--fg);font:inherit}
+.chip.on{background:var(--accent);color:var(--accent-fg)}
+.bar{display:flex;gap:8px;margin:8px 0 12px}
+select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);color:var(--fg);font:inherit}
+.card{background:var(--card);border-radius:16px;padding:14px;margin-bottom:10px}
+.card h3{margin:0 0 6px;font-size:16px}
+.meta{display:flex;justify-content:space-between;color:var(--hint);font-size:12px;margin-top:10px}
+.go{display:inline-block;margin-top:10px;padding:8px 14px;border-radius:12px;background:var(--accent);color:var(--accent-fg);text-decoration:none}
+.empty{color:var(--hint);text-align:center;margin-top:40px}
+</style>
+</head>
+<body>
+<h1>Студенческие находки Кошице</h1>
+<div class='row' id='chips'></div>
+<div class='bar'>
+<select id='sort'><option value='new'>Новые</option><option value='score'>Лучшие</option><option value='ending'>Скоро закончатся</option></select>
+<select id='lang'><option value='uk'>Українська</option><option value='ru'>Русский</option><option value='en'>English</option><option value='sk'>Slovenčina</option></select>
+</div>
+<div id='list'></div>
+<script>
+const T = window.Telegram && window.Telegram.WebApp;
+if (T) { T.ready(); T.expand(); }
+const CATS = {all:'Все', food:'Еда', games:'Игры', events:'События', places:'Места', it_soft:'IT и софт', services:'Услуги', jobs:'Работа', study:'Учёба', other:'Другое'};
+const store = {
+  get(k, d){ try { return localStorage.getItem(k) || d; } catch(e){ return d; } },
+  set(k, v){ try { localStorage.setItem(k, v); } catch(e){} }
+};
+const u = T && T.initDataUnsafe && T.initDataUnsafe.user;
+const tgLang = (u && u.language_code) || 'en';
+let lang = store.get('lang', ['uk','ru','sk','en'].includes(tgLang) ? tgLang : 'en');
+let cat = store.get('cat', 'all');
+let sort = store.get('sort', 'new');
+let offers = [];
+const $ = id => document.getElementById(id);
+function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+function render(){
+  const t = new Date().toISOString().slice(0,10);
+  const list = offers.filter(o => o.status === 'active' && (!o.expires_at || o.expires_at >= t) && (cat === 'all' || o.category === cat));
+  if (sort === 'score') list.sort((a,b) => b.score - a.score);
+  else if (sort === 'ending') list.sort((a,b) => (a.expires_at || '9999').localeCompare(b.expires_at || '9999'));
+  else list.sort((a,b) => b.found_at.localeCompare(a.found_at));
+  const box = $('list'); box.replaceChildren();
+  if (!list.length) { box.append(el('div', 'empty', 'Пока ничего нет в этом разделе')); return; }
+  list.forEach(o => {
+    const c = el('div', 'card');
+    c.append(el('h3', null, o.title[lang] || o.title.en || ''));
+    c.append(el('div', null, o.text[lang] || o.text.en || ''));
+    if (/^https?:/.test(o.link)) { const a = el('a', 'go', 'Открыть'); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
+    const m = el('div', 'meta');
+    m.append(el('span', null, o.expires_at ? ('до ' + o.expires_at) : 'без срока'));
+    m.append(el('span', null, 'оценка ' + o.score));
+    c.append(m); box.append(c);
+  });
+}
+function chips(){
+  const row = $('chips'); row.replaceChildren();
+  Object.keys(CATS).forEach(k => {
+    const b = el('button', 'chip' + (k === cat ? ' on' : ''), CATS[k]);
+    b.onclick = () => { cat = k; store.set('cat', k); chips(); render(); };
+    row.append(b);
+  });
+}
+$('sort').value = sort; $('lang').value = lang;
+$('sort').onchange = e => { sort = e.target.value; store.set('sort', sort); render(); };
+$('lang').onchange = e => { lang = e.target.value; store.set('lang', lang); render(); };
+chips();
+fetch('offers.json?' + Date.now()).then(r => r.json()).then(d => { offers = d; render(); }).catch(() => { $('list').append(el('div', 'empty', 'Не удалось загрузить данные')); });
+</script>
+</body>
+</html>
