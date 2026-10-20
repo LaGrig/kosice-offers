@@ -42,6 +42,8 @@ const u = T && T.initDataUnsafe && T.initDataUnsafe.user;
 const tgLang = (u && u.language_code) || 'en';
 let lang = store.get('lang', ['uk','ru','sk','en'].includes(tgLang) ? tgLang : 'en');
 let cat = store.get('cat', 'all');
+const sp = T && T.initDataUnsafe && T.initDataUnsafe.start_param;
+if (sp && CATS[sp]) cat = sp;
 let sort = store.get('sort', 'new');
 let offers = [];
 const $ = id => document.getElementById(id);
