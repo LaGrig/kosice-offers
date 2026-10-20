@@ -20,7 +20,7 @@ def main():
         'text': '\n\n'.join(parts),
         'parse_mode': 'HTML',
         'disable_web_page_preview': True,
-        'reply_markup': {'inline_keyboard': [[{'text': 'Все предложения', 'url': os.environ['MINIAPP_LINK']}]]},
+        'reply_markup': {'inline_keyboard': [[{'text': {'uk': 'Усі пропозиції', 'ru': 'Все предложения', 'en': 'All offers', 'sk': 'Všetky ponuky'}[lang], 'url': os.environ['MINIAPP_LINK']}]]},
     }
     r = requests.post('https://api.telegram.org/bot' + os.environ['BOT_TOKEN'] + '/sendMessage', json=body, timeout=30)
     print(r.status_code, r.text[:300])
