@@ -1,0 +1,14 @@
+{
+  "models": {
+    "scout": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "writer": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "qa": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "chief": "nvidia/nemotron-3-ultra-550b-a55b:free"
+  },
+  "publish_threshold": 70,
+  "digest_threshold": 85,
+  "digest_size": 4,
+  "digest_lang": "uk",
+  "max_new_per_run": 15,
+  "auto_publish": false
+}

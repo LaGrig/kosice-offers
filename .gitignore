@@ -1,0 +1,5 @@
+.env
+logs/
+data/seen.json
+.venv/
+__pycache__/

@@ -1,0 +1,7 @@
+sources:
+  - name: reddit-freegames
+    type: rss
+    url: https://www.reddit.com/r/freegames/.rss
+  - name: reddit-gamedeals
+    type: rss
+    url: https://www.reddit.com/r/GameDeals/.rss
