@@ -44,5 +44,49 @@
   "score": 96,
   "status": "active",
   "fails": 0
+ },
+ {
+  "id": "fd510170e601",
+  "title": {
+   "uk": "The Black Within безкоштовно на itch.io до 24 жовтня",
+   "ru": "The Black Within бесплатно на itch.io до 24 октября",
+   "en": "The Black Within free on itch.io until Oct 24",
+   "sk": "The Black Within zadarmo na itch.io do 24. októbra"
+  },
+  "text": {
+   "uk": "Отримайте платну гру The Black Within безкоштовно на itch.io до 24 жовтня 2026 року. Звичайна ціна $5.99, потрібно перейти на сторінку розіграшу, натиснути \"Download or Claim\" і увійти в обліковий запис itch.io.",
+   "ru": "Получите платную игру The Black Within бесплатно на itch.io до 24 октября 2026 года. Обычная цена $5.99, нужно зайти на страницу раздачи, нажать \"Download or Claim\" и войти в аккаунт itch.io.",
+   "en": "Get the paid game The Black Within for free on itch.io until October 24, 2026. Regular price $5.99, just visit the giveaway page, click \"Download or Claim\" and log into your itch.io account.",
+   "sk": "Získajte platenú hru The Black Within zadarmo na itch.io do 24. októbra 2026. Bežná cena $5.99, stačí navštíviť stránku giveaway, kliknúť na \"Download or Claim\" a prihlásiť sa do účtu itch.io."
+  },
+  "category": "games",
+  "link": "https://www.gamerpower.com/open/the-black-within-itch-io-giveaway",
+  "source": "gamerpower",
+  "found_at": "2026-10-20",
+  "expires_at": "2026-10-24",
+  "score": 100,
+  "status": "pending"
+ },
+ {
+  "id": "ad046f593bb2",
+  "title": {
+   "uk": "The Green Light безкоштовно на itch.io до 29 жовтня",
+   "ru": "The Green Light бесплатно на itch.io до 29 октября",
+   "en": "The Green Light free on itch.io until Oct 29",
+   "sk": "The Green Light zadarmo na itch.io do 29. októbra"
+  },
+  "text": {
+   "uk": "Отримайте інді-гру The Green Light безкоштовно на itch.io до 29 жовтня 2026 року. Звичайна ціна $9.99, потрібен акаунт itch.io, натисніть «Download or Claim» на сторінці роздачі.",
+   "ru": "Получите инди-игру The Green Light бесплатно на itch.io до 29 октября 2026 года. Обычная цена $9.99, нужен аккаунт itch.io, нажмите «Download or Claim» на странице раздачи.",
+   "en": "Get the indie game The Green Light free on itch.io until October 29, 2026. Regular price $9.99, requires an itch.io account, click «Download or Claim» on the giveaway page.",
+   "sk": "Získajte indie hru The Green Light zadarmo na itch.io do 29. októbra 2026. Bežná cena $9.99, potrebujete účet na itch.io, kliknite na «Download or Claim» na stránke giveaway."
+  },
+  "category": "games",
+  "link": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
+  "source": "gamerpower",
+  "found_at": "2026-10-20",
+  "expires_at": "2026-10-29",
+  "score": 100,
+  "status": "pending"
  }
 ]
