@@ -36,6 +36,17 @@ def collect():
     seen = load_seen() | {o['id'] for o in existing}
     keys = {link_key(o['link']) for o in existing}
     found = {}
+    try:
+        from api_sources import fetch_all
+        for it in fetch_all():
+            i = it['id']
+            k = link_key(it['link'])
+            if i in seen or i in found or k in keys:
+                continue
+            keys.add(k)
+            found[i] = it
+    except Exception as ex:
+        print('API-источники недоступны:', ex)
     cfg = yaml.safe_load((ROOT / 'sources.yaml').read_text(encoding='utf-8'))
     for s in cfg['sources']:
         feed = feedparser.parse(s['url'], agent='Mozilla/5.0 (kosice-offers-bot)')

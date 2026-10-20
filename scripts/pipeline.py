@@ -8,7 +8,7 @@ def process(item, today_s):
     s = ask_llm('scout', {'today': today_s, 'item': item})
     if not s or not s.get('relevant'):
         return None, 'не релевантно'
-    exp = s.get('expires_at')
+    exp = item.get('expires_at') or s.get('expires_at')
     if exp and exp < today_s:
         return None, 'срок истёк'
     if not link_ok(item['link']):
@@ -18,6 +18,7 @@ def process(item, today_s):
     facts = dict(item)
     for k in ('category', 'expires_at', 'free', 'note'):
         facts[k] = s.get(k)
+    facts['expires_at'] = exp
     post = ask_llm('writer', {'facts': facts})
     qa = chief = None
     for attempt in range(2):
