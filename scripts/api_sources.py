@@ -17,14 +17,18 @@ def fetch_epic():
         price = (e.get('price') or {}).get('totalPrice') or {}
         if price.get('discountPrice') != 0 or not price.get('originalPrice'):
             continue
-        slug = e.get('productSlug') or e.get('urlSlug')
-        if not slug:
-            maps = (e.get('catalogNs') or {}).get('mappings') or []
-            slug = maps[0].get('pageSlug') if maps else None
+        slug = None
+        for m in (e.get('offerMappings') or []) + ((e.get('catalogNs') or {}).get('mappings') or []):
+            if m.get('pageSlug'):
+                slug = m['pageSlug']
+                break
+        slug = slug or e.get('productSlug') or e.get('urlSlug')
         if not slug:
             continue
-        link = 'https://store.epicgames.com/en-US/p/' + slug.replace('/home', '')
+        link = 'https://store.epicgames.com/p/' + slug.replace('/home', '')
         end = promos[0]['promotionalOffers'][0]['endDate'][:10]
+        if end < dt.date.today().isoformat():
+            continue
         orig = (price.get('fmtPrice') or {}).get('originalPrice', '')
         summary = ('Epic Games Store: бесплатная раздача игры ' + e.get('title', '') + '. Обычная цена ' + orig
                    + '. Бесплатно до ' + end + ' (UTC). ' + (e.get('description') or '')[:300])
@@ -62,6 +66,8 @@ def fetch_gamerpower():
             except ValueError:
                 continue
             note = 'срок не указан (считаем 3 дня)'
+        if end < dt.date.today().isoformat():
+            continue
         summary = (plats + ': бесплатная раздача ' + g.get('title', '') + ' (обычная цена ' + worth + '). Бесплатно '
                    + note + '. ' + (g.get('description') or '')[:300] + ' ' + (g.get('instructions') or '')[:300])
         out.append({'id': offer_id(link), 'title': g.get('title', ''), 'summary': summary,

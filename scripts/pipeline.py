@@ -29,7 +29,7 @@ def process(item, today_s):
         qa = ask_llm('qa', {'source': facts, 'post': post})
         if not qa:
             return None, 'QA не ответил'
-        chief = ask_llm('chief', {'post': post, 'qa': qa})
+        chief = ask_llm('chief', {'post': post, 'qa': qa, 'link': item['link'], 'expires_at': exp})
         if not chief:
             return None, 'главред не ответил'
         if chief.get('decision') == 'revise' and attempt == 0:
