@@ -136,5 +136,27 @@
   "score": 100,
   "status": "active",
   "fails": 0
+ },
+ {
+  "id": "3eb7525db51b",
+  "title": {
+   "uk": "Dune: Awakening за €22 (56% знижки) з кодом Halloween12",
+   "ru": "Dune: Awakening за €22 (56% скидки) по коду Halloween12",
+   "en": "Dune: Awakening for €22 (56% off) with code Halloween12",
+   "sk": "Dune: Awakening za €22 (56% zľavy) s kódom Halloween12"
+  },
+  "text": {
+   "uk": "Гра Dune: Awakening доступна в Gamesporium за €22 замість €50 за допомогою промокоду Halloween12, що дає 56% знижки; також ціни: AU A$32.98, CA C$28.60, US $22.00, GB £18.48.",
+   "ru": "Игра Dune: Awakening в Gamesporium стоит €22 вместо €50 с промокодом Halloween12, дающим 56% скидки; цены в других регионах: AU A$32.98, CA C$28.60, US $22.00, GB £18.48.",
+   "en": "Dune: Awakening is available on Gamesporium for €22 instead of €50 using code Halloween12 for 56% off; other regional prices: AU A$32.98, CA C$28.60, US $22.00, GB £18.48.",
+   "sk": "Hra Dune: Awakening je na Gamesporium za €22 namiesto €50 s kódom Halloween12, ktorý dáva 56% zľavy; ceny v iných regiónoch: AU A$32.98, CA C$28.60, US $22.00, GB £18.48."
+  },
+  "category": "games",
+  "link": "https://gamesporium.com/products/dune-awakening",
+  "source": "reddit-gamedeals",
+  "found_at": "2026-10-20",
+  "expires_at": null,
+  "score": 81,
+  "status": "pending"
  }
 ]
