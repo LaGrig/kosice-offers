@@ -65,7 +65,8 @@
   "found_at": "2026-10-20",
   "expires_at": null,
   "score": 92,
-  "status": "pending"
+  "status": "active",
+  "fails": 0
  },
  {
   "id": "d8e6212537c1",
@@ -87,7 +88,8 @@
   "found_at": "2026-10-20",
   "expires_at": null,
   "score": 96,
-  "status": "pending"
+  "status": "active",
+  "fails": 0
  },
  {
   "id": "8a35781b276b",
@@ -109,6 +111,7 @@
   "found_at": "2026-10-20",
   "expires_at": null,
   "score": 96,
-  "status": "pending"
+  "status": "active",
+  "fails": 0
  }
 ]
