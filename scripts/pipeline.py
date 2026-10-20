@@ -51,6 +51,7 @@ def main():
         limit = int(sys.argv[sys.argv.index('--limit') + 1])
     today_s = today().isoformat()
     items = collect()[:limit]
+    print('к обработке:', len(items))
     offers = load_offers()
     for item in items:
         offer, why = process(item, today_s)
