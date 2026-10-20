@@ -44,5 +44,71 @@
   "score": 94,
   "status": "active",
   "fails": 0
+ },
+ {
+  "id": "65967cfda881",
+  "title": {
+   "uk": "Hexweave — безкоштовна браузерна гра з поєднанням заклять",
+   "ru": "Hexweave — бесплатная браузерная игра с объединением заклинаний",
+   "en": "Hexweave — free browser survivors‑like with spell fusion",
+   "sk": "Hexweave — bezplatná prehliadačová hra so spájáním kliatieb"
+  },
+  "text": {
+   "uk": "Грай безкоштовно в браузері: survivors-like, де з’єднуєш закляття. Посилання: https://kendromaro.itch.io/hexweave",
+   "ru": "Играй бесплатно в браузере: survivors-like, где объединяешь заклинания. Ссылка: https://kendromaro.itch.io/hexweave",
+   "en": "Play free in browser: survivors‑like where you fuse spells. Link: https://kendromaro.itch.io/hexweave",
+   "sk": "Hraj zadarmo v prehliadači: survivors-like, kde spájaš kliatby. Odkaz: https://kendromaro.itch.io/hexweave"
+  },
+  "category": "games",
+  "link": "https://www.reddit.com/r/freegames/comments/1xazqjd/hexweave_survivorslike_where_you_fuse_spells/",
+  "source": "reddit-freegames",
+  "found_at": "2026-10-20",
+  "expires_at": null,
+  "score": 92,
+  "status": "pending"
+ },
+ {
+  "id": "d8e6212537c1",
+  "title": {
+   "uk": "Net Worth 1.0 вийшла безкоштовно на itch.io",
+   "ru": "Net Worth 1.0 вышла бесплатно на itch.io",
+   "en": "Net Worth 1.0 released free on itch.io",
+   "sk": "Net Worth 1.0 vyšla zadarmo na itch.io"
+  },
+  "text": {
+   "uk": "Гра Net Worth 1.0 тепер безкоштовна на itch.io.\nРозробник Burtonsoft опублікував версію 1.0. Завантажити: https://burtonsoft.itch.io/net-worth/devlog/1717409/net-worth-10-is-out",
+   "ru": "Игра Net Worth 1.0 теперь бесплатна на itch.io.\nРазработчик Burtonsoft опубликовал версию 1.0. Скачать: https://burtonsoft.itch.io/net-worth/devlog/1717409/net-worth-10-is-out",
+   "en": "Game Net Worth 1.0 is now free on itch.io.\nDeveloper Burtonsoft released version 1.0. Download: https://burtonsoft.itch.io/net-worth/devlog/1717409/net-worth-10-is-out",
+   "sk": "Hra Net Worth 1.0 je teraz zadarmo na itch.io.\nVývojár Burtonsoft vydal verziu 1.0. Stiahnuť: https://burtonsoft.itch.io/net-worth/devlog/1717409/net-worth-10-is-out"
+  },
+  "category": "games",
+  "link": "https://www.reddit.com/r/freegames/comments/1xax8ki/net_worth_10_is_out_net_worth_by_burtonsoft/",
+  "source": "reddit-freegames",
+  "found_at": "2026-10-20",
+  "expires_at": null,
+  "score": 96,
+  "status": "pending"
+ },
+ {
+  "id": "8a35781b276b",
+  "title": {
+   "uk": "Net Worth: безкоштовна економічна стратегія",
+   "ru": "Net Worth: бесплатная экономическая стратегия",
+   "en": "Net Worth: free economic strategy game",
+   "sk": "Net Worth: bezplatná ekonomická stratégia"
+  },
+  "text": {
+   "uk": "Безкоштовна економічна стратегія від інді-розробника.\nСпробуйте гру Net Worth на itch.io: https://burton78.itch.io/net-worth",
+   "ru": "Бесплатная экономическая стратегия от инди-разработчика.\nПопробуйте игру Net Worth на itch.io: https://burton78.itch.io/net-worth",
+   "en": "Free economic strategy game by an indie developer.\nTry Net Worth on itch.io: https://burton78.itch.io/net-worth",
+   "sk": "Bezplatná ekonomická stratégia od indie vývojára.\nSkúste hru Net Worth na itch.io: https://burton78.itch.io/net-worth"
+  },
+  "category": "games",
+  "link": "https://www.reddit.com/r/freegames/comments/1xa2jb9/net_worth/",
+  "source": "reddit-freegames",
+  "found_at": "2026-10-20",
+  "expires_at": null,
+  "score": 96,
+  "status": "pending"
  }
 ]
