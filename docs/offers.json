@@ -138,28 +138,6 @@
   "fails": 0
  },
  {
-  "id": "d0acf529540c",
-  "title": {
-   "uk": "GetHigh.EXE безкоштовно в Epic Games Store",
-   "ru": "GetHigh.EXE бесплатно в Epic Games Store",
-   "en": "GetHigh.EXE free on Epic Games Store",
-   "sk": "GetHigh.EXE zadarmo v Epic Games Store"
-  },
-  "text": {
-   "uk": "Гра GetHigh.EXE доступна безкоштовно в Epic Games Store.",
-   "ru": "Игра GetHigh.EXE доступна бесплатно в Epic Games Store.",
-   "en": "The game GetHigh.EXE is available for free on the Epic Games Store.",
-   "sk": "Hra GetHigh.EXE je k dispozícii zadarmo v Epic Games Store."
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/gethighexe-c83d1f",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-10-20",
-  "expires_at": null,
-  "score": 95,
-  "status": "pending"
- },
- {
   "id": "dee6a56622c0",
   "title": {
    "uk": "Last Room безкоштовно в IndieGala (Steam/DRM-free)",
