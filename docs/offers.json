@@ -65,7 +65,8 @@
   "found_at": "2026-10-20",
   "expires_at": "2026-10-24",
   "score": 100,
-  "status": "pending"
+  "status": "active",
+  "fails": 0
  },
  {
   "id": "ad046f593bb2",
@@ -87,29 +88,8 @@
   "found_at": "2026-10-20",
   "expires_at": "2026-10-29",
   "score": 100,
-  "status": "pending"
- },
- {
-  "id": "bec50bea9895",
-  "title": {
-   "uk": "Бандл 130+ ігор безкоштовно: допомога парі без житла (закінчується сьогодні)",
-   "ru": "Бандл 130+ игр бесплатно: помощь паре без жилья (заканчивается сегодня)",
-   "en": "130+ Games Free Bundle: Help Unhoused Couple (Ends Today)",
-   "sk": "Bundel 130+ hier zadarmo: pomoc páre bez byvania (končí dnes)"
-  },
-  "text": {
-   "uk": "На Itch.io доступний бандл із 130+ ігор за принципом «плати скільки хочеш» — можна отримати безкоштовно, натиснувши «no thanks, just take me to the downloads»; всі кошти йдуть на переїзд пари, яка опинилася без житла через трансфобію; акція закінчується сьогодні.",
-   "ru": "На Itch.io доступен бандл из 130+ игр по принципу «плати сколько хочешь» — можно получить бесплатно, нажав «no thanks, just take me to the downloads»; все средства идут на переезд пары, оказавшейся без жилья из-за трансфобии; акция заканчивается сегодня.",
-   "en": "On Itch.io a 130+ game pay-what-you-want bundle is available for free by clicking \"no thanks, just take me to the downloads\"; all proceeds go to a couple forced out of housing due to transphobia; the offer ends today.",
-   "sk": "Na Itch.io je k dispozícii bundel 130+ hier podľa princípu «zaplať koľko chceš» — môžete získať zadarmo kliknutím na «no thanks, just take me to the downloads»; všetky príjmy idú na presun páry, ktorá sa ocitla bez byvania kvôli transfóbii; akcia končí dnes."
-  },
-  "category": "games",
-  "link": "https://itch.io/b/3915/unhoused-fundraising-bundle-with-awesome-peeps",
-  "source": "reddit-freegames",
-  "found_at": "2026-10-20",
-  "expires_at": "2026-10-20",
-  "score": 100,
-  "status": "pending"
+  "status": "active",
+  "fails": 1
  },
  {
   "id": "04a0ed7bdb8b",
@@ -131,7 +111,8 @@
   "found_at": "2026-10-20",
   "expires_at": "2026-10-22",
   "score": 100,
-  "status": "pending"
+  "status": "active",
+  "fails": 0
  },
  {
   "id": "ff95e8410524",
@@ -153,6 +134,7 @@
   "found_at": "2026-10-20",
   "expires_at": "2026-10-22",
   "score": 100,
-  "status": "pending"
+  "status": "active",
+  "fails": 0
  }
 ]
