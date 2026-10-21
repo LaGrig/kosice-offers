@@ -19,6 +19,18 @@
     "default": 15
   },
   "itch_min_ratings": 10,
-  "steam_min_reviews": 20,
-  "steam_min_pct": 70
+  "steam_tiers": [
+    {
+      "min_reviews": 20,
+      "above_pct": 80
+    },
+    {
+      "min_reviews": 50,
+      "above_pct": 70
+    },
+    {
+      "min_reviews": 500,
+      "above_pct": 50
+    }
+  ]
 }

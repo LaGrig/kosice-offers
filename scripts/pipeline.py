@@ -4,7 +4,7 @@ from llm import ask_llm
 from collect import collect, mark_seen
 from verify import link_ok, steam_ok
 from popularity import signals
-from steam_signal import steam_signal
+from steam_signal import steam_signal, steam_strong
 
 def process(item, today_s):
     s = ask_llm('scout', {'today': today_s, 'item': item})
@@ -27,7 +27,7 @@ def process(item, today_s):
     if sig.get('is_itch'):
         sig.update(steam_signal(item['title']))
         few = sig.get('ratings') is not None and sig['ratings'] < CFG.get('itch_min_ratings', 10)
-        strong = sig.get('steam_reviews', 0) >= CFG.get('steam_min_reviews', 20) and sig.get('steam_pct', 0) >= CFG.get('steam_min_pct', 80)
+        strong = steam_strong(sig, CFG.get('steam_tiers'))
         if few and not strong:
             return None, 'itch: мало оценок (' + str(int(sig['ratings'])) + ') и нет сильного рейтинга в Steam'
     pop = {k: sig[k] for k in ('rating', 'ratings', 'claimed_users', 'steam_pct', 'steam_reviews') if sig.get(k) is not None}

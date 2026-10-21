@@ -27,3 +27,21 @@ def steam_signal(title):
         return {'steam_id': hit['id'], 'steam_reviews': pos + neg, 'steam_pct': round(100 * pos / (pos + neg))}
     except Exception as e:
         return {'steam_error': str(e)[:80]}
+
+DEFAULT_TIERS = [
+    {'min_reviews': 20, 'above_pct': 80},
+    {'min_reviews': 50, 'above_pct': 70},
+    {'min_reviews': 500, 'above_pct': 50},
+]
+
+def steam_strong(sig, tiers=None):
+    tiers = tiers or DEFAULT_TIERS
+    n = sig.get('steam_reviews', 0)
+    pct = sig.get('steam_pct')
+    if pct is None:
+        return False
+    need = None
+    for t in sorted(tiers, key=lambda x: x['min_reviews']):
+        if n >= t['min_reviews']:
+            need = t['above_pct']
+    return need is not None and pct > need
