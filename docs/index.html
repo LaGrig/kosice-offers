@@ -47,6 +47,7 @@ if (sp && CATS[sp]) cat = sp;
 let sort = store.get('sort', 'new');
 let offers = [];
 const $ = id => document.getElementById(id);
+const fmt = d => d.split('-').reverse().join('/');
 function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
 function render(){
   const t = new Date().toISOString().slice(0,10);
@@ -62,7 +63,7 @@ function render(){
     c.append(el('div', null, o.text[lang] || o.text.en || ''));
     if (/^https?:/.test(o.link)) { const a = el('a', 'go', 'Открыть'); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
     const m = el('div', 'meta');
-    m.append(el('span', null, o.expires_at ? ('до ' + o.expires_at) : 'без срока'));
+    m.append(el('span', null, o.expires_at ? ('до ' + fmt(o.expires_at)) : 'без срока'));
     m.append(el('span', null, 'оценка ' + o.score));
     c.append(m); box.append(c);
   });

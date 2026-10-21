@@ -182,6 +182,7 @@
   "expires_at": "2026-10-24",
   "score": 100,
   "status": "active",
-  "approved_at": "2026-10-21"
+  "approved_at": "2026-10-21",
+  "fails": 0
  }
 ]
