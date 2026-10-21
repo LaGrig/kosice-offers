@@ -21,7 +21,7 @@ def process(item, today_s, force=False):
         return None, 'срок истёк'
     if not link_ok(item['link']):
         return None, 'ссылка не открывается'
-    if not steam_ok(item['link'] + ' ' + item['summary']):
+    if item.get('kind') not in ('demo', 'playtest', 'beta') and not steam_ok(item['link'] + ' ' + item['summary']):
         return None, 'Steam: не игра или набор'
     facts = dict(item)
     for k in ('category', 'expires_at', 'free', 'note'):
