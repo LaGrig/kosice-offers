@@ -20,6 +20,9 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 .meta{display:flex;justify-content:space-between;color:var(--hint);font-size:12px;margin-top:10px}
 .go{display:inline-block;margin-top:10px;padding:8px 14px;border-radius:12px;background:var(--accent);color:var(--accent-fg);text-decoration:none}
 .pin{outline:1px dashed var(--hint)}
+.rx{display:flex;gap:6px;margin-top:10px}
+.rb{flex:1;border:0;border-radius:10px;padding:7px;background:var(--bg);color:var(--fg);font:inherit;font-size:16px}
+.rb.on{background:var(--accent);color:var(--accent-fg)}
 .empty{color:var(--hint);text-align:center;margin-top:40px}
 </style>
 </head>
@@ -48,6 +51,17 @@ if (sp && CATS[sp]) cat = sp;
 let sort = store.get('sort', 'new');
 let offers = [];
 let links = [];
+let mine = {};
+const API = 'https://students-reactions.lagrig-tm.workers.dev';
+const RX = [['up','👍'],['fire','🔥'],['down','👎'],['dead','⌛']];
+function paint(row, id) { [...row.children].forEach(b => b.classList.toggle('on', mine[id] === b.dataset.r)); }
+function react(id, r, row) {
+  const old = mine[id];
+  const next = old === r ? null : r;
+  mine[id] = next; paint(row, id);
+  fetch(API + '/react', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({offer_id: id, reaction: next, initData: T ? T.initData : ''})})
+    .then(x => { if (!x.ok) throw 0; }).catch(() => { mine[id] = old; paint(row, id); });
+}
 const $ = id => document.getElementById(id);
 const fmt = d => d.split('-').reverse().join('/');
 function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
@@ -74,7 +88,10 @@ function render(){
     const m = el('div', 'meta');
     m.append(el('span', null, o.expires_at ? ('до ' + fmt(o.expires_at)) : 'без срока'));
     m.append(el('span', null, 'оценка ' + o.score));
-    c.append(m); box.append(c);
+    c.append(m);
+    const rx = el('div', 'rx');
+    RX.forEach(([k, e]) => { const b = el('button', 'rb', e); b.dataset.r = k; b.onclick = () => react(o.id, k, rx); rx.append(b); });
+    paint(rx, o.id); c.append(rx); box.append(c);
   });
 }
 function chips(){
@@ -89,6 +106,7 @@ $('sort').value = sort; $('lang').value = lang;
 $('sort').onchange = e => { sort = e.target.value; store.set('sort', sort); render(); };
 $('lang').onchange = e => { lang = e.target.value; store.set('lang', lang); render(); };
 chips();
+if (T && T.initData) fetch(API + '/mine', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({initData: T.initData})}).then(r => r.json()).then(d => { mine = d; render(); }).catch(() => {});
 fetch('links.json?' + Date.now()).then(r => r.json()).then(d => { links = d; render(); }).catch(() => {});
 fetch('offers.json?' + Date.now()).then(r => r.json()).then(d => { offers = d; render(); }).catch(() => { $('list').append(el('div', 'empty', 'Не удалось загрузить данные')); });
 </script>
