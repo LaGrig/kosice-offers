@@ -10,5 +10,15 @@
   "digest_size": 4,
   "digest_lang": "uk",
   "max_new_per_run": 15,
-  "auto_publish": false
+  "auto_publish": false,
+  "min_worth": {
+    "epic": 10,
+    "steam": 10,
+    "gog": 10,
+    "itch": 0,
+    "default": 15
+  },
+  "itch_min_ratings": 10,
+  "steam_min_reviews": 20,
+  "steam_min_pct": 70
 }
