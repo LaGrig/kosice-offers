@@ -23,6 +23,8 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 .rx{display:flex;gap:6px;margin-top:10px}
 .rb{flex:1;border:0;border-radius:10px;padding:7px;background:var(--bg);color:var(--fg);font:inherit;font-size:16px}
 .rb.on{background:var(--accent);color:var(--accent-fg)}
+.rb[data-r=dead]{flex:2.4;font-size:14px}
+.hint{color:var(--hint);font-size:12px;margin:-4px 0 10px}
 .empty{color:var(--hint);text-align:center;margin-top:40px}
 </style>
 </head>
@@ -33,6 +35,7 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 <select id='sort'><option value='new'>Новые</option><option value='score'>Лучшие</option><option value='rating'>Оценки студентов</option><option value='ending'>Скоро закончатся</option></select>
 <select id='lang'><option value='uk'>Українська</option><option value='ru'>Русский</option><option value='en'>English</option><option value='sk'>Slovenčina</option></select>
 </div>
+<div class='hint' id='hint'></div>
 <div id='list'></div>
 <script>
 const T = window.Telegram && window.Telegram.WebApp;
@@ -53,8 +56,13 @@ let offers = [];
 let links = [];
 let mine = {};
 let counts = {};
-const EMO = Object.fromEntries([['up','👍'],['fire','🔥'],['down','👎'],['dead','⌛']]);
-function label(id, k) { const n = (counts[id] || {})[k] || 0; return n ? EMO[k] + ' ' + n : EMO[k]; }
+const EMO = Object.fromEntries([['up','👍'],['fire','🔥'],['down','👎'],['dead','🚫']]);
+const DEAD = {uk: 'Неактуально', ru: 'Неактуально', en: 'Outdated', sk: 'Neaktuálne'};
+const HINT = {uk: 'Постав реакцію, щоб побачити оцінки інших студентів', ru: 'Поставь реакцию, чтобы увидеть оценки других студентов', en: 'React to see other students’ ratings', sk: 'Reaguj, aby si videl hodnotenia ostatných študentov'};
+function label(id, k) {
+  const n = mine[id] ? ((counts[id] || {})[k] || 0) : 0;
+  return (k === 'dead' ? EMO[k] + ' ' + DEAD[lang] : EMO[k]) + (n ? ' ' + n : '');
+}
 function cs(id) { const c = counts[id] || {}; return 2 * (c.fire || 0) + (c.up || 0) - (c.down || 0) - 3 * (c.dead || 0); }
 function bump(id, from, to) {
   const c = counts[id] = counts[id] || {};
@@ -62,7 +70,7 @@ function bump(id, from, to) {
   if (to) c[to] = (c[to] || 0) + 1;
 }
 const API = 'https://students-reactions.lagrig-tm.workers.dev';
-const RX = [['up','👍'],['fire','🔥'],['down','👎'],['dead','⌛']];
+const RX = [['up','👍'],['fire','🔥'],['down','👎'],['dead','🚫']];
 function paint(row, id) { [...row.children].forEach(b => { b.classList.toggle('on', mine[id] === b.dataset.r); b.textContent = label(id, b.dataset.r); }); }
 function react(id, r, row) {
   const old = mine[id];
@@ -76,6 +84,7 @@ const fmt = d => d.split('-').reverse().join('/');
 function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
 function render(){
   const t = new Date().toISOString().slice(0,10);
+  $('hint').textContent = HINT[lang];
   const list = offers.filter(o => o.status === 'active' && (!o.expires_at || o.expires_at >= t) && (cat === 'all' || o.category === cat));
   if (sort === 'score') list.sort((a,b) => b.score - a.score);
   else if (sort === 'rating') list.sort((a, b) => cs(b.id) - cs(a.id));
