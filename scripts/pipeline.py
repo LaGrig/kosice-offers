@@ -3,6 +3,7 @@ from common import CFG, load_offers, save_offers, today
 from llm import ask_llm
 from collect import collect, mark_seen
 from verify import link_ok, steam_ok
+from popularity import signals
 
 def process(item, today_s):
     s = ask_llm('scout', {'today': today_s, 'item': item})
@@ -21,6 +22,10 @@ def process(item, today_s):
     for k in ('category', 'expires_at', 'free', 'note'):
         facts[k] = s.get(k)
     facts['expires_at'] = exp
+    sig = signals(item)
+    if sig.get('is_itch') and sig.get('ratings') is not None and sig['ratings'] < CFG.get('itch_min_ratings', 10):
+        return None, 'itch: мало оценок (' + str(int(sig['ratings'])) + ')'
+    pop = {k: sig[k] for k in ('rating', 'ratings', 'claimed_users') if sig.get(k) is not None}
     post = ask_llm('writer', {'facts': facts})
     qa = chief = None
     for attempt in range(2):
@@ -29,7 +34,7 @@ def process(item, today_s):
         qa = ask_llm('qa', {'source': facts, 'post': post})
         if not qa:
             return None, 'QA не ответил'
-        chief = ask_llm('chief', {'post': post, 'qa': qa, 'link': item['link'], 'expires_at': exp})
+        chief = ask_llm('chief', {'post': post, 'qa': qa, 'link': item['link'], 'expires_at': exp, 'popularity': pop})
         if not chief:
             return None, 'главред не ответил'
         if chief.get('decision') == 'revise' and attempt == 0:
@@ -43,7 +48,7 @@ def process(item, today_s):
         'id': item['id'], 'title': post['title'], 'text': post['text'],
         'category': s.get('category', 'other'), 'link': item['link'],
         'source': item['source'], 'found_at': today_s, 'expires_at': exp,
-        'score': score, 'worth': item.get('worth'),
+        'score': score, 'worth': item.get('worth'), 'pop': pop,
         'status': 'active' if CFG['auto_publish'] else 'pending',
     }
     return offer, 'ok'

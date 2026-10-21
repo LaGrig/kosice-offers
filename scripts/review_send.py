@@ -17,7 +17,8 @@ def main():
         if o['status'] != 'pending' or o['id'] in done:
             continue
         text = ('<b>' + html.escape(o['title'][lang]) + '</b>\n' + html.escape(o['text'][lang])
-                + '\n\n' + o['category'] + ' · ⭐ ' + str(o['score']) + ' · ⏳ ' + str(o.get('expires_at') or '—') + ' · ' + o['source'] + ' · цена ' + str(o.get('worth') or '?'))
+                + '\n\n' + o['category'] + ' · ⭐ ' + str(o['score']) + ' · ⏳ ' + str(o.get('expires_at') or '—') + ' · ' + o['source'] + ' · цена ' + str(o.get('worth') or '?')
+                + (' · популярность ' + str(o['pop']) if o.get('pop') else ''))
         kb = {'inline_keyboard': [
             [{'text': '✅ Публикуем', 'callback_data': 'ok:' + o['id']}, {'text': '❌ Отмена', 'callback_data': 'no:' + o['id']}],
             [{'text': '🔗 Оригинал', 'url': o['link']}],

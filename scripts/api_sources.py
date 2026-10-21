@@ -84,7 +84,7 @@ def fetch_gamerpower():
         summary = (plats + ': бесплатная раздача ' + g.get('title', '') + ' (обычная цена ' + worth + '). Бесплатно '
                    + note + '. ' + (g.get('description') or '')[:300] + ' ' + (g.get('instructions') or '')[:300])
         out.append({'id': offer_id(link), 'title': g.get('title', ''), 'summary': summary,
-                    'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv})
+                    'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv, 'users': g.get('users')})
     return out
 
 FETCHERS = {'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower}
