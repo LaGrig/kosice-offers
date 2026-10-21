@@ -1,0 +1,25 @@
+[
+  {
+    "category": "games",
+    "emoji": "🧪",
+    "url": "https://playtester.io/?sort=popular&status=active&platforms=steam",
+    "title": {
+      "uk": "Більше демо та плейтестів",
+      "ru": "Больше демо и плейтестов",
+      "en": "More demos and playtests",
+      "sk": "Viac dem a playtestov"
+    },
+    "text": {
+      "uk": "Каталог демо-версій і закритих тестів нових ігор у Steam. Доступ до плейтестів зазвичай треба запитувати, участь не гарантована.",
+      "ru": "Каталог демо-версий и закрытых тестов новых игр в Steam. Доступ к плейтестам обычно нужно запрашивать, участие не гарантировано.",
+      "en": "A catalog of demos and closed tests of upcoming Steam games. Playtest access usually has to be requested and is not guaranteed.",
+      "sk": "Katalóg dem a uzavretých testov pripravovaných hier na Steame. O prístup k playtestom sa zvyčajne treba prihlásiť, účasť nie je zaručená."
+    },
+    "button": {
+      "uk": "Відкрити каталог",
+      "ru": "Открыть каталог",
+      "en": "Open catalog",
+      "sk": "Otvoriť katalóg"
+    }
+  }
+]
