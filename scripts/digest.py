@@ -23,7 +23,7 @@ def hook(text):
     return first[:160]
 
 def short(d):
-    return d[8:10] + '.' + d[5:7]
+    return d[8:10] + '/' + d[5:7] + '/' + d[:4]
 
 def main():
     t = today().isoformat()
@@ -40,7 +40,7 @@ def main():
         print('нечего публиковать')
         return
     ids = {o['id'] for o in top}
-    parts = ['🔥 <b>' + tx['head'] + '</b> · ' + today().strftime('%d.%m')]
+    parts = ['🔥 <b>' + tx['head'] + '</b> · ' + today().strftime('%d/%m/%Y')]
     for o in top:
         line = EMOJI.get(o['category'], '✨') + ' <a href="' + html.escape(o['link'], quote=True) + '"><b>' + html.escape(o['title'][lang]) + '</b></a>\n'
         line += '<blockquote>' + html.escape(hook(o['text'][lang])) + '</blockquote>'

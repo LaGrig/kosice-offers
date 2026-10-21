@@ -2,6 +2,9 @@ import html, json, os, requests
 from common import CFG, ROOT, load_offers
 
 SENT = ROOT / 'data' / 'review_sent.json'
+
+def fmt_date(d):
+    return '/'.join(reversed(d.split('-'))) if d else '—'
 API = 'https://api.telegram.org/bot' + os.environ['BOT_TOKEN']
 
 def sent_ids():
@@ -17,7 +20,7 @@ def main():
         if o['status'] != 'pending' or o['id'] in done:
             continue
         text = ('<b>' + html.escape(o['title'][lang]) + '</b>\n' + html.escape(o['text'][lang])
-                + '\n\n' + o['category'] + ' · ⭐ ' + str(o['score']) + ' · ⏳ ' + str(o.get('expires_at') or '—') + ' · ' + o['source'] + ' · цена ' + str(o.get('worth') or '?')
+                + '\n\n' + o['category'] + ' · ⭐ ' + str(o['score']) + ' · ⏳ ' + fmt_date(o.get('expires_at')) + ' · ' + o['source'] + ' · цена ' + str(o.get('worth') or '?')
                 + (' · популярность ' + str(o['pop']) if o.get('pop') else ''))
         kb = {'inline_keyboard': [
             [{'text': '✅ Публикуем', 'callback_data': 'ok:' + o['id']}, {'text': '❌ Отмена', 'callback_data': 'no:' + o['id']}],
