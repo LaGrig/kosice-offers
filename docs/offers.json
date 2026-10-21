@@ -181,7 +181,8 @@
   "found_at": "2026-10-21",
   "expires_at": "2026-10-24",
   "score": 100,
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-10-21"
  },
  {
   "id": "3242710733d8",
