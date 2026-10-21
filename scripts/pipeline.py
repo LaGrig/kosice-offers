@@ -43,7 +43,7 @@ def process(item, today_s):
         'id': item['id'], 'title': post['title'], 'text': post['text'],
         'category': s.get('category', 'other'), 'link': item['link'],
         'source': item['source'], 'found_at': today_s, 'expires_at': exp,
-        'score': score,
+        'score': score, 'worth': item.get('worth'),
         'status': 'active' if CFG['auto_publish'] else 'pending',
     }
     return offer, 'ok'

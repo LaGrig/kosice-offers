@@ -1,5 +1,5 @@
 import re, datetime as dt, requests
-from common import offer_id
+from common import offer_id, CFG
 
 UA = {'User-Agent': 'Mozilla/5.0 (kosice-offers-bot)'}
 EPIC_COUNTRY = 'SK'
@@ -29,11 +29,15 @@ def fetch_epic():
         end = promos[0]['promotionalOffers'][0]['endDate'][:10]
         if end < dt.date.today().isoformat():
             continue
+        dec = (price.get('currencyInfo') or {}).get('decimals', 2)
+        ow = price['originalPrice'] / (10 ** dec)
+        if ow < CFG.get('min_worth', {}).get('epic', 10):
+            continue
         orig = (price.get('fmtPrice') or {}).get('originalPrice', '')
         summary = ('Epic Games Store: бесплатная раздача игры ' + e.get('title', '') + '. Обычная цена ' + orig
                    + '. Бесплатно до ' + end + ' (UTC). ' + (e.get('description') or '')[:300])
         out.append({'id': offer_id(link), 'title': e.get('title', ''), 'summary': summary,
-                    'link': link, 'source': 'epic-games', 'expires_at': end})
+                    'link': link, 'source': 'epic-games', 'expires_at': end, 'worth': ow})
     return out
 
 def fetch_gamerpower():
@@ -68,10 +72,19 @@ def fetch_gamerpower():
             note = 'срок не указан (считаем 3 дня)'
         if end < dt.date.today().isoformat():
             continue
+        try:
+            wv = float(re.sub(r'[^0-9.]', '', worth) or 0)
+        except ValueError:
+            wv = 0
+        low = (plats + ' ' + g.get('title', '')).lower()
+        key = next((k for k in ('steam', 'gog', 'itch') if k in low), 'default')
+        mw = CFG.get('min_worth', {})
+        if wv < mw.get(key, mw.get('default', 15)):
+            continue
         summary = (plats + ': бесплатная раздача ' + g.get('title', '') + ' (обычная цена ' + worth + '). Бесплатно '
                    + note + '. ' + (g.get('description') or '')[:300] + ' ' + (g.get('instructions') or '')[:300])
         out.append({'id': offer_id(link), 'title': g.get('title', ''), 'summary': summary,
-                    'link': link, 'source': 'gamerpower', 'expires_at': end})
+                    'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv})
     return out
 
 FETCHERS = {'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower}

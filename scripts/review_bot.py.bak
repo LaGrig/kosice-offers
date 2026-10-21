@@ -1,0 +1,58 @@
+import os, subprocess, time, requests
+from common import ROOT, load_offers, save_offers, today
+
+API = 'https://api.telegram.org/bot' + os.environ['BOT_TOKEN']
+OWNER = int(os.environ['OWNER_ID'])
+
+def call(method, **params):
+    try:
+        return requests.post(API + '/' + method, json=params, timeout=70).json()
+    except Exception as e:
+        print('ошибка', method, e)
+        return {}
+
+def push():
+    subprocess.run('cd ' + str(ROOT) + ' && git add docs && git commit -qm review ; git push -q', shell=True)
+
+def handle(cb):
+    if cb['from']['id'] != OWNER:
+        call('answerCallbackQuery', callback_query_id=cb['id'], text='Нет доступа')
+        return
+    action, _, oid = cb['data'].partition(':')
+    if action not in ('ok', 'no'):
+        call('answerCallbackQuery', callback_query_id=cb['id'])
+        return
+    items = load_offers()
+    offer = next((o for o in items if o['id'] == oid), None)
+    if offer is None:
+        verdict = 'Уже удалено'
+    elif action == 'ok':
+        offer['status'] = 'active'
+        offer['approved_at'] = today().isoformat()
+        save_offers(items)
+        push()
+        verdict = '✅ Опубликовано'
+    else:
+        save_offers([o for o in items if o['id'] != oid])
+        push()
+        verdict = '❌ Отменено'
+    call('answerCallbackQuery', callback_query_id=cb['id'], text=verdict)
+    msg = cb['message']
+    call('editMessageReplyMarkup', chat_id=msg['chat']['id'], message_id=msg['message_id'],
+         reply_markup={'inline_keyboard': [[{'text': verdict, 'callback_data': 'noop'}]]})
+
+def main():
+    offset = None
+    print('review-bot запущен', flush=True)
+    while True:
+        r = call('getUpdates', offset=offset, timeout=50, allowed_updates=['callback_query', 'message'])
+        for u in r.get('result', []):
+            offset = u['update_id'] + 1
+            if 'callback_query' in u:
+                handle(u['callback_query'])
+            elif u.get('message', {}).get('text', '').startswith('/start') and u['message']['from']['id'] == OWNER:
+                call('sendMessage', chat_id=OWNER, text='Готов. Карточки на подтверждение приходят сюда.')
+        if not r.get('ok'):
+            time.sleep(5)
+
+main()
