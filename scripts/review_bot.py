@@ -42,6 +42,15 @@ def handle(cb):
     action, _, oid = cb['data'].partition(':')
     msg = cb['message']
     where = {'chat_id': msg['chat']['id'], 'message_id': msg['message_id']}
+    if action == 'rs':
+        call('answerCallbackQuery', callback_query_id=cb['id'], text='Запускаю редакцию, это до минуты')
+        cmd = 'cd ' + str(ROOT) + ' && .venv/bin/python scripts/rescue.py ' + oid + ' && .venv/bin/python scripts/review_send.py'
+        res = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=600)
+        ok = 'RESCUED' in res.stdout
+        lines = res.stdout.strip().splitlines()
+        label = '↩️ Возвращено: карточка придёт на проверку' if ok else '⚠️ ' + (lines[-1][:50] if lines else 'ошибка')
+        call('editMessageReplyMarkup', reply_markup={'inline_keyboard': [[{'text': label, 'callback_data': 'noop'}]]}, **where)
+        return
     items = load_offers()
     offer = next((o for o in items if o['id'] == oid), None)
     if action in ('no', 'bk') and offer:

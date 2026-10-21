@@ -3,6 +3,7 @@ from common import offer_id, CFG
 
 UA = {'User-Agent': 'Mozilla/5.0 (kosice-offers-bot)'}
 EPIC_COUNTRY = 'SK'
+SKIPPED = []
 
 def fetch_epic():
     r = requests.get('https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions',
@@ -32,6 +33,9 @@ def fetch_epic():
         dec = (price.get('currencyInfo') or {}).get('decimals', 2)
         ow = price['originalPrice'] / (10 ** dec)
         if ow < CFG.get('min_worth', {}).get('epic', 10):
+            SKIPPED.append({'id': offer_id(link), 'title': e.get('title', ''), 'summary': (e.get('description') or '')[:300],
+                            'link': link, 'source': 'epic-games', 'expires_at': end, 'worth': ow,
+                            'why': 'цена ' + str(ow) + ' ниже порога'})
             continue
         orig = (price.get('fmtPrice') or {}).get('originalPrice', '')
         summary = ('Epic Games Store: бесплатная раздача игры ' + e.get('title', '') + '. Обычная цена ' + orig
@@ -80,6 +84,9 @@ def fetch_gamerpower():
         key = next((k for k in ('steam', 'gog', 'itch') if k in low), 'default')
         mw = CFG.get('min_worth', {})
         if wv < mw.get(key, mw.get('default', 15)):
+            SKIPPED.append({'id': offer_id(link), 'title': g.get('title', ''), 'summary': plats + ' ' + worth + ' ' + (g.get('description') or '')[:300],
+                            'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv, 'users': g.get('users'),
+                            'why': 'цена ' + str(wv) + ' ниже порога (' + key + ')'})
             continue
         summary = (plats + ': бесплатная раздача ' + g.get('title', '') + ' (обычная цена ' + worth + '). Бесплатно '
                    + note + '. ' + (g.get('description') or '')[:300] + ' ' + (g.get('instructions') or '')[:300])
