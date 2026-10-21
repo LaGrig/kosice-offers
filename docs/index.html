@@ -30,7 +30,7 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 <h1>Студенческие находки Кошице</h1>
 <div class='row' id='chips'></div>
 <div class='bar'>
-<select id='sort'><option value='new'>Новые</option><option value='score'>Лучшие</option><option value='ending'>Скоро закончатся</option></select>
+<select id='sort'><option value='new'>Новые</option><option value='score'>Лучшие</option><option value='rating'>Оценки студентов</option><option value='ending'>Скоро закончатся</option></select>
 <select id='lang'><option value='uk'>Українська</option><option value='ru'>Русский</option><option value='en'>English</option><option value='sk'>Slovenčina</option></select>
 </div>
 <div id='list'></div>
@@ -52,15 +52,24 @@ let sort = store.get('sort', 'new');
 let offers = [];
 let links = [];
 let mine = {};
+let counts = {};
+const EMO = Object.fromEntries([['up','👍'],['fire','🔥'],['down','👎'],['dead','⌛']]);
+function label(id, k) { const n = (counts[id] || {})[k] || 0; return n ? EMO[k] + ' ' + n : EMO[k]; }
+function cs(id) { const c = counts[id] || {}; return 2 * (c.fire || 0) + (c.up || 0) - (c.down || 0) - 3 * (c.dead || 0); }
+function bump(id, from, to) {
+  const c = counts[id] = counts[id] || {};
+  if (from) c[from] = Math.max(0, (c[from] || 0) - 1);
+  if (to) c[to] = (c[to] || 0) + 1;
+}
 const API = 'https://students-reactions.lagrig-tm.workers.dev';
 const RX = [['up','👍'],['fire','🔥'],['down','👎'],['dead','⌛']];
-function paint(row, id) { [...row.children].forEach(b => b.classList.toggle('on', mine[id] === b.dataset.r)); }
+function paint(row, id) { [...row.children].forEach(b => { b.classList.toggle('on', mine[id] === b.dataset.r); b.textContent = label(id, b.dataset.r); }); }
 function react(id, r, row) {
   const old = mine[id];
   const next = old === r ? null : r;
-  mine[id] = next; paint(row, id);
+  mine[id] = next; bump(id, old, next); paint(row, id);
   fetch(API + '/react', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({offer_id: id, reaction: next, initData: T ? T.initData : ''})})
-    .then(x => { if (!x.ok) throw 0; }).catch(() => { mine[id] = old; paint(row, id); });
+    .then(x => { if (!x.ok) throw 0; }).catch(() => { mine[id] = old; bump(id, next, old); paint(row, id); });
 }
 const $ = id => document.getElementById(id);
 const fmt = d => d.split('-').reverse().join('/');
@@ -69,6 +78,7 @@ function render(){
   const t = new Date().toISOString().slice(0,10);
   const list = offers.filter(o => o.status === 'active' && (!o.expires_at || o.expires_at >= t) && (cat === 'all' || o.category === cat));
   if (sort === 'score') list.sort((a,b) => b.score - a.score);
+  else if (sort === 'rating') list.sort((a, b) => cs(b.id) - cs(a.id));
   else if (sort === 'ending') list.sort((a,b) => (a.expires_at || '9999').localeCompare(b.expires_at || '9999'));
   else list.sort((a,b) => b.found_at.localeCompare(a.found_at));
   const box = $('list'); box.replaceChildren();
@@ -106,6 +116,7 @@ $('sort').value = sort; $('lang').value = lang;
 $('sort').onchange = e => { sort = e.target.value; store.set('sort', sort); render(); };
 $('lang').onchange = e => { lang = e.target.value; store.set('lang', lang); render(); };
 chips();
+fetch(API + '/counts').then(r => r.json()).then(d => { counts = d; render(); }).catch(() => {});
 if (T && T.initData) fetch(API + '/mine', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({initData: T.initData})}).then(r => r.json()).then(d => { mine = d; render(); }).catch(() => {});
 fetch('links.json?' + Date.now()).then(r => r.json()).then(d => { links = d; render(); }).catch(() => {});
 fetch('offers.json?' + Date.now()).then(r => r.json()).then(d => { offers = d; render(); }).catch(() => { $('list').append(el('div', 'empty', 'Не удалось загрузить данные')); });
