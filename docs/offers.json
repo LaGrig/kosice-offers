@@ -184,29 +184,5 @@
   "status": "active",
   "approved_at": "2026-10-21",
   "fails": 0
- },
- {
-  "id": "15c8e6e874f3",
-  "title": {
-   "uk": "Безкоштовний ключ Steam для Amnesia: The Bunker",
-   "ru": "Бесплатный ключ Steam для Amnesia: The Bunker",
-   "en": "Free Steam key for Amnesia: The Bunker",
-   "sk": "Zadarmo kľúč Steam pre Amnesia: The Bunker"
-  },
-  "text": {
-   "uk": "Отримайте безкоштовний ключ Steam для гри Amnesia: The Bunker на Alienware Arena.",
-   "ru": "Получите бесплатный ключ Steam для игры Amnesia: The Bunker на Alienware Arena.",
-   "en": "Get a free Steam key for Amnesia: The Bunker on Alienware Arena.",
-   "sk": "Získajte zadarmo kľúč Steam pre hru Amnesia: The Bunker na Alienware Arena."
-  },
-  "category": "games",
-  "link": "https://na.alienwarearena.com/ucf/show/2176449/boards/contest-and-giveaways-global/Giveaway/amnesia-the-bunker-steam-game-key-giveaway",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-10-22",
-  "expires_at": null,
-  "score": 85,
-  "worth": null,
-  "pop": {},
-  "status": "pending"
  }
 ]
