@@ -92,52 +92,6 @@
   "fails": 0
  },
  {
-  "id": "04a0ed7bdb8b",
-  "title": {
-   "uk": "Bad Cheese безкоштовно в Epic Games Store до 22 жовтня",
-   "ru": "Bad Cheese бесплатно в Epic Games Store до 22 октября",
-   "en": "Bad Cheese free on Epic Games Store until 22 Oct",
-   "sk": "Bad Cheese zadarmo v Epic Games Store do 22. októbra"
-  },
-  "text": {
-   "uk": "Психологічний жах Bad Cheese зазвичай коштує €11,69, але до 22 жовтня 2026 року його можна отримати безкоштовно в Epic Games Store.",
-   "ru": "Психологический хоррор Bad Cheese обычно стоит €11,69, но до 22 октября 2026 года его можно получить бесплатно в Epic Games Store.",
-   "en": "The psychological horror Bad Cheese normally costs €11.69, but is free on the Epic Games Store until 22 October 2026.",
-   "sk": "Psychologický horror Bad Cheese zvyčajne stojí €11,69, ale do 22. októbra 2026 je k dispozícii zadarmo v Epic Games Store."
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/bad-cheese-4256d9",
-  "source": "epic-games",
-  "found_at": "2026-10-20",
-  "expires_at": "2026-10-22",
-  "score": 100,
-  "status": "active",
-  "fails": 0
- },
- {
-  "id": "ff95e8410524",
-  "title": {
-   "uk": "Agent A: A puzzle in disguise — безкоштовно в Epic Games Store до 22 жовтня",
-   "ru": "Agent A: A puzzle in disguise — бесплатно в Epic Games Store до 22 октября",
-   "en": "Agent A: A puzzle in disguise — free on Epic Games Store until 22 October",
-   "sk": "Agent A: A puzzle in disguise — zadarmo v Epic Games Store do 22. októbra"
-  },
-  "text": {
-   "uk": "Agent A: A puzzle in disguise доступна безкоштовно в Epic Games Store до 22 жовтня 2026 року (зазвичай €17,99).",
-   "ru": "Agent A: A puzzle in disguise доступна бесплатно в Epic Games Store до 22 октября 2026 года (обычно €17,99).",
-   "en": "Agent A: A puzzle in disguise is free on Epic Games Store until 22 October 2026 (normally €17.99).",
-   "sk": "Agent A: A puzzle in disguise je zadarmo v Epic Games Store do 22. októbra 2026 (zvyčajne €17,99)."
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise-42fe5f",
-  "source": "epic-games",
-  "found_at": "2026-10-20",
-  "expires_at": "2026-10-22",
-  "score": 100,
-  "status": "active",
-  "fails": 0
- },
- {
   "id": "dee6a56622c0",
   "title": {
    "uk": "Last Room безкоштовно в IndieGala (Steam/DRM-free)",
