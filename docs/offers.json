@@ -186,7 +186,8 @@
   "score": 95,
   "worth": null,
   "pop": {},
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-10-23"
  },
  {
   "id": "0f0cf20fb496",
