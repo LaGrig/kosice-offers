@@ -162,7 +162,8 @@
   "worth": 22.39,
   "pop": {},
   "status": "active",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "fails": 0
  },
  {
   "id": "fa2c3b9395a9",
@@ -187,7 +188,8 @@
   "worth": null,
   "pop": {},
   "status": "active",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "fails": 0
  },
  {
   "id": "0f0cf20fb496",
@@ -212,6 +214,7 @@
   "worth": null,
   "pop": {},
   "status": "active",
-  "approved_at": "2026-10-23"
+  "approved_at": "2026-10-23",
+  "fails": 0
  }
 ]
