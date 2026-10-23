@@ -211,6 +211,7 @@
   "score": 100,
   "worth": null,
   "pop": {},
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-10-23"
  }
 ]
