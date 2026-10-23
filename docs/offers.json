@@ -138,5 +138,77 @@
   "status": "active",
   "approved_at": "2026-10-21",
   "fails": 0
+ },
+ {
+  "id": "c30b1d8a7f69",
+  "title": {
+   "uk": "Sker Ritual безкоштовно в Epic Games Store до 29 жовтня 2026",
+   "ru": "Sker Ritual бесплатно в Epic Games Store до 29 октября 2026",
+   "en": "Sker Ritual free on Epic Games Store until 29 Oct 2026",
+   "sk": "Sker Ritual zadarmo v Epic Games Store do 29. októbra 2026"
+  },
+  "text": {
+   "uk": "Отримайте гру вартістю €22,39 безкоштовно: Sker Ritual — round-based co-op survival FPS, спін-офф Maid of Sker, грайте один або до 4 гравців, виживайте проти Quiet Ones. Акція в Epic Games Store триває до 29 жовтня 2026 року.",
+   "ru": "Получите игру стоимостью €22,39 бесплатно: Sker Ritual — round-based co-op survival FPS, спин-офф Maid of Sker, играйте в одиночку или до 4 игроков, выживайте против Quiet Ones. Акция в Epic Games Store действует до 29 октября 2026 года.",
+   "en": "Get the €22.39 game for free: Sker Ritual is a round‑based co‑op survival FPS, a spin‑off of Maid of Sker, play solo or up to 4 players surviving the Quiet Ones. Offer on Epic Games Store runs until 29 Oct 2026.",
+   "sk": "Získajte hru v hodnote 22,39 € zadarmo: Sker Ritual je round-based co-op survival FPS, spin-off Maid of Sker, hrajte sami alebo až 4 hráčov, prežite proti Quiet Ones. Ponuka v Epic Games Store platí do 29. októbra 2026."
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/sker-ritual-aac702",
+  "source": "epic-games",
+  "found_at": "2026-10-23",
+  "expires_at": "2026-10-29",
+  "score": 95,
+  "worth": 22.39,
+  "pop": {},
+  "status": "pending"
+ },
+ {
+  "id": "fa2c3b9395a9",
+  "title": {
+   "uk": "Home: безкоштовна жахова пригода в Epic Games",
+   "ru": "Home: бесплатная хоррор-приключение в Epic Games",
+   "en": "Home: free horror adventure on Epic Games",
+   "sk": "Home: bezplatná horrorová dobrodružstvo v Epic Games"
+  },
+  "text": {
+   "uk": "Гра Home безкоштовна в Epic Games Store, це унікальна жахова пригода.",
+   "ru": "Игра Home бесплатно в Epic Games Store, это уникальное хоррор-приключение.",
+   "en": "Home is free on the Epic Games Store, a unique horror adventure.",
+   "sk": "Hra Home je zadarmo v Epic Games Store, jedinečná horrorová dobrodružstvo."
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/home-19212a",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-10-23",
+  "expires_at": null,
+  "score": 95,
+  "worth": null,
+  "pop": {},
+  "status": "pending"
+ },
+ {
+  "id": "0f0cf20fb496",
+  "title": {
+   "uk": "Radiant Exodus безкоштовно в Steam до 17 листопада 2026",
+   "ru": "Radiant Exodus бесплатно в Steam до 17 ноября 2026",
+   "en": "Radiant Exodus free on Steam until 17 November 2026",
+   "sk": "Radiant Exodus zadarmo na Steam do 17. novembra 2026"
+  },
+  "text": {
+   "uk": "Radiant Exodus безкоштовна в Steam до 17 листопада 2026 року. Планується, що гра стане платною з 17 листопада 2026, за підтвердженням Steam.",
+   "ru": "Radiant Exodus бесплатно в Steam до 17 ноября 2026 года. Планируется, что игра станет платной с 17 ноября 2026 после подтверждения Steam.",
+   "en": "Radiant Exodus is free on Steam until 17 November 2026. The game is planned to return to paid on 17 November 2026, pending Steam confirmation.",
+   "sk": "Radiant Exodus je zadarmo na Steam do 17. novembra 2026. Hra sa má stať platenou od 17. novembra 2026 po potvrdení Steam."
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/news/app/2920120/view/744940680203209202",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-10-23",
+  "expires_at": "2026-11-17",
+  "score": 100,
+  "worth": null,
+  "pop": {},
+  "status": "pending"
  }
 ]
