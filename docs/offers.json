@@ -46,29 +46,6 @@
   "fails": 0
  },
  {
-  "id": "fd510170e601",
-  "title": {
-   "uk": "The Black Within безкоштовно на itch.io до 24 жовтня",
-   "ru": "The Black Within бесплатно на itch.io до 24 октября",
-   "en": "The Black Within free on itch.io until Oct 24",
-   "sk": "The Black Within zadarmo na itch.io do 24. októbra"
-  },
-  "text": {
-   "uk": "Отримайте платну гру The Black Within безкоштовно на itch.io до 24 жовтня 2026 року. Звичайна ціна $5.99, потрібно перейти на сторінку розіграшу, натиснути \"Download or Claim\" і увійти в обліковий запис itch.io.",
-   "ru": "Получите платную игру The Black Within бесплатно на itch.io до 24 октября 2026 года. Обычная цена $5.99, нужно зайти на страницу раздачи, нажать \"Download or Claim\" и войти в аккаунт itch.io.",
-   "en": "Get the paid game The Black Within for free on itch.io until October 24, 2026. Regular price $5.99, just visit the giveaway page, click \"Download or Claim\" and log into your itch.io account.",
-   "sk": "Získajte platenú hru The Black Within zadarmo na itch.io do 24. októbra 2026. Bežná cena $5.99, stačí navštíviť stránku giveaway, kliknúť na \"Download or Claim\" a prihlásiť sa do účtu itch.io."
-  },
-  "category": "games",
-  "link": "https://www.gamerpower.com/open/the-black-within-itch-io-giveaway",
-  "source": "gamerpower",
-  "found_at": "2026-10-20",
-  "expires_at": "2026-10-24",
-  "score": 100,
-  "status": "active",
-  "fails": 1
- },
- {
   "id": "ad046f593bb2",
   "title": {
    "uk": "The Green Light безкоштовно на itch.io до 29 жовтня",
@@ -89,7 +66,7 @@
   "expires_at": "2026-10-29",
   "score": 100,
   "status": "active",
-  "fails": 1
+  "fails": 0
  },
  {
   "id": "dee6a56622c0",
@@ -113,30 +90,6 @@
   "score": 100,
   "status": "active",
   "approved_at": "2026-10-20",
-  "fails": 0
- },
- {
-  "id": "987eb0d46cc5",
-  "title": {
-   "uk": "Дві хоррор-ігри безкоштовно назавжди до 24 жовтня",
-   "ru": "Две хоррор-игры бесплатно навсегда до 24 октября",
-   "en": "Two horror games free forever until Oct 24",
-   "sk": "Dve horror hry zadarmo navždy do 24. októbra"
-  },
-  "text": {
-   "uk": "Ви можете отримати The Green Light та The Black Within безкоштовно і зберегти їх назавжди до 24 жовтня на itch.io за 7 днів.",
-   "ru": "Вы можете получить The Green Light и The Black Within бесплатно и сохранить их навсегда до 24 октября на itch.io в течение 7 дней.",
-   "en": "You can claim The Green Light and The Black Within for free and keep them forever until October 24 on itch.io for 7 days.",
-   "sk": "Môžete si získať The Green Light a The Black Within zadarmo a uchovať ich navždy do 24. októbra na itch.io po 7 dní."
-  },
-  "category": "games",
-  "link": "https://itch.io/s/206340/-free-for-7-days",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-10-21",
-  "expires_at": "2026-10-24",
-  "score": 100,
-  "status": "active",
-  "approved_at": "2026-10-21",
   "fails": 0
  },
  {
