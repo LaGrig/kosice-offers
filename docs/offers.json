@@ -66,7 +66,7 @@
   "expires_at": "2026-10-24",
   "score": 100,
   "status": "active",
-  "fails": 0
+  "fails": 1
  },
  {
   "id": "ad046f593bb2",
@@ -89,7 +89,7 @@
   "expires_at": "2026-10-29",
   "score": 100,
   "status": "active",
-  "fails": 0
+  "fails": 1
  },
  {
   "id": "dee6a56622c0",
