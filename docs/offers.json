@@ -169,5 +169,29 @@
   "status": "active",
   "approved_at": "2026-10-23",
   "fails": 0
+ },
+ {
+  "id": "f42f23fcb036",
+  "title": {
+   "uk": "MAFIA HOTEL безкоштовно в Epic Games Store",
+   "ru": "MAFIA HOTEL бесплатно в Epic Games Store",
+   "en": "MAFIA HOTEL free on Epic Games Store",
+   "sk": "MAFIA HOTEL zadarmo v Epic Games Store"
+  },
+  "text": {
+   "uk": "Гра MAFIA HOTEL доступна безкоштовно в Epic Games Store.",
+   "ru": "Игра MAFIA HOTEL доступна бесплатно в Epic Games Store.",
+   "en": "The game MAFIA HOTEL is available for free on the Epic Games Store.",
+   "sk": "Hra MAFIA HOTEL je k dispozícii zadarmo v Epic Games Store."
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/mafia-hotel-eaea4c",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-10-25",
+  "expires_at": null,
+  "score": 85,
+  "worth": null,
+  "pop": {},
+  "status": "pending"
  }
 ]
