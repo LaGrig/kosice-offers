@@ -193,6 +193,7 @@
   "worth": null,
   "pop": {},
   "status": "active",
-  "approved_at": "2026-10-25"
+  "approved_at": "2026-10-25",
+  "fails": 0
  }
 ]
