@@ -251,7 +251,8 @@
    "ratings": 14.0,
    "claimed_users": 25650
   },
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-10-29"
  },
  {
   "id": "c120e8f5a77b",
