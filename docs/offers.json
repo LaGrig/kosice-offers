@@ -283,34 +283,6 @@
   "approved_at": "2026-10-29"
  },
  {
-  "id": "71989079ea68",
-  "title": {
-   "uk": "Roseblight безкоштовно на itch.io до 5 листопада",
-   "ru": "Roseblight бесплатно на itch.io до 5 ноября",
-   "en": "Roseblight free on itch.io until Nov 5",
-   "sk": "Roseblight zadarmo na itch.io do 5. novembra"
-  },
-  "text": {
-   "uk": "Отримайте RPG Roseblight (вартість $7.99) безкоштовно на itch.io до 5 листопада 2026 року.",
-   "ru": "Получите RPG Roseblight (стоимость $7.99) бесплатно на itch.io до 5 ноября 2026 года.",
-   "en": "Get the RPG Roseblight (worth $7.99) for free on itch.io until November 5, 2026.",
-   "sk": "Získajte RPG Roseblight (hodnota $7.99) zadarmo na itch.io do 5. novembra 2026."
-  },
-  "category": "games",
-  "link": "https://www.gamerpower.com/open/roseblight",
-  "source": "gamerpower",
-  "found_at": "2026-10-29",
-  "expires_at": "2026-11-05",
-  "score": 95,
-  "worth": 7.99,
-  "pop": {
-   "rating": 4.5,
-   "ratings": 35.0,
-   "claimed_users": 22690
-  },
-  "status": "pending"
- },
- {
   "id": "396cca68843f",
   "title": {
    "uk": "Solace Inc. безкоштовно на itch.io до 5 листопада",
