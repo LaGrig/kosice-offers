@@ -223,7 +223,8 @@
    "claimed_users": 44790
   },
   "status": "active",
-  "approved_at": "2026-10-29"
+  "approved_at": "2026-10-29",
+  "fails": 0
  },
  {
   "id": "1753f53cc8ef",
@@ -252,7 +253,8 @@
    "claimed_users": 25650
   },
   "status": "active",
-  "approved_at": "2026-10-29"
+  "approved_at": "2026-10-29",
+  "fails": 0
  },
  {
   "id": "c120e8f5a77b",
@@ -281,6 +283,35 @@
    "claimed_users": 123190
   },
   "status": "active",
-  "approved_at": "2026-10-29"
+  "approved_at": "2026-10-29",
+  "fails": 0
+ },
+ {
+  "id": "b8d1ff71b968",
+  "title": {
+   "uk": "MOLOKAUST безкоштовно на itch.io до 4 листопада",
+   "ru": "MOLOKAUST бесплатно на itch.io до 4 ноября",
+   "en": "MOLOKAUST free on itch.io until Nov 4",
+   "sk": "MOLOKAUST zadarmo na itch.io do 4. novembra"
+  },
+  "text": {
+   "uk": "Гра за $10 доступна безкоштовно до 4 листопада: перейдіть на сторінку розіграшу, натисніть «Download or Claim» і увійдіть у свій обліковий запис itch.io, щоб отримати гру.",
+   "ru": "Игра за $10 доступна бесплатно до 4 ноября: перейдите на страницу розыгрыша, нажмите «Download or Claim» и войдите в свой аккаунт itch.io, чтобы получить игру.",
+   "en": "The $10 game is free until Nov 4: go to the giveaway page, click “Download or Claim,” and log in to your itch.io account to claim it.",
+   "sk": "Hra za $10 je zadarmo do 4. novembra: prejdite na stránku výhry, kliknite na „Download or Claim“ a prihláste sa do svojho účtu itch.io, aby ste získali hru."
+  },
+  "category": "games",
+  "link": "https://www.gamerpower.com/open/molokaust-itch-io-giveaway",
+  "source": "gamerpower",
+  "found_at": "2026-10-29",
+  "expires_at": "2026-11-04",
+  "score": 95,
+  "worth": 10.0,
+  "pop": {
+   "rating": 3.0,
+   "ratings": 2.0,
+   "claimed_users": 2650
+  },
+  "status": "pending"
  }
 ]
