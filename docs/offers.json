@@ -279,7 +279,8 @@
    "ratings": 11.0,
    "claimed_users": 123190
   },
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-10-29"
  },
  {
   "id": "e137bf3c8b69",
