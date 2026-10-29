@@ -281,33 +281,5 @@
   },
   "status": "active",
   "approved_at": "2026-10-29"
- },
- {
-  "id": "396cca68843f",
-  "title": {
-   "uk": "Solace Inc. безкоштовно на itch.io до 5 листопада",
-   "ru": "Solace Inc. бесплатно на itch.io до 5 ноября",
-   "en": "Solace Inc. free on itch.io until 5 November",
-   "sk": "Solace Inc. zadarmo na itch.io do 5. novembra"
-  },
-  "text": {
-   "uk": "Solace Inc. (зазвичай $3,99) можна отримати безкоштовно на itch.io до 5 листопада 2026 року; гра видається без DRM.",
-   "ru": "Solace Inc. (обычно $3,99) можно получить бесплатно на itch.io до 5 ноября 2026 года; игра выдаётся без DRM.",
-   "en": "Solace Inc. (normally $3.99) is free on itch.io until 5 November 2026; the game is DRM-free.",
-   "sk": "Solace Inc. (zvyčajne $3,99) je zadarmo na itch.io do 5. novembra 2026; hra je bez DRM."
-  },
-  "category": "games",
-  "link": "https://www.gamerpower.com/open/solace-inc-itchio-giveaway",
-  "source": "gamerpower",
-  "found_at": "2026-10-29",
-  "expires_at": "2026-11-05",
-  "score": 90,
-  "worth": 3.99,
-  "pop": {
-   "rating": 4.5,
-   "ratings": 65.0,
-   "claimed_users": 11400
-  },
-  "status": "pending"
  }
 ]
