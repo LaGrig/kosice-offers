@@ -67,7 +67,7 @@
   "score": 100,
   "status": "active",
   "approved_at": "2026-10-20",
-  "fails": 0
+  "fails": 1
  },
  {
   "id": "fa2c3b9395a9",
@@ -264,7 +264,8 @@
    "claimed_users": 2650
   },
   "status": "active",
-  "approved_at": "2026-10-30"
+  "approved_at": "2026-10-30",
+  "fails": 0
  },
  {
   "id": "7267dc2632f0",
@@ -290,7 +291,8 @@
   "pop": {},
   "meta": null,
   "status": "active",
-  "approved_at": "2026-10-30"
+  "approved_at": "2026-10-30",
+  "fails": 0
  },
  {
   "id": "16e2823d1171",
