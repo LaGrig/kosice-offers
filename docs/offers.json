@@ -264,5 +264,101 @@
    "claimed_users": 2650
   },
   "status": "pending"
+ },
+ {
+  "id": "7267dc2632f0",
+  "title": {
+   "uk": "Sorry We're Closed безкоштовно в Epic Games Store до 5 листопада",
+   "ru": "Sorry We're Closed бесплатно в Epic Games Store до 5 ноября",
+   "en": "Sorry We're Closed free on Epic Games Store until Nov 5",
+   "sk": "Sorry We're Closed zadarmo v Epic Games Store do 5. novembra"
+  },
+  "text": {
+   "uk": "Гра Sorry We're Closed (зазвичай €22,39) безкоштовна в Epic Games Store до 5 листопада 2026 року. Це survival horror про демонів і ангелів з фіксованою камерою, аркадним стрільбищем і механікою Third Eye для розкриття таємниць 🎮👻",
+   "ru": "Игра Sorry We're Closed (обычно €22,39) бесплатно в Epic Games Store до 5 ноября 2026 года. Это survival horror про демонов и ангелов с фиксированной камерой, аркадной стрельбой и механикой Third Eye для раскрытия секретов 🎮👻",
+   "en": "Sorry We're Closed (normally €22.39) is free on Epic Games Store until Nov 5, 2026. A story-driven survival horror about demons and angels with fixed-camera exploration, arcade shooting, and a Third Eye mechanic to uncover secrets 🎮👻",
+   "sk": "Hra Sorry We're Closed (zvyčajne €22,39) zadarmo v Epic Games Store do 5. novembra 2026. Je to survival horror o démonoch a anjeloch s fixnou kamerou, arcade strelbou a mechanikou Third Eye na odhaľovanie tajomstiev 🎮👻"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/sorry-were-closed-724c86",
+  "source": "epic-games",
+  "found_at": "2026-10-30",
+  "expires_at": "2026-11-05",
+  "score": 100,
+  "worth": 22.39,
+  "pop": {},
+  "meta": null,
+  "status": "pending"
+ },
+ {
+  "id": "d7ef55b12906",
+  "title": {
+   "uk": "CTHON безкоштовно на Itch.io до 2 листопада",
+   "ru": "CTHON бесплатно на Itch.io до 2 ноября",
+   "en": "CTHON free on Itch.io until Nov 2",
+   "sk": "CTHON zadarmo na Itch.io do 2. novembra"
+  },
+  "text": {
+   "uk": "Платна гра CTHON тепер безкоштовна на Itch.io до 2 листопада — забирай, поки пропозиція діє 🎮",
+   "ru": "Платная игра CTHON теперь бесплатно на Itch.io до 2 ноября — забирай, пока акция действует 🎮",
+   "en": "Paid game CTHON is now free on Itch.io until November 2 — grab it while the offer lasts 🎮",
+   "sk": "Platená hra CTHON je teraz zadarmo na Itch.io do 2. novembra — stiahni si ju, kým ponuka platí 🎮"
+  },
+  "category": "games",
+  "link": "https://gravitygames.itch.io/cthon",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-10-30",
+  "expires_at": "2026-11-02",
+  "score": 90,
+  "worth": null,
+  "pop": {
+   "rating": 4.4,
+   "ratings": 30.0
+  },
+  "meta": {
+   "genre": [
+    "Shooter"
+   ],
+   "tags": [
+    "Character Customization",
+    "First-Person",
+    "Monsters",
+    "Perma Death",
+    "Procedural Generation",
+    "Roguelike",
+    "Sci-fi",
+    "Survival Horror",
+    "upgrades"
+   ],
+   "made_with": [],
+   "status": "Released",
+   "session": "About an hour"
+  },
+  "status": "pending"
+ },
+ {
+  "id": "16e2823d1171",
+  "title": {
+   "uk": "Безкоштовний Steam-ключ для The Medium на Alienware Arena",
+   "ru": "Бесплатный Steam-ключ для The Medium на Alienware Arena",
+   "en": "Free Steam key for The Medium on Alienware Arena",
+   "sk": "Zadarmo Steam kľúč pre The Medium na Alienware Arena"
+  },
+  "text": {
+   "uk": "Отримай безкоштовний Steam-ключ для The Medium у глобальній раздачі на Alienware Arena 🎮",
+   "ru": "Получи бесплатный Steam-ключ для The Medium в глобальном розыгрыше на Alienware Arena 🎮",
+   "en": "Grab a free Steam key for The Medium in the global giveaway on Alienware Arena 🎮",
+   "sk": "Získaj zadarmo Steam kľúč pre The Medium v globálnom giveaway na Alienware Arena 🎮"
+  },
+  "category": "games",
+  "link": "https://na.alienwarearena.com/ucf/show/2176401/boards/contest-and-giveaways-global/Giveaway/the-medium-steam-game-key-giveaway",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-10-30",
+  "expires_at": null,
+  "score": 95,
+  "worth": null,
+  "pop": {},
+  "meta": null,
+  "status": "pending"
  }
 ]
