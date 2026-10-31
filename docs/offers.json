@@ -293,30 +293,5 @@
   "status": "active",
   "approved_at": "2026-10-30",
   "fails": 0
- },
- {
-  "id": "5b3ec60f7bec",
-  "title": {
-   "uk": "Безкоштовний Steam-ключ для My Darkest Witch на IndieGala",
-   "ru": "Бесплатный Steam-ключ для My Darkest Witch на IndieGala",
-   "en": "Free Steam key for My Darkest Witch on IndieGala",
-   "sk": "Bezplatný Steam kľúč pre My Darkest Witch na IndieGala"
-  },
-  "text": {
-   "uk": "Отримай безкоштовний Steam-ключ від платної гри My Darkest Witch на IndieGala — просто перейди за посиланням і забирай 🎮🔑",
-   "ru": "Получи бесплатный Steam-ключ от платной игры My Darkest Witch на IndieGala — просто перейди по ссылке и забирай 🎮🔑",
-   "en": "Grab a free Steam key for the paid game My Darkest Witch on IndieGala — just follow the link and claim it 🎮🔑",
-   "sk": "Získaj bezplatný Steam kľúč k plátnej hre My Darkest Witch na IndieGala — stačí prejsť odkazom a zobrať si ho 🎮🔑"
-  },
-  "category": "games",
-  "link": "https://freebies.indiegala.com/my-darkest-witch",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-10-31",
-  "expires_at": null,
-  "score": 90,
-  "worth": null,
-  "pop": {},
-  "meta": null,
-  "status": "pending"
  }
 ]
