@@ -1,4 +1,4 @@
-import json, re, requests
+import html as _html, json, re, requests
 
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'}
 
@@ -39,4 +39,12 @@ def signals(item):
         m = re.search(r'Rated ([\d.]+) out of 5', html)
         if m:
             sig['rating'] = _num(m.group(1))
+    meta = {}
+    for k, v in re.findall(r'<tr>\s*<td>([^<]{2,30})</td>\s*<td>(.*?)</td>\s*</tr>', html, re.S):
+        k = k.strip()
+        if k in ('Genre', 'Tags', 'Made with', 'Status', 'Average session'):
+            txt = _html.unescape(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', v))).strip()
+            meta[k] = [x.strip() for x in txt.split(',') if x.strip()]
+    sig['meta'] = {'genre': meta.get('Genre', []), 'tags': meta.get('Tags', []), 'made_with': meta.get('Made with', []),
+                   'status': ' '.join(meta.get('Status', [])), 'session': ' '.join(meta.get('Average session', []))}
     return sig

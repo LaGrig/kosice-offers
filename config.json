@@ -15,7 +15,7 @@
     "epic": 10,
     "steam": 10,
     "gog": 10,
-    "itch": 0,
+    "itch": 9,
     "default": 15
   },
   "itch_min_ratings": 10,
@@ -32,5 +32,13 @@
       "min_reviews": 500,
       "above_pct": 50
     }
-  ]
+  ],
+  "deals": {
+    "min_normal": 25,
+    "min_savings": 70,
+    "min_steam_pct": 80,
+    "min_steam_reviews": 200,
+    "min_metacritic": 75,
+    "max_per_run": 6
+  }
 }

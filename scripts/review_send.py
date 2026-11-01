@@ -21,7 +21,8 @@ def main():
             continue
         text = ('<b>' + html.escape(o['title'][lang]) + '</b>\n' + html.escape(o['text'][lang])
                 + '\n\n' + o['category'] + ' · ⭐ ' + str(o['score']) + ' · ⏳ ' + fmt_date(o.get('expires_at')) + ' · ' + o['source'] + ' · цена ' + str(o.get('worth') or '?')
-                + (' · популярность ' + str(o['pop']) if o.get('pop') else ''))
+                + (' · популярность ' + str(o['pop']) if o.get('pop') else '')
+                + ('\n🏷 ' + html.escape(', '.join((o['meta'].get('genre') or [])[:2] + (o['meta'].get('tags') or [])[:6])) if o.get('meta') else ''))
         kb = {'inline_keyboard': [
             [{'text': '✅ Публикуем', 'callback_data': 'ok:' + o['id']}, {'text': '❌ Отмена', 'callback_data': 'no:' + o['id']}],
             [{'text': '🔗 Оригинал', 'url': o['link']}],

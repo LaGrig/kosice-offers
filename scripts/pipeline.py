@@ -5,11 +5,22 @@ from collect import collect, mark_seen
 from verify import link_ok, steam_ok
 from popularity import signals
 from steam_signal import steam_signal, steam_strong
+from textfix import clean_post
+from dealrules import deal_quality_ok
 import api_sources
 from autolog import log_auto_reject
 
 def process(item, today_s, force=False):
-    s = ask_llm('scout', {'today': today_s, 'item': item})
+    if 'itch' in (item['title'] + ' ' + item['link']).lower() and (item.get('worth') or 0) < CFG.get('min_worth', {}).get('itch', 9) and not force:
+        return None, 'itch: исходная цена ниже 9 или неизвестна'
+    if item.get('kind') == 'deal':
+        if not force and not deal_quality_ok(item):
+            return None, 'скидка: нет подтверждения качества'
+        if item.get('steam_app') and not force and not steam_ok('store.steampowered.com/app/' + str(item['steam_app'])):
+            return None, 'Steam: не игра или набор'
+        s = {'relevant': True, 'category': 'games', 'expires_at': None, 'free': False, 'note': 'скидка на AAA-игру'}
+    else:
+        s = ask_llm('scout', {'today': today_s, 'item': item})
     if not s:
         if not force:
             return None, 'скаут не ответил'
@@ -35,7 +46,11 @@ def process(item, today_s, force=False):
         if few and not strong and not force:
             return None, 'itch: мало оценок (' + str(int(sig['ratings'])) + ') и нет сильного рейтинга в Steam'
     pop = {k: sig[k] for k in ('rating', 'ratings', 'claimed_users', 'steam_pct', 'steam_reviews') if sig.get(k) is not None}
+    meta = sig.get('meta')
     post = ask_llm('writer', {'facts': facts})
+    post, bad = clean_post(post, facts)
+    if bad and not force:
+        return None, 'числа не из источника: ' + ','.join(map(str, bad))
     qa = chief = None
     for attempt in range(2):
         if not post:
@@ -43,11 +58,12 @@ def process(item, today_s, force=False):
         qa = ask_llm('qa', {'source': facts, 'post': post})
         if not qa:
             return None, 'QA не ответил'
-        chief = ask_llm('chief', {'post': post, 'qa': qa, 'link': item['link'], 'expires_at': exp, 'popularity': pop})
+        chief = ask_llm('chief', {'post': post, 'qa': qa, 'link': item['link'], 'expires_at': exp, 'popularity': pop, 'kind': item.get('kind')})
         if not chief:
             return None, 'главред не ответил'
         if chief.get('decision') == 'revise' and attempt == 0:
             post = ask_llm('writer', {'facts': facts, 'qa_problems': qa.get('problems', [])})
+            post, _ = clean_post(post, facts)
             continue
         break
     score = qa.get('score', 0)
@@ -57,7 +73,7 @@ def process(item, today_s, force=False):
         'id': item['id'], 'title': post['title'], 'text': post['text'],
         'category': s.get('category', 'other'), 'link': item['link'],
         'source': item['source'], 'found_at': today_s, 'expires_at': exp,
-        'score': score, 'worth': item.get('worth'), 'pop': pop,
+        'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'),
         'status': 'active' if CFG['auto_publish'] else 'pending',
     }
     return offer, 'ok'

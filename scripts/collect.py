@@ -1,6 +1,6 @@
 import html, json, re, yaml, feedparser
 from urllib.parse import urlparse
-from common import ROOT, offer_id, load_offers
+from common import ROOT, CFG, offer_id, load_offers
 
 SEEN = ROOT / 'data' / 'seen.json'
 SKIP_HOSTS = ('reddit.com', 'redd.it', 'redditmedia.com', 'redditstatic.com')
@@ -26,6 +26,8 @@ def link_key(url):
     host = p.netloc.lower()
     if host.endswith('.itch.io'):
         return host
+    if 'cheapshark.com' in host:
+        return host + p.path + '?' + p.query
     return host + p.path.rstrip('/')
 
 def clean(raw):
@@ -38,11 +40,16 @@ def collect():
     found = {}
     try:
         from api_sources import fetch_all
+        ndeals = 0
         for it in fetch_all():
             i = it['id']
             k = link_key(it['link'])
             if i in seen or i in found or k in keys:
                 continue
+            if it['source'] == 'cheapshark':
+                if ndeals >= CFG.get('deals', {}).get('max_per_run', 6):
+                    continue
+                ndeals += 1
             keys.add(k)
             found[i] = it
     except Exception as ex:

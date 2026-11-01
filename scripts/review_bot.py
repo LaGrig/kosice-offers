@@ -18,7 +18,7 @@ def push():
 
 def log_reject(o, reason):
     rec = {'date': today().isoformat(), 'reason': reason, 'id': o['id'], 'title': o['title'].get('ru', ''),
-           'source': o['source'], 'category': o['category'], 'score': o['score'], 'worth': o.get('worth'), 'link': o['link']}
+           'source': o['source'], 'category': o['category'], 'score': o['score'], 'worth': o.get('worth'), 'pop': o.get('pop'), 'meta': o.get('meta'), 'link': o['link']}
     with open(REJECTS, 'a', encoding='utf-8') as f:
         f.write(json.dumps(rec, ensure_ascii=False) + '\n')
 

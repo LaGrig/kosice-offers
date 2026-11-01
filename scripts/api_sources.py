@@ -1,4 +1,4 @@
-import re, datetime as dt, requests
+import re, time, datetime as dt, requests
 from common import offer_id, CFG
 
 UA = {'User-Agent': 'Mozilla/5.0 (kosice-offers-bot)'}
@@ -94,7 +94,52 @@ def fetch_gamerpower():
                     'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv, 'users': g.get('users')})
     return out
 
-FETCHERS = {'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower}
+DEAL_UA = {'User-Agent': 'kosice-offers-bot (+https://github.com/LaGrig/kosice-offers)'}
+
+def _f(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return 0.0
+
+def fetch_deals():
+    c = CFG.get('deals', {})
+    st = requests.get('https://www.cheapshark.com/api/1.0/stores', headers=DEAL_UA, timeout=25)
+    st.raise_for_status()
+    ids = {s['storeName']: s['storeID'] for s in st.json() if s.get('storeName') in ('Steam', 'Epic Games Store')}
+    out = []
+    for name, sid in ids.items():
+        for page in range(4):
+            r = requests.get('https://www.cheapshark.com/api/1.0/deals',
+                             params={'storeID': sid, 'onSale': 1, 'sortBy': 'Savings', 'desc': 1, 'lowerPrice': 7,
+                                     'upperPrice': 60, 'pageSize': 60, 'pageNumber': page},
+                             headers=DEAL_UA, timeout=25)
+            r.raise_for_status()
+            rows = r.json()
+            if not rows:
+                break
+            for d in rows:
+                normal, sale, sav = _f(d.get('normalPrice')), _f(d.get('salePrice')), _f(d.get('savings'))
+                if normal < c.get('min_normal', 25) or sav < c.get('min_savings', 70):
+                    continue
+                link = 'https://www.cheapshark.com/redirect?dealID=' + d['dealID']
+                n, pct, mc = int(_f(d.get('steamRatingCount'))), int(_f(d.get('steamRatingPercent'))), int(_f(d.get('metacriticScore')))
+                app = d.get('steamAppID')
+                app = app if app and app != '0' else None
+                summary = (name + ': скидка ' + str(round(sav)) + '% на игру ' + d.get('title', '') + '. Цена в США была $' + format(normal, '.2f')
+                           + ', стала $' + format(sale, '.2f') + ' (в долларах США, для другого региона цена может отличаться). '
+                           + ('Оценки Steam: ' + str(pct) + '% положительных из ' + str(n) + ' отзывов. ' if n else '')
+                           + ('Metacritic: ' + str(mc) + '. ' if mc else '') + 'Срок окончания скидки в данных не указан.')
+                out.append({'id': offer_id(link + '|' + format(sale, '.2f')), 'title': d.get('title', ''), 'summary': summary, 'link': link,
+                            'source': 'cheapshark', 'expires_at': None, 'worth': normal, 'kind': 'deal', 'store': name,
+                            'steam_app': app, 'steam_pct': pct, 'steam_reviews': n, 'metacritic': mc, 'saved': normal - sale})
+            if _f(rows[-1].get('savings')) < c.get('min_savings', 70):
+                break
+            time.sleep(1)
+    out.sort(key=lambda x: -x['saved'])
+    return out
+
+FETCHERS = {'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower, 'cheapshark': fetch_deals}
 
 def fetch_all():
     out = []
