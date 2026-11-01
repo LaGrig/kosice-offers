@@ -233,30 +233,5 @@
   "status": "active",
   "approved_at": "2026-10-30",
   "fails": 0
- },
- {
-  "id": "3154e2a5d168",
-  "title": {
-   "uk": "Gladiator: Blades of Fury безкоштовно в Epic Games",
-   "ru": "Gladiator: Blades of Fury бесплатно в Epic Games",
-   "en": "Gladiator: Blades of Fury free on Epic Games",
-   "sk": "Gladiator: Blades of Fury zadarmo v Epic Games"
-  },
-  "text": {
-   "uk": "Gladiator: Blades of Fury тепер безкоштовний у Epic Games Store — просто додай до бібліотеки 🎮🆓",
-   "ru": "Gladiator: Blades of Fury теперь бесплатен в Epic Games Store — просто добавь в библиотеку 🎮🆓",
-   "en": "Gladiator: Blades of Fury is now free on the Epic Games Store — just add it to your library 🎮🆓",
-   "sk": "Gladiator: Blades of Fury je teraz zadarmo v Epic Games Store — stačí pridať do knižnice 🎮🆓"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/gladiator-blades-of-fury-1a745b",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-11-01",
-  "expires_at": null,
-  "score": 95,
-  "worth": null,
-  "pop": {},
-  "meta": null,
-  "status": "pending"
  }
 ]
