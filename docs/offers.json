@@ -206,7 +206,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 6
  },
  {
   "id": "f80cf0cd81da",
@@ -233,7 +234,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 18
  },
  {
   "id": "36bf307bd2b1",
@@ -260,7 +262,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 35
  },
  {
   "id": "4f529d5b314b",
@@ -287,7 +290,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 37
  },
  {
   "id": "04c0ccb0a0d4",
@@ -313,7 +317,8 @@
   "pop": {},
   "meta": null,
   "kind": "deal",
-  "status": "pending"
+  "status": "pending",
+  "chart_rank": 53
  },
  {
   "id": "2d6c026eefa9",
@@ -340,7 +345,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 55
  },
  {
   "id": "039e35997bba",
@@ -367,7 +373,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 86
  },
  {
   "id": "72c5dafac3fb",
@@ -394,7 +401,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 91
  },
  {
   "id": "dd9aede050cd",
@@ -421,7 +429,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 91
  },
  {
   "id": "859e4302b23a",
@@ -448,7 +457,8 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 92
  },
  {
   "id": "af2c2a4d25dd",
@@ -475,6 +485,7 @@
   "meta": null,
   "kind": "deal",
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "chart_rank": 95
  }
 ]
