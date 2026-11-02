@@ -182,64 +182,6 @@
   "fails": 0
  },
  {
-  "id": "f80cf0cd81da",
-  "title": {
-   "uk": "Sons Of The Forest: 72% знижки в Steam",
-   "ru": "Sons Of The Forest: 72% скидка в Steam",
-   "en": "Sons Of The Forest: 72% off on Steam",
-   "sk": "Sons Of The Forest: 72% zľava na Steam"
-  },
-  "text": {
-   "uk": "Знижка 72%: була 600₴, стала 168₴ у Steam. Гра зараз у топ-20 по продажах у Steam. 88% позитивних відгуків з 119286. 🎮🌲",
-   "ru": "Скидка 72%: была 600₴, стала 168₴ в Steam. Игра сейчас в топ-20 по продажам в Steam. 88% положительных отзывов из 119286. 🎮🌲",
-   "en": "72% off: was 600₴, now 168₴ on Steam. Game currently in top-20 by sales on Steam. 88% positive reviews from 119286. 🎮🌲",
-   "sk": "Zľava 72%: bolo 600₴, teraz 168₴ na Steam. Hra je teraz v top-20 podľa predajov na Steam. 88% pozitívnych recenzií z 119286. 🎮🌲"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/1326470/",
-  "source": "steam-chart",
-  "found_at": "2026-11-02",
-  "expires_at": null,
-  "score": 100,
-  "worth": 600.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "status": "active",
-  "approved_at": "2026-11-02",
-  "chart_rank": 18,
-  "fails": 0
- },
- {
-  "id": "36bf307bd2b1",
-  "title": {
-   "uk": "The Outlast Trials: 70% знижки в Steam",
-   "ru": "The Outlast Trials: 70% скидка в Steam",
-   "en": "The Outlast Trials: 70% off on Steam",
-   "sk": "The Outlast Trials: 70% zľava na Steam"
-  },
-  "text": {
-   "uk": "Отримаєш 70% знижки: було 740₴, стало 222₴ у Steam. Гра в топ-38 по продажах, 93% позитивних відгуків з 45081 рецензій 🎮👍",
-   "ru": "Получишь 70% скидку: было 740₴, стало 222₴ в Steam. Игра в топ-38 по продажам, 93% положительных отзывов из 45081 🎮👍",
-   "en": "Get 70% off: was 740₴, now 222₴ on Steam. Game is top-38 in sales, 93% positive reviews from 45081 🎮👍",
-   "sk": "Dostaneš 70% zľavu: bolo 740₴, teraz 222₴ na Steam. Hra je v top-38 predajov, 93% pozitívnych recenzií z 45081 🎮👍"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/1304930/",
-  "source": "steam-chart",
-  "found_at": "2026-11-02",
-  "expires_at": null,
-  "score": 99,
-  "worth": 740.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "status": "active",
-  "approved_at": "2026-11-02",
-  "chart_rank": 35,
-  "fails": 0
- },
- {
   "id": "dd9aede050cd",
   "title": {
    "uk": "Dying Light: 90% знижки в Steam",
@@ -324,35 +266,6 @@
   "status": "active",
   "approved_at": "2026-11-02",
   "chart_rank": 95,
-  "fails": 0
- },
- {
-  "id": "b93181af42cc",
-  "title": {
-   "uk": "The Forest: 80% знижки в Steam",
-   "ru": "The Forest: 80% скидка в Steam",
-   "en": "The Forest: 80% off on Steam",
-   "sk": "The Forest: 80% zľava na Steam"
-  },
-  "text": {
-   "uk": "Скидка 80%: було 279₴, стало 55₴ у Steam. Гра зараз у топ-84 за продажами в Steam, 95% позитивних відгуків з 178 тис. оцінок 🎮🌲",
-   "ru": "Скидка 80%: было 279₴, стало 55₴ в Steam. Игра сейчас в топ-84 по продажам в Steam, 95% положительных отзывов из 178 тыс. 🎮🌲",
-   "en": "80% off: was 279₴, now 55₴ on Steam. The game is currently top-84 by sales on Steam, 95% positive reviews from 178k ratings 🎮🌲",
-   "sk": "Zľava 80%: bolo 279₴, teraz 55₴ na Steam. Hra je momentálne v top-84 podľa predajov na Steam, 95% pozitívnych recenzií z 178 tis. 🎮🌲"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/242760/",
-  "source": "steam-chart",
-  "found_at": "2026-11-02",
-  "expires_at": null,
-  "score": 100,
-  "worth": 279.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 84,
-  "status": "active",
-  "approved_at": "2026-11-02",
   "fails": 0
  },
  {
