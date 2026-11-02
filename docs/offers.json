@@ -388,5 +388,83 @@
   "meta": null,
   "kind": "deal",
   "status": "pending"
+ },
+ {
+  "id": "dd9aede050cd",
+  "title": {
+   "uk": "Dying Light: 90% знижки в Steam",
+   "ru": "Dying Light: 90% скидка в Steam",
+   "en": "Dying Light: 90% off on Steam",
+   "sk": "Dying Light: 90% zľava na Steam"
+  },
+  "text": {
+   "uk": "Отримуєш Dying Light за 65₴ замість 659₴ у Steam — 90% знижки. Гра зараз у топ-90 за продажами в Steam, 94% позитивних відгуків з 99896 оцінок 🎮🧟",
+   "ru": "Получаешь Dying Light за 65₴ вместо 659₴ в Steam — 90% скидка. Игра сейчас в топ-90 по продажам в Steam, 94% положительных отзывов из 99896 оценок 🎮🧟",
+   "en": "Get Dying Light for 65₴ instead of 659₴ on Steam — 90% off. The game is currently in the top-90 by sales on Steam, with 94% positive reviews from 99,896 ratings 🎮🧟",
+   "sk": "Získaj Dying Light za 65₴ namiesto 659₴ na Steam — 90% zľava. Hra je momentálne v top-90 podľa predajov na Steam, 94% pozitívnych recenzií z 99896 hodnutí 🎮🧟"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/239140/",
+  "source": "steam-chart",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 100,
+  "worth": 659.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "status": "pending"
+ },
+ {
+  "id": "859e4302b23a",
+  "title": {
+   "uk": "Resident Evil Village: 75% знижки в Steam",
+   "ru": "Resident Evil Village: 75% скидка в Steam",
+   "en": "Resident Evil Village: 75% off on Steam",
+   "sk": "Resident Evil Village: 75% zľava na Steam"
+  },
+  "text": {
+   "uk": "Гра в топ-92 за продажами в Steam, 95% позитивних відгуків. В Україні ціна падає з 1200₴ до 300₴ (знижка 75%). 🎮",
+   "ru": "Игра в топ-92 по продажам в Steam, 95% положительных отзывов. В Украине цена падает с 1200₴ до 300₴ (скидка 75%). 🎮",
+   "en": "Game is in top-92 by sales on Steam, 95% positive reviews. In Ukraine price drops from 1200₴ to 300₴ (75% off). 🎮",
+   "sk": "Hra je v top-92 podľa predajov na Steam, 95% pozitívnych recenzií. Na Ukrajine cena klesá z 1200₴ na 300₴ (zľava 75%). 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1196590/",
+  "source": "steam-chart",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 90,
+  "worth": 1200.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "status": "pending"
+ },
+ {
+  "id": "af2c2a4d25dd",
+  "title": {
+   "uk": "Dying Light 2: Reloaded Edition — 80% знижки в Steam",
+   "ru": "Dying Light 2: Reloaded Edition — скидка 80% в Steam",
+   "en": "Dying Light 2: Reloaded Edition — 80% off on Steam",
+   "sk": "Dying Light 2: Reloaded Edition — 80% zľava na Steame"
+  },
+  "text": {
+   "uk": "У Steam Dying Light 2 Stay Human: Reloaded Edition зараз у топ-95 за продажами: знижка 80%, ціна падає з 1 599₴ до 319₴, 77% позитивних відгуків з 69 533 рецензій 🎮🧟",
+   "ru": "В Steam Dying Light 2 Stay Human: Reloaded Edition сейчас в топ-95 по продажам: скидка 80%, цена с 1 599₴ до 319₴, 77% положительных отзывов из 69 533 🎮🧟",
+   "en": "On Steam Dying Light 2 Stay Human: Reloaded Edition is now top-95 by sales: 80% off, price drops from 1 599₴ to 319₴, 77% positive reviews from 69,533 🎮🧟",
+   "sk": "Na Steame je Dying Light 2 Stay Human: Reloaded Edition v top-95 podľa predajov: zľava 80%, cena klesá z 1 599₴ na 319₴, 77% pozitívnych recenzií z 69 533 🎮🧟"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/534380/",
+  "source": "steam-chart",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 99,
+  "worth": 1599.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "status": "pending"
  }
 ]
