@@ -105,7 +105,7 @@ function render(){
     c.append(el('div', null, o.text[lang] || o.text.en || ''));
     if (/^https?:/.test(o.link)) { const a = el('a', 'go', 'Открыть'); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
     const m = el('div', 'meta');
-    m.append(el('span', null, o.expires_at ? ('до ' + fmt(o.expires_at)) : 'без срока'));
+    m.append(el('span', null, o.expires_at ? ('до ' + fmt(o.expires_at)) : (o.kind === 'deal' ? 'срок скидки не указан' : 'без срока')));
     m.append(el('span', null, 'оценка ' + o.score));
     c.append(m);
     const rx = el('div', 'rx');
