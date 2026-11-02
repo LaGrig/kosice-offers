@@ -2,7 +2,7 @@ import re, time, datetime as dt, requests
 from common import offer_id, CFG
 
 UA = {'User-Agent': 'Mozilla/5.0 (kosice-offers-bot)'}
-EPIC_COUNTRY = 'SK'
+EPIC_COUNTRY = 'UA'
 SKIPPED = []
 
 def fetch_epic():
@@ -32,7 +32,7 @@ def fetch_epic():
             continue
         dec = (price.get('currencyInfo') or {}).get('decimals', 2)
         ow = price['originalPrice'] / (10 ** dec)
-        if ow < CFG.get('min_worth', {}).get('epic', 10):
+        if ow < CFG.get('epic_min_local', 400):
             SKIPPED.append({'id': offer_id(link), 'title': e.get('title', ''), 'summary': (e.get('description') or '')[:300],
                             'link': link, 'source': 'epic-games', 'expires_at': end, 'worth': ow,
                             'why': 'цена ' + str(ow) + ' ниже порога'})
@@ -102,17 +102,16 @@ def _f(x):
     except (TypeError, ValueError):
         return 0.0
 
-def fetch_deals():
+def _fetch_deals_raw():
     c = CFG.get('deals', {})
     st = requests.get('https://www.cheapshark.com/api/1.0/stores', headers=DEAL_UA, timeout=25)
     st.raise_for_status()
-    ids = {s['storeName']: s['storeID'] for s in st.json() if s.get('storeName') in ('Steam', 'Epic Games Store')}
+    ids = {s['storeName']: s['storeID'] for s in st.json() if s.get('storeName') in ('Steam',)}
     out = []
     for name, sid in ids.items():
-        for page in range(4):
+        for page in range(25):
             r = requests.get('https://www.cheapshark.com/api/1.0/deals',
-                             params={'storeID': sid, 'onSale': 1, 'sortBy': 'Savings', 'desc': 1, 'lowerPrice': 7,
-                                     'upperPrice': 60, 'pageSize': 60, 'pageNumber': page},
+                             params={'storeID': sid, 'onSale': 1, 'AAA': 1, 'sortBy': 'Deal Rating', 'pageSize': 60, 'pageNumber': page},
                              headers=DEAL_UA, timeout=25)
             r.raise_for_status()
             rows = r.json()
@@ -133,13 +132,37 @@ def fetch_deals():
                 out.append({'id': offer_id(link + '|' + format(sale, '.2f')), 'title': d.get('title', ''), 'summary': summary, 'link': link,
                             'source': 'cheapshark', 'expires_at': None, 'worth': normal, 'kind': 'deal', 'store': name,
                             'steam_app': app, 'steam_pct': pct, 'steam_reviews': n, 'metacritic': mc, 'saved': normal - sale})
-            if _f(rows[-1].get('savings')) < c.get('min_savings', 70):
-                break
             time.sleep(1)
     out.sort(key=lambda x: -x['saved'])
     return out
 
-FETCHERS = {'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower, 'cheapshark': fetch_deals}
+def fetch_deals():
+    import json
+    from common import ROOT
+    f = ROOT / 'data' / 'deals_cache.json'
+    try:
+        d = json.loads(f.read_text(encoding='utf-8'))
+        if time.time() - d['ts'] < 3 * 3600:
+            return d['items']
+    except Exception:
+        pass
+    items = _fetch_deals_raw()
+    try:
+        from populardeals import fetch_popular
+        have = {x['link'] for x in items}
+        items += [x for x in fetch_popular() if x['link'] not in have]
+    except Exception as e:
+        print('популярные скидки недоступны:', e)
+    f.write_text(json.dumps({'ts': time.time(), 'items': items}, ensure_ascii=False), encoding='utf-8')
+    return items
+
+from chartdeals import chart_deals, chart_live
+from epiccharts import epic_chart_deals
+from epicdeals import fetch_epic_deals
+from epicdeals import fetch_epic_deals
+
+FETCHERS = {'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower, 'steam-chart': chart_deals, 'epic-charts': epic_chart_deals, 'epic-deals': fetch_epic_deals, 'cheapshark': fetch_deals}
+LIVE_OVERRIDE = {'steam-chart': lambda: [{'link': l} for l in chart_live()], 'epic-charts': lambda: [{'link': x['link']} for x in fetch_epic_deals()]}
 
 def fetch_all():
     out = []
@@ -154,7 +177,7 @@ def live_by_source():
     live = {}
     for name, fn in FETCHERS.items():
         try:
-            live[name] = {it['link'] for it in fn()}
+            live[name] = {it['link'] for it in (LIVE_OVERRIDE.get(name) or fn)()}
         except Exception as ex:
             print('источник', name, 'недоступен:', ex)
             live[name] = None

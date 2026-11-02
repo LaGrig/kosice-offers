@@ -2,6 +2,9 @@ import re, requests
 
 UA = {'User-Agent': 'Mozilla/5.0 (kosice-offers-bot)'}
 
+def _n(s):
+    return re.sub(r'[™®©:]', '', s).strip().lower()
+
 def clean_title(t):
     t = re.sub(r'\([^)]*\)', ' ', t)
     t = re.sub(r'\b(key\s+)?giveaway\b', ' ', t, flags=re.I)
@@ -15,7 +18,7 @@ def steam_signal(title):
         r = requests.get('https://store.steampowered.com/api/storesearch/',
                          params={'term': name, 'l': 'english', 'cc': 'SK'}, headers=UA, timeout=15).json()
         hit = next((i for i in r.get('items', [])
-                    if i.get('type') == 'app' and i.get('name', '').strip().lower() == name.lower()), None)
+                    if i.get('type') == 'app' and _n(i.get('name', '')) == _n(name)), None)
         if not hit:
             return {}
         s = requests.get('https://store.steampowered.com/appreviews/' + str(hit['id']),
@@ -45,3 +48,18 @@ def steam_strong(sig, tiers=None):
         if n >= t['min_reviews']:
             need = t['above_pct']
     return need is not None and pct > need
+
+
+def get_json(url, params):
+    import time as _t
+    last = None
+    for i in range(3):
+        try:
+            r = requests.get(url, params=params, headers=UA, timeout=15)
+            if r.status_code == 200:
+                return r.json()
+            last = 'HTTP ' + str(r.status_code)
+        except Exception as e:
+            last = str(e)[:60]
+        _t.sleep(2 * (i + 1))
+    raise RuntimeError(last)

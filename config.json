@@ -39,6 +39,18 @@
     "min_steam_pct": 80,
     "min_steam_reviews": 200,
     "min_metacritic": 75,
-    "max_per_run": 6
-  }
+    "max_per_run": 6,
+    "region": "ua",
+    "min_normal_local": 0,
+    "chart_top": 100,
+    "chart_min_savings": 70,
+    "popular_min_reviews": 15000,
+    "popular_min_normal": 15,
+    "popular_pages": 8,
+    "lanes": [
+      "steam-chart",
+      "epic-charts"
+    ]
+  },
+  "epic_min_local": 400
 }

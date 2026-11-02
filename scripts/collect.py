@@ -40,18 +40,24 @@ def collect():
     found = {}
     try:
         from api_sources import fetch_all
-        ndeals = 0
+        deals_new = []
         for it in fetch_all():
             i = it['id']
             k = link_key(it['link'])
+            lanes = CFG.get('deals', {}).get('lanes')
+            if lanes is not None and it['source'] in ('cheapshark', 'steam-chart', 'epic-deals', 'epic-charts') and it['source'] not in lanes:
+                continue
             if i in seen or i in found or k in keys:
                 continue
-            if it['source'] == 'cheapshark':
-                if ndeals >= CFG.get('deals', {}).get('max_per_run', 6):
-                    continue
-                ndeals += 1
+            if it['source'] in ('cheapshark', 'steam-chart', 'epic-deals', 'epic-charts'):
+                deals_new.append(it)
+                continue
             keys.add(k)
             found[i] = it
+        from dealpick import select_deals
+        for it in select_deals(deals_new):
+            keys.add(link_key(it['link']))
+            found[it['id']] = it
     except Exception as ex:
         print('API-источники недоступны:', ex)
     cfg = yaml.safe_load((ROOT / 'sources.yaml').read_text(encoding='utf-8'))
