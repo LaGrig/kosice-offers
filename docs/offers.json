@@ -259,7 +259,8 @@
   "pop": {},
   "meta": null,
   "kind": "deal",
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-11-02"
  },
  {
   "id": "4f529d5b314b",
