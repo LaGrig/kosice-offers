@@ -180,5 +180,83 @@
   "status": "active",
   "approved_at": "2026-10-30",
   "fails": 0
+ },
+ {
+  "id": "1600d499687a",
+  "title": {
+   "uk": "Alan Wake 2: 70% знижки в Epic Games Store",
+   "ru": "Alan Wake 2: скидка 70% в Epic Games Store",
+   "en": "Alan Wake 2: 70% off on Epic Games Store",
+   "sk": "Alan Wake 2: 70% zľava v Epic Games Store"
+  },
+  "text": {
+   "uk": "Знижка 70%: була 1238₴, стала 371.40₴ у Epic Games Store; гра в топ-4 по продажах там 🎮",
+   "ru": "Скидка 70%: было 1238₴, стало 371.40₴ в Epic Games Store; игра в топ-4 по продажам там 🎮",
+   "en": "70% off: was 1238₴, now 371.40₴ on Epic Games Store; game is top-4 by sales there 🎮",
+   "sk": "Zľava 70%: bolo 1238₴, teraz 371.40₴ v Epic Games Store; hra je v top-4 podľa predajov tam 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/alan-wake-2",
+  "source": "epic-charts",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 100,
+  "worth": 1238.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "status": "pending"
+ },
+ {
+  "id": "f80cf0cd81da",
+  "title": {
+   "uk": "Sons Of The Forest: 72% знижки в Steam",
+   "ru": "Sons Of The Forest: 72% скидка в Steam",
+   "en": "Sons Of The Forest: 72% off on Steam",
+   "sk": "Sons Of The Forest: 72% zľava na Steam"
+  },
+  "text": {
+   "uk": "Знижка 72%: була 600₴, стала 168₴ у Steam. Гра зараз у топ-20 по продажах у Steam. 88% позитивних відгуків з 119286. 🎮🌲",
+   "ru": "Скидка 72%: была 600₴, стала 168₴ в Steam. Игра сейчас в топ-20 по продажам в Steam. 88% положительных отзывов из 119286. 🎮🌲",
+   "en": "72% off: was 600₴, now 168₴ on Steam. Game currently in top-20 by sales on Steam. 88% positive reviews from 119286. 🎮🌲",
+   "sk": "Zľava 72%: bolo 600₴, teraz 168₴ na Steam. Hra je teraz v top-20 podľa predajov na Steam. 88% pozitívnych recenzií z 119286. 🎮🌲"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1326470/",
+  "source": "steam-chart",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 100,
+  "worth": 600.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "status": "pending"
+ },
+ {
+  "id": "36bf307bd2b1",
+  "title": {
+   "uk": "The Outlast Trials: 70% знижки в Steam",
+   "ru": "The Outlast Trials: 70% скидка в Steam",
+   "en": "The Outlast Trials: 70% off on Steam",
+   "sk": "The Outlast Trials: 70% zľava na Steam"
+  },
+  "text": {
+   "uk": "Отримаєш 70% знижки: було 740₴, стало 222₴ у Steam. Гра в топ-38 по продажах, 93% позитивних відгуків з 45081 рецензій 🎮👍",
+   "ru": "Получишь 70% скидку: было 740₴, стало 222₴ в Steam. Игра в топ-38 по продажам, 93% положительных отзывов из 45081 🎮👍",
+   "en": "Get 70% off: was 740₴, now 222₴ on Steam. Game is top-38 in sales, 93% positive reviews from 45081 🎮👍",
+   "sk": "Dostaneš 70% zľavu: bolo 740₴, teraz 222₴ na Steam. Hra je v top-38 predajov, 93% pozitívnych recenzií z 45081 🎮👍"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1304930/",
+  "source": "steam-chart",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 99,
+  "worth": 740.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "status": "pending"
  }
 ]
