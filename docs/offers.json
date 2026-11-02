@@ -541,6 +541,7 @@
   "meta": null,
   "kind": "deal",
   "chart_rank": 31,
-  "status": "pending"
+  "status": "active",
+  "approved_at": "2026-11-02"
  }
 ]
