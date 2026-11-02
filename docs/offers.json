@@ -207,7 +207,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 6
+  "chart_rank": 6,
+  "fails": 0
  },
  {
   "id": "f80cf0cd81da",
@@ -235,7 +236,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 18
+  "chart_rank": 18,
+  "fails": 0
  },
  {
   "id": "36bf307bd2b1",
@@ -263,7 +265,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 35
+  "chart_rank": 35,
+  "fails": 0
  },
  {
   "id": "4f529d5b314b",
@@ -291,7 +294,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 37
+  "chart_rank": 37,
+  "fails": 0
  },
  {
   "id": "04c0ccb0a0d4",
@@ -346,7 +350,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 55
+  "chart_rank": 55,
+  "fails": 0
  },
  {
   "id": "039e35997bba",
@@ -374,7 +379,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 86
+  "chart_rank": 86,
+  "fails": 0
  },
  {
   "id": "72c5dafac3fb",
@@ -402,7 +408,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 91
+  "chart_rank": 91,
+  "fails": 0
  },
  {
   "id": "dd9aede050cd",
@@ -430,7 +437,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 91
+  "chart_rank": 91,
+  "fails": 0
  },
  {
   "id": "859e4302b23a",
@@ -458,7 +466,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 92
+  "chart_rank": 92,
+  "fails": 0
  },
  {
   "id": "af2c2a4d25dd",
@@ -486,7 +495,8 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 95
+  "chart_rank": 95,
+  "fails": 0
  },
  {
   "id": "b93181af42cc",
@@ -514,7 +524,8 @@
   "kind": "deal",
   "chart_rank": 84,
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "fails": 0
  },
  {
   "id": "3954d501ad5a",
@@ -542,6 +553,7 @@
   "kind": "deal",
   "chart_rank": 31,
   "status": "active",
-  "approved_at": "2026-11-02"
+  "approved_at": "2026-11-02",
+  "fails": 0
  }
 ]
