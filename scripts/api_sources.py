@@ -64,6 +64,8 @@ def fetch_gamerpower():
         link = g.get('open_giveaway_url') or g.get('gamerpower_url')
         if not link:
             continue
+        if re.search(r'\b(dlc|pack|bundle|demo|soundtrack|season pass|upgrade|add-?on|playtest)\b', g.get('title', '').lower()):
+            continue
         end = (g.get('end_date') or 'N/A')[:10]
         if re.match(r'^\d{4}-\d{2}-\d{2}$', end):
             note = 'до ' + end

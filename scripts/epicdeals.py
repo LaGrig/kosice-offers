@@ -47,7 +47,7 @@ def _fetch_raw():
         for e in els:
             tp = ((e.get('price') or {}).get('totalPrice')) or {}
             orig, disc = tp.get('originalPrice') or 0, tp.get('discountPrice') or 0
-            if orig <= 0 or disc >= orig:
+            if orig <= 0 or disc >= orig or disc <= 0:
                 continue
             dec = (tp.get('currencyInfo') or {}).get('decimals', 2)
             o, d = orig / 10 ** dec, disc / 10 ** dec

@@ -487,5 +487,59 @@
   "status": "active",
   "approved_at": "2026-11-02",
   "chart_rank": 95
+ },
+ {
+  "id": "b93181af42cc",
+  "title": {
+   "uk": "The Forest: 80% знижки в Steam",
+   "ru": "The Forest: 80% скидка в Steam",
+   "en": "The Forest: 80% off on Steam",
+   "sk": "The Forest: 80% zľava na Steam"
+  },
+  "text": {
+   "uk": "Скидка 80%: було 279₴, стало 55₴ у Steam. Гра зараз у топ-84 за продажами в Steam, 95% позитивних відгуків з 178 тис. оцінок 🎮🌲",
+   "ru": "Скидка 80%: было 279₴, стало 55₴ в Steam. Игра сейчас в топ-84 по продажам в Steam, 95% положительных отзывов из 178 тыс. 🎮🌲",
+   "en": "80% off: was 279₴, now 55₴ on Steam. The game is currently top-84 by sales on Steam, 95% positive reviews from 178k ratings 🎮🌲",
+   "sk": "Zľava 80%: bolo 279₴, teraz 55₴ na Steam. Hra je momentálne v top-84 podľa predajov na Steam, 95% pozitívnych recenzií z 178 tis. 🎮🌲"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/242760/",
+  "source": "steam-chart",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 100,
+  "worth": 279.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 84,
+  "status": "pending"
+ },
+ {
+  "id": "3954d501ad5a",
+  "title": {
+   "uk": "Resident Evil 4: 75% знижки в Steam",
+   "ru": "Resident Evil 4: скидка 75% в Steam",
+   "en": "Resident Evil 4: 75% off on Steam",
+   "sk": "Resident Evil 4: 75% zľava na Steam"
+  },
+  "text": {
+   "uk": "Знижка 75% на Resident Evil 4 у Steam: було 1 200₴, стало 300₴. Гра в топ-31 по продажах у Steam, 96% позитивних відгуків з 73 923 рецензій 🎮💀",
+   "ru": "Скидка 75% на Resident Evil 4 в Steam: было 1 200₴, стало 300₴. Игра в топ-31 по продажам в Steam, 96% положительных отзывов из 73 923 рецензий 🎮💀",
+   "en": "75% off Resident Evil 4 on Steam: was 1 200₴, now 300₴. Game is top-31 by sales on Steam, 96% positive reviews from 73,923 reviews 🎮💀",
+   "sk": "Zľava 75% na Resident Evil 4 na Steam: bolo 1 200₴, teraz 300₴. Hra je v top-31 podľa predajov na Steam, 96% pozitívnych recenzií z 73 923 hodnovení 🎮💀"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2050650/",
+  "source": "steam-chart",
+  "found_at": "2026-11-02",
+  "expires_at": null,
+  "score": 100,
+  "worth": 1200.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 31,
+  "status": "pending"
  }
 ]

@@ -23,7 +23,7 @@ def process(item, today_s, force=False):
         s = ask_llm('scout', {'today': today_s, 'item': item})
     if not s:
         if not force:
-            return None, 'скаут не ответил'
+            return None, 'LLM: скаут не ответил'
         s = {}
     if not s.get('relevant') and not force:
         return None, 'не релевантно: ' + str(s.get('note'))
@@ -54,13 +54,13 @@ def process(item, today_s, force=False):
     qa = chief = None
     for attempt in range(2):
         if not post:
-            return None, 'писатель не ответил'
+            return None, 'LLM: писатель не ответил'
         qa = ask_llm('qa', {'source': facts, 'post': post})
         if not qa:
-            return None, 'QA не ответил'
+            return None, 'LLM: QA не ответил'
         chief = ask_llm('chief', {'post': post, 'qa': qa, 'link': item['link'], 'expires_at': exp, 'popularity': pop, 'kind': item.get('kind')})
         if not chief:
-            return None, 'главред не ответил'
+            return None, 'LLM: главред не ответил'
         if chief.get('decision') == 'revise' and attempt == 0:
             post = ask_llm('writer', {'facts': facts, 'qa_problems': qa.get('problems', [])})
             post, _ = clean_post(post, facts)
@@ -73,7 +73,7 @@ def process(item, today_s, force=False):
         'id': item['id'], 'title': post['title'], 'text': post['text'],
         'category': s.get('category', 'other'), 'link': item['link'],
         'source': item['source'], 'found_at': today_s, 'expires_at': exp,
-        'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'),
+        'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'), 'chart_rank': item.get('chart_rank'),
         'status': 'active' if CFG['auto_publish'] else 'pending',
     }
     return offer, 'ok'
@@ -83,20 +83,24 @@ def main():
     if '--limit' in sys.argv:
         limit = int(sys.argv[sys.argv.index('--limit') + 1])
     today_s = today().isoformat()
-    items = collect()[:limit]
+    allc = collect()
+    items = [i for i in allc if i.get('kind') != 'deal'][:limit] + [i for i in allc if i.get('kind') == 'deal']
     print('к обработке:', len(items))
     for sk in api_sources.SKIPPED:
         log_auto_reject(sk, sk['why'])
     offers = load_offers()
+    failed = set()
     for item in items:
         offer, why = process(item, today_s)
         print(item['source'], '|', item['title'][:60], '->', why)
         if offer:
             offers.append(offer)
+        elif why.startswith('LLM:'):
+            failed.add(item['id'])
         else:
             log_auto_reject(item, why)
     save_offers(offers)
-    mark_seen([i['id'] for i in items])
+    mark_seen([i['id'] for i in items if i['id'] not in failed])
 
 if __name__ == '__main__':
     main()

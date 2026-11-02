@@ -6,6 +6,8 @@ def dedupe(t):
     return (m.group(1) + m.group(2)).strip() if m else t
 
 def nums(s):
+    s = re.sub(r'(?<=\d)[ \u00a0\u202f,.](?=\d{3}(?!\d))', '', s)
+    s = re.sub(r'(?<=\d)[.,]\d{1,2}(?!\d)', '', s)
     return {int(x) for x in re.findall(r'\d+', s)}
 
 def clean_post(post, facts):

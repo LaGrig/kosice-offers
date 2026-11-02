@@ -78,7 +78,7 @@ def chart_deals():
     out = []
     for app in apps:
         p = po.get(app)
-        if not p or p.get('discount_percent', 0) < c.get('chart_min_savings', 70):
+        if not p or p.get('final', 0) <= 0 or p.get('discount_percent', 0) < c.get('chart_min_savings', 70):
             continue
         try:
             name, typ = info(app)
