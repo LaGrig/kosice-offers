@@ -2,25 +2,21 @@
   "models": {
     "scout": [
       "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "google/gemma-4-26b-a4b-it:free",
       "google/gemma-4-26b-a4b-it",
       "nvidia/nemotron-3.5-lightning"
     ],
     "writer": [
-      "google/gemma-4-31b-it:free",
       "google/gemma-4-31b-it",
       "nvidia/nemotron-3-ultra-550b-a55b:free",
       "thinkingmachines/inkling-small"
     ],
     "qa": [
       "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "google/gemma-4-26b-a4b-it:free",
       "google/gemma-4-26b-a4b-it",
       "thinkingmachines/inkling-small"
     ],
     "chief": [
       "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "google/gemma-4-31b-it:free",
       "google/gemma-4-31b-it",
       "thinkingmachines/inkling-small"
     ]

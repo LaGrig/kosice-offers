@@ -5,3 +5,5 @@ data/seen.json
 __pycache__/
 docs/*.tmp
 *.bak
+*.bak*
+data/
