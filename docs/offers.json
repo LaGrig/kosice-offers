@@ -223,7 +223,8 @@
   "approved_at": "2026-11-02",
   "chart_rank": 91,
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "miss_p": 0
  },
  {
   "id": "859e4302b23a",
@@ -262,7 +263,8 @@
    "store": "Steam",
    "rank_sales": 82,
    "rank_play": null
-  }
+  },
+  "miss_p": 0
  },
  {
   "id": "af2c2a4d25dd",
@@ -292,7 +294,8 @@
   "approved_at": "2026-11-02",
   "chart_rank": 95,
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "miss_p": 0
  },
  {
   "id": "3954d501ad5a",
@@ -331,7 +334,8 @@
    "store": "Steam",
    "rank_sales": 23,
    "rank_play": 92
-  }
+  },
+  "miss_p": 0
  },
  {
   "id": "c23877379a5d",
@@ -370,7 +374,8 @@
    "store": "Steam",
    "rank_sales": 43,
    "rank_play": null
-  }
+  },
+  "miss_p": 0
  },
  {
   "id": "4ee55df810f0",
@@ -408,7 +413,8 @@
    "new": "80₴",
    "store": "Epic Games Store",
    "rank_sales": 90
-  }
+  },
+  "miss_p": 0
  },
  {
   "id": "369166500235",
@@ -438,7 +444,8 @@
   "status": "active",
   "approved_at": "2026-11-03",
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "miss_p": 0
  },
  {
   "id": "13c72ea36348",
@@ -477,6 +484,7 @@
    "store": "Steam",
    "rank_sales": 77,
    "rank_play": null
-  }
+  },
+  "miss_p": 0
  }
 ]
