@@ -99,9 +99,6 @@ def main():
         return
     ids = {o['id'] for o in top}
     parts = ['🔥 <b>' + tx['head'] + '</b> · ' + short(t) + '\n<i>' + tx['sub'] + '</i>'] + [block(o, lang) for o in top]
-    rest = [o for o in active if o['id'] not in ids]
-    if rest:
-        parts.append('📲 ' + tx['more'].format(n=len(rest)))
     preview = bool(os.environ.get('DIGEST_CHAT'))
     body = {'chat_id': os.environ.get('DIGEST_CHAT') or os.environ['CHANNEL'], 'text': '\n\n'.join(parts), 'parse_mode': 'HTML',
             'disable_web_page_preview': True, 'reply_markup': {'inline_keyboard': [[{'text': tx['open'], 'url': os.environ['MINIAPP_LINK']}]]}}
