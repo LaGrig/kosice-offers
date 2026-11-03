@@ -152,7 +152,8 @@
   },
   "status": "active",
   "approved_at": "2026-10-30",
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "7267dc2632f0",
@@ -179,7 +180,8 @@
   "meta": null,
   "status": "active",
   "approved_at": "2026-10-30",
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "dd9aede050cd",
@@ -208,7 +210,8 @@
   "status": "active",
   "approved_at": "2026-11-02",
   "chart_rank": 91,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "859e4302b23a",
@@ -237,7 +240,8 @@
   "status": "active",
   "approved_at": "2026-11-02",
   "chart_rank": 92,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "af2c2a4d25dd",
@@ -266,7 +270,8 @@
   "status": "active",
   "approved_at": "2026-11-02",
   "chart_rank": 95,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "3954d501ad5a",
@@ -295,7 +300,8 @@
   "chart_rank": 31,
   "status": "active",
   "approved_at": "2026-11-02",
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "c23877379a5d",
@@ -324,7 +330,8 @@
   "chart_rank": 68,
   "status": "active",
   "approved_at": "2026-11-03",
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "4ee55df810f0",
@@ -353,7 +360,8 @@
   "chart_rank": 90,
   "status": "active",
   "approved_at": "2026-11-03",
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "369166500235",
@@ -382,7 +390,8 @@
   "chart_rank": 93,
   "status": "active",
   "approved_at": "2026-11-03",
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "13c72ea36348",
@@ -411,6 +420,7 @@
   "chart_rank": 100,
   "status": "active",
   "approved_at": "2026-11-03",
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  }
 ]
