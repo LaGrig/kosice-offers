@@ -1,6 +1,7 @@
 import datetime as dt, html, json, os, requests
 from common import CFG, ROOT, load_offers, today
 from givefmt import norm_price
+from dealtext import clean_game
 
 L = {
     'uk': {'head': 'Знахідки дня', 'sub': 'Забирай, поки діє 👇', 'free': 'Безкоштовно', 'usual': 'зазвичай', 'until': 'до',
@@ -38,7 +39,7 @@ def block(o, lang):
     tx = L[lang]
     d, g = o.get('deal'), o.get('give')
     if d:
-        out = '💸 ' + name_link(o, d['game']) + ' · <b>−' + str(d['pct']) + '%</b>\n' + esc(d['old']) + ' → <b>' + esc(d['new']) + '</b> · ' + esc(d['store'])
+        out = '💸 ' + name_link(o, clean_game(d['game'])) + ' · <b>−' + str(d['pct']) + '%</b>\n' + esc(d['old']) + ' → <b>' + esc(d['new']) + '</b> · ' + esc(d['store'])
         tops = []
         if d.get('rank_sales'):
             tops.append(tx['s'].format(n=d['rank_sales']))
