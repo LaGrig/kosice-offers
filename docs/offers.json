@@ -227,46 +227,6 @@
   "miss_p": 0
  },
  {
-  "id": "859e4302b23a",
-  "title": {
-   "uk": "Resident Evil Village −75%",
-   "ru": "Resident Evil Village −75%",
-   "en": "Resident Evil Village −75%",
-   "sk": "Resident Evil Village −75%"
-  },
-  "text": {
-   "uk": "Resident Evil Village у Steam зараз за 300₴ замість 1 200₴. У топі Steam: №82 за продажами. Гарний момент забрати 🎮",
-   "ru": "Resident Evil Village в Steam сейчас за 300₴ вместо 1 200₴. В топе Steam: №82 по продажам. Хороший момент забрать 🎮",
-   "en": "Resident Evil Village on Steam is 300₴ instead of 1 200₴ right now. In the Steam charts: #82 bestseller. A good moment to grab it 🎮",
-   "sk": "Resident Evil Village v Steam je teraz za 300₴ namiesto 1 200₴. V rebríčku Steam: #82 podľa predajov. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/1196590/",
-  "source": "steam-chart",
-  "found_at": "2026-11-02",
-  "expires_at": null,
-  "score": 90,
-  "worth": 1200.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "status": "active",
-  "approved_at": "2026-11-02",
-  "chart_rank": 82,
-  "fails": 0,
-  "miss": 0,
-  "deal": {
-   "game": "Resident Evil Village",
-   "pct": 75,
-   "old": "1 200₴",
-   "new": "300₴",
-   "store": "Steam",
-   "rank_sales": 82,
-   "rank_play": null
-  },
-  "miss_p": 1
- },
- {
   "id": "af2c2a4d25dd",
   "title": {
    "uk": "Dying Light 2: Reloaded Edition — 80% знижки в Steam",
@@ -296,46 +256,6 @@
   "fails": 0,
   "miss": 0,
   "miss_p": 0
- },
- {
-  "id": "3954d501ad5a",
-  "title": {
-   "uk": "Resident Evil 4 −75%",
-   "ru": "Resident Evil 4 −75%",
-   "en": "Resident Evil 4 −75%",
-   "sk": "Resident Evil 4 −75%"
-  },
-  "text": {
-   "uk": "Resident Evil 4 у Steam зараз за 300₴ замість 1 200₴. У топі Steam: №23 за продажами, №92 за онлайном. Гарний момент забрати 🎮",
-   "ru": "Resident Evil 4 в Steam сейчас за 300₴ вместо 1 200₴. В топе Steam: №23 по продажам, №92 по онлайну. Хороший момент забрать 🎮",
-   "en": "Resident Evil 4 on Steam is 300₴ instead of 1 200₴ right now. In the Steam charts: #23 bestseller, #92 most played. A good moment to grab it 🎮",
-   "sk": "Resident Evil 4 v Steam je teraz za 300₴ namiesto 1 200₴. V rebríčku Steam: #23 podľa predajov, #92 podľa online. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/2050650/",
-  "source": "steam-chart",
-  "found_at": "2026-11-02",
-  "expires_at": null,
-  "score": 100,
-  "worth": 1200.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 23,
-  "status": "active",
-  "approved_at": "2026-11-02",
-  "fails": 0,
-  "miss": 0,
-  "deal": {
-   "game": "Resident Evil 4",
-   "pct": 75,
-   "old": "1 200₴",
-   "new": "300₴",
-   "store": "Steam",
-   "rank_sales": 23,
-   "rank_play": 92
-  },
-  "miss_p": 1
  },
  {
   "id": "c23877379a5d",
