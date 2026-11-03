@@ -1,9 +1,25 @@
 {
   "models": {
-    "scout": "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "writer": "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "qa": "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "chief": "nvidia/nemotron-3-ultra-550b-a55b:free"
+    "scout": [
+      "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "google/gemma-4-26b-a4b-it",
+      "nvidia/nemotron-3.5-lightning"
+    ],
+    "writer": [
+      "google/gemma-4-31b-it",
+      "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "thinkingmachines/inkling-small"
+    ],
+    "qa": [
+      "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "google/gemma-4-26b-a4b-it",
+      "thinkingmachines/inkling-small"
+    ],
+    "chief": [
+      "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "thinkingmachines/inkling-small",
+      "google/gemma-4-31b-it"
+    ]
   },
   "publish_threshold": 70,
   "digest_threshold": 85,
@@ -50,7 +66,9 @@
     "lanes": [
       "steam-chart",
       "epic-charts"
-    ]
+    ],
+    "auto_chart": true
   },
-  "epic_min_local": 400
+  "epic_min_local": 400,
+  "llm_pause": 3
 }

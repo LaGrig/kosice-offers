@@ -1,5 +1,5 @@
 import sys
-from common import CFG, load_offers, save_offers, today
+from common import CFG, load_offers, save_offers, update_offers, today
 from llm import ask_llm
 from collect import collect, mark_seen
 from verify import link_ok, steam_ok
@@ -74,7 +74,7 @@ def process(item, today_s, force=False):
         'category': s.get('category', 'other'), 'link': item['link'],
         'source': item['source'], 'found_at': today_s, 'expires_at': exp,
         'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'), 'chart_rank': item.get('chart_rank'),
-        'status': 'active' if CFG['auto_publish'] else 'pending',
+        'status': 'active' if (CFG['auto_publish'] or (item.get('chart_rank') and CFG.get('deals', {}).get('auto_chart'))) else 'pending',
     }
     return offer, 'ok'
 
@@ -90,16 +90,21 @@ def main():
         log_auto_reject(sk, sk['why'])
     offers = load_offers()
     failed = set()
+    added = []
     for item in items:
         offer, why = process(item, today_s)
         print(item['source'], '|', item['title'][:60], '->', why)
         if offer:
             offers.append(offer)
+            added.append(offer)
         elif why.startswith('LLM:'):
             failed.add(item['id'])
         else:
             log_auto_reject(item, why)
-    save_offers(offers)
+    def merge(cur):
+        have = {o['id'] for o in cur}
+        cur.extend(o for o in added if o['id'] not in have)
+    update_offers(merge)
     mark_seen([i['id'] for i in items if i['id'] not in failed])
 
 if __name__ == '__main__':

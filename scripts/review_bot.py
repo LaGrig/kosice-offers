@@ -1,5 +1,5 @@
 import json, os, subprocess, time, requests
-from common import ROOT, load_offers, save_offers, today
+from common import ROOT, load_offers, save_offers, offers_lock, today
 
 API = 'https://api.telegram.org/bot' + os.environ['BOT_TOKEN']
 OWNER = int(os.environ['OWNER_ID'])
@@ -14,7 +14,7 @@ def call(method, **params):
         return {}
 
 def push():
-    subprocess.run('cd ' + str(ROOT) + ' && git add docs && git commit -qm review ; git push -q', shell=True)
+    subprocess.run([str(ROOT / 'run.sh'), 'publish'])
 
 def log_reject(o, reason):
     rec = {'date': today().isoformat(), 'reason': reason, 'id': o['id'], 'title': o['title'].get('ru', ''),
@@ -36,6 +36,10 @@ def reasons_kb(oid):
     ]}
 
 def handle(cb):
+    with offers_lock():
+        _handle(cb)
+
+def _handle(cb):
     if cb['from']['id'] != OWNER:
         call('answerCallbackQuery', callback_query_id=cb['id'], text='Нет доступа')
         return
@@ -53,6 +57,8 @@ def handle(cb):
         return
     items = load_offers()
     offer = next((o for o in items if o['id'] == oid), None)
+    with open(ROOT / 'data' / 'decisions.jsonl', 'a', encoding='utf-8') as f:
+        f.write(json.dumps({'ts': time.strftime('%F %T'), 'action': action, 'id': oid, 'found': offer is not None}) + '\n')
     if action in ('no', 'bk') and offer:
         kb = reasons_kb(oid) if action == 'no' else main_kb(oid, offer['link'])
         call('editMessageReplyMarkup', reply_markup=kb, **where)
