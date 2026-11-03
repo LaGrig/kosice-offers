@@ -1,14 +1,36 @@
-from common import load_offers, update_offers
+import json, time
+from common import ROOT, load_offers, update_offers
 from api_sources import live_by_source
+
+LOG = ROOT / 'data' / 'removed.jsonl'
 
 def main():
     live = live_by_source()
-    gone = set()
+    miss, gone = {}, {}
     for o in load_offers():
         links = live.get(o['source'])
-        if o['status'] in ('active', 'pending') and links is not None and o['link'] not in links:
-            print('раздача закончилась:', o['id'], o['title'].get('ru', ''))
-            gone.add(o['id'])
-    update_offers(lambda cur: [o for o in cur if o['id'] not in gone])
+        if links is None or o['status'] not in ('active', 'pending'):
+            continue
+        if o['link'] in links:
+            miss[o['id']] = 0
+        else:
+            miss[o['id']] = o.get('miss', 0) + 1
+            if miss[o['id']] >= 2:
+                gone[o['id']] = o
+                print('раздача закончилась:', o['id'], o['title'].get('ru', ''))
+    def apply(cur):
+        out = []
+        for o in cur:
+            if o['id'] in gone:
+                continue
+            if o['id'] in miss:
+                o['miss'] = miss[o['id']]
+            out.append(o)
+        return out
+    update_offers(apply)
+    with open(LOG, 'a', encoding='utf-8') as f:
+        for o in gone.values():
+            f.write(json.dumps({'ts': time.strftime('%F %T'), 'id': o['id'], 'title': o['title'].get('ru', ''), 'source': o['source'],
+                                'link': o['link'], 'why': 'нет в живой выдаче два раза подряд'}, ensure_ascii=False) + '\n')
 
 main()
