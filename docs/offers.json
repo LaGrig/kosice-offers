@@ -376,10 +376,10 @@
    "sk": "Borderlands 2 −90%"
   },
   "text": {
-   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №77 за продажами. Гарний момент забрати 🎮",
-   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №77 по продажам. Хороший момент забрать 🎮",
-   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #77 bestseller. A good moment to grab it 🎮",
-   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #77 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №57 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №57 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #57 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #57 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/49520/",
@@ -391,7 +391,7 @@
   "pop": {},
   "meta": null,
   "kind": "deal",
-  "chart_rank": 77,
+  "chart_rank": 57,
   "status": "active",
   "approved_at": "2026-11-03",
   "fails": 0,
@@ -402,7 +402,7 @@
    "old": "389₴",
    "new": "38₴",
    "store": "Steam",
-   "rank_sales": 77,
+   "rank_sales": 57,
    "rank_play": null
   },
   "miss_p": 0
