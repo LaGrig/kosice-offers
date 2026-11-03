@@ -153,7 +153,13 @@
   "status": "active",
   "approved_at": "2026-10-30",
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "give": {
+   "game": "MOLOKAUST",
+   "store": "itch.io",
+   "price": "$10.00",
+   "until": "2026-11-04"
+  }
  },
  {
   "id": "7267dc2632f0",
@@ -181,7 +187,13 @@
   "status": "active",
   "approved_at": "2026-10-30",
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "give": {
+   "game": "Sorry We're Closed",
+   "store": "Epic Games Store",
+   "price": "UAH 459.00",
+   "until": "2026-11-05"
+  }
  },
  {
   "id": "dd9aede050cd",
@@ -216,16 +228,16 @@
  {
   "id": "859e4302b23a",
   "title": {
-   "uk": "Resident Evil Village: 75% знижки в Steam",
-   "ru": "Resident Evil Village: 75% скидка в Steam",
-   "en": "Resident Evil Village: 75% off on Steam",
-   "sk": "Resident Evil Village: 75% zľava na Steam"
+   "uk": "Resident Evil Village −75%",
+   "ru": "Resident Evil Village −75%",
+   "en": "Resident Evil Village −75%",
+   "sk": "Resident Evil Village −75%"
   },
   "text": {
-   "uk": "Гра в топ-92 за продажами в Steam, 95% позитивних відгуків. В Україні ціна падає з 1200₴ до 300₴ (знижка 75%). 🎮",
-   "ru": "Игра в топ-92 по продажам в Steam, 95% положительных отзывов. В Украине цена падает с 1200₴ до 300₴ (скидка 75%). 🎮",
-   "en": "Game is in top-92 by sales on Steam, 95% positive reviews. In Ukraine price drops from 1200₴ to 300₴ (75% off). 🎮",
-   "sk": "Hra je v top-92 podľa predajov na Steam, 95% pozitívnych recenzií. Na Ukrajine cena klesá z 1200₴ na 300₴ (zľava 75%). 🎮"
+   "uk": "Resident Evil Village у Steam зараз за 300₴ замість 1 200₴. У топі Steam: №82 за продажами. Гарний момент забрати 🎮",
+   "ru": "Resident Evil Village в Steam сейчас за 300₴ вместо 1 200₴. В топе Steam: №82 по продажам. Хороший момент забрать 🎮",
+   "en": "Resident Evil Village on Steam is 300₴ instead of 1 200₴ right now. In the Steam charts: #82 bestseller. A good moment to grab it 🎮",
+   "sk": "Resident Evil Village v Steam je teraz za 300₴ namiesto 1 200₴. V rebríčku Steam: #82 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/1196590/",
@@ -239,9 +251,18 @@
   "kind": "deal",
   "status": "active",
   "approved_at": "2026-11-02",
-  "chart_rank": 92,
+  "chart_rank": 82,
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "deal": {
+   "game": "Resident Evil Village",
+   "pct": 75,
+   "old": "1 200₴",
+   "new": "300₴",
+   "store": "Steam",
+   "rank_sales": 82,
+   "rank_play": null
+  }
  },
  {
   "id": "af2c2a4d25dd",
@@ -276,16 +297,16 @@
  {
   "id": "3954d501ad5a",
   "title": {
-   "uk": "Resident Evil 4: 75% знижки в Steam",
-   "ru": "Resident Evil 4: скидка 75% в Steam",
-   "en": "Resident Evil 4: 75% off on Steam",
-   "sk": "Resident Evil 4: 75% zľava na Steam"
+   "uk": "Resident Evil 4 −75%",
+   "ru": "Resident Evil 4 −75%",
+   "en": "Resident Evil 4 −75%",
+   "sk": "Resident Evil 4 −75%"
   },
   "text": {
-   "uk": "Знижка 75% на Resident Evil 4 у Steam: було 1 200₴, стало 300₴. Гра в топ-31 по продажах у Steam, 96% позитивних відгуків з 73 923 рецензій 🎮💀",
-   "ru": "Скидка 75% на Resident Evil 4 в Steam: было 1 200₴, стало 300₴. Игра в топ-31 по продажам в Steam, 96% положительных отзывов из 73 923 рецензий 🎮💀",
-   "en": "75% off Resident Evil 4 on Steam: was 1 200₴, now 300₴. Game is top-31 by sales on Steam, 96% positive reviews from 73,923 reviews 🎮💀",
-   "sk": "Zľava 75% na Resident Evil 4 na Steam: bolo 1 200₴, teraz 300₴. Hra je v top-31 podľa predajov na Steam, 96% pozitívnych recenzií z 73 923 hodnovení 🎮💀"
+   "uk": "Resident Evil 4 у Steam зараз за 300₴ замість 1 200₴. У топі Steam: №23 за продажами, №92 за онлайном. Гарний момент забрати 🎮",
+   "ru": "Resident Evil 4 в Steam сейчас за 300₴ вместо 1 200₴. В топе Steam: №23 по продажам, №92 по онлайну. Хороший момент забрать 🎮",
+   "en": "Resident Evil 4 on Steam is 300₴ instead of 1 200₴ right now. In the Steam charts: #23 bestseller, #92 most played. A good moment to grab it 🎮",
+   "sk": "Resident Evil 4 v Steam je teraz za 300₴ namiesto 1 200₴. V rebríčku Steam: #23 podľa predajov, #92 podľa online. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/2050650/",
@@ -297,25 +318,34 @@
   "pop": {},
   "meta": null,
   "kind": "deal",
-  "chart_rank": 31,
+  "chart_rank": 23,
   "status": "active",
   "approved_at": "2026-11-02",
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "deal": {
+   "game": "Resident Evil 4",
+   "pct": 75,
+   "old": "1 200₴",
+   "new": "300₴",
+   "store": "Steam",
+   "rank_sales": 23,
+   "rank_play": 92
+  }
  },
  {
   "id": "c23877379a5d",
   "title": {
-   "uk": "Borderlands 3 за 84₴ у Steam: 90% знижки",
-   "ru": "Borderlands 3 за 84₴ в Steam: скидка 90%",
-   "en": "Borderlands 3 for 84₴ on Steam: 90% off",
-   "sk": "Borderlands 3 za 84₴ na Steam: 90% zľava"
+   "uk": "Borderlands 3 −90%",
+   "ru": "Borderlands 3 −90%",
+   "en": "Borderlands 3 −90%",
+   "sk": "Borderlands 3 −90%"
   },
   "text": {
-   "uk": "Borderlands 3 зараз у топ-68 за продажами в Steam і коштує 84₴ замість 849₴ — знижка 90%. 81% позитивних відгуків з 60 403 гравців 🎮",
-   "ru": "Borderlands 3 сейчас в топ-68 по продажам в Steam и стоит 84₴ вместо 849₴ — скидка 90%. 81% положительных отзывов из 60 403 игроков 🎮",
-   "en": "Borderlands 3 is now top-68 by sales on Steam at 84₴ instead of 849₴ — 90% off. 81% positive reviews from 60,403 players 🎮",
-   "sk": "Borderlands 3 je teraz v top-68 podľa predajov na Steame za 84₴ namiesto 849₴ — zľava 90%. 81% pozitívnych recenzií z 60 403 hráčov 🎮"
+   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. У топі Steam: №43 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. В топе Steam: №43 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. In the Steam charts: #43 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. V rebríčku Steam: #43 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/397540/",
@@ -327,25 +357,34 @@
   "pop": {},
   "meta": null,
   "kind": "deal",
-  "chart_rank": 68,
+  "chart_rank": 43,
   "status": "active",
   "approved_at": "2026-11-03",
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "deal": {
+   "game": "Borderlands 3",
+   "pct": 90,
+   "old": "849₴",
+   "new": "84₴",
+   "store": "Steam",
+   "rank_sales": 43,
+   "rank_play": null
+  }
  },
  {
   "id": "4ee55df810f0",
   "title": {
-   "uk": "Metro Exodus: 90% знижка в Epic Games Store",
-   "ru": "Metro Exodus: 90% скидка в Epic Games Store",
-   "en": "Metro Exodus: 90% off on Epic Games Store",
-   "sk": "Metro Exodus: 90% zľava v Epic Games Store"
+   "uk": "Metro Exodus Standard Edition −90%",
+   "ru": "Metro Exodus Standard Edition −90%",
+   "en": "Metro Exodus Standard Edition −90%",
+   "sk": "Metro Exodus Standard Edition −90%"
   },
   "text": {
-   "uk": "Metro Exodus Standard Edition зараз зі знижкою 90% у Epic Games Store: було 799₴, стало 80₴, гра в топ-90 за продажами в магазині 🎮🚂",
-   "ru": "Metro Exodus Standard Edition сейчас со скидкой 90% в Epic Games Store: было 799₴, стало 80₴, игра в топ-90 по продажам в магазине 🎮🚂",
-   "en": "Metro Exodus Standard Edition is 90% off on Epic Games Store: was 799₴, now 80₴, currently top-90 by sales in the store 🎮🚂",
-   "sk": "Metro Exodus Standard Edition je teraz so zľavou 90% v Epic Games Store: bolo 799₴, teraz 80₴, hra je v top-90 podľa predajov v obchode 🎮🚂"
+   "uk": "Metro Exodus Standard Edition у Epic Games Store зараз за 80₴ замість 799₴. У топі Epic Games Store: №90 за продажами. Гарний момент забрати 🎮",
+   "ru": "Metro Exodus Standard Edition в Epic Games Store сейчас за 80₴ вместо 799₴. В топе Epic Games Store: №90 по продажам. Хороший момент забрать 🎮",
+   "en": "Metro Exodus Standard Edition on Epic Games Store is 80₴ instead of 799₴ right now. In the Epic Games Store charts: #90 bestseller. A good moment to grab it 🎮",
+   "sk": "Metro Exodus Standard Edition v Epic Games Store je teraz za 80₴ namiesto 799₴. V rebríčku Epic Games Store: #90 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.epicgames.com/p/metro-exodus",
@@ -361,7 +400,15 @@
   "status": "active",
   "approved_at": "2026-11-03",
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "deal": {
+   "game": "Metro Exodus Standard Edition",
+   "pct": 90,
+   "old": "799₴",
+   "new": "80₴",
+   "store": "Epic Games Store",
+   "rank_sales": 90
+  }
  },
  {
   "id": "369166500235",
@@ -396,16 +443,16 @@
  {
   "id": "13c72ea36348",
   "title": {
-   "uk": "Borderlands 2: 90% знижки в Steam",
-   "ru": "Borderlands 2: 90% скидка в Steam",
-   "en": "Borderlands 2: 90% off on Steam",
-   "sk": "Borderlands 2: 90% zľava na Steam"
+   "uk": "Borderlands 2 −90%",
+   "ru": "Borderlands 2 −90%",
+   "en": "Borderlands 2 −90%",
+   "sk": "Borderlands 2 −90%"
   },
   "text": {
-   "uk": "90% знижка на Borderlands 2: було 389₴, стало 38₴ у Steam. Гра зараз у топ-100 за продажами в Steam, 90% позитивних відгуків з 123165 рецензій 🎮🔥",
-   "ru": "90% скидка на Borderlands 2: было 389₴, стало 38₴ в Steam. Игра сейчас в топ-100 по продажам в Steam, 90% положительных отзывов из 123165 рецензий 🎮🔥",
-   "en": "90% off Borderlands 2: was 389₴, now 38₴ on Steam. The game is currently in the top 100 by sales on Steam, with 90% positive reviews from 123,165 reviews 🎮🔥",
-   "sk": "90% zľava na Borderlands 2: bolo 389₴, teraz 38₴ na Steam. Hra je momentálne v top-100 podľa predajov na Steam, 90% pozitívnych recenzií z 123165 hodnôt 🎮🔥"
+   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №77 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №77 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #77 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #77 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/49520/",
@@ -417,10 +464,19 @@
   "pop": {},
   "meta": null,
   "kind": "deal",
-  "chart_rank": 100,
+  "chart_rank": 77,
   "status": "active",
   "approved_at": "2026-11-03",
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "deal": {
+   "game": "Borderlands 2",
+   "pct": 90,
+   "old": "389₴",
+   "new": "38₴",
+   "store": "Steam",
+   "rank_sales": 77,
+   "rank_play": null
+  }
  }
 ]
