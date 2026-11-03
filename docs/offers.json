@@ -198,16 +198,16 @@
  {
   "id": "dd9aede050cd",
   "title": {
-   "uk": "Dying Light: 90% знижки в Steam",
-   "ru": "Dying Light: 90% скидка в Steam",
-   "en": "Dying Light: 90% off on Steam",
-   "sk": "Dying Light: 90% zľava na Steam"
+   "uk": "Dying Light −90%",
+   "ru": "Dying Light −90%",
+   "en": "Dying Light −90%",
+   "sk": "Dying Light −90%"
   },
   "text": {
-   "uk": "Отримуєш Dying Light за 65₴ замість 659₴ у Steam — 90% знижки. Гра зараз у топ-90 за продажами в Steam, 94% позитивних відгуків з 99896 оцінок 🎮🧟",
-   "ru": "Получаешь Dying Light за 65₴ вместо 659₴ в Steam — 90% скидка. Игра сейчас в топ-90 по продажам в Steam, 94% положительных отзывов из 99896 оценок 🎮🧟",
-   "en": "Get Dying Light for 65₴ instead of 659₴ on Steam — 90% off. The game is currently in the top-90 by sales on Steam, with 94% positive reviews from 99,896 ratings 🎮🧟",
-   "sk": "Získaj Dying Light za 65₴ namiesto 659₴ na Steam — 90% zľava. Hra je momentálne v top-90 podľa predajov na Steam, 94% pozitívnych recenzií z 99896 hodnutí 🎮🧟"
+   "uk": "Dying Light у Steam зараз за 65₴ замість 659₴. Гарний момент забрати 🎮",
+   "ru": "Dying Light в Steam сейчас за 65₴ вместо 659₴. Хороший момент забрать 🎮",
+   "en": "Dying Light on Steam is 65₴ instead of 659₴ right now. A good moment to grab it 🎮",
+   "sk": "Dying Light v Steam je teraz za 65₴ namiesto 659₴. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/239140/",
@@ -224,21 +224,30 @@
   "chart_rank": 91,
   "fails": 0,
   "miss": 0,
-  "miss_p": 0
+  "miss_p": 0,
+  "deal": {
+   "game": "Dying Light",
+   "pct": 90,
+   "old": "659₴",
+   "new": "65₴",
+   "store": "Steam",
+   "rank_sales": null,
+   "rank_play": null
+  }
  },
  {
   "id": "af2c2a4d25dd",
   "title": {
-   "uk": "Dying Light 2: Reloaded Edition — 80% знижки в Steam",
-   "ru": "Dying Light 2: Reloaded Edition — скидка 80% в Steam",
-   "en": "Dying Light 2: Reloaded Edition — 80% off on Steam",
-   "sk": "Dying Light 2: Reloaded Edition — 80% zľava na Steame"
+   "uk": "Dying Light 2 Stay Human: Reloaded Edition −80%",
+   "ru": "Dying Light 2 Stay Human: Reloaded Edition −80%",
+   "en": "Dying Light 2 Stay Human: Reloaded Edition −80%",
+   "sk": "Dying Light 2 Stay Human: Reloaded Edition −80%"
   },
   "text": {
-   "uk": "У Steam Dying Light 2 Stay Human: Reloaded Edition зараз у топ-95 за продажами: знижка 80%, ціна падає з 1 599₴ до 319₴, 77% позитивних відгуків з 69 533 рецензій 🎮🧟",
-   "ru": "В Steam Dying Light 2 Stay Human: Reloaded Edition сейчас в топ-95 по продажам: скидка 80%, цена с 1 599₴ до 319₴, 77% положительных отзывов из 69 533 🎮🧟",
-   "en": "On Steam Dying Light 2 Stay Human: Reloaded Edition is now top-95 by sales: 80% off, price drops from 1 599₴ to 319₴, 77% positive reviews from 69,533 🎮🧟",
-   "sk": "Na Steame je Dying Light 2 Stay Human: Reloaded Edition v top-95 podľa predajov: zľava 80%, cena klesá z 1 599₴ na 319₴, 77% pozitívnych recenzií z 69 533 🎮🧟"
+   "uk": "Dying Light 2 Stay Human: Reloaded Edition у Steam зараз за 319₴ замість 1 599₴. Гарний момент забрати 🎮",
+   "ru": "Dying Light 2 Stay Human: Reloaded Edition в Steam сейчас за 319₴ вместо 1 599₴. Хороший момент забрать 🎮",
+   "en": "Dying Light 2 Stay Human: Reloaded Edition on Steam is 319₴ instead of 1 599₴ right now. A good moment to grab it 🎮",
+   "sk": "Dying Light 2 Stay Human: Reloaded Edition v Steam je teraz za 319₴ namiesto 1 599₴. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/534380/",
@@ -255,7 +264,16 @@
   "chart_rank": 95,
   "fails": 0,
   "miss": 0,
-  "miss_p": 0
+  "miss_p": 0,
+  "deal": {
+   "game": "Dying Light 2 Stay Human: Reloaded Edition",
+   "pct": 80,
+   "old": "1 599₴",
+   "new": "319₴",
+   "store": "Steam",
+   "rank_sales": null,
+   "rank_play": null
+  }
  },
  {
   "id": "c23877379a5d",
@@ -339,16 +357,16 @@
  {
   "id": "369166500235",
   "title": {
-   "uk": "Assassin's Creed Odyssey — 80% знижки в Steam",
-   "ru": "Assassin's Creed Odyssey — 80% скидка в Steam",
-   "en": "Assassin's Creed Odyssey — 80% off on Steam",
-   "sk": "Assassin's Creed Odyssey — 80% zľava na Steam"
+   "uk": "Assassin's Creed® Odyssey −80%",
+   "ru": "Assassin's Creed® Odyssey −80%",
+   "en": "Assassin's Creed® Odyssey −80%",
+   "sk": "Assassin's Creed® Odyssey −80%"
   },
   "text": {
-   "uk": "Знижка 80%: було 915₴, стало 183₴ у Steam. Гра в топ-93 по продажах у Steam. Оцінка 89% позитивних з 60 508 відгуків. 🎮",
-   "ru": "Скидка 80%: было 915₴, стало 183₴ в Steam. Игра в топ-93 по продажам в Steam. Оценка 89% положительных из 60 508 отзывов. 🎮",
-   "en": "80% off: was 915₴, now 183₴ on Steam. Game is in top-93 by sales on Steam. 89% positive from 60,508 reviews. 🎮",
-   "sk": "Zľava 80%: bolo 915₴, teraz 183₴ na Steam. Hra je v top-93 podľa predajov na Steam. 89% pozitívnych z 60 508 recenzií. 🎮"
+   "uk": "Assassin's Creed® Odyssey у Steam зараз за 183₴ замість 915₴. Гарний момент забрати 🎮",
+   "ru": "Assassin's Creed® Odyssey в Steam сейчас за 183₴ вместо 915₴. Хороший момент забрать 🎮",
+   "en": "Assassin's Creed® Odyssey on Steam is 183₴ instead of 915₴ right now. A good moment to grab it 🎮",
+   "sk": "Assassin's Creed® Odyssey v Steam je teraz za 183₴ namiesto 915₴. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/812140/",
@@ -365,7 +383,16 @@
   "approved_at": "2026-11-03",
   "fails": 0,
   "miss": 0,
-  "miss_p": 0
+  "miss_p": 0,
+  "deal": {
+   "game": "Assassin's Creed® Odyssey",
+   "pct": 80,
+   "old": "915₴",
+   "new": "183₴",
+   "store": "Steam",
+   "rank_sales": null,
+   "rank_play": null
+  }
  },
  {
   "id": "13c72ea36348",
