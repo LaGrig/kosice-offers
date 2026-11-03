@@ -296,5 +296,113 @@
   "status": "active",
   "approved_at": "2026-11-02",
   "fails": 0
+ },
+ {
+  "id": "c23877379a5d",
+  "title": {
+   "uk": "Borderlands 3 за 84₴ у Steam: 90% знижки",
+   "ru": "Borderlands 3 за 84₴ в Steam: скидка 90%",
+   "en": "Borderlands 3 for 84₴ on Steam: 90% off",
+   "sk": "Borderlands 3 za 84₴ na Steam: 90% zľava"
+  },
+  "text": {
+   "uk": "Borderlands 3 зараз у топ-68 за продажами в Steam і коштує 84₴ замість 849₴ — знижка 90%. 81% позитивних відгуків з 60 403 гравців 🎮",
+   "ru": "Borderlands 3 сейчас в топ-68 по продажам в Steam и стоит 84₴ вместо 849₴ — скидка 90%. 81% положительных отзывов из 60 403 игроков 🎮",
+   "en": "Borderlands 3 is now top-68 by sales on Steam at 84₴ instead of 849₴ — 90% off. 81% positive reviews from 60,403 players 🎮",
+   "sk": "Borderlands 3 je teraz v top-68 podľa predajov na Steame za 84₴ namiesto 849₴ — zľava 90%. 81% pozitívnych recenzií z 60 403 hráčov 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/397540/",
+  "source": "steam-chart",
+  "found_at": "2026-11-03",
+  "expires_at": null,
+  "score": 100,
+  "worth": 849.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 68,
+  "status": "pending"
+ },
+ {
+  "id": "4ee55df810f0",
+  "title": {
+   "uk": "Metro Exodus: 90% знижка в Epic Games Store",
+   "ru": "Metro Exodus: 90% скидка в Epic Games Store",
+   "en": "Metro Exodus: 90% off on Epic Games Store",
+   "sk": "Metro Exodus: 90% zľava v Epic Games Store"
+  },
+  "text": {
+   "uk": "Metro Exodus Standard Edition зараз зі знижкою 90% у Epic Games Store: було 799₴, стало 80₴, гра в топ-90 за продажами в магазині 🎮🚂",
+   "ru": "Metro Exodus Standard Edition сейчас со скидкой 90% в Epic Games Store: было 799₴, стало 80₴, игра в топ-90 по продажам в магазине 🎮🚂",
+   "en": "Metro Exodus Standard Edition is 90% off on Epic Games Store: was 799₴, now 80₴, currently top-90 by sales in the store 🎮🚂",
+   "sk": "Metro Exodus Standard Edition je teraz so zľavou 90% v Epic Games Store: bolo 799₴, teraz 80₴, hra je v top-90 podľa predajov v obchode 🎮🚂"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/metro-exodus",
+  "source": "epic-charts",
+  "found_at": "2026-11-03",
+  "expires_at": null,
+  "score": 100,
+  "worth": 799.43,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 90,
+  "status": "pending"
+ },
+ {
+  "id": "369166500235",
+  "title": {
+   "uk": "Assassin's Creed Odyssey — 80% знижки в Steam",
+   "ru": "Assassin's Creed Odyssey — 80% скидка в Steam",
+   "en": "Assassin's Creed Odyssey — 80% off on Steam",
+   "sk": "Assassin's Creed Odyssey — 80% zľava na Steam"
+  },
+  "text": {
+   "uk": "Знижка 80%: було 915₴, стало 183₴ у Steam. Гра в топ-93 по продажах у Steam. Оцінка 89% позитивних з 60 508 відгуків. 🎮",
+   "ru": "Скидка 80%: было 915₴, стало 183₴ в Steam. Игра в топ-93 по продажам в Steam. Оценка 89% положительных из 60 508 отзывов. 🎮",
+   "en": "80% off: was 915₴, now 183₴ on Steam. Game is in top-93 by sales on Steam. 89% positive from 60,508 reviews. 🎮",
+   "sk": "Zľava 80%: bolo 915₴, teraz 183₴ na Steam. Hra je v top-93 podľa predajov na Steam. 89% pozitívnych z 60 508 recenzií. 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/812140/",
+  "source": "steam-chart",
+  "found_at": "2026-11-03",
+  "expires_at": null,
+  "score": 100,
+  "worth": 915.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 93,
+  "status": "pending"
+ },
+ {
+  "id": "13c72ea36348",
+  "title": {
+   "uk": "Borderlands 2: 90% знижки в Steam",
+   "ru": "Borderlands 2: 90% скидка в Steam",
+   "en": "Borderlands 2: 90% off on Steam",
+   "sk": "Borderlands 2: 90% zľava na Steam"
+  },
+  "text": {
+   "uk": "90% знижка на Borderlands 2: було 389₴, стало 38₴ у Steam. Гра зараз у топ-100 за продажами в Steam, 90% позитивних відгуків з 123165 рецензій 🎮🔥",
+   "ru": "90% скидка на Borderlands 2: было 389₴, стало 38₴ в Steam. Игра сейчас в топ-100 по продажам в Steam, 90% положительных отзывов из 123165 рецензий 🎮🔥",
+   "en": "90% off Borderlands 2: was 389₴, now 38₴ on Steam. The game is currently in the top 100 by sales on Steam, with 90% positive reviews from 123,165 reviews 🎮🔥",
+   "sk": "90% zľava na Borderlands 2: bolo 389₴, teraz 38₴ na Steam. Hra je momentálne v top-100 podľa predajov na Steam, 90% pozitívnych recenzií z 123165 hodnôt 🎮🔥"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/49520/",
+  "source": "steam-chart",
+  "found_at": "2026-11-03",
+  "expires_at": null,
+  "score": 100,
+  "worth": 389.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 100,
+  "status": "pending"
  }
 ]
