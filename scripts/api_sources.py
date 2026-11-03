@@ -1,5 +1,6 @@
 import re, time, datetime as dt, requests
 from common import offer_id, CFG
+from givefmt import give_info
 
 UA = {'User-Agent': 'Mozilla/5.0 (kosice-offers-bot)'}
 EPIC_COUNTRY = 'UA'
@@ -41,7 +42,8 @@ def fetch_epic():
         summary = ('Epic Games Store: бесплатная раздача игры ' + e.get('title', '') + '. Обычная цена ' + orig
                    + '. Бесплатно до ' + end + ' (UTC). ' + (e.get('description') or '')[:300])
         out.append({'id': offer_id(link), 'title': e.get('title', ''), 'summary': summary,
-                    'link': link, 'source': 'epic-games', 'expires_at': end, 'worth': ow})
+                    'link': link, 'source': 'epic-games', 'expires_at': end, 'worth': ow,
+                    'give': {'game': e.get('title', ''), 'store': 'Epic Games Store', 'price': orig, 'until': end}})
     return out
 
 def fetch_gamerpower():
@@ -93,7 +95,8 @@ def fetch_gamerpower():
         summary = (plats + ': бесплатная раздача ' + g.get('title', '') + ' (обычная цена ' + worth + '). Бесплатно '
                    + note + '. ' + (g.get('description') or '')[:300] + ' ' + (g.get('instructions') or '')[:300])
         out.append({'id': offer_id(link), 'title': g.get('title', ''), 'summary': summary,
-                    'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv, 'users': g.get('users')})
+                    'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv, 'users': g.get('users'),
+                    'give': give_info(g, plats, worth, note, end)})
     return out
 
 DEAL_UA = {'User-Agent': 'kosice-offers-bot (+https://github.com/LaGrig/kosice-offers)'}

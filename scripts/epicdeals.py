@@ -64,7 +64,8 @@ def _fetch_raw():
                        + _money(o, cur) + ', стала ' + _money(d, cur) + '. Срок окончания скидки в данных не указан.')
             out.append({'id': offer_id(link + '|' + _money(d, cur)), 'title': e.get('title', ''), 'summary': summary, 'link': link,
                         'source': 'epic-deals', 'expires_at': None, 'worth': o, 'kind': 'deal', 'store': 'Epic Games Store', 'popular': True,
-                        'steam_app': None, 'steam_pct': 0, 'steam_reviews': 0, 'metacritic': 0, 'saved': o - d, 'epic_id': e.get('id')})
+                        'steam_app': None, 'steam_pct': 0, 'steam_reviews': 0, 'metacritic': 0, 'saved': o - d, 'epic_id': e.get('id'),
+                        'deal': {'game': e.get('title', ''), 'pct': pct, 'old': _money(o, cur), 'new': _money(d, cur), 'store': 'Epic Games Store'}})
         start += len(els)
         if start >= ((st.get('paging') or {}).get('total') or 10 ** 9):
             break
@@ -72,10 +73,10 @@ def _fetch_raw():
     out.sort(key=lambda x: -x['saved'])
     return out
 
-def fetch_epic_deals():
+def fetch_epic_deals(ttl=3 * 3600):
     try:
         d = json.loads(CACHE.read_text(encoding='utf-8'))
-        if time.time() - d['ts'] < 3 * 3600:
+        if time.time() - d['ts'] < ttl:
             return d['items']
     except Exception:
         pass

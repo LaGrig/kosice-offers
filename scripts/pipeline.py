@@ -7,6 +7,7 @@ from popularity import signals
 from steam_signal import steam_signal, steam_strong
 from textfix import clean_post
 from dealrules import deal_quality_ok
+from dealtext import deal_post
 import api_sources
 from autolog import log_auto_reject
 
@@ -34,6 +35,13 @@ def process(item, today_s, force=False):
         return None, 'ссылка не открывается'
     if item.get('kind') not in ('demo', 'playtest', 'beta') and not steam_ok(item['link'] + ' ' + item['summary']):
         return None, 'Steam: не игра или набор'
+    if item.get('kind') == 'deal' and item.get('deal'):
+        post = deal_post(item)
+        auto = CFG['auto_publish'] or (item.get('chart_rank') and CFG.get('deals', {}).get('auto_chart'))
+        return {'id': item['id'], 'title': post['title'], 'text': post['text'], 'category': 'games', 'link': item['link'],
+                'source': item['source'], 'found_at': today_s, 'expires_at': None, 'score': 90, 'worth': item.get('worth'),
+                'pop': {}, 'meta': None, 'kind': 'deal', 'chart_rank': item.get('chart_rank'), 'deal': item['deal'],
+                'status': 'active' if auto else 'pending'}, 'ok'
     facts = dict(item)
     for k in ('category', 'expires_at', 'free', 'note'):
         facts[k] = s.get(k)
@@ -73,7 +81,7 @@ def process(item, today_s, force=False):
         'id': item['id'], 'title': post['title'], 'text': post['text'],
         'category': s.get('category', 'other'), 'link': item['link'],
         'source': item['source'], 'found_at': today_s, 'expires_at': exp,
-        'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'), 'chart_rank': item.get('chart_rank'),
+        'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'), 'chart_rank': item.get('chart_rank'), 'give': item.get('give'),
         'status': 'active' if (CFG['auto_publish'] or (item.get('chart_rank') and CFG.get('deals', {}).get('auto_chart'))) else 'pending',
     }
     return offer, 'ok'

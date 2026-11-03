@@ -102,7 +102,8 @@ def chart_deals():
         out.append({'id': offer_id(link + '|' + str(p['final'])), 'title': name, 'summary': summary, 'link': link, 'source': 'steam-chart',
                     'expires_at': None, 'worth': p['initial'] / 100, 'kind': 'deal', 'store': 'Steam', 'steam_app': str(app),
                     'steam_pct': pct, 'steam_reviews': n, 'metacritic': 0, 'saved': (p['initial'] - p['final']) / 100,
-                    'chart_rank': min(x for x in (rp, rs) if x)})
+                    'chart_rank': min(x for x in (rp, rs) if x),
+                    'deal': {'game': name, 'pct': p['discount_percent'], 'old': p.get('initial_formatted', ''), 'new': p.get('final_formatted', ''), 'store': 'Steam', 'rank_sales': rs, 'rank_play': rp}})
     out.sort(key=lambda x: x['chart_rank'])
     return out
 

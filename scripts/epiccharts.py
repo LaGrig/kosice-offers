@@ -27,6 +27,7 @@ def epic_chart_deals():
         if rk:
             it = dict(it)
             it['chart_rank'] = rk
+            it['deal'] = dict(it.get('deal') or {}, rank_sales=rk)
             it['source'] = 'epic-charts'
             it['summary'] = it['summary'].replace('. Цена', '. Игра сейчас в топ-' + str(rk) + ' по продажам в Epic Games Store. Цена', 1)
             out.append(it)

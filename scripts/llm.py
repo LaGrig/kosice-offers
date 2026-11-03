@@ -43,6 +43,8 @@ def ask_llm(role, payload, retries=1, models=None):
                 time.sleep(CFG.get('llm_pause', 4))
                 out, code, err = call(model, role, payload)
                 if out is not None:
+                    with open(str(Path(__file__).resolve().parent.parent / 'data' / 'llm_usage.jsonl'), 'a', encoding='utf-8') as f:
+                        f.write(json.dumps({'ts': time.strftime('%F %T'), 'role': role, 'model': model}) + '\n')
                     return out
                 print('LLM', role, model, code, err)
                 if code == 429 and 'upstream' in str(err):
