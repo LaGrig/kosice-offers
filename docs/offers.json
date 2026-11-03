@@ -323,7 +323,8 @@
   "kind": "deal",
   "chart_rank": 68,
   "status": "active",
-  "approved_at": "2026-11-03"
+  "approved_at": "2026-11-03",
+  "fails": 0
  },
  {
   "id": "4ee55df810f0",
@@ -351,7 +352,8 @@
   "kind": "deal",
   "chart_rank": 90,
   "status": "active",
-  "approved_at": "2026-11-03"
+  "approved_at": "2026-11-03",
+  "fails": 0
  },
  {
   "id": "369166500235",
@@ -379,7 +381,8 @@
   "kind": "deal",
   "chart_rank": 93,
   "status": "active",
-  "approved_at": "2026-11-03"
+  "approved_at": "2026-11-03",
+  "fails": 0
  },
  {
   "id": "13c72ea36348",
@@ -407,6 +410,7 @@
   "kind": "deal",
   "chart_rank": 100,
   "status": "active",
-  "approved_at": "2026-11-03"
+  "approved_at": "2026-11-03",
+  "fails": 0
  }
 ]
