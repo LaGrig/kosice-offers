@@ -82,6 +82,23 @@ function react(id, r, row) {
 const $ = id => document.getElementById(id);
 const fmt = d => d.split('-').reverse().join('/');
 function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+function money(s){ return String(s || '').replace(/^UAH\s*([\d.,]+)$/, (m, x) => Math.round(parseFloat(x.replace(/,/g, ''))) + '₴'); }
+function stateEl(o){
+  const d = o.deal, g = o.give;
+  const row = el('div', 'state');
+  if (d) {
+    row.append(el('b', null, '−' + d.pct + '%'), document.createTextNode(' · '), el('b', null, d.new), document.createTextNode(' '), el('s', null, d.old), document.createTextNode(' · ' + d.store));
+    return row;
+  }
+  if (g) {
+    const p = money(g.price);
+    row.append(el('b', null, p ? '0₴' : (lang === 'ru' ? 'Бесплатно' : lang === 'en' ? 'Free' : lang === 'sk' ? 'Zadarmo' : 'Безкоштовно')));
+    if (p) row.append(document.createTextNode(' '), el('s', null, p));
+    row.append(document.createTextNode(' · ' + g.store));
+    return row;
+  }
+  return null;
+}
 function render(){
   const t = new Date().toISOString().slice(0,10);
   $('hint').textContent = HINT[lang];
@@ -102,6 +119,8 @@ function render(){
   list.forEach(o => {
     const c = el('div', 'card');
     c.append(el('h3', null, o.title[lang] || o.title.en || ''));
+    const st = (o.blurb && o.blurb[lang]) ? stateEl(o) : null;
+    if (st) c.append(st);
     c.append(el('div', null, (o.blurb && o.blurb[lang]) || o.text[lang] || o.text.en || ''));
     if (/^https?:/.test(o.link)) { const a = el('a', 'go', 'Открыть'); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
     const m = el('div', 'meta');

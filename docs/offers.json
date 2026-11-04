@@ -98,10 +98,10 @@
   "approved_at": "2026-10-23",
   "fails": 0,
   "blurb": {
-   "uk": "тут ти за Сару шукаєш батька в місті, що розвалюється від дивних вогнів 🌌",
-   "ru": "тут ты за Сару ищешь отца в городе, который рушится из-за странных огней 🌌",
-   "en": "you play as Sarah searching for her father in a city falling apart from strange lights 🌌",
-   "sk": "tu hraješ za Saru, ktorá hľadá otca v meste rozvrátvanom zvlátnymi svetlami 🌌"
+   "uk": "ти намагаєшся вижити в місті, що руйнується, та шукаєш батька серед дивних вогнів",
+   "ru": "ты пытаешься выжить в разрушающемся городе и ищешь отца среди странных огней",
+   "en": "you fight to survive in a crumbling city and search for your father",
+   "sk": "bojuješ o prežitie v rozpadajúcom sa meste a hľadáš svojho otca"
   }
  },
  {
@@ -167,10 +167,10 @@
    "until": "2026-11-04"
   },
   "blurb": {
-   "uk": "тут виживання від першої особи з реалістичною графікою та складним геймплеєм 🥛",
-   "ru": "тут выживание от первого лица с реалистичной графикой и суровым геймплеем 🥛",
-   "en": "it's a first-person survival game with realistic graphics and tough gameplay 🥛",
-   "sk": "je to survival z prvej osoby s realistickou grafikou a neľutostivým gameplayom 🥛"
+   "uk": "виживання від першої особи з реалістичною графікою та складним геймплеєм",
+   "ru": "выживач от первого лица с реалистичной графикой и суровым геймплеем",
+   "en": "first-person survival with realistic graphics and unforgiving gameplay",
+   "sk": "survival od prvej osoby s realistickou grafikou a neústuplivým gameplayom"
   }
  },
  {
@@ -207,10 +207,10 @@
    "until": "2026-11-05"
   },
   "blurb": {
-   "uk": "тут треба бачити світ очима демонів та ангелів, щоб вижити в цьому хорорі 👁️",
-   "ru": "тут нужно видеть мир глазами демонов и ангелов, чтобы выжить в этом хорроре 👁️",
-   "en": "you have to see through the eyes of demons and angels to survive this horror 👁️",
-   "sk": "tu musíš vidieť svet očami démonov a angelov, aby si v tomto horore prežil 👁️"
+   "uk": "досліджуй світи за допомогою третього ока, розгадуй пазли та стріляй по демонах і ангелах",
+   "ru": "используй третье око, чтобы видеть тайны двух миров, решать загадки и сражаться с монстрами",
+   "en": "use your third eye to see between worlds, solve puzzles and fight demons and angels",
+   "sk": "používaj tretie oko na odhalovanie tajomných svetov, riešenie hádaniek a boj s démonmi"
   }
  },
  {
@@ -253,10 +253,10 @@
    "rank_play": null
   },
   "blurb": {
-   "uk": "виживай у місті з зомбі, шукай ресурси та крафти зброю 🧟",
-   "ru": "выживаешь в городе с зомби, ищешь ресурсы и крафтишь оружие 🧟",
-   "en": "survive in a zombie city, scavenge for supplies and craft weapons 🧟",
-   "sk": "prežij v meste plnom zombikov, hľadaj zdroje a crafti zbrane 🧟"
+   "uk": "Виживаєш у місті з зомбі, шукаєш ресурси та крафтиш зброю, щоб відбитися",
+   "ru": "Выживаешь в городе с зомби, ищешь ресурсы и крафтишь оружие, чтобы отбиться",
+   "en": "You survive in a zombie city, scavenge for supplies and craft weapons to fight back",
+   "sk": "Prežívaš v meste s zombíkmi, hľadáš zdroje a craftíš zbrane, aby si sa ubranil"
   }
  },
  {
@@ -299,10 +299,10 @@
    "rank_play": null
   },
   "blurb": {
-   "uk": "тут треба виживати серед зомбі, стрибати по дахах і боятися ночі 🌃",
-   "ru": "тут надо выживать среди зомби, прыгать по крышам и бояться ночи 🌃",
-   "en": "you survive zombie hordes using parkour and try to stay safe at night 🌃",
-   "sk": "tu prežieš medzi zombiemi vďaka parkouru, ale v noci si dávaj pozor 🌃"
+   "uk": "бігаєш по місту з паркуром та б'єшся з зомбі, але вночі стає набагато страшніше",
+   "ru": "бегаешь по городу с паркуром и сражаешься с зомби, но ночью становится намного опаснее",
+   "en": "use parkour and combat to survive zombie hordes in a city that changes at night",
+   "sk": "behaj po meste s parkourom a bojuj s zombiemi, no v noci sú oveľa nebezpečnejší"
   }
  },
  {
@@ -345,10 +345,10 @@
   },
   "miss_p": 0,
   "blurb": {
-   "uk": "тут купа пушок і хаос на нових планетах, вибирай собі мисливця 🔫",
-   "ru": "тут куча пушек и хаос на новых планетах, выбирай себе охотника 🔫",
-   "en": "tons of guns and mayhem across new worlds, just pick your hunter 🔫",
-   "sk": "je tu kopa zbraní a chaos na nových planetách, vyber si lovca 🔫"
+   "uk": "Стріляй по ворогах на нових світах, збирай купу пушок та обирай свого мисливця",
+   "ru": "Стреляй по врагам в разных мирах, собирай горы пушек и выбирай своего охотника",
+   "en": "Blast through new worlds, collect tons of guns and pick your vault hunter",
+   "sk": "Strieľaj na nepriateľov v nových svetoch, zbieraj hory zbraní a vyber si svojho lovca"
   }
  },
  {
@@ -390,10 +390,10 @@
   },
   "miss_p": 0,
   "blurb": {
-   "uk": "вибираєшся з метро та подорожуєш засніженими руїнами світу, виживаючи як можеш ❄️",
-   "ru": "выбираешься из метро и путешествуешь по заброшенным землям, выживая в открытом мире ☢️",
-   "en": "you leave the metro to travel across the post-apocalyptic wilderness in a survival story 🌲",
-   "sk": "opustíš metro a prežívaš v postapokalyptickej divočine v príbehu o cestovaní 🎒"
+   "uk": "Покидаєш московське метро і подорожуєш постапокаліптичними пустками в пошуках нових домівок",
+   "ru": "Покидаешь московское метро и отправляешься в долгое путешествие по постапокалиптическим пустошам",
+   "en": "Leave the Moscow Metro behind and travel across the post-apocalyptic wilderness in a survival story",
+   "sk": "Opustíš moskovské metro a vyrazíš na dlhú cestu pustinami po apokalypse"
   }
  },
  {
@@ -436,10 +436,10 @@
    "rank_play": null
   },
   "blurb": {
-   "uk": "поплаваєш по Стародавній Греції, поб'єшся і дізнаєшся таємниці свого минулого ⛵",
-   "ru": "поплаваешь по Древней Греции, подерешься и раскроешь тайны своего прошлого ⛵",
-   "en": "you'll sail Ancient Greece, fight battles and uncover secrets of your past ⛵",
-   "sk": "poplaváš po starovekej Grécii, pobiješ sa a odhalíš tajomstvá svojej minulosti ⛵"
+   "uk": "відправляйся в Стародавню Грецію, щоб змінити її долю та розкрити таємниці свого минулого",
+   "ru": "отправляйся в Древнюю Грецию, чтобы изменить её судьбу и раскрыть тайны своего прошлого",
+   "en": "sail to Ancient Greece to change its fate and uncover secrets of your past",
+   "sk": "pluj do starovekého Grécka, aby si zmenil jeho osud a odhalil tajomstvá svojej minulosti"
   }
  },
  {
@@ -482,10 +482,10 @@
   },
   "miss_p": 0,
   "blurb": {
-   "uk": "тут можна максимально прокачати свого мисливця за сховищами 🤠",
-   "ru": "тут можно выжать максимум из своего охотника за хранилищами 🤠",
-   "en": "it lets you get the most out of your vault hunter experience 🤠",
-   "sk": "tu si môžeš vyviesť svojho lovcu klenotov do maxu 🤠"
+   "uk": "це оновлення допоможе тобі витиснути максимум з пригод мисливця за сховищем",
+   "ru": "это обновление поможет тебе получить максимум от приключений охотника за хранилищем",
+   "en": "this upgrade lets you get the most out of your vault hunter experience",
+   "sk": "táto aktualizácia ti pomôže vyvringovať maximum z dobrodružstiev lovca úkryvov"
   }
  },
  {
@@ -527,10 +527,10 @@
   "fails": 0,
   "miss": 0,
   "blurb": {
-   "uk": "тут треба рятувати Вашингтон, створювати агента та стріляти в команді з друзями 🔫",
-   "ru": "будем спасать Вашингтон, прокачивать агента и перестреливаться в укрытиях с друзьями 🔫",
-   "en": "you get to save D.C., build your agent and fight in a team with friends 🔫",
-   "sk": "budeme záchraniť Washington, vylepšovať agenta a spolu s kamočmi bojovať v krytovaniu 🔫"
+   "uk": "Тактичний шутер у відкритому світі, де ти разом з друзями рятуєш Вашингтон",
+   "ru": "Тактический шутер в открытом мире, где ты с друзьями спасаешь Вашингтон",
+   "en": "Tactical open world shooter where you and your friends save Washington, D.C.",
+   "sk": "Taktický shooter v otvorenom svete, kde s kamarátmi záchraníš Washington"
   }
  }
 ]
