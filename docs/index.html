@@ -102,7 +102,7 @@ function render(){
   list.forEach(o => {
     const c = el('div', 'card');
     c.append(el('h3', null, o.title[lang] || o.title.en || ''));
-    c.append(el('div', null, o.text[lang] || o.text.en || ''));
+    c.append(el('div', null, (o.blurb && o.blurb[lang]) || o.text[lang] || o.text.en || ''));
     if (/^https?:/.test(o.link)) { const a = el('a', 'go', 'Открыть'); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
     const m = el('div', 'meta');
     m.append(el('span', null, o.expires_at ? ('до ' + fmt(o.expires_at)) : (o.kind === 'deal' ? 'срок скидки не указан' : 'без срока')));

@@ -96,7 +96,13 @@
   "pop": {},
   "status": "active",
   "approved_at": "2026-10-23",
-  "fails": 0
+  "fails": 0,
+  "blurb": {
+   "uk": "тут ти за Сару шукаєш батька в місті, що розвалюється від дивних вогнів 🌌",
+   "ru": "тут ты за Сару ищешь отца в городе, который рушится из-за странных огней 🌌",
+   "en": "you play as Sarah searching for her father in a city falling apart from strange lights 🌌",
+   "sk": "tu hraješ za Saru, ktorá hľadá otca v meste rozvrátvanom zvlátnymi svetlami 🌌"
+  }
  },
  {
   "id": "f42f23fcb036",
@@ -159,6 +165,12 @@
    "store": "itch.io",
    "price": "$10.00",
    "until": "2026-11-04"
+  },
+  "blurb": {
+   "uk": "тут виживання від першої особи з реалістичною графікою та складним геймплеєм 🥛",
+   "ru": "тут выживание от первого лица с реалистичной графикой и суровым геймплеем 🥛",
+   "en": "it's a first-person survival game with realistic graphics and tough gameplay 🥛",
+   "sk": "je to survival z prvej osoby s realistickou grafikou a neľutostivým gameplayom 🥛"
   }
  },
  {
@@ -193,6 +205,12 @@
    "store": "Epic Games Store",
    "price": "UAH 459.00",
    "until": "2026-11-05"
+  },
+  "blurb": {
+   "uk": "тут треба бачити світ очима демонів та ангелів, щоб вижити в цьому хорорі 👁️",
+   "ru": "тут нужно видеть мир глазами демонов и ангелов, чтобы выжить в этом хорроре 👁️",
+   "en": "you have to see through the eyes of demons and angels to survive this horror 👁️",
+   "sk": "tu musíš vidieť svet očami démonov a angelov, aby si v tomto horore prežil 👁️"
   }
  },
  {
@@ -233,6 +251,12 @@
    "store": "Steam",
    "rank_sales": null,
    "rank_play": null
+  },
+  "blurb": {
+   "uk": "виживай у місті з зомбі, шукай ресурси та крафти зброю 🧟",
+   "ru": "выживаешь в городе с зомби, ищешь ресурсы и крафтишь оружие 🧟",
+   "en": "survive in a zombie city, scavenge for supplies and craft weapons 🧟",
+   "sk": "prežij v meste plnom zombikov, hľadaj zdroje a crafti zbrane 🧟"
   }
  },
  {
@@ -273,6 +297,12 @@
    "store": "Steam",
    "rank_sales": null,
    "rank_play": null
+  },
+  "blurb": {
+   "uk": "тут треба виживати серед зомбі, стрибати по дахах і боятися ночі 🌃",
+   "ru": "тут надо выживать среди зомби, прыгать по крышам и бояться ночи 🌃",
+   "en": "you survive zombie hordes using parkour and try to stay safe at night 🌃",
+   "sk": "tu prežieš medzi zombiemi vďaka parkouru, ale v noci si dávaj pozor 🌃"
   }
  },
  {
@@ -313,7 +343,13 @@
    "rank_sales": 44,
    "rank_play": null
   },
-  "miss_p": 0
+  "miss_p": 0,
+  "blurb": {
+   "uk": "тут купа пушок і хаос на нових планетах, вибирай собі мисливця 🔫",
+   "ru": "тут куча пушек и хаос на новых планетах, выбирай себе охотника 🔫",
+   "en": "tons of guns and mayhem across new worlds, just pick your hunter 🔫",
+   "sk": "je tu kopa zbraní a chaos na nových planetách, vyber si lovca 🔫"
+  }
  },
  {
   "id": "4ee55df810f0",
@@ -352,7 +388,13 @@
    "store": "Epic Games Store",
    "rank_sales": 61
   },
-  "miss_p": 0
+  "miss_p": 0,
+  "blurb": {
+   "uk": "вибираєшся з метро та подорожуєш засніженими руїнами світу, виживаючи як можеш ❄️",
+   "ru": "выбираешься из метро и путешествуешь по заброшенным землям, выживая в открытом мире ☢️",
+   "en": "you leave the metro to travel across the post-apocalyptic wilderness in a survival story 🌲",
+   "sk": "opustíš metro a prežívaš v postapokalyptickej divočine v príbehu o cestovaní 🎒"
+  }
  },
  {
   "id": "369166500235",
@@ -392,6 +434,12 @@
    "store": "Steam",
    "rank_sales": null,
    "rank_play": null
+  },
+  "blurb": {
+   "uk": "поплаваєш по Стародавній Греції, поб'єшся і дізнаєшся таємниці свого минулого ⛵",
+   "ru": "поплаваешь по Древней Греции, подерешься и раскроешь тайны своего прошлого ⛵",
+   "en": "you'll sail Ancient Greece, fight battles and uncover secrets of your past ⛵",
+   "sk": "poplaváš po starovekej Grécii, pobiješ sa a odhalíš tajomstvá svojej minulosti ⛵"
   }
  },
  {
@@ -403,10 +451,10 @@
    "sk": "Borderlands 2 −90%"
   },
   "text": {
-   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №71 за продажами. Гарний момент забрати 🎮",
-   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №71 по продажам. Хороший момент забрать 🎮",
-   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #71 bestseller. A good moment to grab it 🎮",
-   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #71 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №73 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №73 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #73 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #73 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/49520/",
@@ -429,10 +477,16 @@
    "old": "389₴",
    "new": "38₴",
    "store": "Steam",
-   "rank_sales": 71,
+   "rank_sales": 73,
    "rank_play": null
   },
-  "miss_p": 0
+  "miss_p": 0,
+  "blurb": {
+   "uk": "тут можна максимально прокачати свого мисливця за сховищами 🤠",
+   "ru": "тут можно выжать максимум из своего охотника за хранилищами 🤠",
+   "en": "it lets you get the most out of your vault hunter experience 🤠",
+   "sk": "tu si môžeš vyviesť svojho lovcu klenotov do maxu 🤠"
+  }
  },
  {
   "id": "bdec1b13da60",
@@ -471,6 +525,12 @@
   "status": "active",
   "miss_p": 0,
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "blurb": {
+   "uk": "тут треба рятувати Вашингтон, створювати агента та стріляти в команді з друзями 🔫",
+   "ru": "будем спасать Вашингтон, прокачивать агента и перестреливаться в укрытиях с друзьями 🔫",
+   "en": "you get to save D.C., build your agent and fight in a team with friends 🔫",
+   "sk": "budeme záchraniť Washington, vylepšovať agenta a spolu s kamočmi bojovať v krytovaniu 🔫"
+  }
  }
 ]
