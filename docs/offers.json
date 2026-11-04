@@ -403,10 +403,10 @@
    "sk": "Borderlands 2 −90%"
   },
   "text": {
-   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №71 за продажами. Гарний момент забрати 🎮",
-   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №71 по продажам. Хороший момент забрать 🎮",
-   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #71 bestseller. A good moment to grab it 🎮",
-   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #71 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №70 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №70 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #70 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #70 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/49520/",
@@ -429,7 +429,7 @@
    "old": "389₴",
    "new": "38₴",
    "store": "Steam",
-   "rank_sales": 71,
+   "rank_sales": 70,
    "rank_play": null
   },
   "miss_p": 0
@@ -443,10 +443,10 @@
    "sk": "Tom Clancy’s The Division 2 −75%"
   },
   "text": {
-   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №28 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №28 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #28 bestseller. Time to add it to your library 🎮",
-   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #28 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №27 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №27 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #27 bestseller. Time to add it to your library 🎮",
+   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #27 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/2221490/",
@@ -465,7 +465,7 @@
    "old": "649₴",
    "new": "162₴",
    "store": "Steam",
-   "rank_sales": 28,
+   "rank_sales": 27,
    "rank_play": null
   },
   "status": "active",
