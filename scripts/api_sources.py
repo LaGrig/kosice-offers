@@ -43,7 +43,8 @@ def fetch_epic():
                    + '. Бесплатно до ' + end + ' (UTC). ' + (e.get('description') or '')[:300])
         out.append({'id': offer_id(link), 'title': e.get('title', ''), 'summary': summary,
                     'link': link, 'source': 'epic-games', 'expires_at': end, 'worth': ow,
-                    'give': {'game': e.get('title', ''), 'store': 'Epic Games Store', 'price': orig, 'until': end}})
+                    'give': {'game': e.get('title', ''), 'store': 'Epic Games Store', 'price': orig, 'until': end},
+                    'desc': (e.get('description') or '')[:400]})
     return out
 
 def fetch_gamerpower():
@@ -96,7 +97,8 @@ def fetch_gamerpower():
                    + note + '. ' + (g.get('description') or '')[:300] + ' ' + (g.get('instructions') or '')[:300])
         out.append({'id': offer_id(link), 'title': g.get('title', ''), 'summary': summary,
                     'link': link, 'source': 'gamerpower', 'expires_at': end, 'worth': wv, 'users': g.get('users'),
-                    'give': give_info(g, plats, worth, note, end)})
+                    'give': give_info(g, plats, worth, note, end),
+                    'desc': (g.get('description') or '')[:400]})
     return out
 
 DEAL_UA = {'User-Agent': 'kosice-offers-bot (+https://github.com/LaGrig/kosice-offers)'}

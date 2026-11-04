@@ -4,14 +4,14 @@ from givefmt import norm_price
 from dealtext import clean_game
 
 L = {
-    'uk': {'head': 'Знахідки дня', 'sub': 'Забирай, поки діє 👇', 'free': 'Безкоштовно', 'usual': 'зазвичай', 'until': 'до',
-           's': '№{n} за продажами', 'p': '№{n} за онлайном', 'more': 'Ще {n} пропозицій у застосунку', 'open': '📲 Відкрити застосунок'},
-    'ru': {'head': 'Находки дня', 'sub': 'Забирай, пока действует 👇', 'free': 'Бесплатно', 'usual': 'обычно', 'until': 'до',
-           's': '№{n} по продажам', 'p': '№{n} по онлайну', 'more': 'Ещё {n} предложений в приложении', 'open': '📲 Открыть приложение'},
-    'en': {'head': 'Finds of the day', 'sub': 'Grab them while they last 👇', 'free': 'Free', 'usual': 'usually', 'until': 'until',
-           's': '#{n} bestseller', 'p': '#{n} most played', 'more': '{n} more offers in the app', 'open': '📲 Open the app'},
-    'sk': {'head': 'Objavy dňa', 'sub': 'Chyť ich, kým platia 👇', 'free': 'Zadarmo', 'usual': 'zvyčajne', 'until': 'do',
-           's': '#{n} podľa predajov', 'p': '#{n} podľa online', 'more': 'Ďalších {n} ponúk v aplikácii', 'open': '📲 Otvoriť aplikáciu'},
+    'uk': {'head': 'Знахідки дня', 'subs': ['Забирай, поки діє 👇', 'Що забрати сьогодні 👇', 'Коротко і по ділу 👇'], 'free': 'БЕЗКОШТОВНО', 'deals': 'ЗНИЖКИ', 'other': 'ЩЕ',
+           'free1': 'Безкоштовно', 'last': 'останній день', 'days': 'ще {n} дн.', 'until': 'до', 'top': 'топ', 'open': '📲 Відкрити застосунок'},
+    'ru': {'head': 'Находки дня', 'subs': ['Забирай, пока действует 👇', 'Что забрать сегодня 👇', 'Коротко и по делу 👇'], 'free': 'БЕСПЛАТНО', 'deals': 'СКИДКИ', 'other': 'ЕЩЁ',
+           'free1': 'Бесплатно', 'last': 'последний день', 'days': 'ещё {n} дн.', 'until': 'до', 'top': 'топ', 'open': '📲 Открыть приложение'},
+    'en': {'head': 'Finds of the day', 'subs': ['Grab them while they last 👇', 'What to grab today 👇', 'Short and to the point 👇'], 'free': 'FREE', 'deals': 'DEALS', 'other': 'MORE',
+           'free1': 'Free', 'last': 'last day', 'days': '{n} d left', 'until': 'until', 'top': 'top', 'open': '📲 Open the app'},
+    'sk': {'head': 'Objavy dňa', 'subs': ['Chyť ich, kým platia 👇', 'Čo si dnes vziať 👇', 'Stručne a k veci 👇'], 'free': 'ZADARMO', 'deals': 'ZĽAVY', 'other': 'ĎALEJ',
+           'free1': 'Zadarmo', 'last': 'posledný deň', 'days': 'ešte {n} d.', 'until': 'do', 'top': 'top', 'open': '📲 Otvoriť aplikáciu'},
 }
 SENT = ROOT / 'data' / 'digest_sent.json'
 SRC_RANK = {'epic-games': 0, 'gamerpower': 1}
@@ -27,7 +27,7 @@ def when(o):
 
 def hook(text):
     text = ' '.join(text.split())
-    if len(text) <= 220:
+    if len(text) <= 160:
         return text
     cut = text.find('. ')
     return (text if cut == -1 else text[:cut + 1])[:160]
@@ -35,26 +35,39 @@ def hook(text):
 def name_link(o, name):
     return '<a href="' + html.escape(o['link'], quote=True) + '"><b>' + esc(name) + '</b></a>'
 
-def block(o, lang):
-    tx = L[lang]
+def urgency(o, tx):
+    e = o.get('expires_at')
+    if not e:
+        return ''
+    left = (dt.date.fromisoformat(e) - today()).days
+    if left <= 0:
+        return '⏰ ' + tx['last']
+    if left <= 3:
+        return '⏰ ' + tx['days'].format(n=left)
+    return '⏳ ' + tx['until'] + ' ' + short(e)
+
+def zero_of(price):
+    if price.endswith('₴'):
+        return '0₴'
+    if price.startswith('$'):
+        return '$0'
+    if price.endswith('€'):
+        return '0€'
+    return '0'
+
+def block(o, lang, tx):
     d, g = o.get('deal'), o.get('give')
     if d:
-        out = '💸 ' + name_link(o, clean_game(d['game'])) + ' · <b>−' + str(d['pct']) + '%</b>\n' + esc(d['old']) + ' → <b>' + esc(d['new']) + '</b> · ' + esc(d['store'])
-        tops = []
-        if d.get('rank_sales'):
-            tops.append(tx['s'].format(n=d['rank_sales']))
-        if d.get('rank_play'):
-            tops.append(tx['p'].format(n=d['rank_play']))
-        return out + ('\n🏆 ' + ' · '.join(tops) if tops else '')
+        rank = d.get('rank_sales') or d.get('rank_play')
+        tail = esc(d['store']) + (' · 🏆 ' + tx['top'] + '-' + str(rank) if rank else '')
+        return ('💸 ' + name_link(o, clean_game(d['game'])) + ' · <b>−' + str(d['pct']) + '%</b>\n<s>' + esc(d['old']) + '</s> → <b>' + esc(d['new']) + '</b> · ' + tail)
     if g:
-        bits = [tx['free'] + ' · ' + g['store']]
-        if g.get('price'):
-            bits.append(tx['usual'] + ' ' + norm_price(g['price']))
-        if g.get('until'):
-            bits.append(tx['until'] + ' ' + short(g['until']))
-        return '🎁 ' + name_link(o, g['game']) + '\n' + esc(' · '.join(bits))
-    out = '✨ ' + name_link(o, o['title'][lang]) + '\n' + esc(hook(o['text'][lang]))
-    return out + ('\n⏳ ' + tx['until'] + ' ' + short(o['expires_at']) if o.get('expires_at') else '')
+        price = norm_price(g.get('price') or '')
+        line = ('<s>' + esc(price) + '</s> → <b>' + esc(zero_of(price)) + '</b>') if price else '<b>' + tx['free1'] + '</b>'
+        u = urgency(o, tx)
+        return '🎁 ' + name_link(o, g['game']) + ' · ' + esc(g['store']) + '\n' + line + (' · ' + u if u else '')
+    u = urgency(o, tx)
+    return '✨ ' + name_link(o, o['title'][lang]) + '\n' + esc(hook(o['text'][lang])) + (' · ' + u if u else '')
 
 def load_sent():
     return set(json.loads(SENT.read_text())) if SENT.exists() else set()
@@ -99,7 +112,13 @@ def main():
         print('нечего публиковать')
         return
     ids = {o['id'] for o in top}
-    parts = ['🔥 <b>' + tx['head'] + '</b> · ' + short(t) + '\n<i>' + tx['sub'] + '</i>'] + [block(o, lang) for o in top]
+    sections = [('🎁', tx['free'], [o for o in top if o.get('give')]),
+                ('💸', tx['deals'], [o for o in top if o.get('deal')]),
+                ('✨', tx['other'], [o for o in top if not o.get('give') and not o.get('deal')])]
+    parts = ['🔥 <b>' + tx['head'] + '</b> · ' + short(t) + '\n<i>' + tx['subs'][today().toordinal() % len(tx['subs'])] + '</i>']
+    for emoji, title, items in sections:
+        if items:
+            parts.append(emoji + ' <b>' + title + '</b>\n' + '\n\n'.join(block(o, lang, tx) for o in items))
     preview = bool(os.environ.get('DIGEST_CHAT'))
     body = {'chat_id': os.environ.get('DIGEST_CHAT') or os.environ['CHANNEL'], 'text': '\n\n'.join(parts), 'parse_mode': 'HTML',
             'disable_web_page_preview': True, 'reply_markup': {'inline_keyboard': [[{'text': tx['open'], 'url': os.environ['MINIAPP_LINK']}]]}}

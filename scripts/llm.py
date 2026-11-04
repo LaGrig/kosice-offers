@@ -18,11 +18,11 @@ def models_for(role):
     m = CFG['models'][role]
     return m if isinstance(m, list) else [m]
 
-def call(model, role, payload):
+def call(model, role, payload, system=None):
     body = {
         'model': model,
         'messages': [
-            {'role': 'system', 'content': soul(role)},
+            {'role': 'system', 'content': system or soul(role)},
             {'role': 'user', 'content': json.dumps(payload, ensure_ascii=False)},
         ],
         'temperature': 0.2,
@@ -36,12 +36,12 @@ def call(model, role, payload):
         return None, 'no-choices', json.dumps(j.get('error') or j, ensure_ascii=False)[:160]
     return parse(j['choices'][0]['message'].get('content')), 200, ''
 
-def ask_llm(role, payload, retries=1, models=None):
+def ask_llm(role, payload, retries=1, models=None, system=None):
     for model in (models or models_for(role)):
         for attempt in range(retries + 1):
             try:
                 time.sleep(CFG.get('llm_pause', 4))
-                out, code, err = call(model, role, payload)
+                out, code, err = call(model, role, payload, system)
                 if out is not None:
                     with open(str(Path(__file__).resolve().parent.parent / 'data' / 'llm_usage.jsonl'), 'a', encoding='utf-8') as f:
                         f.write(json.dumps({'ts': time.strftime('%F %T'), 'role': role, 'model': model}) + '\n')

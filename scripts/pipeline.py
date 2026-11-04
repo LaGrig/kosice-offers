@@ -8,6 +8,7 @@ from steam_signal import steam_signal, steam_strong
 from textfix import clean_post
 from dealrules import deal_quality_ok
 from dealtext import deal_post
+from blurb import make_blurb
 import api_sources
 from autolog import log_auto_reject
 
@@ -41,6 +42,7 @@ def process(item, today_s, force=False):
         return {'id': item['id'], 'title': post['title'], 'text': post['text'], 'category': 'games', 'link': item['link'],
                 'source': item['source'], 'found_at': today_s, 'expires_at': None, 'score': 90, 'worth': item.get('worth'),
                 'pop': {}, 'meta': None, 'kind': 'deal', 'chart_rank': item.get('chart_rank'), 'deal': item['deal'],
+                'blurb': make_blurb(item['deal']['game'], item.get('desc')),
                 'status': 'active' if auto else 'pending'}, 'ok'
     facts = dict(item)
     for k in ('category', 'expires_at', 'free', 'note'):
@@ -84,6 +86,7 @@ def process(item, today_s, force=False):
         'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'), 'chart_rank': item.get('chart_rank'), 'give': item.get('give'),
         'status': 'active' if (CFG['auto_publish'] or (item.get('chart_rank') and CFG.get('deals', {}).get('auto_chart'))) else 'pending',
     }
+    offer['blurb'] = make_blurb((item.get('give') or {}).get('game') or item['title'], item.get('desc'))
     return offer, 'ok'
 
 def main():

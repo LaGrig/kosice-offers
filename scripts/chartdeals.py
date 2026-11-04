@@ -66,6 +66,14 @@ def reviews(app):
         pass
     return 0, 0
 
+def desc_of(app):
+    try:
+        r = get_json(STORE, {'appids': app, 'l': 'english', 'cc': 'us', 'filters': 'basic'})
+        d = (r.get(str(app)) or {}).get('data')
+        return (d.get('short_description') or '')[:400] if isinstance(d, dict) else ''
+    except Exception:
+        return ''
+
 def chart_deals():
     c = CFG.get('deals', {})
     cc = c.get('region', 'ua')
@@ -102,7 +110,7 @@ def chart_deals():
         out.append({'id': offer_id(link + '|' + str(p['final'])), 'title': name, 'summary': summary, 'link': link, 'source': 'steam-chart',
                     'expires_at': None, 'worth': p['initial'] / 100, 'kind': 'deal', 'store': 'Steam', 'steam_app': str(app),
                     'steam_pct': pct, 'steam_reviews': n, 'metacritic': 0, 'saved': (p['initial'] - p['final']) / 100,
-                    'chart_rank': min(x for x in (rp, rs) if x),
+                    'chart_rank': min(x for x in (rp, rs) if x), 'desc': desc_of(app),
                     'deal': {'game': name, 'pct': p['discount_percent'], 'old': p.get('initial_formatted', ''), 'new': p.get('final_formatted', ''), 'store': 'Steam', 'rank_sales': rs, 'rank_play': rp}})
     out.sort(key=lambda x: x['chart_rank'])
     return out
