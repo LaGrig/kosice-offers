@@ -433,5 +433,41 @@
    "rank_play": null
   },
   "miss_p": 0
+ },
+ {
+  "id": "bdec1b13da60",
+  "title": {
+   "uk": "Tom Clancy’s The Division 2 −75%",
+   "ru": "Tom Clancy’s The Division 2 −75%",
+   "en": "Tom Clancy’s The Division 2 −75%",
+   "sk": "Tom Clancy’s The Division 2 −75%"
+  },
+  "text": {
+   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №24 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №24 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #24 bestseller. Time to add it to your library 🎮",
+   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #24 podľa predajov. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2221490/",
+  "source": "steam-chart",
+  "found_at": "2026-11-04",
+  "expires_at": null,
+  "score": 90,
+  "worth": 649.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 24,
+  "deal": {
+   "game": "Tom Clancy’s The Division® 2",
+   "pct": 75,
+   "old": "649₴",
+   "new": "162₴",
+   "store": "Steam",
+   "rank_sales": 24,
+   "rank_play": null
+  },
+  "status": "active"
  }
 ]
