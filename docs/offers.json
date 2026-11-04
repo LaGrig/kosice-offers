@@ -314,10 +314,10 @@
    "sk": "Borderlands 3 −90%"
   },
   "text": {
-   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. У топі Steam: №44 за продажами. Не пропусти 🎮",
-   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. В топе Steam: №44 по продажам. Не пропусти 🎮",
-   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. In the Steam charts: #44 bestseller. Don't miss it 🎮",
-   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. V rebríčku Steam: #44 podľa predajov. Nenechaj si ujsť 🎮"
+   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. У топі Steam: №46 за продажами. Не пропусти 🎮",
+   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. В топе Steam: №46 по продажам. Не пропусти 🎮",
+   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. In the Steam charts: #46 bestseller. Don't miss it 🎮",
+   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. V rebríčku Steam: #46 podľa predajov. Nenechaj si ujsť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/397540/",
@@ -340,7 +340,7 @@
    "old": "849₴",
    "new": "84₴",
    "store": "Steam",
-   "rank_sales": 44,
+   "rank_sales": 46,
    "rank_play": null
   },
   "miss_p": 0,
@@ -451,10 +451,10 @@
    "sk": "Borderlands 2 −90%"
   },
   "text": {
-   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №73 за продажами. Гарний момент забрати 🎮",
-   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №73 по продажам. Хороший момент забрать 🎮",
-   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #73 bestseller. A good moment to grab it 🎮",
-   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #73 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №76 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №76 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #76 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #76 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/49520/",
@@ -477,7 +477,7 @@
    "old": "389₴",
    "new": "38₴",
    "store": "Steam",
-   "rank_sales": 73,
+   "rank_sales": 76,
    "rank_play": null
   },
   "miss_p": 0,
