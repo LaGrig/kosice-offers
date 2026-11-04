@@ -284,10 +284,10 @@
    "sk": "Borderlands 3 −90%"
   },
   "text": {
-   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. У топі Steam: №43 за продажами. Не пропусти 🎮",
-   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. В топе Steam: №43 по продажам. Не пропусти 🎮",
-   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. In the Steam charts: #43 bestseller. Don't miss it 🎮",
-   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. V rebríčku Steam: #43 podľa predajov. Nenechaj si ujsť 🎮"
+   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. У топі Steam: №44 за продажами. Не пропусти 🎮",
+   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. В топе Steam: №44 по продажам. Не пропусти 🎮",
+   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. In the Steam charts: #44 bestseller. Don't miss it 🎮",
+   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. V rebríčku Steam: #44 podľa predajov. Nenechaj si ujsť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/397540/",
@@ -310,7 +310,7 @@
    "old": "849₴",
    "new": "84₴",
    "store": "Steam",
-   "rank_sales": 43,
+   "rank_sales": 44,
    "rank_play": null
   },
   "miss_p": 0
@@ -324,10 +324,10 @@
    "sk": "Metro Exodus −90%"
   },
   "text": {
-   "uk": "Metro Exodus у Epic Games Store зараз за 80₴ замість 799₴. У топі Epic Games Store: №90 за продажами. Гарний момент забрати 🎮",
-   "ru": "Metro Exodus в Epic Games Store сейчас за 80₴ вместо 799₴. В топе Epic Games Store: №90 по продажам. Хороший момент забрать 🎮",
-   "en": "Metro Exodus on Epic Games Store is 80₴ instead of 799₴ right now. In the Epic Games Store charts: #90 bestseller. A good moment to grab it 🎮",
-   "sk": "Metro Exodus v Epic Games Store je teraz za 80₴ namiesto 799₴. V rebríčku Epic Games Store: #90 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Metro Exodus у Epic Games Store зараз за 80₴ замість 799₴. У топі Epic Games Store: №61 за продажами. Гарний момент забрати 🎮",
+   "ru": "Metro Exodus в Epic Games Store сейчас за 80₴ вместо 799₴. В топе Epic Games Store: №61 по продажам. Хороший момент забрать 🎮",
+   "en": "Metro Exodus on Epic Games Store is 80₴ instead of 799₴ right now. In the Epic Games Store charts: #61 bestseller. A good moment to grab it 🎮",
+   "sk": "Metro Exodus v Epic Games Store je teraz za 80₴ namiesto 799₴. V rebríčku Epic Games Store: #61 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.epicgames.com/p/metro-exodus",
@@ -350,7 +350,7 @@
    "old": "799₴",
    "new": "80₴",
    "store": "Epic Games Store",
-   "rank_sales": 90
+   "rank_sales": 61
   },
   "miss_p": 0
  },
@@ -403,10 +403,10 @@
    "sk": "Borderlands 2 −90%"
   },
   "text": {
-   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №67 за продажами. Гарний момент забрати 🎮",
-   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №67 по продажам. Хороший момент забрать 🎮",
-   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #67 bestseller. A good moment to grab it 🎮",
-   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #67 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №70 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №70 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #70 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #70 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/49520/",
@@ -429,7 +429,7 @@
    "old": "389₴",
    "new": "38₴",
    "store": "Steam",
-   "rank_sales": 67,
+   "rank_sales": 70,
    "rank_play": null
   },
   "miss_p": 0
