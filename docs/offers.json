@@ -271,10 +271,10 @@
    "sk": "Borderlands 3 −90%"
   },
   "text": {
-   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. У топі Steam: №56 за продажами. Не пропусти 🎮",
-   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. В топе Steam: №56 по продажам. Не пропусти 🎮",
-   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. In the Steam charts: #56 bestseller. Don't miss it 🎮",
-   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. V rebríčku Steam: #56 podľa predajov. Nenechaj si ujsť 🎮"
+   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. У топі Steam: №55 за продажами. Не пропусти 🎮",
+   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. В топе Steam: №55 по продажам. Не пропусти 🎮",
+   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. In the Steam charts: #55 bestseller. Don't miss it 🎮",
+   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. V rebríčku Steam: #55 podľa predajov. Nenechaj si ujsť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/397540/",
@@ -297,7 +297,7 @@
    "old": "849₴",
    "new": "84₴",
    "store": "Steam",
-   "rank_sales": 56,
+   "rank_sales": 55,
    "rank_play": null
   },
   "miss_p": 0,
@@ -408,10 +408,10 @@
    "sk": "Borderlands 2 −90%"
   },
   "text": {
-   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №81 за продажами. Гарний момент забрати 🎮",
-   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №81 по продажам. Хороший момент забрать 🎮",
-   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #81 bestseller. A good moment to grab it 🎮",
-   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #81 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. У топі Steam: №82 за продажами. Гарний момент забрати 🎮",
+   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. В топе Steam: №82 по продажам. Хороший момент забрать 🎮",
+   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. In the Steam charts: #82 bestseller. A good moment to grab it 🎮",
+   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. V rebríčku Steam: #82 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/49520/",
@@ -434,7 +434,7 @@
    "old": "389₴",
    "new": "38₴",
    "store": "Steam",
-   "rank_sales": 81,
+   "rank_sales": 82,
    "rank_play": null
   },
   "miss_p": 0,
@@ -454,10 +454,10 @@
    "sk": "Tom Clancy’s The Division 2 −75%"
   },
   "text": {
-   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №36 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №36 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #36 bestseller. Time to add it to your library 🎮",
-   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #36 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №41 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №41 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #41 bestseller. Time to add it to your library 🎮",
+   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #41 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/2221490/",
@@ -476,7 +476,7 @@
    "old": "649₴",
    "new": "162₴",
    "store": "Steam",
-   "rank_sales": 36,
+   "rank_sales": 41,
    "rank_play": null
   },
   "status": "active",
@@ -558,7 +558,8 @@
    "en": "watch Lara finally become the tomb raider she was meant to be",
    "sk": "sleduj, ako sa z Lary stane pravá rabistvčka hrobiek"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "6f522961c343",
@@ -599,6 +600,7 @@
    "en": "explore croft manor and defend it against a zombie invasion",
    "sk": "preskúmaj croftov mansion a chráň ho pred inváziou zombií"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
