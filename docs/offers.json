@@ -613,5 +613,37 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "4d9eed00f48c",
+  "title": {
+   "uk": "Flotsam",
+   "ru": "Flotsam",
+   "en": "Flotsam",
+   "sk": "Flotsam"
+  },
+  "text": {
+   "uk": "Безкоштовно в Epic Games Store до 12/11/2026. Зазвичай 359₴.",
+   "ru": "Бесплатно в Epic Games Store до 12/11/2026. Обычно 359₴.",
+   "en": "Free on Epic Games Store until 12/11/2026. Usually 359₴.",
+   "sk": "Zadarmo v Epic Games Store do 12/11/2026. Zvyčajne 359₴."
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/flotsam-266287",
+  "source": "epic-games",
+  "found_at": "2026-11-05",
+  "approved_at": "2026-11-05",
+  "expires_at": "2026-11-12",
+  "score": 95,
+  "worth": 359.0,
+  "status": "active",
+  "announced": true,
+  "give": {
+   "game": "Flotsam",
+   "store": "Epic Games Store",
+   "price": "359₴",
+   "until": "2026-11-12"
+  },
+  "blurb": null
  }
 ]
