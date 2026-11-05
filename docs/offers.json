@@ -98,10 +98,10 @@
   "approved_at": "2026-10-23",
   "fails": 0,
   "blurb": {
-   "uk": "ти намагаєшся вижити в місті, що руйнується, та шукаєш батька серед дивних вогнів",
-   "ru": "ты пытаешься выжить в разрушающемся городе и ищешь отца среди странных огней",
-   "en": "you fight to survive in a crumbling city and search for your father",
-   "sk": "bojuješ o prežitie v rozpadajúcom sa meste a hľadáš svojho otca"
+   "uk": "Виживаєш у місті, що руйнується, і шукаєш батька серед дивних вогнів",
+   "ru": "Выживаешь в разрушенном городе и ищешь отца среди странных огней",
+   "en": "Survive in a crumbling city and search for your father among strange lights",
+   "sk": "Prežívaš v rozvratnom meste a hľadáš otca medzi zvlátnymi svetlami"
   }
  },
  {
@@ -164,10 +164,10 @@
    "until": "2026-11-05"
   },
   "blurb": {
-   "uk": "досліджуй світи за допомогою третього ока, розгадуй пазли та стріляй по демонах і ангелах",
-   "ru": "используй третье око, чтобы видеть тайны двух миров, решать загадки и сражаться с монстрами",
-   "en": "use your third eye to see between worlds, solve puzzles and fight demons and angels",
-   "sk": "používaj tretie oko na odhalovanie tajomných svetov, riešenie hádaniek a boj s démonmi"
+   "uk": "Досліджуєш світ між ангелами та демонами, розгадуєш пазли та стріляєш",
+   "ru": "Исследуешь мир между ангелами и демонами, решаешь загадки и стреляешь",
+   "en": "Explore the world between angels and demons, solve puzzles and shoot",
+   "sk": "Prieskumávaš svet medzi angelmi a démonmi, riešiš hádanky a streľáš"
   }
  },
  {
@@ -210,10 +210,10 @@
    "rank_play": null
   },
   "blurb": {
-   "uk": "Виживаєш у місті з зомбі, шукаєш ресурси та крафтиш зброю, щоб відбитися",
-   "ru": "Выживаешь в городе с зомби, ищешь ресурсы и крафтишь оружие, чтобы отбиться",
-   "en": "You survive in a zombie city, scavenge for supplies and craft weapons to fight back",
-   "sk": "Prežívaš v meste s zombíkmi, hľadáš zdroje a craftíš zbrane, aby si sa ubranil"
+   "uk": "Виживаєш у місті з зомбі, шукаєш ресурси та створюєш зброю для захисту",
+   "ru": "Выживаешь в городе с зомби, ищешь ресурсы и создаешь оружие для защиты",
+   "en": "Survive in a zombie city, scavenge for supplies and craft weapons to fight back",
+   "sk": "Prežívaš v meste plnom zombie, hľadáš zásoby a vyrábaš si zbrane na obranu"
   }
  },
  {
@@ -256,10 +256,10 @@
    "rank_play": null
   },
   "blurb": {
-   "uk": "бігаєш по місту з паркуром та б'єшся з зомбі, але вночі стає набагато страшніше",
-   "ru": "бегаешь по городу с паркуром и сражаешься с зомби, но ночью становится намного опаснее",
-   "en": "use parkour and combat to survive zombie hordes in a city that changes at night",
-   "sk": "behaj po meste s parkourom a bojuj s zombiemi, no v noci sú oveľa nebezpečnejší"
+   "uk": "Виживаєш у місті з зомбі, де допомагають паркур та бійки, а вночі стає набагато небезпечніше",
+   "ru": "Выживаешь в городе с зомби, используя паркур и бои, но ночью осторожнее с монстрами",
+   "en": "Survive a zombie city using parkour and combat, but be careful when monsters take over at night",
+   "sk": "Prežívaš v meste plnom zombikov, kde ti pomôže parkour a boj, no v noci sú potvory nebezpečnejšie"
   }
  },
  {
@@ -302,10 +302,10 @@
   },
   "miss_p": 0,
   "blurb": {
-   "uk": "Стріляй по ворогах на нових світах, збирай купу пушок та обирай свого мисливця",
-   "ru": "Стреляй по врагам в разных мирах, собирай горы пушек и выбирай своего охотника",
-   "en": "Blast through new worlds, collect tons of guns and pick your vault hunter",
-   "sk": "Strieľaj na nepriateľov v nových svetoch, zbieraj hory zbraní a vyber si svojho lovca"
+   "uk": "Стріляєш із купами різної зброї та досліджуєш нові світи за одного з мисливців",
+   "ru": "Стреляешь из огромного количества пушек и исследуешь новые миры за одного из охотников",
+   "en": "Blast through new worlds and fight enemies using a huge variety of guns",
+   "sk": "Súbejš nové svety a bojuj s nepriateľmi s množstvom rôznych zbraní"
   }
  },
  {
@@ -347,10 +347,10 @@
   },
   "miss_p": 0,
   "blurb": {
-   "uk": "Покидаєш московське метро і подорожуєш постапокаліптичними пустками в пошуках нових домівок",
-   "ru": "Покидаешь московское метро и отправляешься в долгое путешествие по постапокалиптическим пустошам",
-   "en": "Leave the Moscow Metro behind and travel across the post-apocalyptic wilderness in a survival story",
-   "sk": "Opustíš moskovské metro a vyrazíš na dlhú cestu pustinami po apokalypse"
+   "uk": "Покидаєш московське метро та подорожуєш постапокаліптичними пустками в пошуках нових земель",
+   "ru": "Покидаешь московское метро и путешествуешь по постапокалиптическим пустошам в поисках новых земель",
+   "en": "Leave the Moscow Metro and travel across the post-apocalyptic wilderness in a survival journey",
+   "sk": "Opúšťáš moskovské metro a putuješ postapokalyptickou divočinou v prežitaní v otvorenom svete"
   }
  },
  {
@@ -393,10 +393,10 @@
    "rank_play": null
   },
   "blurb": {
-   "uk": "відправляйся в Стародавню Грецію, щоб змінити її долю та розкрити таємниці свого минулого",
-   "ru": "отправляйся в Древнюю Грецию, чтобы изменить её судьбу и раскрыть тайны своего прошлого",
-   "en": "sail to Ancient Greece to change its fate and uncover secrets of your past",
-   "sk": "pluj do starovekého Grécka, aby si zmenil jeho osud a odhalil tajomstvá svojej minulosti"
+   "uk": "Пливеш у Стародавню Грецію, б'єшся на суші та на морі й розкриваєш таємниці свого минулого",
+   "ru": "Плывешь в Древнюю Грецию, сражаешься на суше и на море и раскрываешь тайны своего прошлого",
+   "en": "Sail to Ancient Greece, fight on land and sea, and uncover the secrets of your past",
+   "sk": "Pluješ do starovekého Grécka, bojuješ na súši aj na mori a odkrývaš tajomstvá svojej minulosti"
   }
  },
  {
@@ -439,10 +439,10 @@
   },
   "miss_p": 0,
   "blurb": {
-   "uk": "це оновлення допоможе тобі витиснути максимум з пригод мисливця за сховищем",
-   "ru": "это обновление поможет тебе получить максимум от приключений охотника за хранилищем",
-   "en": "this upgrade lets you get the most out of your vault hunter experience",
-   "sk": "táto aktualizácia ti pomôže vyvringovať maximum z dobrodružstiev lovca úkryvov"
+   "uk": "Використовуєш усі можливості мисливця за сховищами на повну",
+   "ru": "Используешь все возможности охотника за хранилищами на полную",
+   "en": "Get the most out of your experience as a vault hunter",
+   "sk": "Využívaš všetky možnosti lovca kľučov na maximum"
   }
  },
  {
@@ -484,10 +484,10 @@
   "fails": 0,
   "miss": 0,
   "blurb": {
-   "uk": "Тактичний шутер у відкритому світі, де ти разом з друзями рятуєш Вашингтон",
-   "ru": "Тактический шутер в открытом мире, где ты с друзьями спасаешь Вашингтон",
-   "en": "Tactical open world shooter where you and your friends save Washington, D.C.",
-   "sk": "Taktický shooter v otvorenom svete, kde s kamarátmi záchraníš Washington"
+   "uk": "Б'єшся в укриттях та разом із друзями рятуєш Вашингтон",
+   "ru": "Сражаешься в укрытиях и вместе с друзьями спасаешь Вашингтон",
+   "en": "Fight from cover and team up with friends to save Washington, D.C.",
+   "sk": "Bojuješ z krytov a spolu s kamarátmi záchráňaš Washington"
   }
  },
  {
@@ -524,10 +524,10 @@
    "rank_sales": 75
   },
   "blurb": {
-   "uk": "прослідкуй за тим, як Лара стає справжньою розкрадачкою гробниць",
-   "ru": "посмотри, как Лара окончательно превращается в расхитительницу гробниц",
-   "en": "watch Lara finally become the tomb raider she was meant to be",
-   "sk": "sleduj, ako sa z Lary stane pravá rabistvčka hrobiek"
+   "uk": "Проходиш фінальну частину історії становлення Лари як розкрадачки гробниць",
+   "ru": "Проходишь финальную часть истории о том, как Лара становится расхитительницей гробниц",
+   "en": "Experience the final chapter of Lara's journey to become the Tomb Raider",
+   "sk": "Prežíváš finálne obdobie cesty Lary, kým sa nestane hľadačkou hrobiek"
   },
   "status": "active",
   "miss_p": 0,
@@ -568,10 +568,10 @@
    "rank_sales": 87
   },
   "blurb": {
-   "uk": "досліджуй маєток Крофт та відбивайся від зомбі разом із Ларою",
-   "ru": "исследуй поместье Крофт и защищай его от нашествия зомби",
-   "en": "explore croft manor and defend it against a zombie invasion",
-   "sk": "preskúmaj croftov mansion a chráň ho pred inváziou zombií"
+   "uk": "Досліджуєш маєток Крофт та захищаєш його від навали зомбі",
+   "ru": "Исследуешь поместье Крофт и защищаешь его от нашествия зомби",
+   "en": "Explore Croft Manor and defend it against a zombie invasion",
+   "sk": "Prieskumávaš Croft Manor a brániš ho pred inváziou zombiev"
   },
   "status": "active",
   "miss_p": 0,
