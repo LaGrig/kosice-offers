@@ -347,10 +347,10 @@
   },
   "miss_p": 0,
   "blurb": {
-   "uk": "Покидаєш московське метро та подорожуєш постапокаліптичними пустками в пошуках нових земель",
-   "ru": "Покидаешь московское метро и путешествуешь по постапокалиптическим пустошам в поисках новых земель",
-   "en": "Leave the Moscow Metro and travel across the post-apocalyptic wilderness in a survival journey",
-   "sk": "Opúšťáš moskovské metro a putuješ postapokalyptickou divočinou v prežitaní v otvorenom svete"
+   "uk": "Покидаєш руїни метро та подорожуєш постапокаліптичними пустками у відкритому світі",
+   "ru": "Покидаешь руины метро и путешествуешь по постапокалиптическим пустошам в открытом мире",
+   "en": "Leave the metro ruins and travel across the post-apocalyptic wilderness in an open world",
+   "sk": "Opúštáš ruiny metra a putuješ postapokalyptickou divočinou v otvorenom svete"
   }
  },
  {
@@ -437,13 +437,7 @@
    "rank_sales": 86,
    "rank_play": null
   },
-  "miss_p": 0,
-  "blurb": {
-   "uk": "Використовуєш усі можливості мисливця за сховищами на повну",
-   "ru": "Используешь все возможности охотника за хранилищами на полную",
-   "en": "Get the most out of your experience as a vault hunter",
-   "sk": "Využívaš všetky možnosti lovca kľučov na maximum"
-  }
+  "miss_p": 0
  },
  {
   "id": "bdec1b13da60",
@@ -566,12 +560,6 @@
    "new": "70₴",
    "store": "Epic Games Store",
    "rank_sales": 87
-  },
-  "blurb": {
-   "uk": "Досліджуєш маєток Крофт та захищаєш його від навали зомбі",
-   "ru": "Исследуешь поместье Крофт и защищаешь его от нашествия зомби",
-   "en": "Explore Croft Manor and defend it against a zombie invasion",
-   "sk": "Prieskumávaš Croft Manor a brániš ho pred inváziou zombiev"
   },
   "status": "active",
   "miss_p": 0,
