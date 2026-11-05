@@ -119,6 +119,9 @@ def main():
         if gone:
             print('сняты закончившиеся раздачи:', gone)
     if '--seed' in sys.argv:
+        print('--seed отключён: он помечает текущие раздачи показанными, не публикуя их')
+        return
+    if False:
         st['announced'] = sorted(set(st['announced']) | {offer_id(x[1]) for x in cur})
         STATE.write_text(json.dumps(st, ensure_ascii=False), encoding='utf-8')
         print('отмечены как уже показанные:', [x[0].get('title') for x in cur])
