@@ -559,7 +559,8 @@
    "sk": "sleduj, ako sa z Lary stane pravá rabistvčka hrobiek"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "6f522961c343",
@@ -601,6 +602,7 @@
    "sk": "preskúmaj croftov mansion a chráň ho pred inváziou zombií"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
