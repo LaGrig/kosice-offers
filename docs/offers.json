@@ -131,46 +131,6 @@
   "fails": 0
  },
  {
-  "id": "7267dc2632f0",
-  "title": {
-   "uk": "Sorry We're Closed безкоштовно в Epic Games Store до 5 листопада",
-   "ru": "Sorry We're Closed бесплатно в Epic Games Store до 5 ноября",
-   "en": "Sorry We're Closed free on Epic Games Store until Nov 5",
-   "sk": "Sorry We're Closed zadarmo v Epic Games Store do 5. novembra"
-  },
-  "text": {
-   "uk": "Гра Sorry We're Closed (зазвичай €22,39) безкоштовна в Epic Games Store до 5 листопада 2026 року. Це survival horror про демонів і ангелів з фіксованою камерою, аркадним стрільбищем і механікою Third Eye для розкриття таємниць 🎮👻",
-   "ru": "Игра Sorry We're Closed (обычно €22,39) бесплатно в Epic Games Store до 5 ноября 2026 года. Это survival horror про демонов и ангелов с фиксированной камерой, аркадной стрельбой и механикой Third Eye для раскрытия секретов 🎮👻",
-   "en": "Sorry We're Closed (normally €22.39) is free on Epic Games Store until Nov 5, 2026. A story-driven survival horror about demons and angels with fixed-camera exploration, arcade shooting, and a Third Eye mechanic to uncover secrets 🎮👻",
-   "sk": "Hra Sorry We're Closed (zvyčajne €22,39) zadarmo v Epic Games Store do 5. novembra 2026. Je to survival horror o démonoch a anjeloch s fixnou kamerou, arcade strelbou a mechanikou Third Eye na odhaľovanie tajomstiev 🎮👻"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/sorry-were-closed-724c86",
-  "source": "epic-games",
-  "found_at": "2026-10-30",
-  "expires_at": "2026-11-05",
-  "score": 100,
-  "worth": 22.39,
-  "pop": {},
-  "meta": null,
-  "status": "active",
-  "approved_at": "2026-10-30",
-  "fails": 0,
-  "miss": 1,
-  "give": {
-   "game": "Sorry We're Closed",
-   "store": "Epic Games Store",
-   "price": "UAH 459.00",
-   "until": "2026-11-05"
-  },
-  "blurb": {
-   "uk": "Досліджуєш світ між ангелами та демонами, розгадуєш пазли та стріляєш",
-   "ru": "Исследуешь мир между ангелами и демонами, решаешь загадки и стреляешь",
-   "en": "Explore the world between angels and demons, solve puzzles and shoot",
-   "sk": "Prieskumávaš svet medzi angelmi a démonmi, riešiš hádanky a streľáš"
-  }
- },
- {
   "id": "dd9aede050cd",
   "title": {
    "uk": "Dying Light −90%",
