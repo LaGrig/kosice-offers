@@ -44,6 +44,12 @@ def _handle(cb):
         call('answerCallbackQuery', callback_query_id=cb['id'], text='Нет доступа')
         return
     action, _, oid = cb['data'].partition(':')
+    if action == 'dm':
+        res = call('deleteMessage', chat_id=os.environ['CHANNEL'], message_id=int(oid))
+        label = '🗑 Видалено з каналу' if res.get('ok') else '⚠️ Не вдалося видалити'
+        call('answerCallbackQuery', callback_query_id=cb['id'], text=label)
+        call('editMessageReplyMarkup', chat_id=cb['message']['chat']['id'], message_id=cb['message']['message_id'], reply_markup={'inline_keyboard': [[{'text': label, 'callback_data': 'noop'}]]})
+        return
     msg = cb['message']
     where = {'chat_id': msg['chat']['id'], 'message_id': msg['message_id']}
     if action == 'rs':

@@ -70,5 +70,9 @@
     "auto_chart": true
   },
   "epic_min_local": 400,
-  "llm_pause": 3
+  "llm_pause": 3,
+  "epic_watch": {
+    "teasers": true,
+    "blurb": false
+  }
 }

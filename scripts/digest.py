@@ -106,7 +106,7 @@ def pick(active, sent):
     day3 = (today() - dt.timedelta(days=3)).isoformat()
     day7 = (today() - dt.timedelta(days=7)).isoformat()
     new = [o for o in active if o['id'] not in sent]
-    gives = sorted([o for o in new if o.get('kind') != 'deal' and when(o) >= day7],
+    gives = sorted([o for o in new if o.get('kind') != 'deal' and when(o) >= day7 and not (o.get('announced') and (o.get('expires_at') or '9999') > today().isoformat())],
                    key=lambda o: (SRC_RANK.get(o['source'], 2), o.get('expires_at') or '9999', -o['score']))
     deals = sorted([o for o in new if o.get('kind') == 'deal' and when(o) >= day3],
                    key=lambda o: (o.get('chart_rank') or 999, -o['score']))
