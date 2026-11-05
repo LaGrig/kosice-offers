@@ -606,7 +606,8 @@
    "sk": "Cestuješ s priateľmi po obrovskom svete po úteče z dystopického mesta"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "c6739a851319",
@@ -648,6 +649,7 @@
    "sk": "Pomáhaš Cloudovi v meste Midgar, bojuješ v novom systéme súbojov a preskúmaš svet"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
