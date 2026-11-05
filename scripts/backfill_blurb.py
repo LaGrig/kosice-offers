@@ -26,6 +26,8 @@ for o in load_offers():
     game = (o.get('deal') or o.get('give') or {}).get('game') or o['title']['en']
     b = make_blurb(game, d)
     print(game[:28], '->', (b or {}).get('uk', 'нет реплики'))
+    if '--show' in sys.argv:
+        print('      описание:', (d or '')[:230])
     if b:
         res[o['id']] = b
     else:
