@@ -565,5 +565,87 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "c391548c4a29",
+  "title": {
+   "uk": "FINAL FANTASY VII REBIRTH −85%",
+   "ru": "FINAL FANTASY VII REBIRTH −85%",
+   "en": "FINAL FANTASY VII REBIRTH −85%",
+   "sk": "FINAL FANTASY VII REBIRTH −85%"
+  },
+  "text": {
+   "uk": "FINAL FANTASY VII REBIRTH у Epic Games Store зараз за 255₴ замість 1 699₴. У топі Epic Games Store: №22 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "FINAL FANTASY VII REBIRTH в Epic Games Store сейчас за 255₴ вместо 1 699₴. В топе Epic Games Store: №22 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "FINAL FANTASY VII REBIRTH on Epic Games Store is 255₴ instead of 1 699₴ right now. In the Epic Games Store charts: #22 bestseller. Time to add it to your library 🎮",
+   "sk": "FINAL FANTASY VII REBIRTH v Epic Games Store je teraz za 255₴ namiesto 1 699₴. V rebríčku Epic Games Store: #22 podľa predajov. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/final-fantasy-vii-rebirth",
+  "source": "epic-charts",
+  "found_at": "2026-11-05",
+  "expires_at": null,
+  "score": 90,
+  "worth": 1699.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 22,
+  "deal": {
+   "game": "FINAL FANTASY VII REBIRTH",
+   "pct": 85,
+   "old": "1 699₴",
+   "new": "255₴",
+   "store": "Epic Games Store",
+   "rank_sales": 22
+  },
+  "blurb": {
+   "uk": "Подорожуєш разом із друзями по величезному світу після втечі з похмурого міста",
+   "ru": "Путешествуешь с друзьями по огромному миру после побега из мрачного города",
+   "en": "Travel across a vast world with your friends after escaping a dystopian city",
+   "sk": "Cestuješ s priateľmi po obrovskom svete po úteče z dystopického mesta"
+  },
+  "status": "active"
+ },
+ {
+  "id": "c6739a851319",
+  "title": {
+   "uk": "FINAL FANTASY VII REMAKE INTERGRADE −82%",
+   "ru": "FINAL FANTASY VII REMAKE INTERGRADE −82%",
+   "en": "FINAL FANTASY VII REMAKE INTERGRADE −82%",
+   "sk": "FINAL FANTASY VII REMAKE INTERGRADE −82%"
+  },
+  "text": {
+   "uk": "FINAL FANTASY VII REMAKE INTERGRADE у Epic Games Store зараз за 198₴ замість 1 099₴. У топі Epic Games Store: №54 за продажами. Гарний момент забрати 🎮",
+   "ru": "FINAL FANTASY VII REMAKE INTERGRADE в Epic Games Store сейчас за 198₴ вместо 1 099₴. В топе Epic Games Store: №54 по продажам. Хороший момент забрать 🎮",
+   "en": "FINAL FANTASY VII REMAKE INTERGRADE on Epic Games Store is 198₴ instead of 1 099₴ right now. In the Epic Games Store charts: #54 bestseller. A good moment to grab it 🎮",
+   "sk": "FINAL FANTASY VII REMAKE INTERGRADE v Epic Games Store je teraz za 198₴ namiesto 1 099₴. V rebríčku Epic Games Store: #54 podľa predajov. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/final-fantasy-vii-remake-intergrade",
+  "source": "epic-charts",
+  "found_at": "2026-11-05",
+  "expires_at": null,
+  "score": 90,
+  "worth": 1099.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 54,
+  "deal": {
+   "game": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "pct": 82,
+   "old": "1 099₴",
+   "new": "198₴",
+   "store": "Epic Games Store",
+   "rank_sales": 54
+  },
+  "blurb": {
+   "uk": "Допомагаєш Клауду в місті Мідгар, б'єшся в новій системі бою та досліджуєш світ",
+   "ru": "Помогаешь Клауду в городе Мидгар, сражаешься в новой боевой системе и исследуешь мир",
+   "en": "Help Cloud in the city of Midgar, fight using a new battle system and explore the world",
+   "sk": "Pomáhaš Cloudovi v meste Midgar, bojuješ v novom systéme súbojov a preskúmaš svet"
+  },
+  "status": "active"
  }
 ]
