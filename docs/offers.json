@@ -156,7 +156,7 @@
   "status": "active",
   "approved_at": "2026-10-30",
   "fails": 0,
-  "miss": 0,
+  "miss": 1,
   "give": {
    "game": "Sorry We're Closed",
    "store": "Epic Games Store",
