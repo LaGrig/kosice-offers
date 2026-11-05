@@ -489,5 +489,116 @@
    "en": "Tactical open world shooter where you and your friends save Washington, D.C.",
    "sk": "Taktický shooter v otvorenom svete, kde s kamarátmi záchraníš Washington"
   }
+ },
+ {
+  "id": "75e3d75f9223",
+  "title": {
+   "uk": "Letter Quest: Grimm's Journey Remastered",
+   "ru": "Letter Quest: Grimm's Journey Remastered",
+   "en": "Letter Quest: Grimm's Journey Remastered",
+   "sk": "Letter Quest: Grimm's Journey Remastered"
+  },
+  "text": {
+   "uk": "Забирай повноцінну гру Letter Quest: Grimm's Journey Remastered безкоштовно в Steam 🎮",
+   "ru": "Забирай полноценную игру Letter Quest: Grimm's Journey Remastered бесплатно в Steam 🎮",
+   "en": "Get the full game Letter Quest: Grimm's Journey Remastered for free on Steam 🎮",
+   "sk": "Získaj si plnú hru Letter Quest: Grimm's Journey Remastered zadarmo v Steam 🎮"
+  },
+  "category": "games",
+  "link": "https://www.fanatical.com/en/game/letter-quest-grimms-journey-remastered",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-11-05",
+  "expires_at": null,
+  "score": 100,
+  "worth": null,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "pending",
+  "blurb": null
+ },
+ {
+  "id": "cbb2592cfa2d",
+  "title": {
+   "uk": "Shadow of the Tomb Raider −90%",
+   "ru": "Shadow of the Tomb Raider −90%",
+   "en": "Shadow of the Tomb Raider −90%",
+   "sk": "Shadow of the Tomb Raider −90%"
+  },
+  "text": {
+   "uk": "Shadow of the Tomb Raider у Epic Games Store зараз за 73₴ замість 729₴. У топі Epic Games Store: №75 за продажами. Гарний момент забрати 🎮",
+   "ru": "Shadow of the Tomb Raider в Epic Games Store сейчас за 73₴ вместо 729₴. В топе Epic Games Store: №75 по продажам. Хороший момент забрать 🎮",
+   "en": "Shadow of the Tomb Raider on Epic Games Store is 73₴ instead of 729₴ right now. In the Epic Games Store charts: #75 bestseller. A good moment to grab it 🎮",
+   "sk": "Shadow of the Tomb Raider v Epic Games Store je teraz za 73₴ namiesto 729₴. V rebríčku Epic Games Store: #75 podľa predajov. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/shadow-of-the-tomb-raider",
+  "source": "epic-charts",
+  "found_at": "2026-11-05",
+  "expires_at": null,
+  "score": 90,
+  "worth": 729.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 75,
+  "deal": {
+   "game": "Shadow of the Tomb Raider: Definitive Edition",
+   "pct": 90,
+   "old": "729₴",
+   "new": "73₴",
+   "store": "Epic Games Store",
+   "rank_sales": 75
+  },
+  "blurb": {
+   "uk": "прослідкуй за тим, як Лара стає справжньою розкрадачкою гробниць",
+   "ru": "посмотри, как Лара окончательно превращается в расхитительницу гробниц",
+   "en": "watch Lara finally become the tomb raider she was meant to be",
+   "sk": "sleduj, ako sa z Lary stane pravá rabistvčka hrobiek"
+  },
+  "status": "active"
+ },
+ {
+  "id": "6f522961c343",
+  "title": {
+   "uk": "Rise of the Tomb Raider: 20 Year Celebration −90%",
+   "ru": "Rise of the Tomb Raider: 20 Year Celebration −90%",
+   "en": "Rise of the Tomb Raider: 20 Year Celebration −90%",
+   "sk": "Rise of the Tomb Raider: 20 Year Celebration −90%"
+  },
+  "text": {
+   "uk": "Rise of the Tomb Raider: 20 Year Celebration у Epic Games Store зараз за 70₴ замість 699₴. У топі Epic Games Store: №87 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "Rise of the Tomb Raider: 20 Year Celebration в Epic Games Store сейчас за 70₴ вместо 699₴. В топе Epic Games Store: №87 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Rise of the Tomb Raider: 20 Year Celebration on Epic Games Store is 70₴ instead of 699₴ right now. In the Epic Games Store charts: #87 bestseller. Your student budget will thank you 🎮",
+   "sk": "Rise of the Tomb Raider: 20 Year Celebration v Epic Games Store je teraz za 70₴ namiesto 699₴. V rebríčku Epic Games Store: #87 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/rise-of-the-tomb-raider",
+  "source": "epic-charts",
+  "found_at": "2026-11-05",
+  "expires_at": null,
+  "score": 90,
+  "worth": 699.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 87,
+  "deal": {
+   "game": "Rise of the Tomb Raider: 20 Year Celebration",
+   "pct": 90,
+   "old": "699₴",
+   "new": "70₴",
+   "store": "Epic Games Store",
+   "rank_sales": 87
+  },
+  "blurb": {
+   "uk": "досліджуй маєток Крофт та відбивайся від зомбі разом із Ларою",
+   "ru": "исследуй поместье Крофт и защищай его от нашествия зомби",
+   "en": "explore croft manor and defend it against a zombie invasion",
+   "sk": "preskúmaj croftov mansion a chráň ho pred inváziou zombií"
+  },
+  "status": "active"
  }
 ]
