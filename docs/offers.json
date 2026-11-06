@@ -277,10 +277,10 @@
    "sk": "Metro Exodus −90%"
   },
   "text": {
-   "uk": "Metro Exodus у Epic Games Store зараз за 80₴ замість 799₴. У топі Epic Games Store: №24 за продажами. Гарний момент забрати 🎮",
-   "ru": "Metro Exodus в Epic Games Store сейчас за 80₴ вместо 799₴. В топе Epic Games Store: №24 по продажам. Хороший момент забрать 🎮",
-   "en": "Metro Exodus on Epic Games Store is 80₴ instead of 799₴ right now. In the Epic Games Store charts: #24 bestseller. A good moment to grab it 🎮",
-   "sk": "Metro Exodus v Epic Games Store je teraz za 80₴ namiesto 799₴. V rebríčku Epic Games Store: #24 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Metro Exodus у Epic Games Store зараз за 80₴ замість 799₴. У топі Epic Games Store: №25 за продажами. Гарний момент забрати 🎮",
+   "ru": "Metro Exodus в Epic Games Store сейчас за 80₴ вместо 799₴. В топе Epic Games Store: №25 по продажам. Хороший момент забрать 🎮",
+   "en": "Metro Exodus on Epic Games Store is 80₴ instead of 799₴ right now. In the Epic Games Store charts: #25 bestseller. A good moment to grab it 🎮",
+   "sk": "Metro Exodus v Epic Games Store je teraz za 80₴ namiesto 799₴. V rebríčku Epic Games Store: #25 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.epicgames.com/p/metro-exodus",
@@ -303,7 +303,7 @@
    "old": "799₴",
    "new": "80₴",
    "store": "Epic Games Store",
-   "rank_sales": 24
+   "rank_sales": 25
   },
   "miss_p": 0,
   "blurb": {
@@ -408,10 +408,10 @@
    "sk": "Tom Clancy’s The Division 2 −75%"
   },
   "text": {
-   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №70 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №70 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #70 bestseller. Time to add it to your library 🎮",
-   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #70 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №69 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №69 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #69 bestseller. Time to add it to your library 🎮",
+   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #69 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/2221490/",
@@ -430,7 +430,7 @@
    "old": "649₴",
    "new": "162₴",
    "store": "Steam",
-   "rank_sales": 70,
+   "rank_sales": 69,
    "rank_play": null
   },
   "status": "active",
@@ -453,10 +453,10 @@
    "sk": "Shadow of the Tomb Raider −90%"
   },
   "text": {
-   "uk": "Shadow of the Tomb Raider у Epic Games Store зараз за 73₴ замість 729₴. У топі Epic Games Store: №25 за продажами. Гарний момент забрати 🎮",
-   "ru": "Shadow of the Tomb Raider в Epic Games Store сейчас за 73₴ вместо 729₴. В топе Epic Games Store: №25 по продажам. Хороший момент забрать 🎮",
-   "en": "Shadow of the Tomb Raider on Epic Games Store is 73₴ instead of 729₴ right now. In the Epic Games Store charts: #25 bestseller. A good moment to grab it 🎮",
-   "sk": "Shadow of the Tomb Raider v Epic Games Store je teraz za 73₴ namiesto 729₴. V rebríčku Epic Games Store: #25 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "Shadow of the Tomb Raider у Epic Games Store зараз за 73₴ замість 729₴. У топі Epic Games Store: №26 за продажами. Гарний момент забрати 🎮",
+   "ru": "Shadow of the Tomb Raider в Epic Games Store сейчас за 73₴ вместо 729₴. В топе Epic Games Store: №26 по продажам. Хороший момент забрать 🎮",
+   "en": "Shadow of the Tomb Raider on Epic Games Store is 73₴ instead of 729₴ right now. In the Epic Games Store charts: #26 bestseller. A good moment to grab it 🎮",
+   "sk": "Shadow of the Tomb Raider v Epic Games Store je teraz za 73₴ namiesto 729₴. V rebríčku Epic Games Store: #26 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.epicgames.com/p/shadow-of-the-tomb-raider",
@@ -475,7 +475,7 @@
    "old": "729₴",
    "new": "73₴",
    "store": "Epic Games Store",
-   "rank_sales": 25
+   "rank_sales": 26
   },
   "blurb": {
    "uk": "Проходиш фінальну частину історії становлення Лари як розкрадачки гробниць",
@@ -497,10 +497,10 @@
    "sk": "Rise of the Tomb Raider: 20 Year Celebration −90%"
   },
   "text": {
-   "uk": "Rise of the Tomb Raider: 20 Year Celebration у Epic Games Store зараз за 70₴ замість 699₴. У топі Epic Games Store: №33 за продажами. Студентський бюджет скаже дякую 🎮",
-   "ru": "Rise of the Tomb Raider: 20 Year Celebration в Epic Games Store сейчас за 70₴ вместо 699₴. В топе Epic Games Store: №33 по продажам. Студенческий бюджет скажет спасибо 🎮",
-   "en": "Rise of the Tomb Raider: 20 Year Celebration on Epic Games Store is 70₴ instead of 699₴ right now. In the Epic Games Store charts: #33 bestseller. Your student budget will thank you 🎮",
-   "sk": "Rise of the Tomb Raider: 20 Year Celebration v Epic Games Store je teraz za 70₴ namiesto 699₴. V rebríčku Epic Games Store: #33 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+   "uk": "Rise of the Tomb Raider: 20 Year Celebration у Epic Games Store зараз за 70₴ замість 699₴. У топі Epic Games Store: №34 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "Rise of the Tomb Raider: 20 Year Celebration в Epic Games Store сейчас за 70₴ вместо 699₴. В топе Epic Games Store: №34 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Rise of the Tomb Raider: 20 Year Celebration on Epic Games Store is 70₴ instead of 699₴ right now. In the Epic Games Store charts: #34 bestseller. Your student budget will thank you 🎮",
+   "sk": "Rise of the Tomb Raider: 20 Year Celebration v Epic Games Store je teraz za 70₴ namiesto 699₴. V rebríčku Epic Games Store: #34 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
   },
   "category": "games",
   "link": "https://store.epicgames.com/p/rise-of-the-tomb-raider",
@@ -519,7 +519,7 @@
    "old": "699₴",
    "new": "70₴",
    "store": "Epic Games Store",
-   "rank_sales": 33
+   "rank_sales": 34
   },
   "status": "active",
   "miss_p": 0,
@@ -535,10 +535,10 @@
    "sk": "FINAL FANTASY VII REBIRTH −85%"
   },
   "text": {
-   "uk": "FINAL FANTASY VII REBIRTH у Epic Games Store зараз за 255₴ замість 1 699₴. У топі Epic Games Store: №22 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "FINAL FANTASY VII REBIRTH в Epic Games Store сейчас за 255₴ вместо 1 699₴. В топе Epic Games Store: №22 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "FINAL FANTASY VII REBIRTH on Epic Games Store is 255₴ instead of 1 699₴ right now. In the Epic Games Store charts: #22 bestseller. Time to add it to your library 🎮",
-   "sk": "FINAL FANTASY VII REBIRTH v Epic Games Store je teraz za 255₴ namiesto 1 699₴. V rebríčku Epic Games Store: #22 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "FINAL FANTASY VII REBIRTH у Epic Games Store зараз за 255₴ замість 1 699₴. У топі Epic Games Store: №23 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "FINAL FANTASY VII REBIRTH в Epic Games Store сейчас за 255₴ вместо 1 699₴. В топе Epic Games Store: №23 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "FINAL FANTASY VII REBIRTH on Epic Games Store is 255₴ instead of 1 699₴ right now. In the Epic Games Store charts: #23 bestseller. Time to add it to your library 🎮",
+   "sk": "FINAL FANTASY VII REBIRTH v Epic Games Store je teraz za 255₴ namiesto 1 699₴. V rebríčku Epic Games Store: #23 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.epicgames.com/p/final-fantasy-vii-rebirth",
@@ -557,7 +557,7 @@
    "old": "1 699₴",
    "new": "255₴",
    "store": "Epic Games Store",
-   "rank_sales": 22
+   "rank_sales": 23
   },
   "blurb": {
    "uk": "Подорожуєш разом із друзями по величезному світу після втечі з похмурого міста",
@@ -579,10 +579,10 @@
    "sk": "FINAL FANTASY VII REMAKE INTERGRADE −82%"
   },
   "text": {
-   "uk": "FINAL FANTASY VII REMAKE INTERGRADE у Epic Games Store зараз за 198₴ замість 1 099₴. У топі Epic Games Store: №54 за продажами. Гарний момент забрати 🎮",
-   "ru": "FINAL FANTASY VII REMAKE INTERGRADE в Epic Games Store сейчас за 198₴ вместо 1 099₴. В топе Epic Games Store: №54 по продажам. Хороший момент забрать 🎮",
-   "en": "FINAL FANTASY VII REMAKE INTERGRADE on Epic Games Store is 198₴ instead of 1 099₴ right now. In the Epic Games Store charts: #54 bestseller. A good moment to grab it 🎮",
-   "sk": "FINAL FANTASY VII REMAKE INTERGRADE v Epic Games Store je teraz za 198₴ namiesto 1 099₴. V rebríčku Epic Games Store: #54 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "FINAL FANTASY VII REMAKE INTERGRADE у Epic Games Store зараз за 198₴ замість 1 099₴. У топі Epic Games Store: №55 за продажами. Гарний момент забрати 🎮",
+   "ru": "FINAL FANTASY VII REMAKE INTERGRADE в Epic Games Store сейчас за 198₴ вместо 1 099₴. В топе Epic Games Store: №55 по продажам. Хороший момент забрать 🎮",
+   "en": "FINAL FANTASY VII REMAKE INTERGRADE on Epic Games Store is 198₴ instead of 1 099₴ right now. In the Epic Games Store charts: #55 bestseller. A good moment to grab it 🎮",
+   "sk": "FINAL FANTASY VII REMAKE INTERGRADE v Epic Games Store je teraz za 198₴ namiesto 1 099₴. V rebríčku Epic Games Store: #55 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.epicgames.com/p/final-fantasy-vii-remake-intergrade",
@@ -601,7 +601,7 @@
    "old": "1 099₴",
    "new": "198₴",
    "store": "Epic Games Store",
-   "rank_sales": 54
+   "rank_sales": 55
   },
   "blurb": {
    "uk": "Допомагаєш Клауду в місті Мідгар, б'єшся в новій системі бою та досліджуєш світ",
