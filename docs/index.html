@@ -39,6 +39,7 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 <div class='hint' id='hint'></div>
 <div id='list'></div>
 <script>
+window.addEventListener('error', e => { const b = document.getElementById('list'); if (b) { const d = document.createElement('div'); d.className = 'empty'; d.textContent = 'Помилка: ' + e.message + ' (рядок ' + e.lineno + ')'; b.append(d); } });
 const T = window.Telegram && window.Telegram.WebApp;
 if (T) { T.ready(); T.expand(); }
 const CATS = {all:'Все', food:'Еда', games:'Игры', events:'События', places:'Места', it_soft:'IT и софт', services:'Услуги', jobs:'Работа', study:'Учёба', other:'Другое'};
@@ -148,7 +149,7 @@ chips();
 fetch(API + '/counts').then(r => r.json()).then(d => { counts = d; render(); }).catch(() => {});
 if (T && T.initData) fetch(API + '/mine', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({initData: T.initData})}).then(r => r.json()).then(d => { mine = d; render(); }).catch(() => {});
 fetch('links.json?' + Date.now()).then(r => r.json()).then(d => { links = d; render(); }).catch(() => {});
-fetch('offers.json?' + Date.now()).then(r => r.json()).then(d => { offers = d; render(); }).catch(() => { $('list').append(el('div', 'empty', 'Не удалось загрузить данные')); });
+fetch('offers.json?' + Date.now()).then(r => r.json()).then(d => { offers = d; render(); }).catch(e => { $('list').append(el('div', 'empty', 'Помилка: ' + ((e && e.message) || e))); });
 </script>
 </body>
 </html>
