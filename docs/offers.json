@@ -484,7 +484,7 @@
    "sk": "Prežíváš finálne obdobie cesty Lary, kým sa nestane hľadačkou hrobiek"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -522,7 +522,7 @@
    "rank_sales": 29
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
