@@ -647,5 +647,92 @@
   "blurb": null,
   "fails": 0,
   "miss": 1
+ },
+ {
+  "id": "4e83d2ce6f5e",
+  "title": {
+   "uk": "Chants of Sennaar безкоштовно",
+   "ru": "Chants of Sennaar бесплатно",
+   "en": "Free Chants of Sennaar",
+   "sk": "Chants of Sennaar zadarmo"
+  },
+  "text": {
+   "uk": "Забирай безкоштовну мобільну гру Chants of Sennaar в Epic Games Store для Android та iOS 📱🎮",
+   "ru": "Забирай бесплатную мобильную игру Chants of Sennaar в Epic Games Store для Android и iOS 📱🎮",
+   "en": "Get the free mobile game Chants of Sennaar in the Epic Games Store for Android and iOS 📱🎮",
+   "sk": "Zober si hru Chants of Sennaar zadarmo v Epic Games Store pre Android a iOS 📱🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/chants-of-sennaar-android-681b80",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-11-06",
+  "expires_at": null,
+  "score": 100,
+  "worth": null,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "pending",
+  "blurb": null
+ },
+ {
+  "id": "bf1c9a67abaa",
+  "title": {
+   "uk": "GMH - Good Morning Human у Epic Games Store",
+   "ru": "GMH - Good Morning Human в Epic Games Store",
+   "en": "GMH - Good Morning Human in Epic Games Store",
+   "sk": "GMH - Good Morning Human v Epic Games Store"
+  },
+  "text": {
+   "uk": "Забирай гру GMH - Good Morning Human безкоштовно в Epic Games Store на обмежений час 🎮🤖",
+   "ru": "Забирай игру GMH - Good Morning Human бесплатно в Epic Games Store на ограниченное время 🎮🤖",
+   "en": "Get GMH - Good Morning Human for free in the Epic Games Store for a limited time 🎮🤖",
+   "sk": "Zober si hru GMH - Good Morning Human zadarmo v Epic Games Store na obmedzený čas 🎮🤖"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/good-morning-human-6d0b45",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-11-06",
+  "expires_at": null,
+  "score": 100,
+  "worth": null,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "pending",
+  "blurb": null
+ },
+ {
+  "id": "85c6cc94be47",
+  "title": {
+   "uk": "Sorry We're Closed у Epic Games Store",
+   "ru": "Sorry We're Closed в Epic Games Store",
+   "en": "Sorry We're Closed on Epic Games Store",
+   "sk": "Sorry We're Closed v Epic Games Store"
+  },
+  "text": {
+   "uk": "Забирай платну гру Sorry We're Closed безкоштовно в Epic Games Store 🎮",
+   "ru": "Забирай платную игру Sorry We're Closed бесплатно в Epic Games Store 🎮",
+   "en": "Get the paid game Sorry We're Closed for free on Epic Games Store 🎮",
+   "sk": "Zober si platenú hru Sorry We're Closed zadarmo v Epic Games Store 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/sorry-were-closed-724c86",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-11-06",
+  "expires_at": null,
+  "score": 95,
+  "worth": null,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "pending",
+  "blurb": null
  }
 ]
