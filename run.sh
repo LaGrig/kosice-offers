@@ -5,6 +5,10 @@ cd /home/ubuntu/kosice-offers
   flock 9
   git add docs
   git commit -qm "update $1 $(date +%F_%H:%M)" || true
-  git pull --rebase --autostash -q || git rebase --abort
-  git push -q
+  for i in 1 2 3; do
+    git pull --rebase --autostash -q 2>/dev/null || git rebase --abort 2>/dev/null
+    git push -q && break
+    echo "git push не удался, попытка $i, жду" >&2
+    sleep $((i * 20))
+  done
 ) 9>/tmp/kosice-git.lock
