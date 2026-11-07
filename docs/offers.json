@@ -1,28 +1,5 @@
 [
  {
-  "id": "65967cfda881",
-  "title": {
-   "uk": "Hexweave — безкоштовна браузерна гра з поєднанням заклять",
-   "ru": "Hexweave — бесплатная браузерная игра с объединением заклинаний",
-   "en": "Hexweave — free browser survivors‑like with spell fusion",
-   "sk": "Hexweave — bezplatná prehliadačová hra so spájáním kliatieb"
-  },
-  "text": {
-   "uk": "Грай безкоштовно в браузері: survivors-like, де з’єднуєш закляття. Посилання: https://kendromaro.itch.io/hexweave",
-   "ru": "Играй бесплатно в браузере: survivors-like, где объединяешь заклинания. Ссылка: https://kendromaro.itch.io/hexweave",
-   "en": "Play free in browser: survivors‑like where you fuse spells. Link: https://kendromaro.itch.io/hexweave",
-   "sk": "Hraj zadarmo v prehliadači: survivors-like, kde spájaš kliatby. Odkaz: https://kendromaro.itch.io/hexweave"
-  },
-  "category": "games",
-  "link": "https://www.reddit.com/r/freegames/comments/1xazqjd/hexweave_survivorslike_where_you_fuse_spells/",
-  "source": "reddit-freegames",
-  "found_at": "2026-10-20",
-  "expires_at": null,
-  "score": 92,
-  "status": "active",
-  "fails": 0
- },
- {
   "id": "dee6a56622c0",
   "title": {
    "uk": "Last Room безкоштовно в IndieGala (Steam/DRM-free)",
@@ -44,90 +21,6 @@
   "score": 100,
   "status": "active",
   "approved_at": "2026-10-20",
-  "fails": 0
- },
- {
-  "id": "fa2c3b9395a9",
-  "title": {
-   "uk": "Home: безкоштовна жахова пригода в Epic Games",
-   "ru": "Home: бесплатная хоррор-приключение в Epic Games",
-   "en": "Home: free horror adventure on Epic Games",
-   "sk": "Home: bezplatná horrorová dobrodružstvo v Epic Games"
-  },
-  "text": {
-   "uk": "Гра Home безкоштовна в Epic Games Store, це унікальна жахова пригода.",
-   "ru": "Игра Home бесплатно в Epic Games Store, это уникальное хоррор-приключение.",
-   "en": "Home is free on the Epic Games Store, a unique horror adventure.",
-   "sk": "Hra Home je zadarmo v Epic Games Store, jedinečná horrorová dobrodružstvo."
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/home-19212a",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-10-23",
-  "expires_at": null,
-  "score": 95,
-  "worth": null,
-  "pop": {},
-  "status": "active",
-  "approved_at": "2026-10-23",
-  "fails": 0
- },
- {
-  "id": "0f0cf20fb496",
-  "title": {
-   "uk": "Radiant Exodus безкоштовно в Steam до 17 листопада 2026",
-   "ru": "Radiant Exodus бесплатно в Steam до 17 ноября 2026",
-   "en": "Radiant Exodus free on Steam until 17 November 2026",
-   "sk": "Radiant Exodus zadarmo na Steam do 17. novembra 2026"
-  },
-  "text": {
-   "uk": "Radiant Exodus безкоштовна в Steam до 17 листопада 2026 року. Планується, що гра стане платною з 17 листопада 2026, за підтвердженням Steam.",
-   "ru": "Radiant Exodus бесплатно в Steam до 17 ноября 2026 года. Планируется, что игра станет платной с 17 ноября 2026 после подтверждения Steam.",
-   "en": "Radiant Exodus is free on Steam until 17 November 2026. The game is planned to return to paid on 17 November 2026, pending Steam confirmation.",
-   "sk": "Radiant Exodus je zadarmo na Steam do 17. novembra 2026. Hra sa má stať platenou od 17. novembra 2026 po potvrdení Steam."
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/news/app/2920120/view/744940680203209202",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-10-23",
-  "expires_at": "2026-11-17",
-  "score": 100,
-  "worth": null,
-  "pop": {},
-  "status": "active",
-  "approved_at": "2026-10-23",
-  "fails": 0,
-  "blurb": {
-   "uk": "Виживаєш у місті, що руйнується, і шукаєш батька серед дивних вогнів",
-   "ru": "Выживаешь в разрушенном городе и ищешь отца среди странных огней",
-   "en": "Survive in a crumbling city and search for your father among strange lights",
-   "sk": "Prežívaš v rozvratnom meste a hľadáš otca medzi zvlátnymi svetlami"
-  }
- },
- {
-  "id": "f42f23fcb036",
-  "title": {
-   "uk": "MAFIA HOTEL безкоштовно в Epic Games Store",
-   "ru": "MAFIA HOTEL бесплатно в Epic Games Store",
-   "en": "MAFIA HOTEL free on Epic Games Store",
-   "sk": "MAFIA HOTEL zadarmo v Epic Games Store"
-  },
-  "text": {
-   "uk": "Гра MAFIA HOTEL доступна безкоштовно в Epic Games Store.",
-   "ru": "Игра MAFIA HOTEL доступна бесплатно в Epic Games Store.",
-   "en": "The game MAFIA HOTEL is available for free on the Epic Games Store.",
-   "sk": "Hra MAFIA HOTEL je k dispozícii zadarmo v Epic Games Store."
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/mafia-hotel-eaea4c",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-10-25",
-  "expires_at": null,
-  "score": 85,
-  "worth": null,
-  "pop": {},
-  "status": "active",
-  "approved_at": "2026-10-25",
   "fails": 0
  },
  {
