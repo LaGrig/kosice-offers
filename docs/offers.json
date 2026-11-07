@@ -647,6 +647,7 @@
   "give": null,
   "status": "active",
   "blurb": null,
-  "approved_at": "2026-11-07"
+  "approved_at": "2026-11-07",
+  "fails": 0
  }
 ]
