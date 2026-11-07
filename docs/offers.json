@@ -645,7 +645,8 @@
   "kind": null,
   "chart_rank": null,
   "give": null,
-  "status": "pending",
-  "blurb": null
+  "status": "active",
+  "blurb": null,
+  "approved_at": "2026-11-07"
  }
 ]
