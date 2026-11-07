@@ -4,7 +4,7 @@ from chartdeals import prices, info
 
 LOG = ROOT / 'data' / 'removed.jsonl'
 MAX_DAYS = 3
-SKIP = ('epic-games', 'gamerpower')
+SKIP = ('epic-games', 'gamerpower', 'manual')
 URL = 'https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions'
 UA = {'User-Agent': 'kosice-offers-bot (+https://github.com/LaGrig/kosice-offers)'}
 

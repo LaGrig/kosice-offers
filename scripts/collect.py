@@ -28,6 +28,8 @@ def link_key(url):
         return host
     if 'cheapshark.com' in host:
         return host + p.path + '?' + p.query
+    if host.endswith('epicgames.com'):
+        return host + re.sub(r'^/[a-z]{2}-[A-Za-z]{2}(?=/)', '', p.path).rstrip('/')
     return host + p.path.rstrip('/')
 
 def clean(raw):
