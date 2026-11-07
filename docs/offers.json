@@ -431,5 +431,29 @@
   "blurb": null,
   "approved_at": "2026-11-07",
   "fails": 0
+ },
+ {
+  "id": "b6d634ee9a1c",
+  "title": {
+   "uk": "Знижки на софт для студентів",
+   "ru": "Скидки на софт для студентов",
+   "en": "Software discounts for students",
+   "sk": "Zľavy na softvér pre študentov"
+  },
+  "text": {
+   "uk": "Підбірка програм зі студентськими знижками",
+   "ru": "Подборка программ со студенческими скидками",
+   "en": "A selection of programs with student discounts",
+   "sk": "Výber programov so študentskými zľavami"
+  },
+  "category": "it_soft",
+  "link": "https://example.com",
+  "source": "manual",
+  "found_at": "2026-11-07",
+  "approved_at": "2026-11-07",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "status": "active",
+  "pinned": false
  }
 ]
