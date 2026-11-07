@@ -618,5 +618,34 @@
   "give": null,
   "status": "pending",
   "blurb": null
+ },
+ {
+  "id": "d5cb15add42f",
+  "title": {
+   "uk": "Flotsam безкоштовно в Epic Games Store",
+   "ru": "Flotsam бесплатно в Epic Games Store",
+   "en": "Flotsam free in Epic Games Store",
+   "sk": "Flotsam zadarmo v Epic Games Store"
+  },
+  "text": {
+   "uk": "Забирай гру Flotsam безкоштовно в Epic Games Store 🌊",
+   "ru": "Забирай игру Flotsam бесплатно в Epic Games Store 🌊",
+   "en": "Get Flotsam for free in the Epic Games Store 🌊",
+   "sk": "Knihni si hru Flotsam zadarmo v Epic Games Store 🌊"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/flotsam-266287",
+  "source": "reddit-freegamefindings",
+  "found_at": "2026-11-07",
+  "expires_at": null,
+  "score": 100,
+  "worth": null,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "pending",
+  "blurb": null
  }
 ]
