@@ -454,6 +454,7 @@
   "expires_at": "2026-12-01",
   "score": 90,
   "status": "active",
-  "pinned": false
+  "pinned": false,
+  "fails": 0
  }
 ]
