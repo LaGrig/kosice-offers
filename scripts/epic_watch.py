@@ -3,6 +3,7 @@ from zoneinfo import ZoneInfo
 from common import CFG, ROOT, update_offers, offer_id, today
 from blurb import make_blurb
 from epicdeals import _money
+import digest as dg
 
 URL = 'https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions'
 UA = {'User-Agent': 'kosice-offers-bot (+https://github.com/LaGrig/kosice-offers)'}
@@ -140,11 +141,10 @@ def main():
                 bl = make_blurb(name, desc) if (cfg.get('blurb', True) and not DRY) else None
             except Exception:
                 bl = None
-            lines = ['🎮 <b>' + tx['game'] + '</b> · <a href="' + html.escape(link, quote=True) + '"><b>' + html.escape(name) + '</b></a>',
-                     '<b>0' + sym + '</b> <s>' + html.escape(orig) + '</s> · ⏰ ' + tx['until'] + ' ' + until]
-            if bl and bl.get(lang):
-                lines.append('💬 <i>' + html.escape(bl[lang]) + '</i>')
-            blocks.append('\n'.join(lines))
+            end_d = w[1].astimezone(dt.timezone.utc).date().isoformat()
+            card = {'category': 'games', 'link': link, 'title': {lang: name}, 'text': {lang: ''}, 'expires_at': end_d, 'blurb': bl,
+                    'give': {'game': name, 'store': 'Epic Games Store', 'price': orig, 'until': end_d}}
+            blocks.append(dg.block(card, lang, dg.L[lang]))
             d = w[1].astimezone(dt.timezone.utc).date().isoformat()
             ds = d[8:10] + '/' + d[5:7] + '/' + d[:4]
             T = {'uk': 'Безкоштовно в Epic Games Store до {d}. Зазвичай {p}.', 'ru': 'Бесплатно в Epic Games Store до {d}. Обычно {p}.',

@@ -1,4 +1,4 @@
-import datetime as dt, html, json, os, requests
+import datetime as dt, html, json, os, re, requests, time
 from common import CFG, ROOT, load_offers, today
 from givefmt import norm_price
 from dealtext import clean_game
@@ -102,7 +102,13 @@ def alive_deal_links():
         print('проверка цен недоступна:', e)
         return None
 
+def slug_of(link):
+    m = re.search(r'/p/([^/?#]+)', link or '')
+    return m.group(1) if m else None
+
 def pick(active, sent):
+    ann = {slug_of(o['link']) for o in active if o.get('announced') and slug_of(o['link'])}
+    active = [o for o in active if not (slug_of(o['link']) in ann and not o.get('announced'))]
     day3 = (today() - dt.timedelta(days=3)).isoformat()
     day7 = (today() - dt.timedelta(days=7)).isoformat()
     new = [o for o in active if o['id'] not in sent]
@@ -138,5 +144,16 @@ def main():
     print(r.status_code, r.text[:200])
     if r.status_code == 200 and not preview:
         SENT.write_text(json.dumps(sorted(load_sent() | ids)))
+        try:
+            mid = r.json()['result']['message_id']
+            f = ROOT / 'data' / 'channel_posts.json'
+            posts = json.loads(f.read_text(encoding='utf-8')) if f.exists() else []
+            posts.append({'ts': time.strftime('%F %T'), 'message_id': mid, 'label': 'дайджест'})
+            f.write_text(json.dumps(posts[-200:], ensure_ascii=False), encoding='utf-8')
+            requests.post('https://api.telegram.org/bot' + os.environ['BOT_TOKEN'] + '/sendMessage', timeout=30, json={'chat_id': os.environ['OWNER_ID'],
+                          'text': '✅ Дайджест опубліковано в каналі', 'reply_markup': {'inline_keyboard': [[{'text': '🗑 Видалити з каналу', 'callback_data': 'dm:' + str(mid)}]]}})
+        except Exception as e:
+            print('не удалось записать пост:', e)
 
-main()
+if __name__ == '__main__':
+    main()
