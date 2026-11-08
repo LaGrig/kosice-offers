@@ -496,7 +496,8 @@
    "en": "Fight in massive World War Two battles, commanding infantry, tanks, and artillery",
    "sk": "Bojuješ v masívnych bitkách druhej svetovej vojny s pechotou, tankmi a artilériou"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "a41ad95b27cd",
@@ -537,6 +538,7 @@
    "en": "Fly with your wingsuit and use a grappling hook to fight oppression in a world of extreme weather",
    "sk": "Lietaš na wingsuite a používaš háčik, aby si bojoval proti ut ידיčeniu vo svete s extrémami počasia"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
