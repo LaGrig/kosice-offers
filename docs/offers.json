@@ -497,7 +497,8 @@
    "sk": "Bojuješ v masívnych bitkách druhej svetovej vojny s pechotou, tankmi a artilériou"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "a41ad95b27cd",
@@ -539,6 +540,7 @@
    "sk": "Lietaš na wingsuite a používaš háčik, aby si bojoval proti ut ידיčeniu vo svete s extrémami počasia"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
