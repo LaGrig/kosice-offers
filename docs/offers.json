@@ -456,5 +456,87 @@
   "status": "active",
   "pinned": false,
   "fails": 0
+ },
+ {
+  "id": "c0fc743aff78",
+  "title": {
+   "uk": "Hell Let Loose −75%",
+   "ru": "Hell Let Loose −75%",
+   "en": "Hell Let Loose −75%",
+   "sk": "Hell Let Loose −75%"
+  },
+  "text": {
+   "uk": "Hell Let Loose у Epic Games Store зараз за 250₴ замість 999₴. У топі Epic Games Store: №90 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "Hell Let Loose в Epic Games Store сейчас за 250₴ вместо 999₴. В топе Epic Games Store: №90 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Hell Let Loose on Epic Games Store is 250₴ instead of 999₴ right now. In the Epic Games Store charts: #90 bestseller. Your student budget will thank you 🎮",
+   "sk": "Hell Let Loose v Epic Games Store je teraz za 250₴ namiesto 999₴. V rebríčku Epic Games Store: #90 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/hell-let-loose-03f036",
+  "source": "epic-charts",
+  "found_at": "2026-11-08",
+  "expires_at": null,
+  "score": 90,
+  "worth": 999.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 90,
+  "deal": {
+   "game": "Hell Let Loose",
+   "pct": 75,
+   "old": "999₴",
+   "new": "250₴",
+   "store": "Epic Games Store",
+   "rank_sales": 90
+  },
+  "blurb": {
+   "uk": "Б'єшся в масштабнихバトル Другої світової, керуєш танками та артилерією разом з іншими",
+   "ru": "Сражаешься в масштабных боях Второй мировой, управляешь танками и артиллерией",
+   "en": "Fight in massive World War Two battles, commanding infantry, tanks, and artillery",
+   "sk": "Bojuješ v masívnych bitkách druhej svetovej vojny s pechotou, tankmi a artilériou"
+  },
+  "status": "active"
+ },
+ {
+  "id": "a41ad95b27cd",
+  "title": {
+   "uk": "Just Cause 4 Reloaded −85%",
+   "ru": "Just Cause 4 Reloaded −85%",
+   "en": "Just Cause 4 Reloaded −85%",
+   "sk": "Just Cause 4 Reloaded −85%"
+  },
+  "text": {
+   "uk": "Just Cause 4 Reloaded у Epic Games Store зараз за 85₴ замість 569₴. У топі Epic Games Store: №97 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "Just Cause 4 Reloaded в Epic Games Store сейчас за 85₴ вместо 569₴. В топе Epic Games Store: №97 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Just Cause 4 Reloaded on Epic Games Store is 85₴ instead of 569₴ right now. In the Epic Games Store charts: #97 bestseller. Your student budget will thank you 🎮",
+   "sk": "Just Cause 4 Reloaded v Epic Games Store je teraz za 85₴ namiesto 569₴. V rebríčku Epic Games Store: #97 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/just-cause-4",
+  "source": "epic-charts",
+  "found_at": "2026-11-08",
+  "expires_at": null,
+  "score": 90,
+  "worth": 569.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 97,
+  "deal": {
+   "game": "Just Cause 4 Reloaded",
+   "pct": 85,
+   "old": "569₴",
+   "new": "85₴",
+   "store": "Epic Games Store",
+   "rank_sales": 97
+  },
+  "blurb": {
+   "uk": "Літаєш на вінгсьюті та використовуєш гак, щоб боротися з гнобленням у світі з екстремальною погодою",
+   "ru": "Летаешь на вингсьюте и используешь крюк-кошку, чтобы сражаться с угнетением в мире с дикой погодой",
+   "en": "Fly with your wingsuit and use a grappling hook to fight oppression in a world of extreme weather",
+   "sk": "Lietaš na wingsuite a používaš háčik, aby si bojoval proti ut ידיčeniu vo svete s extrémami počasia"
+  },
+  "status": "active"
  }
 ]
