@@ -580,6 +580,7 @@
   },
   "blurb": null,
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
