@@ -1,97 +1,5 @@
 [
  {
-  "id": "dd9aede050cd",
-  "title": {
-   "uk": "Dying Light −90%",
-   "ru": "Dying Light −90%",
-   "en": "Dying Light −90%",
-   "sk": "Dying Light −90%"
-  },
-  "text": {
-   "uk": "Dying Light у Steam зараз за 65₴ замість 659₴. У топі Steam: №64 за продажами. Не пропусти 🎮",
-   "ru": "Dying Light в Steam сейчас за 65₴ вместо 659₴. В топе Steam: №64 по продажам. Не пропусти 🎮",
-   "en": "Dying Light on Steam is 65₴ instead of 659₴ right now. In the Steam charts: #64 bestseller. Don't miss it 🎮",
-   "sk": "Dying Light v Steam je teraz za 65₴ namiesto 659₴. V rebríčku Steam: #64 podľa predajov. Nenechaj si ujsť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/239140/",
-  "source": "steam-chart",
-  "found_at": "2026-11-02",
-  "expires_at": null,
-  "score": 100,
-  "worth": 659.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "status": "active",
-  "approved_at": "2026-11-02",
-  "chart_rank": 91,
-  "fails": 0,
-  "miss": 1,
-  "miss_p": 1,
-  "deal": {
-   "game": "Dying Light",
-   "pct": 90,
-   "old": "659₴",
-   "new": "65₴",
-   "store": "Steam",
-   "rank_sales": 64,
-   "rank_play": null
-  },
-  "blurb": {
-   "uk": "Виживаєш у місті з зомбі, шукаєш ресурси та створюєш зброю для захисту",
-   "ru": "Выживаешь в городе с зомби, ищешь ресурсы и создаешь оружие для защиты",
-   "en": "Survive in a zombie city, scavenge for supplies and craft weapons to fight back",
-   "sk": "Prežívaš v meste plnom zombie, hľadáš zásoby a vyrábaš si zbrane na obranu"
-  }
- },
- {
-  "id": "af2c2a4d25dd",
-  "title": {
-   "uk": "Dying Light 2 Stay Human: Reloaded Edition −80%",
-   "ru": "Dying Light 2 Stay Human: Reloaded Edition −80%",
-   "en": "Dying Light 2 Stay Human: Reloaded Edition −80%",
-   "sk": "Dying Light 2 Stay Human: Reloaded Edition −80%"
-  },
-  "text": {
-   "uk": "Dying Light 2 Stay Human: Reloaded Edition у Steam зараз за 319₴ замість 1 599₴. У топі Steam: №70 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Dying Light 2 Stay Human: Reloaded Edition в Steam сейчас за 319₴ вместо 1 599₴. В топе Steam: №70 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Dying Light 2 Stay Human: Reloaded Edition on Steam is 319₴ instead of 1 599₴ right now. In the Steam charts: #70 bestseller. Time to add it to your library 🎮",
-   "sk": "Dying Light 2 Stay Human: Reloaded Edition v Steam je teraz za 319₴ namiesto 1 599₴. V rebríčku Steam: #70 podľa predajov. Čas pridať ju do knižnice 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/534380/",
-  "source": "steam-chart",
-  "found_at": "2026-11-02",
-  "expires_at": null,
-  "score": 99,
-  "worth": 1599.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "status": "active",
-  "approved_at": "2026-11-02",
-  "chart_rank": 95,
-  "fails": 0,
-  "miss": 1,
-  "miss_p": 1,
-  "deal": {
-   "game": "Dying Light 2 Stay Human: Reloaded Edition",
-   "pct": 80,
-   "old": "1 599₴",
-   "new": "319₴",
-   "store": "Steam",
-   "rank_sales": 70,
-   "rank_play": null
-  },
-  "blurb": {
-   "uk": "Виживаєш у місті з зомбі, де допомагають паркур та бійки, а вночі стає набагато небезпечніше",
-   "ru": "Выживаешь в городе с зомби, используя паркур и бои, но ночью осторожнее с монстрами",
-   "en": "Survive a zombie city using parkour and combat, but be careful when monsters take over at night",
-   "sk": "Prežívaš v meste plnom zombikov, kde ti pomôže parkour a boj, no v noci sú potvory nebezpečnejšie"
-  }
- },
- {
   "id": "c23877379a5d",
   "title": {
    "uk": "Borderlands 3 −90%",
@@ -135,51 +43,6 @@
    "ru": "Стреляешь из огромного количества пушек и исследуешь новые миры за одного из охотников",
    "en": "Blast through new worlds and fight enemies using a huge variety of guns",
    "sk": "Súbejš nové svety a bojuj s nepriateľmi s množstvom rôznych zbraní"
-  }
- },
- {
-  "id": "4ee55df810f0",
-  "title": {
-   "uk": "Metro Exodus −90%",
-   "ru": "Metro Exodus −90%",
-   "en": "Metro Exodus −90%",
-   "sk": "Metro Exodus −90%"
-  },
-  "text": {
-   "uk": "Metro Exodus у Epic Games Store зараз за 80₴ замість 799₴. У топі Epic Games Store: №22 за продажами. Гарний момент забрати 🎮",
-   "ru": "Metro Exodus в Epic Games Store сейчас за 80₴ вместо 799₴. В топе Epic Games Store: №22 по продажам. Хороший момент забрать 🎮",
-   "en": "Metro Exodus on Epic Games Store is 80₴ instead of 799₴ right now. In the Epic Games Store charts: #22 bestseller. A good moment to grab it 🎮",
-   "sk": "Metro Exodus v Epic Games Store je teraz za 80₴ namiesto 799₴. V rebríčku Epic Games Store: #22 podľa predajov. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/metro-exodus",
-  "source": "epic-charts",
-  "found_at": "2026-11-03",
-  "expires_at": null,
-  "score": 100,
-  "worth": 799.43,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 90,
-  "status": "active",
-  "approved_at": "2026-11-03",
-  "fails": 0,
-  "miss": 0,
-  "deal": {
-   "game": "Metro Exodus Standard Edition",
-   "pct": 90,
-   "old": "799₴",
-   "new": "80₴",
-   "store": "Epic Games Store",
-   "rank_sales": 22
-  },
-  "miss_p": 1,
-  "blurb": {
-   "uk": "Покидаєш руїни метро та подорожуєш постапокаліптичними пустками у відкритому світі",
-   "ru": "Покидаешь руины метро и путешествуешь по постапокалиптическим пустошам в открытом мире",
-   "en": "Leave the metro ruins and travel across the post-apocalyptic wilderness in an open world",
-   "sk": "Opúštáš ruiny metra a putuješ postapokalyptickou divočinou v otvorenom svete"
   }
  },
  {
@@ -277,10 +140,10 @@
    "sk": "Tom Clancy’s The Division 2 −75%"
   },
   "text": {
-   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №72 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №72 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #72 bestseller. Time to add it to your library 🎮",
-   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #72 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №69 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №69 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #69 bestseller. Time to add it to your library 🎮",
+   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #69 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/2221490/",
@@ -299,7 +162,7 @@
    "old": "649₴",
    "new": "162₴",
    "store": "Steam",
-   "rank_sales": 72,
+   "rank_sales": 69,
    "rank_play": null
   },
   "status": "active",
