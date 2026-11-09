@@ -544,5 +544,41 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "3156e8473bf0",
+  "title": {
+   "uk": "FATAL FURY: City of the Wolves −75%",
+   "ru": "FATAL FURY: City of the Wolves −75%",
+   "en": "FATAL FURY: City of the Wolves −75%",
+   "sk": "FATAL FURY: City of the Wolves −75%"
+  },
+  "text": {
+   "uk": "FATAL FURY: City of the Wolves у Epic Games Store зараз за 162₴ замість 649₴. У топі Epic Games Store: №91 за продажами. Гарний момент забрати 🎮",
+   "ru": "FATAL FURY: City of the Wolves в Epic Games Store сейчас за 162₴ вместо 649₴. В топе Epic Games Store: №91 по продажам. Хороший момент забрать 🎮",
+   "en": "FATAL FURY: City of the Wolves on Epic Games Store is 162₴ instead of 649₴ right now. In the Epic Games Store charts: #91 bestseller. A good moment to grab it 🎮",
+   "sk": "FATAL FURY: City of the Wolves v Epic Games Store je teraz za 162₴ namiesto 649₴. V rebríčku Epic Games Store: #91 podľa predajov. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/garou-city-of-the-wolves-556c5a",
+  "source": "epic-charts",
+  "found_at": "2026-11-09",
+  "expires_at": null,
+  "score": 90,
+  "worth": 649.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 91,
+  "deal": {
+   "game": "FATAL FURY: City of the Wolves Standard Edition",
+   "pct": 75,
+   "old": "649₴",
+   "new": "162₴",
+   "store": "Epic Games Store",
+   "rank_sales": 91
+  },
+  "blurb": null,
+  "status": "active"
  }
 ]
