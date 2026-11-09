@@ -27,7 +27,7 @@
   "approved_at": "2026-11-02",
   "chart_rank": 91,
   "fails": 0,
-  "miss": 0,
+  "miss": 1,
   "miss_p": 0,
   "deal": {
    "game": "Dying Light",
@@ -73,7 +73,7 @@
   "approved_at": "2026-11-02",
   "chart_rank": 95,
   "fails": 0,
-  "miss": 0,
+  "miss": 1,
   "miss_p": 0,
   "deal": {
    "game": "Dying Light 2 Stay Human: Reloaded Edition",
