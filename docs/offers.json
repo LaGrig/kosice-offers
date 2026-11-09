@@ -28,7 +28,7 @@
   "chart_rank": 91,
   "fails": 0,
   "miss": 1,
-  "miss_p": 0,
+  "miss_p": 1,
   "deal": {
    "game": "Dying Light",
    "pct": 90,
@@ -74,7 +74,7 @@
   "chart_rank": 95,
   "fails": 0,
   "miss": 1,
-  "miss_p": 0,
+  "miss_p": 1,
   "deal": {
    "game": "Dying Light 2 Stay Human: Reloaded Edition",
    "pct": 80,
@@ -174,7 +174,7 @@
    "store": "Epic Games Store",
    "rank_sales": 22
   },
-  "miss_p": 0,
+  "miss_p": 1,
   "blurb": {
    "uk": "Покидаєш руїни метро та подорожуєш постапокаліптичними пустками у відкритому світі",
    "ru": "Покидаешь руины метро и путешествуешь по постапокалиптическим пустошам в открытом мире",
