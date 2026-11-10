@@ -140,10 +140,10 @@
    "sk": "Tom Clancy’s The Division 2 −75%"
   },
   "text": {
-   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №69 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №69 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #69 bestseller. Time to add it to your library 🎮",
-   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #69 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Tom Clancy’s The Division 2 у Steam зараз за 162₴ замість 649₴. У топі Steam: №67 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Tom Clancy’s The Division 2 в Steam сейчас за 162₴ вместо 649₴. В топе Steam: №67 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Tom Clancy’s The Division 2 on Steam is 162₴ instead of 649₴ right now. In the Steam charts: #67 bestseller. Time to add it to your library 🎮",
+   "sk": "Tom Clancy’s The Division 2 v Steam je teraz za 162₴ namiesto 649₴. V rebríčku Steam: #67 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/2221490/",
@@ -162,7 +162,7 @@
    "old": "649₴",
    "new": "162₴",
    "store": "Steam",
-   "rank_sales": 69,
+   "rank_sales": 67,
    "rank_play": null
   },
   "status": "active",
@@ -456,10 +456,10 @@
    "sk": "For The King II −70%"
   },
   "text": {
-   "uk": "For The King II у Steam зараз за 179₴ замість 599₴. У топі Steam: №57 за продажами. Гарний момент забрати 🎮",
-   "ru": "For The King II в Steam сейчас за 179₴ вместо 599₴. В топе Steam: №57 по продажам. Хороший момент забрать 🎮",
-   "en": "For The King II on Steam is 179₴ instead of 599₴ right now. In the Steam charts: #57 bestseller. A good moment to grab it 🎮",
-   "sk": "For The King II v Steam je teraz za 179₴ namiesto 599₴. V rebríčku Steam: #57 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "For The King II у Steam зараз за 179₴ замість 599₴. У топі Steam: №58 за продажами. Гарний момент забрати 🎮",
+   "ru": "For The King II в Steam сейчас за 179₴ вместо 599₴. В топе Steam: №58 по продажам. Хороший момент забрать 🎮",
+   "en": "For The King II on Steam is 179₴ instead of 599₴ right now. In the Steam charts: #58 bestseller. A good moment to grab it 🎮",
+   "sk": "For The King II v Steam je teraz za 179₴ namiesto 599₴. V rebríčku Steam: #58 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/1676840/",
@@ -478,7 +478,7 @@
    "old": "599₴",
    "new": "179₴",
    "store": "Steam",
-   "rank_sales": 57,
+   "rank_sales": 58,
    "rank_play": null
   },
   "blurb": {
@@ -487,7 +487,8 @@
    "en": "Fight the Queen's tyranny in a turn-based game where you can team up with friends",
    "sk": "Bojuješ proti tyranii kráľovnej v turnusovej hre, kde môžeš založiť družinu s kamarátmi"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "dae0056f38eb",
@@ -528,7 +529,8 @@
    "en": "Learn kung fu and fight in realistic brawls on a path of revenge",
    "sk": "Učíš sa kung fu a bojuješ v realistických súbojoch, aby si sa pomstil"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "7166fa76bb4a",
@@ -539,10 +541,10 @@
    "sk": "Grand Theft Auto IV: The −70%"
   },
   "text": {
-   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. У топі Steam: №97 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. В топе Steam: №97 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. In the Steam charts: #97 bestseller. Time to add it to your library 🎮",
-   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. V rebríčku Steam: #97 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. У топі Steam: №98 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. В топе Steam: №98 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. In the Steam charts: #98 bestseller. Time to add it to your library 🎮",
+   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. V rebríčku Steam: #98 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/12210/",
@@ -561,7 +563,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 97,
+   "rank_sales": 98,
    "rank_play": null
   },
   "blurb": {
@@ -570,6 +572,7 @@
    "en": "You live in a city obsessed with money and status and try to survive this nightmare",
    "sk": "Žiješ v meste, kde vládajú peniaze a status, a snažíš sa v tomto koshmare prežiť"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
