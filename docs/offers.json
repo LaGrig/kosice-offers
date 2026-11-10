@@ -74,7 +74,7 @@
   "approved_at": "2026-11-03",
   "fails": 0,
   "miss": 1,
-  "miss_p": 0,
+  "miss_p": 1,
   "deal": {
    "game": "Assassin's Creed® Odyssey",
    "pct": 80,
@@ -166,7 +166,7 @@
    "rank_play": null
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 1,
   "blurb": {
@@ -456,10 +456,10 @@
    "sk": "For The King II −70%"
   },
   "text": {
-   "uk": "For The King II у Steam зараз за 179₴ замість 599₴. У топі Steam: №51 за продажами. Гарний момент забрати 🎮",
-   "ru": "For The King II в Steam сейчас за 179₴ вместо 599₴. В топе Steam: №51 по продажам. Хороший момент забрать 🎮",
-   "en": "For The King II on Steam is 179₴ instead of 599₴ right now. In the Steam charts: #51 bestseller. A good moment to grab it 🎮",
-   "sk": "For The King II v Steam je teraz za 179₴ namiesto 599₴. V rebríčku Steam: #51 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "For The King II у Steam зараз за 179₴ замість 599₴. У топі Steam: №52 за продажами. Гарний момент забрати 🎮",
+   "ru": "For The King II в Steam сейчас за 179₴ вместо 599₴. В топе Steam: №52 по продажам. Хороший момент забрать 🎮",
+   "en": "For The King II on Steam is 179₴ instead of 599₴ right now. In the Steam charts: #52 bestseller. A good moment to grab it 🎮",
+   "sk": "For The King II v Steam je teraz za 179₴ namiesto 599₴. V rebríčku Steam: #52 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/1676840/",
@@ -478,7 +478,7 @@
    "old": "599₴",
    "new": "179₴",
    "store": "Steam",
-   "rank_sales": 51,
+   "rank_sales": 52,
    "rank_play": null
   },
   "blurb": {
@@ -493,50 +493,6 @@
   "miss": 0
  },
  {
-  "id": "dae0056f38eb",
-  "title": {
-   "uk": "Sifu −75%",
-   "ru": "Sifu −75%",
-   "en": "Sifu −75%",
-   "sk": "Sifu −75%"
-  },
-  "text": {
-   "uk": "Sifu у Epic Games Store зараз за 142₴ замість 569₴. У топі Epic Games Store: №75 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Sifu в Epic Games Store сейчас за 142₴ вместо 569₴. В топе Epic Games Store: №75 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Sifu on Epic Games Store is 142₴ instead of 569₴ right now. In the Epic Games Store charts: #75 bestseller. Time to add it to your library 🎮",
-   "sk": "Sifu v Epic Games Store je teraz za 142₴ namiesto 569₴. V rebríčku Epic Games Store: #75 podľa predajov. Čas pridať ju do knižnice 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/sifu",
-  "source": "epic-charts",
-  "found_at": "2026-11-10",
-  "expires_at": null,
-  "score": 90,
-  "worth": 569.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 90,
-  "deal": {
-   "game": "Sifu",
-   "pct": 75,
-   "old": "569₴",
-   "new": "142₴",
-   "store": "Epic Games Store",
-   "rank_sales": 75
-  },
-  "blurb": {
-   "uk": "Вивчаєш кунг-фу та б'єшся в реалістичних боях, щоб помститися",
-   "ru": "Изучаешь кунг-фу и дерешься в реалистичных боях, чтобы отомстить",
-   "en": "Learn kung fu and fight in realistic brawls on a path of revenge",
-   "sk": "Učíš sa kung fu a bojuješ v realistických súbojoch, aby si sa pomstil"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
- },
- {
   "id": "7166fa76bb4a",
   "title": {
    "uk": "Grand Theft Auto IV: The −70%",
@@ -545,10 +501,10 @@
    "sk": "Grand Theft Auto IV: The −70%"
   },
   "text": {
-   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. У топі Steam: №96 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. В топе Steam: №96 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. In the Steam charts: #96 bestseller. Time to add it to your library 🎮",
-   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. V rebríčku Steam: #96 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. У топі Steam: №94 за продажами. Саме час додати до бібліотеки 🎮",
+   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. В топе Steam: №94 по продажам. Самое время добавить в библиотеку 🎮",
+   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. In the Steam charts: #94 bestseller. Time to add it to your library 🎮",
+   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. V rebríčku Steam: #94 podľa predajov. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/12210/",
@@ -567,7 +523,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 96,
+   "rank_sales": 94,
    "rank_play": null
   },
   "blurb": {
