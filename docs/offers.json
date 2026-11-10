@@ -73,7 +73,7 @@
   "status": "active",
   "approved_at": "2026-11-03",
   "fails": 0,
-  "miss": 0,
+  "miss": 1,
   "miss_p": 0,
   "deal": {
    "game": "Assassin's Creed® Odyssey",
@@ -168,7 +168,7 @@
   "status": "active",
   "miss_p": 0,
   "fails": 0,
-  "miss": 0,
+  "miss": 1,
   "blurb": {
    "uk": "Б'єшся в укриттях та разом із друзями рятуєш Вашингтон",
    "ru": "Сражаешься в укрытиях и вместе с друзьями спасаешь Вашингтон",
@@ -534,7 +534,7 @@
   "status": "active",
   "miss_p": 1,
   "fails": 0,
-  "miss": 0
+  "miss": 1
  },
  {
   "id": "7166fa76bb4a",
