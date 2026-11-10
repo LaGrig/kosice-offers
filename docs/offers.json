@@ -488,7 +488,8 @@
    "sk": "Bojuješ proti tyranii kráľovnej v turnusovej hre, kde môžeš založiť družinu s kamarátmi"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "dae0056f38eb",
@@ -530,7 +531,8 @@
    "sk": "Učíš sa kung fu a bojuješ v realistických súbojoch, aby si sa pomstil"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "7166fa76bb4a",
@@ -573,6 +575,7 @@
    "sk": "Žiješ v meste, kde vládajú peniaze a status, a snažíš sa v tomto koshmare prežiť"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
