@@ -365,10 +365,10 @@
    "sk": "For The King II −70%"
   },
   "text": {
-   "uk": "For The King II у Steam зараз за 179₴ замість 599₴. У топі Steam: №56 за продажами. Гарний момент забрати 🎮",
-   "ru": "For The King II в Steam сейчас за 179₴ вместо 599₴. В топе Steam: №56 по продажам. Хороший момент забрать 🎮",
-   "en": "For The King II on Steam is 179₴ instead of 599₴ right now. In the Steam charts: #56 bestseller. A good moment to grab it 🎮",
-   "sk": "For The King II v Steam je teraz za 179₴ namiesto 599₴. V rebríčku Steam: #56 podľa predajov. Dobrý čas ju chytiť 🎮"
+   "uk": "For The King II у Steam зараз за 179₴ замість 599₴. У топі Steam: №59 за продажами. Гарний момент забрати 🎮",
+   "ru": "For The King II в Steam сейчас за 179₴ вместо 599₴. В топе Steam: №59 по продажам. Хороший момент забрать 🎮",
+   "en": "For The King II on Steam is 179₴ instead of 599₴ right now. In the Steam charts: #59 bestseller. A good moment to grab it 🎮",
+   "sk": "For The King II v Steam je teraz za 179₴ namiesto 599₴. V rebríčku Steam: #59 podľa predajov. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/1676840/",
@@ -387,7 +387,7 @@
    "old": "599₴",
    "new": "179₴",
    "store": "Steam",
-   "rank_sales": 56,
+   "rank_sales": 59,
    "rank_play": null
   },
   "blurb": {
@@ -410,10 +410,10 @@
    "sk": "Grand Theft Auto IV: The −70%"
   },
   "text": {
-   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. У топі Steam: №100 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. В топе Steam: №100 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. In the Steam charts: #100 bestseller. Time to add it to your library 🎮",
-   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. V rebríčku Steam: #100 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. Самое время добавить в библиотеку 🎮",
+   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. Time to add it to your library 🎮",
+   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/12210/",
@@ -432,7 +432,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 100,
+   "rank_sales": null,
    "rank_play": null
   },
   "blurb": {
@@ -455,10 +455,10 @@
    "sk": "Euro Truck Simulator 2 −75%"
   },
   "text": {
-   "uk": "Euro Truck Simulator 2 у Steam зараз за 100₴ замість 400₴. У топі Steam: №5 за продажами, №35 за онлайном. Саме час додати до бібліотеки 🎮",
-   "ru": "Euro Truck Simulator 2 в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №5 по продажам, №35 по онлайну. Самое время добавить в библиотеку 🎮",
-   "en": "Euro Truck Simulator 2 on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #5 bestseller, #35 most played. Time to add it to your library 🎮",
-   "sk": "Euro Truck Simulator 2 v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #5 podľa predajov, #35 podľa online. Čas pridať ju do knižnice 🎮"
+   "uk": "Euro Truck Simulator 2 у Steam зараз за 100₴ замість 400₴. У топі Steam: №5 за продажами, №30 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "Euro Truck Simulator 2 в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №5 по продажам, №30 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "Euro Truck Simulator 2 on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #5 bestseller, #30 most played. Time to add it to your library 🎮",
+   "sk": "Euro Truck Simulator 2 v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #5 podľa predajov, #30 podľa online. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/227300/",
@@ -478,7 +478,7 @@
    "new": "100₴",
    "store": "Steam",
    "rank_sales": 5,
-   "rank_play": 35
+   "rank_play": 30
   },
   "blurb": {
    "uk": "Перевозиш важливі вантажі на великі відстані та підкорюєш дороги міст",
@@ -486,7 +486,8 @@
    "en": "Drive important cargo across long distances and explore many cities",
    "sk": "Prevážaš dôležitý náklad na dlhé vzdialenosti a objavuješ mestá"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "b062690aaaad",
@@ -528,6 +529,7 @@
    "en": "Drive legendary trucks and deliver cargo across sunny states and beautiful landscapes",
    "sk": "Vezieš náklad na legendárnych kamionoch cez slnečné štáty a krásne krajiny"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
