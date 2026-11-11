@@ -445,5 +445,89 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "bd3699997b09",
+  "title": {
+   "uk": "Euro Truck Simulator 2 −75%",
+   "ru": "Euro Truck Simulator 2 −75%",
+   "en": "Euro Truck Simulator 2 −75%",
+   "sk": "Euro Truck Simulator 2 −75%"
+  },
+  "text": {
+   "uk": "Euro Truck Simulator 2 у Steam зараз за 100₴ замість 400₴. У топі Steam: №5 за продажами, №35 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "Euro Truck Simulator 2 в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №5 по продажам, №35 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "Euro Truck Simulator 2 on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #5 bestseller, #35 most played. Time to add it to your library 🎮",
+   "sk": "Euro Truck Simulator 2 v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #5 podľa predajov, #35 podľa online. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/227300/",
+  "source": "steam-chart",
+  "found_at": "2026-11-11",
+  "expires_at": null,
+  "score": 90,
+  "worth": 400.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 5,
+  "deal": {
+   "game": "Euro Truck Simulator 2",
+   "pct": 75,
+   "old": "400₴",
+   "new": "100₴",
+   "store": "Steam",
+   "rank_sales": 5,
+   "rank_play": 35
+  },
+  "blurb": {
+   "uk": "Перевозиш важливі вантажі на великі відстані та підкорюєш дороги міст",
+   "ru": "Перевозишь важные грузы на огромные расстояния и исследуешь разные города",
+   "en": "Drive important cargo across long distances and explore many cities",
+   "sk": "Prevážaš dôležitý náklad na dlhé vzdialenosti a objavuješ mestá"
+  },
+  "status": "active"
+ },
+ {
+  "id": "b062690aaaad",
+  "title": {
+   "uk": "American Truck Simulator −75%",
+   "ru": "American Truck Simulator −75%",
+   "en": "American Truck Simulator −75%",
+   "sk": "American Truck Simulator −75%"
+  },
+  "text": {
+   "uk": "American Truck Simulator у Steam зараз за 100₴ замість 400₴. У топі Steam: №36 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "American Truck Simulator в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №36 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "American Truck Simulator on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #36 bestseller. Your student budget will thank you 🎮",
+   "sk": "American Truck Simulator v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #36 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/270880/",
+  "source": "steam-chart",
+  "found_at": "2026-11-11",
+  "expires_at": null,
+  "score": 90,
+  "worth": 400.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 36,
+  "deal": {
+   "game": "American Truck Simulator",
+   "pct": 75,
+   "old": "400₴",
+   "new": "100₴",
+   "store": "Steam",
+   "rank_sales": 36,
+   "rank_play": null
+  },
+  "blurb": {
+   "uk": "Возиш вантажі на легендарних вантажівках через сонячні штати та красиві пейзажі",
+   "ru": "Возишь грузы на легендарных грузовиках через солнечные штаты и красивые пейзажи",
+   "en": "Drive legendary trucks and deliver cargo across sunny states and beautiful landscapes",
+   "sk": "Vezieš náklad na legendárnych kamionoch cez slnečné štáty a krásne krajiny"
+  },
+  "status": "active"
  }
 ]
