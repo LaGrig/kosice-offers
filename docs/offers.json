@@ -535,5 +535,47 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "0d366316b6eb",
+  "title": {
+   "uk": "The Elder Scrolls V: Skyrim Special Edition −80%",
+   "ru": "The Elder Scrolls V: Skyrim Special Edition −80%",
+   "en": "The Elder Scrolls V: Skyrim Special Edition −80%",
+   "sk": "The Elder Scrolls V: Skyrim Special Edition −80%"
+  },
+  "text": {
+   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №32 за продажами, №53 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №32 по продажам, №53 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #32 bestseller, #53 most played. Time to add it to your library 🎮",
+   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #32 podľa predajov, #53 podľa online. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/489830/",
+  "source": "steam-chart",
+  "found_at": "2026-11-12",
+  "expires_at": null,
+  "score": 90,
+  "worth": 649.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 32,
+  "deal": {
+   "game": "The Elder Scrolls V: Skyrim Special Edition",
+   "pct": 80,
+   "old": "649₴",
+   "new": "129₴",
+   "store": "Steam",
+   "rank_sales": 32,
+   "rank_play": 53
+  },
+  "blurb": {
+   "uk": "Досліджуєш епічний фентезійний світ і відчуваєш себе частиною цієї пригоди",
+   "ru": "Исследуешь эпический фэнтези мир и погружаешься в масштабное приключение",
+   "en": "Explore an epic fantasy world and immerse yourself in a grand adventure",
+   "sk": "Kúmaš epický fantasy svet a ponoríš sa do veľkého dobrodružstva"
+  },
+  "status": "active"
  }
 ]
