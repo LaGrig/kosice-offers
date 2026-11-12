@@ -174,37 +174,6 @@
   "miss": 0
  },
  {
-  "id": "d5cb15add42f",
-  "title": {
-   "uk": "Flotsam безкоштовно в Epic Games Store",
-   "ru": "Flotsam бесплатно в Epic Games Store",
-   "en": "Flotsam free in Epic Games Store",
-   "sk": "Flotsam zadarmo v Epic Games Store"
-  },
-  "text": {
-   "uk": "Забирай гру Flotsam безкоштовно в Epic Games Store 🌊",
-   "ru": "Забирай игру Flotsam бесплатно в Epic Games Store 🌊",
-   "en": "Get Flotsam for free in the Epic Games Store 🌊",
-   "sk": "Knihni si hru Flotsam zadarmo v Epic Games Store 🌊"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/flotsam-266287",
-  "source": "reddit-freegamefindings",
-  "found_at": "2026-11-07",
-  "expires_at": null,
-  "score": 100,
-  "worth": null,
-  "pop": {},
-  "meta": null,
-  "kind": null,
-  "chart_rank": null,
-  "give": null,
-  "status": "active",
-  "blurb": null,
-  "approved_at": "2026-11-07",
-  "fails": 0
- },
- {
   "id": "b6d634ee9a1c",
   "title": {
    "uk": "Знижки на софт для студентів",
