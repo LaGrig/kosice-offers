@@ -469,10 +469,10 @@
    "sk": "American Truck Simulator −75%"
   },
   "text": {
-   "uk": "American Truck Simulator у Steam зараз за 100₴ замість 400₴. У топі Steam: №36 за продажами. Студентський бюджет скаже дякую 🎮",
-   "ru": "American Truck Simulator в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №36 по продажам. Студенческий бюджет скажет спасибо 🎮",
-   "en": "American Truck Simulator on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #36 bestseller. Your student budget will thank you 🎮",
-   "sk": "American Truck Simulator v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #36 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+   "uk": "American Truck Simulator у Steam зараз за 100₴ замість 400₴. У топі Steam: №34 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "American Truck Simulator в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №34 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "American Truck Simulator on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #34 bestseller. Your student budget will thank you 🎮",
+   "sk": "American Truck Simulator v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #34 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/270880/",
@@ -491,7 +491,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 36,
+   "rank_sales": 34,
    "rank_play": null
   },
   "blurb": {
@@ -514,10 +514,10 @@
    "sk": "The Elder Scrolls V: Skyrim Special Edition −80%"
   },
   "text": {
-   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №42 за продажами, №46 за онлайном. Саме час додати до бібліотеки 🎮",
-   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №42 по продажам, №46 по онлайну. Самое время добавить в библиотеку 🎮",
-   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #42 bestseller, #46 most played. Time to add it to your library 🎮",
-   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #42 podľa predajov, #46 podľa online. Čas pridať ju do knižnice 🎮"
+   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №43 за продажами, №46 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №43 по продажам, №46 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #43 bestseller, #46 most played. Time to add it to your library 🎮",
+   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #43 podľa predajov, #46 podľa online. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/489830/",
@@ -536,7 +536,7 @@
    "old": "649₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 42,
+   "rank_sales": 43,
    "rank_play": 46
   },
   "blurb": {
