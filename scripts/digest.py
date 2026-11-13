@@ -69,6 +69,9 @@ def block(o, lang, tx):
         state = '💸 ' + tx['deal'] + ' <b>−' + str(d['pct']) + '%</b> · <b>' + esc(d['new']) + '</b> <s>' + esc(d['old']) + '</s> · ' + esc(d['store'])
         if rank:
             state += ' · 🏆 ' + tx['top'] + '-' + str(rank)
+        u = urgency(o, tx)
+        if u:
+            state += ' · ' + u
     elif g:
         name = g['game']
         price = norm_price(g.get('price') or '')

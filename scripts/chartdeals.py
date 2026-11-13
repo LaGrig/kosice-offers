@@ -1,3 +1,4 @@
+import datetime as dt
 import re, time
 from common import CFG, load_offers, offer_id
 from steam_signal import get_json
@@ -74,6 +75,55 @@ def desc_of(app):
     except Exception:
         return ''
 
+_MONTHS = {
+    'january': 1, 'jan': 1, 'february': 2, 'feb': 2, 'march': 3, 'mar': 3,
+    'april': 4, 'apr': 4, 'may': 5, 'june': 6, 'jun': 6, 'july': 7, 'jul': 7,
+    'august': 8, 'aug': 8, 'september': 9, 'sep': 9, 'sept': 9,
+    'october': 10, 'oct': 10, 'november': 11, 'nov': 11, 'december': 12, 'dec': 12,
+}
+
+def deal_expires(app, cc='ua'):
+    try:
+        r = requests.get(
+            f'https://store.steampowered.com/app/{app}/',
+            params={'cc': cc, 'l': 'english'},
+            cookies={'birthtime': '568022401', 'wants_mature_content': '1'},
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'},
+            timeout=15,
+        )
+        if r.status_code != 200:
+            return None
+        html = r.text
+        m_ts = re.search(r'InitDiscountCountdown\([^,]+,\s*(\d+)', html)
+        if m_ts:
+            return dt.datetime.fromtimestamp(int(m_ts.group(1)), dt.timezone.utc).date().isoformat()
+        for raw in re.findall(r'class="game_purchase_discount_countdown"[^>]*>(.*?)</p>', html, re.S):
+            txt = re.sub(r'<[^>]+>', ' ', raw)
+            txt = re.sub(r'\s+', ' ', txt).strip()
+            m1 = re.search(r'Offer ends\s+(\d{1,2})\s+([A-Za-z]+)', txt, re.I)
+            m2 = re.search(r'Offer ends\s+([A-Za-z]+)\s+(\d{1,2})', txt, re.I)
+            if m1:
+                day, mon_s = int(m1.group(1)), m1.group(2).lower()
+            elif m2:
+                mon_s, day = m2.group(1).lower(), int(m2.group(2))
+            else:
+                continue
+            mon = _MONTHS.get(mon_s)
+            if not mon:
+                continue
+            today_d = dt.date.today()
+            yr = today_d.year
+            try:
+                cand = dt.date(yr, mon, day)
+            except ValueError:
+                continue
+            if (today_d - cand).days > 30:
+                cand = dt.date(yr + 1, mon, day)
+            return cand.isoformat()
+    except Exception:
+        pass
+    return None
+
 def chart_deals():
     c = CFG.get('deals', {})
     cc = c.get('region', 'ua')
@@ -107,8 +157,10 @@ def chart_deals():
         summary = ('Steam: скидка ' + str(p['discount_percent']) + '% на игру ' + name + '. Игра сейчас ' + ' и '.join(parts) + ' в Steam. Цена в '
                    + country + ' была ' + p.get('initial_formatted', '') + ', стала ' + p.get('final_formatted', '') + '. '
                    + ('Оценки Steam: ' + str(pct) + '% положительных из ' + str(n) + ' отзывов. ' if n else '') + 'Срок окончания скидки в данных не указан.')
+        exp = deal_expires(app, cc)
+        time.sleep(1)
         out.append({'id': offer_id(link + '|' + str(p['final'])), 'title': name, 'summary': summary, 'link': link, 'source': 'steam-chart',
-                    'expires_at': None, 'worth': p['initial'] / 100, 'kind': 'deal', 'store': 'Steam', 'steam_app': str(app),
+                    'expires_at': exp, 'worth': p['initial'] / 100, 'kind': 'deal', 'store': 'Steam', 'steam_app': str(app),
                     'steam_pct': pct, 'steam_reviews': n, 'metacritic': 0, 'saved': (p['initial'] - p['final']) / 100,
                     'chart_rank': min(x for x in (rp, rs) if x), 'desc': desc_of(app),
                     'deal': {'game': name, 'pct': p['discount_percent'], 'old': p.get('initial_formatted', ''), 'new': p.get('final_formatted', ''), 'store': 'Steam', 'rank_sales': rs, 'rank_play': rp}})

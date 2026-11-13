@@ -40,7 +40,7 @@ def process(item, today_s, force=False):
         post = deal_post(item)
         auto = CFG['auto_publish'] or (item.get('chart_rank') and CFG.get('deals', {}).get('auto_chart'))
         return {'id': item['id'], 'title': post['title'], 'text': post['text'], 'category': 'games', 'link': item['link'],
-                'source': item['source'], 'found_at': today_s, 'expires_at': None, 'score': 90, 'worth': item.get('worth'),
+                'source': item['source'], 'found_at': today_s, 'expires_at': exp, 'score': 90, 'worth': item.get('worth'),
                 'pop': {}, 'meta': None, 'kind': 'deal', 'chart_rank': item.get('chart_rank'), 'deal': item['deal'],
                 'blurb': make_blurb(item['deal']['game'], item.get('desc')),
                 'status': 'active' if auto else 'pending'}, 'ok'
