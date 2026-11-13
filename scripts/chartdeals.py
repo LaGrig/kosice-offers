@@ -1,3 +1,4 @@
+import requests
 import datetime as dt
 import re, time
 from common import CFG, load_offers, offer_id
