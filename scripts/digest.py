@@ -87,6 +87,31 @@ def block(o, lang, tx):
         lines.append('💬 <i>' + esc(blurb) + '</i>')
     return '\n'.join(lines)
 
+def block_epic(group, lang, tx):
+    if len(group) == 1:
+        return block(group[0], lang, tx)
+    emoji, tag = tx['tag'].get('games', tx['tag']['other'])
+    lines = [emoji + ' <b>' + tag + '</b> · <b>Epic Games Store</b>']
+    urgencies = [urgency(o, tx) for o in group]
+    same_u = urgencies[0] if len(set(urgencies)) == 1 and urgencies[0] else ''
+    head_bits = ['🎁 ' + tx['give']]
+    if same_u:
+        head_bits.append(same_u)
+    lines.append(' · '.join(head_bits))
+    for o, u in zip(group, urgencies):
+        g = o.get('give') or {}
+        name = g.get('game') or o['title'][lang]
+        price = norm_price(g.get('price') or '')
+        money = ('<b>' + esc(zero_of(price)) + '</b> <s>' + esc(price) + '</s>') if price else '<b>' + tx['free1'] + '</b>'
+        row = '• ' + name_link(o, name) + ' · ' + money
+        if not same_u and u:
+            row += ' · ' + u
+        lines.append(row)
+    return '\n'.join(lines)
+
+def render_slot(slot, lang, tx):
+    return block_epic(slot, lang, tx) if isinstance(slot, list) else block(slot, lang, tx)
+
 def load_sent():
     return set(json.loads(SENT.read_text())) if SENT.exists() else set()
 
@@ -116,27 +141,45 @@ def pick(active, sent):
         return (dt.date.fromisoformat(e) - t).days if e else 99
 
     unsent = [o for o in active if o['id'] not in sent]
-    # раздачи Epic: всегда в дайджесте в день старта (ещё не показаны) и напоминание в последний день
-    epic = [o for o in active if o['source'] == 'epic-games' and (o['id'] not in sent or left(o) <= 0)]
+    all_epic = [o for o in active if o['source'] == 'epic-games']
+    epic_due = [o for o in all_epic if o['id'] not in sent or left(o) <= 0]
     gives = sorted([o for o in unsent if o.get('kind') != 'deal' and o['source'] != 'epic-games' and not o.get('pinned')],
                    key=lambda o: (SRC_RANK.get(o['source'], 2), o.get('expires_at') or '9999', -o['score']))
     deals = sorted([o for o in unsent if o.get('kind') == 'deal' and when(o) >= day3],
                    key=lambda o: (o.get('chart_rank') or 999, -o['score']))
-    top = epic[:2] + gives[:1]
+
+    top = []
+    used_ids = set()
+    if epic_due:
+        top.append(all_epic)
+        used_ids |= {o['id'] for o in all_epic}
+    if gives:
+        top.append(gives[0])
+        used_ids.add(gives[0]['id'])
+
     for o in deals + gives[1:]:
         if len(top) >= size:
             break
-        if o not in top:
+        if o['id'] not in used_ids:
             top.append(o)
+            used_ids.add(o['id'])
+
     # минимум 3: добираем ещё действующими, но уже показанными находками
     if len(top) < 3:
-        again = sorted([o for o in active if o not in top and not o.get('pinned') and o['source'] != 'manual'],
+        again = sorted([o for o in active if o['id'] not in used_ids and not o.get('pinned') and o['source'] != 'manual'],
                        key=lambda o: (0 if o.get('kind') != 'deal' else 1, o.get('chart_rank') or 999))
         for o in again:
             if len(top) >= 3:
                 break
-            top.append(o)
-    return top
+            if o['source'] == 'epic-games':
+                grp = [x for x in all_epic if x['id'] not in used_ids]
+                if grp:
+                    top.append(grp)
+                    used_ids |= {x['id'] for x in grp}
+            else:
+                top.append(o)
+                used_ids.add(o['id'])
+    return top, used_ids
 
 def main():
     t = today().isoformat()
@@ -147,12 +190,11 @@ def main():
     alive = alive_deal_links()
     if alive is not None:
         active = [o for o in active if o.get('kind') != 'deal' or o['source'] not in ('steam-chart', 'epic-charts') or o['link'] in alive]
-    top = pick(active, set() if preview else load_sent())
+    top, ids = pick(active, set() if preview else load_sent())
     if not top:
         print('нечего публиковать')
         return
-    ids = {o['id'] for o in top}
-    parts = ['🔥 <b>' + tx['head'] + '</b> · ' + short(t) + '\n<i>' + tx['subs'][today().toordinal() % len(tx['subs'])] + '</i>'] + [block(o, lang, tx) for o in top]
+    parts = ['🔥 <b>' + tx['head'] + '</b> · ' + short(t) + '\n<i>' + tx['subs'][today().toordinal() % len(tx['subs'])] + '</i>'] + [render_slot(s, lang, tx) for s in top]
     body = {'chat_id': os.environ.get('DIGEST_CHAT') or os.environ['CHANNEL'], 'text': '\n\n'.join(parts), 'parse_mode': 'HTML',
             'disable_web_page_preview': True, 'reply_markup': {'inline_keyboard': [[{'text': tx['open'], 'url': os.environ['MINIAPP_LINK']}]]}}
     r = requests.post('https://api.telegram.org/bot' + os.environ['BOT_TOKEN'] + '/sendMessage', json=body, timeout=30)
