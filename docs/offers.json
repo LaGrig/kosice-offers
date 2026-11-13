@@ -591,6 +591,7 @@
    "sk": "Vezmi do ruky vedomie každej krajiny počas druhej svetovej vojny a rozhodni o osude sveta"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
