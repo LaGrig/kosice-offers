@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='ru'>
+<html lang='uk'>
 <head>
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
@@ -17,7 +17,7 @@ h1{font-size:20px;margin:4px 0 10px}
 select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);color:var(--fg);font:inherit}
 .card{overflow-wrap:anywhere;background:var(--card);border-radius:16px;padding:14px;margin-bottom:10px}
 .card h3{margin:0 0 6px;font-size:16px}
-.meta{display:flex;justify-content:space-between;color:var(--hint);font-size:12px;margin-top:10px}
+.meta{display:flex;justify-content:space-between;color:var(--hint);font-size:12px;margin-top:8px}
 .go{display:inline-block;margin-top:10px;padding:8px 14px;border-radius:12px;background:var(--accent);color:var(--accent-fg);text-decoration:none}
 .pin{outline:1px dashed var(--hint)}
 .rx{display:flex;gap:6px;margin-top:10px}
@@ -30,19 +30,68 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 </style>
 </head>
 <body>
-<h1>Студенческие находки Кошице</h1>
+<h1 id='h1'></h1>
 <div class='row' id='chips'></div>
 <div class='bar'>
-<select id='sort'><option value='new'>Новые</option><option value='score'>Лучшие</option><option value='rating'>Оценки студентов</option><option value='ending'>Скоро закончатся</option></select>
+<select id='sort'></select>
 <select id='lang'><option value='uk'>Українська</option><option value='ru'>Русский</option><option value='en'>English</option><option value='sk'>Slovenčina</option></select>
 </div>
 <div class='hint' id='hint'></div>
 <div id='list'></div>
 <script>
-window.addEventListener('error', e => { const b = document.getElementById('list'); if (b) { const d = document.createElement('div'); d.className = 'empty'; d.textContent = 'Помилка: ' + e.message + ' (рядок ' + e.lineno + ')'; b.append(d); } });
+const I18N = {
+  uk: {
+    title: 'Студентські знахідки Кошице',
+    cats: {all:'Усе', food:'Їжа', games:'Ігри', events:'Події', places:'Місця', it_soft:'IT і софт', services:'Послуги', jobs:'Робота', study:'Навчання', other:'Інше'},
+    sorts: {new:'Нові', rating:'Оцінки студентів', ending:'Скоро закінчаться'},
+    hint: 'Постав реакцію, щоб побачити оцінки інших студентів',
+    empty: 'Поки нічого немає в цьому розділі',
+    open: 'Відкрити',
+    free: 'Безкоштовно',
+    until: 'до',
+    dead: 'Неактуально',
+    err: 'Помилка: '
+  },
+  ru: {
+    title: 'Студенческие находки Кошице',
+    cats: {all:'Все', food:'Еда', games:'Игры', events:'События', places:'Места', it_soft:'IT и софт', services:'Услуги', jobs:'Работа', study:'Учёба', other:'Другое'},
+    sorts: {new:'Новые', rating:'Оценки студентов', ending:'Скоро закончатся'},
+    hint: 'Поставь реакцию, чтобы увидеть оценки других студентов',
+    empty: 'Пока ничего нет в этом разделе',
+    open: 'Открыть',
+    free: 'Бесплатно',
+    until: 'до',
+    dead: 'Неактуально',
+    err: 'Ошибка: '
+  },
+  en: {
+    title: 'Košice Student Deals',
+    cats: {all:'All', food:'Food', games:'Games', events:'Events', places:'Places', it_soft:'IT & Soft', services:'Services', jobs:'Jobs', study:'Study', other:'Other'},
+    sorts: {new:'Newest', rating:'Student ratings', ending:'Ending soon'},
+    hint: 'React to see other students’ ratings',
+    empty: 'Nothing in this category yet',
+    open: 'Open',
+    free: 'Free',
+    until: 'until',
+    dead: 'Outdated',
+    err: 'Error: '
+  },
+  sk: {
+    title: 'Študentské objavy Košice',
+    cats: {all:'Všetko', food:'Jedlo', games:'Hry', events:'Udalosti', places:'Miesta', it_soft:'IT a softvér', services:'Služby', jobs:'Práca', study:'Štúdium', other:'Ostatné'},
+    sorts: {new:'Najnovšie', rating:'Hodnotenia študentov', ending:'Čoskoro končia'},
+    hint: 'Reaguj, aby si videl hodnotenia ostatných študentov',
+    empty: 'V tejto kategórii zatiaľ nič nie je',
+    open: 'Otvoriť',
+    free: 'Zadarmo',
+    until: 'do',
+    dead: 'Neaktuálne',
+    err: 'Chyba: '
+  }
+};
+window.addEventListener('error', e => { const b = document.getElementById('list'); if (b) { const d = document.createElement('div'); d.className = 'empty'; d.textContent = (I18N[lang] || I18N.uk).err + e.message + ' (' + e.lineno + ')'; b.append(d); } });
 const T = window.Telegram && window.Telegram.WebApp;
 if (T) { T.ready(); T.expand(); }
-const CATS = {all:'Все', food:'Еда', games:'Игры', events:'События', places:'Места', it_soft:'IT и софт', services:'Услуги', jobs:'Работа', study:'Учёба', other:'Другое'};
 const store = {
   get(k, d){ try { return localStorage.getItem(k) || d; } catch(e){ return d; } },
   set(k, v){ try { localStorage.setItem(k, v); } catch(e){} }
@@ -50,41 +99,64 @@ const store = {
 const u = T && T.initDataUnsafe && T.initDataUnsafe.user;
 const tgLang = (u && u.language_code) || 'en';
 let lang = store.get('lang', ['uk','ru','sk','en'].includes(tgLang) ? tgLang : 'en');
+if (!I18N[lang]) lang = 'en';
 let cat = 'all';
 const sp = T && T.initDataUnsafe && T.initDataUnsafe.start_param;
-if (sp && CATS[sp]) cat = sp;
+if (sp && I18N.uk.cats[sp]) cat = sp;
 let sort = store.get('sort', 'new');
+if (!I18N.uk.sorts[sort]) sort = 'new';
 let offers = [];
 let links = [];
 let mine = {};
 let counts = {};
-const EMO = Object.fromEntries([['up','👍'],['fire','🔥'],['down','👎'],['dead','🚫']]);
-const DEAD = {uk: 'Неактуально', ru: 'Неактуально', en: 'Outdated', sk: 'Neaktuálne'};
-const HINT = {uk: 'Постав реакцію, щоб побачити оцінки інших студентів', ru: 'Поставь реакцию, чтобы увидеть оценки других студентов', en: 'React to see other students’ ratings', sk: 'Reaguj, aby si videl hodnotenia ostatných študentov'};
+const EMO = {up:'👍', fire:'🔥', down:'👎', dead:'🚫'};
+const RX = Object.entries(EMO);
+const API = 'https://kosice-reactions.grigiriy2018.workers.dev';
+function tr(){ return I18N[lang] || I18N.en; }
 function label(id, k) {
   const n = mine[id] ? ((counts[id] || {})[k] || 0) : 0;
-  return (k === 'dead' ? EMO[k] + ' ' + DEAD[lang] : EMO[k]) + (n ? ' ' + n : '');
+  return (k === 'dead' ? EMO[k] + ' ' + tr().dead : EMO[k]) + (n ? ' ' + n : '');
 }
-function cs(id) { const c = counts[id] || {}; return 2 * (c.fire || 0) + (c.up || 0) - (c.down || 0) - 3 * (c.dead || 0); }
-function bump(id, from, to) {
-  const c = counts[id] = counts[id] || {};
-  if (from) c[from] = Math.max(0, (c[from] || 0) - 1);
-  if (to) c[to] = (c[to] || 0) + 1;
+function cs(id) { const c = counts[id] || {}; return (c.up || 0) + (c.fire || 0) * 2 - (c.down || 0); }
+function paint(row, id) {
+  row.querySelectorAll('.rb').forEach(b => {
+    const k = b.dataset.r;
+    b.textContent = label(id, k);
+    b.classList.toggle('on', mine[id] === k);
+  });
 }
-const API = 'https://students-reactions.lagrig-tm.workers.dev';
-const RX = [['up','👍'],['fire','🔥'],['down','👎'],['dead','🚫']];
-function paint(row, id) { [...row.children].forEach(b => { b.classList.toggle('on', mine[id] === b.dataset.r); b.textContent = label(id, b.dataset.r); }); }
-function react(id, r, row) {
-  const old = mine[id];
-  const next = old === r ? null : r;
-  mine[id] = next; bump(id, old, next); paint(row, id);
-  fetch(API + '/react', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({offer_id: id, reaction: next, initData: T ? T.initData : ''})})
-    .then(x => { if (!x.ok) throw 0; }).catch(() => { mine[id] = old; bump(id, next, old); paint(row, id); });
+function setCount(id, k, d) {
+  if (!k) return;
+  counts[id] = counts[id] || {};
+  counts[id][k] = Math.max(0, (counts[id][k] || 0) + d);
+}
+function react(id, k, row) {
+  if (!T || !T.initData) return;
+  const old = mine[id] || null;
+  const next = old === k ? null : k;
+  mine[id] = next;
+  setCount(id, old, -1);
+  setCount(id, next, 1);
+  paint(row, id);
+  fetch(API + '/react', {
+    method: 'POST',
+    headers: {'content-type': 'application/json'},
+    body: JSON.stringify({initData: T.initData, id: id, r: next})
+  }).then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => {
+    counts[id] = d.counts || counts[id];
+    paint(row, id);
+  }).catch(() => {
+    mine[id] = old;
+    setCount(id, next, -1);
+    setCount(id, old, 1);
+    paint(row, id);
+  });
 }
 const $ = id => document.getElementById(id);
 const fmt = d => d.split('-').reverse().join('/');
 function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
 function money(s){ return String(s || '').replace(/^UAH\s*([\d.,]+)$/, (m, x) => Math.round(parseFloat(x.replace(/,/g, ''))) + '₴'); }
+function zeroOf(p){ if (!p) return ''; if (p.endsWith('₴')) return '0₴'; if (p.startsWith('$')) return '$0'; if (p.endsWith('€')) return '0€'; return '0'; }
 function stateEl(o){
   const d = o.deal, g = o.give;
   const row = el('div', 'state');
@@ -94,19 +166,34 @@ function stateEl(o){
   }
   if (g) {
     const p = money(g.price);
-    row.append(el('b', null, p ? '0₴' : (lang === 'ru' ? 'Бесплатно' : lang === 'en' ? 'Free' : lang === 'sk' ? 'Zadarmo' : 'Безкоштовно')));
+    row.append(el('b', null, p ? zeroOf(p) : tr().free));
     if (p) row.append(document.createTextNode(' '), el('s', null, p));
     row.append(document.createTextNode(' · ' + g.store));
     return row;
   }
   return null;
 }
+function renderUI(){
+  const tx = tr();
+  document.documentElement.lang = lang;
+  document.title = tx.title;
+  $('h1').textContent = tx.title;
+  $('hint').textContent = tx.hint;
+  const sEl = $('sort');
+  sEl.replaceChildren();
+  Object.entries(tx.sorts).forEach(([k, v]) => {
+    const opt = el('option', null, v);
+    opt.value = k;
+    sEl.append(opt);
+  });
+  sEl.value = sort;
+  chips();
+}
 function render(){
+  const tx = tr();
   const t = new Date().toISOString().slice(0,10);
-  $('hint').textContent = HINT[lang];
   const list = offers.filter(o => o.status === 'active' && (!o.expires_at || o.expires_at >= t) && (cat === 'all' || o.category === cat));
-  if (sort === 'score') list.sort((a,b) => b.score - a.score);
-  else if (sort === 'rating') list.sort((a, b) => cs(b.id) - cs(a.id));
+  if (sort === 'rating') list.sort((a, b) => cs(b.id) - cs(a.id));
   else if (sort === 'ending') list.sort((a,b) => (a.expires_at || '9999').localeCompare(b.expires_at || '9999'));
   else list.sort((a,b) => b.found_at.localeCompare(a.found_at));
   const box = $('list'); box.replaceChildren();
@@ -114,42 +201,44 @@ function render(){
     const c = el('div', 'card pin');
     c.append(el('h3', null, (l.emoji || '🔗') + ' ' + (l.title[lang] || l.title.en || '')));
     c.append(el('div', null, l.text[lang] || l.text.en || ''));
-    if (/^https?:/.test(l.url)) { const a = el('a', 'go', (l.button && (l.button[lang] || l.button.en)) || 'Открыть'); a.href = l.url; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
+    if (/^https?:/.test(l.url)) { const a = el('a', 'go', (l.button && (l.button[lang] || l.button.en)) || tx.open); a.href = l.url; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
     box.append(c);
   });
-  if (!list.length) { box.append(el('div', 'empty', 'Пока ничего нет в этом разделе')); return; }
+  if (!list.length) { box.append(el('div', 'empty', tx.empty)); return; }
   list.forEach(o => {
     const c = el('div', 'card');
     c.append(el('h3', null, o.title[lang] || o.title.en || ''));
     const st = (o.blurb && o.blurb[lang]) ? stateEl(o) : null;
     if (st) c.append(st);
     c.append(el('div', null, (o.blurb && o.blurb[lang]) || o.text[lang] || o.text.en || ''));
-    if (/^https?:/.test(o.link)) { const a = el('a', 'go', 'Открыть'); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
-    const m = el('div', 'meta');
-    m.append(el('span', null, o.expires_at ? ('до ' + fmt(o.expires_at)) : (o.kind === 'deal' ? 'срок скидки не указан' : 'без срока')));
-    m.append(el('span', null, 'оценка ' + o.score));
-    c.append(m);
+    if (/^https?:/.test(o.link)) { const a = el('a', 'go', tx.open); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
+    if (o.expires_at && o.kind !== 'deal') {
+      const m = el('div', 'meta');
+      m.append(el('span', null, tx.until + ' ' + fmt(o.expires_at)));
+      c.append(m);
+    }
     const rx = el('div', 'rx');
     RX.forEach(([k, e]) => { const b = el('button', 'rb', e); b.dataset.r = k; b.onclick = () => react(o.id, k, rx); rx.append(b); });
     paint(rx, o.id); c.append(rx); box.append(c);
   });
 }
 function chips(){
+  const cats = tr().cats;
   const row = $('chips'); row.replaceChildren();
-  Object.keys(CATS).forEach(k => {
-    const b = el('button', 'chip' + (k === cat ? ' on' : ''), CATS[k]);
+  Object.keys(cats).forEach(k => {
+    const b = el('button', 'chip' + (k === cat ? ' on' : ''), cats[k]);
     b.onclick = () => { cat = k; store.set('cat', k); chips(); render(); };
     row.append(b);
   });
 }
-$('sort').value = sort; $('lang').value = lang;
+$('lang').value = lang;
 $('sort').onchange = e => { sort = e.target.value; store.set('sort', sort); render(); };
-$('lang').onchange = e => { lang = e.target.value; store.set('lang', lang); render(); };
-chips();
+$('lang').onchange = e => { lang = e.target.value; store.set('lang', lang); renderUI(); render(); };
+renderUI();
 fetch(API + '/counts').then(r => r.json()).then(d => { counts = d; render(); }).catch(() => {});
 if (T && T.initData) fetch(API + '/mine', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({initData: T.initData})}).then(r => r.json()).then(d => { mine = d; render(); }).catch(() => {});
 fetch('links.json?' + Date.now()).then(r => r.json()).then(d => { links = d; render(); }).catch(() => {});
-fetch('offers.json?' + Date.now()).then(r => r.json()).then(d => { offers = d; render(); }).catch(e => { $('list').append(el('div', 'empty', 'Помилка: ' + ((e && e.message) || e))); });
+fetch('offers.json?' + Date.now()).then(r => r.json()).then(d => { offers = d; render(); }).catch(e => { $('list').append(el('div', 'empty', tr().err + ((e && e.message) || e))); });
 </script>
 </body>
 </html>
