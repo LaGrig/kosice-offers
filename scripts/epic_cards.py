@@ -27,15 +27,16 @@ def main():
         cid = offer_id(link)
         cards.append({'id': cid, 'title': {l: name for l in T}, 'text': {l: T[l].format(d=ds, p=orig) for l in T}, 'category': 'games', 'link': link,
                       'source': 'epic-games', 'found_at': today().isoformat(), 'approved_at': today().isoformat(), 'expires_at': end, 'score': 95,
-                      'worth': tp['originalPrice'] / 10 ** dec, 'status': 'active', 'announced': cid in st['announced'],
+                      'worth': tp['originalPrice'] / 10 ** dec, 'status': 'active', 'announced': False,
                       'give': {'game': name, 'store': 'Epic Games Store', 'price': orig, 'until': end}})
-    slugs = {slug(c['link']) for c in cards}
     def apply(cur):
-        out = [o for o in cur if o.get('kind') == 'deal' or slug(o['link']) not in slugs]
-        for o in cur:
-            if o.get('kind') != 'deal' and slug(o['link']) in slugs:
-                print('заменена карточка:', o['source'], '|', o['title']['ru'][:40])
-        return out + cards
+        have = {slug(o['link']) for o in cur if o['source'] == 'epic-games'}
+        fresh = [c for c in cards if slug(c['link']) not in have]
+        for c in fresh:
+            print('новая карточка раздачи:', c['give']['game'])
+        dup = {slug(c['link']) for c in cards}
+        out = [o for o in cur if not (o['source'].startswith('reddit') and slug(o['link']) in dup)]
+        return out + fresh
     update_offers(apply)
     print('карточки текущих раздач Epic:', [c['give']['game'] + (' (анонс уже был)' if c['announced'] else '') for c in cards])
 

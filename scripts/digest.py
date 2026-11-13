@@ -107,20 +107,35 @@ def slug_of(link):
     return m.group(1) if m else None
 
 def pick(active, sent):
-    ann = {slug_of(o['link']) for o in active if o.get('announced') and slug_of(o['link'])}
-    active = [o for o in active if not (slug_of(o['link']) in ann and not o.get('announced'))]
-    day3 = (today() - dt.timedelta(days=3)).isoformat()
-    day7 = (today() - dt.timedelta(days=7)).isoformat()
-    new = [o for o in active if o['id'] not in sent]
-    gives = sorted([o for o in new if o.get('kind') != 'deal' and when(o) >= day7 and not (o.get('announced') and (o.get('expires_at') or '9999') > today().isoformat())],
+    t = today()
+    day3 = (t - dt.timedelta(days=3)).isoformat()
+    size = CFG['digest_size']
+
+    def left(o):
+        e = o.get('expires_at')
+        return (dt.date.fromisoformat(e) - t).days if e else 99
+
+    unsent = [o for o in active if o['id'] not in sent]
+    # раздачи Epic: всегда в дайджесте в день старта (ещё не показаны) и напоминание в последний день
+    epic = [o for o in active if o['source'] == 'epic-games' and (o['id'] not in sent or left(o) <= 0)]
+    gives = sorted([o for o in unsent if o.get('kind') != 'deal' and o['source'] != 'epic-games' and not o.get('pinned')],
                    key=lambda o: (SRC_RANK.get(o['source'], 2), o.get('expires_at') or '9999', -o['score']))
-    deals = sorted([o for o in new if o.get('kind') == 'deal' and when(o) >= day3],
+    deals = sorted([o for o in unsent if o.get('kind') == 'deal' and when(o) >= day3],
                    key=lambda o: (o.get('chart_rank') or 999, -o['score']))
-    top = gives[:1] + deals[:2]
-    for o in gives[1:] + deals[2:]:
-        if len(top) >= CFG['digest_size']:
+    top = epic[:2] + gives[:1]
+    for o in deals + gives[1:]:
+        if len(top) >= size:
             break
-        top.append(o)
+        if o not in top:
+            top.append(o)
+    # минимум 3: добираем ещё действующими, но уже показанными находками
+    if len(top) < 3:
+        again = sorted([o for o in active if o not in top and not o.get('pinned') and o['source'] != 'manual'],
+                       key=lambda o: (0 if o.get('kind') != 'deal' else 1, o.get('chart_rank') or 999))
+        for o in again:
+            if len(top) >= 3:
+                break
+            top.append(o)
     return top
 
 def main():
