@@ -549,5 +549,47 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "ba61c8bd42df",
+  "title": {
+   "uk": "Hearts of Iron IV −70%",
+   "ru": "Hearts of Iron IV −70%",
+   "en": "Hearts of Iron IV −70%",
+   "sk": "Hearts of Iron IV −70%"
+  },
+  "text": {
+   "uk": "Hearts of Iron IV у Steam зараз за 404₴ замість 1 349₴. У топі Steam: №21 за продажами, №46 за онлайном. Гарний момент забрати 🎮",
+   "ru": "Hearts of Iron IV в Steam сейчас за 404₴ вместо 1 349₴. В топе Steam: №21 по продажам, №46 по онлайну. Хороший момент забрать 🎮",
+   "en": "Hearts of Iron IV on Steam is 404₴ instead of 1 349₴ right now. In the Steam charts: #21 bestseller, #46 most played. A good moment to grab it 🎮",
+   "sk": "Hearts of Iron IV v Steam je teraz za 404₴ namiesto 1 349₴. V rebríčku Steam: #21 podľa predajov, #46 podľa online. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/394360/",
+  "source": "steam-chart",
+  "found_at": "2026-11-13",
+  "expires_at": null,
+  "score": 90,
+  "worth": 1349.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 21,
+  "deal": {
+   "game": "Hearts of Iron IV",
+   "pct": 70,
+   "old": "1 349₴",
+   "new": "404₴",
+   "store": "Steam",
+   "rank_sales": 21,
+   "rank_play": 46
+  },
+  "blurb": {
+   "uk": "Керуєш будь-якою країною під час Другої світової війни та вирішуєш долю світу",
+   "ru": "Управляешь любой страной во время Второй мировой войны и решаешь судьбу мира",
+   "en": "Lead any nation during World War II and decide the fate of the world",
+   "sk": "Vezmi do ruky vedomie každej krajiny počas druhej svetovej vojny a rozhodni o osude sveta"
+  },
+  "status": "active"
  }
 ]
