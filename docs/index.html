@@ -43,7 +43,7 @@ const I18N = {
   uk: {
     title: 'Студентські знахідки Кошице',
     cats: {all:'Усе', food:'Їжа', games:'Ігри', events:'Події', places:'Місця', it_soft:'IT і софт', services:'Послуги', jobs:'Робота', study:'Навчання', other:'Інше'},
-    sorts: {new:'Нові', rating:'Оцінки студентів', ending:'Скоро закінчаться'},
+    sorts: {new:'Нові', rating:'Краще', ending:'Скоро закінчаться'},
     hint: 'Постав реакцію, щоб побачити оцінки інших студентів',
     empty: 'Поки нічого немає в цьому розділі',
     open: 'Відкрити',
@@ -55,7 +55,7 @@ const I18N = {
   ru: {
     title: 'Студенческие находки Кошице',
     cats: {all:'Все', food:'Еда', games:'Игры', events:'События', places:'Места', it_soft:'IT и софт', services:'Услуги', jobs:'Работа', study:'Учёба', other:'Другое'},
-    sorts: {new:'Новые', rating:'Оценки студентов', ending:'Скоро закончатся'},
+    sorts: {new:'Новые', rating:'Лучшее', ending:'Скоро закончатся'},
     hint: 'Поставь реакцию, чтобы увидеть оценки других студентов',
     empty: 'Пока ничего нет в этом разделе',
     open: 'Открыть',
@@ -67,7 +67,7 @@ const I18N = {
   en: {
     title: 'Košice Student Deals',
     cats: {all:'All', food:'Food', games:'Games', events:'Events', places:'Places', it_soft:'IT & Soft', services:'Services', jobs:'Jobs', study:'Study', other:'Other'},
-    sorts: {new:'Newest', rating:'Student ratings', ending:'Ending soon'},
+    sorts: {new:'Newest', rating:'Best', ending:'Ending soon'},
     hint: 'React to see other students’ ratings',
     empty: 'Nothing in this category yet',
     open: 'Open',
@@ -79,7 +79,7 @@ const I18N = {
   sk: {
     title: 'Študentské objavy Košice',
     cats: {all:'Všetko', food:'Jedlo', games:'Hry', events:'Udalosti', places:'Miesta', it_soft:'IT a softvér', services:'Služby', jobs:'Práca', study:'Štúdium', other:'Ostatné'},
-    sorts: {new:'Najnovšie', rating:'Hodnotenia študentov', ending:'Čoskoro končia'},
+    sorts: {new:'Najnovšie', rating:'Najlepšie', ending:'Čoskoro končia'},
     hint: 'Reaguj, aby si videl hodnotenia ostatných študentov',
     empty: 'V tejto kategórii zatiaľ nič nie je',
     open: 'Otvoriť',
@@ -111,13 +111,13 @@ let mine = {};
 let counts = {};
 const EMO = {up:'👍', fire:'🔥', down:'👎', dead:'🚫'};
 const RX = Object.entries(EMO);
-const API = 'https://kosice-reactions.grigiriy2018.workers.dev';
+const API = 'https://students-reactions.lagrig-tm.workers.dev';
 function tr(){ return I18N[lang] || I18N.en; }
 function label(id, k) {
   const n = mine[id] ? ((counts[id] || {})[k] || 0) : 0;
   return (k === 'dead' ? EMO[k] + ' ' + tr().dead : EMO[k]) + (n ? ' ' + n : '');
 }
-function cs(id) { const c = counts[id] || {}; return (c.up || 0) + (c.fire || 0) * 2 - (c.down || 0); }
+function cs(id) { const c = counts[id] || {}; return 2 * (c.fire || 0) + (c.up || 0) - (c.down || 0) - 3 * (c.dead || 0); }
 function paint(row, id) {
   row.querySelectorAll('.rb').forEach(b => {
     const k = b.dataset.r;
@@ -125,31 +125,21 @@ function paint(row, id) {
     b.classList.toggle('on', mine[id] === k);
   });
 }
-function setCount(id, k, d) {
-  if (!k) return;
-  counts[id] = counts[id] || {};
-  counts[id][k] = Math.max(0, (counts[id][k] || 0) + d);
+function bump(id, from, to) {
+  const c = counts[id] = counts[id] || {};
+  if (from) c[from] = Math.max(0, (c[from] || 0) - 1);
+  if (to) c[to] = (c[to] || 0) + 1;
 }
-function react(id, k, row) {
-  if (!T || !T.initData) return;
-  const old = mine[id] || null;
-  const next = old === k ? null : k;
-  mine[id] = next;
-  setCount(id, old, -1);
-  setCount(id, next, 1);
-  paint(row, id);
+function react(id, r, row) {
+  const old = mine[id];
+  const next = old === r ? null : r;
+  mine[id] = next; bump(id, old, next); paint(row, id);
   fetch(API + '/react', {
     method: 'POST',
     headers: {'content-type': 'application/json'},
-    body: JSON.stringify({initData: T.initData, id: id, r: next})
-  }).then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => {
-    counts[id] = d.counts || counts[id];
-    paint(row, id);
-  }).catch(() => {
-    mine[id] = old;
-    setCount(id, next, -1);
-    setCount(id, old, 1);
-    paint(row, id);
+    body: JSON.stringify({offer_id: id, reaction: next, initData: T ? T.initData : ''})
+  }).then(x => { if (!x.ok) throw 0; }).catch(() => {
+    mine[id] = old; bump(id, next, old); paint(row, id);
   });
 }
 const $ = id => document.getElementById(id);
