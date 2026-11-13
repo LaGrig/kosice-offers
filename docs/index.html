@@ -202,7 +202,7 @@ function render(){
     if (st) c.append(st);
     c.append(el('div', null, (o.blurb && o.blurb[lang]) || o.text[lang] || o.text.en || ''));
     if (/^https?:/.test(o.link)) { const a = el('a', 'go', tx.open); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
-    if (o.expires_at && o.kind !== 'deal') {
+    if (o.expires_at) {
       const m = el('div', 'meta');
       m.append(el('span', null, tx.until + ' ' + fmt(o.expires_at)));
       c.append(m);
