@@ -379,10 +379,10 @@
    "sk": "Grand Theft Auto IV: The −70%"
   },
   "text": {
-   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. У топі Steam: №98 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. В топе Steam: №98 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. In the Steam charts: #98 bestseller. Time to add it to your library 🎮",
-   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. V rebríčku Steam: #98 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. Самое время добавить в библиотеку 🎮",
+   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. Time to add it to your library 🎮",
+   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/12210/",
@@ -401,7 +401,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 98,
+   "rank_sales": null,
    "rank_play": null
   },
   "blurb": {
@@ -514,10 +514,10 @@
    "sk": "The Elder Scrolls V: Skyrim Special Edition −80%"
   },
   "text": {
-   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №30 за продажами, №52 за онлайном. Саме час додати до бібліотеки 🎮",
-   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №30 по продажам, №52 по онлайну. Самое время добавить в библиотеку 🎮",
-   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #30 bestseller, #52 most played. Time to add it to your library 🎮",
-   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #30 podľa predajov, #52 podľa online. Čas pridať ju do knižnice 🎮"
+   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №33 за продажами, №52 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №33 по продажам, №52 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #33 bestseller, #52 most played. Time to add it to your library 🎮",
+   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #33 podľa predajov, #52 podľa online. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/489830/",
@@ -536,7 +536,7 @@
    "old": "649₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 30,
+   "rank_sales": 33,
    "rank_play": 52
   },
   "blurb": {
