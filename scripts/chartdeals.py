@@ -55,16 +55,16 @@ def reviews(app):
         n, pct = _reviews_steam(app)
         if n:
             return n, pct
-    except Exception:
-        pass
+    except Exception as e:
+        print("deal_expires err:", app, e)
     try:
         import requests
         rows = requests.get('https://www.cheapshark.com/api/1.0/deals', params={'steamAppID': app, 'pageSize': 1},
                             headers={'User-Agent': 'kosice-offers-bot (+https://github.com/LaGrig/kosice-offers)'}, timeout=25).json()
         if rows:
             return int(float(rows[0].get('steamRatingCount') or 0)), int(float(rows[0].get('steamRatingPercent') or 0))
-    except Exception:
-        pass
+    except Exception as e:
+        print("deal_expires err:", app, e)
     return 0, 0
 
 def desc_of(app):
@@ -120,8 +120,8 @@ def deal_expires(app, cc='ua'):
             if (today_d - cand).days > 30:
                 cand = dt.date(yr + 1, mon, day)
             return cand.isoformat()
-    except Exception:
-        pass
+    except Exception as e:
+        print("deal_expires err:", app, e)
     return None
 
 def chart_deals():
