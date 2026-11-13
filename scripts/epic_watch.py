@@ -185,4 +185,5 @@ def main():
         STATE.write_text(json.dumps(st, ensure_ascii=False), encoding='utf-8')
     print('готово: новых раздач', len(new), '| ближайших', len(soon))
 
-main()
+if __name__ == '__main__':
+    main()

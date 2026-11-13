@@ -6,7 +6,7 @@ UA = {'User-Agent': 'Mozilla/5.0 (kosice-offers-bot)'}
 EPIC_COUNTRY = 'UA'
 SKIPPED = []
 
-def fetch_epic():
+def fetch_epic(min_local=None):
     r = requests.get('https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions',
                      params={'locale': 'en-US', 'country': EPIC_COUNTRY, 'allowCountries': EPIC_COUNTRY},
                      headers=UA, timeout=25)
@@ -33,7 +33,7 @@ def fetch_epic():
             continue
         dec = (price.get('currencyInfo') or {}).get('decimals', 2)
         ow = price['originalPrice'] / (10 ** dec)
-        if ow < CFG.get('epic_min_local', 400):
+        if ow < (CFG.get('epic_min_local', 400) if min_local is None else min_local):
             SKIPPED.append({'id': offer_id(link), 'title': e.get('title', ''), 'summary': (e.get('description') or '')[:300],
                             'link': link, 'source': 'epic-games', 'expires_at': end, 'worth': ow,
                             'why': 'цена ' + str(ow) + ' ниже порога'})
@@ -169,7 +169,7 @@ from epicdeals import fetch_epic_deals
 from epicdeals import fetch_epic_deals
 
 FETCHERS = {'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower, 'steam-chart': chart_deals, 'epic-charts': epic_chart_deals, 'epic-deals': fetch_epic_deals, 'cheapshark': fetch_deals}
-LIVE_OVERRIDE = {'steam-chart': lambda: [{'link': l} for l in chart_live()], 'epic-charts': lambda: [{'link': x['link']} for x in fetch_epic_deals()]}
+LIVE_OVERRIDE = {'epic-games': lambda: [{'link': x['link']} for x in fetch_epic(min_local=0)], 'steam-chart': lambda: [{'link': l} for l in chart_live()], 'epic-charts': lambda: [{'link': x['link']} for x in fetch_epic_deals()]}
 
 def fetch_all():
     out = []
