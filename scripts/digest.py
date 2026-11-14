@@ -110,6 +110,9 @@ def block_epic(group, lang, tx):
         if not same_u and u:
             row += ' · ' + u
         lines.append(row)
+        bl = (o.get('blurb') or {}).get(lang)
+        if bl:
+            lines.append('  💬 <i>' + esc(bl) + '</i>')
     return '\n'.join(lines)
 
 def render_slot(slot, lang, tx):
@@ -137,30 +140,35 @@ def slug_of(link):
 def pick(active, sent):
     t = today()
     day3 = (t - dt.timedelta(days=3)).isoformat()
-    size = CFG['digest_size']
+    size = min(CFG.get('digest_size', 3), 3)
 
     def left(o):
         e = o.get('expires_at')
         return (dt.date.fromisoformat(e) - t).days if e else 99
 
     unsent = [o for o in active if o['id'] not in sent]
+    city = sorted([o for o in unsent if o.get('category') != 'games' and not o.get('pinned')],
+                  key=lambda o: (o.get('expires_at') or '9999', -o['score']))
     all_epic = [o for o in active if o['source'] == 'epic-games']
     epic_due = [o for o in all_epic if o['id'] not in sent or left(o) <= 0]
-    gives = sorted([o for o in unsent if o.get('kind') != 'deal' and o['source'] != 'epic-games' and not o.get('pinned')],
+    gives = sorted([o for o in unsent if o.get('category') == 'games' and o.get('kind') != 'deal' and o['source'] != 'epic-games' and not o.get('pinned')],
                    key=lambda o: (SRC_RANK.get(o['source'], 2), o.get('expires_at') or '9999', -o['score']))
-    deals = sorted([o for o in unsent if o.get('kind') == 'deal' and when(o) >= day3],
+    deals = sorted([o for o in unsent if o.get('category') == 'games' and o.get('kind') == 'deal' and when(o) >= day3],
                    key=lambda o: (o.get('chart_rank') or 999, -o['score']))
 
     top = []
     used_ids = set()
-    if epic_due:
+    if city and len(top) < size:
+        top.append(city[0])
+        used_ids.add(city[0]['id'])
+    if epic_due and len(top) < size:
         top.append(all_epic)
         used_ids |= {o['id'] for o in all_epic}
-    if gives:
+    if gives and len(top) < size:
         top.append(gives[0])
         used_ids.add(gives[0]['id'])
 
-    for o in deals + gives[1:]:
+    for o in city[1:] + deals + gives[1:]:
         if len(top) >= size:
             break
         if o['id'] not in used_ids:
@@ -168,11 +176,11 @@ def pick(active, sent):
             used_ids.add(o['id'])
 
     # минимум 3: добираем ещё действующими, но уже показанными находками
-    if len(top) < 3:
+    if len(top) < size:
         again = sorted([o for o in active if o['id'] not in used_ids and not o.get('pinned') and o['source'] != 'manual'],
-                       key=lambda o: (0 if o.get('kind') != 'deal' else 1, o.get('chart_rank') or 999))
+                       key=lambda o: (0 if o.get('category') != 'games' else (1 if o.get('kind') != 'deal' else 2), o.get('chart_rank') or 999))
         for o in again:
-            if len(top) >= 3:
+            if len(top) >= size:
                 break
             if o['source'] == 'epic-games':
                 grp = [x for x in all_epic if x['id'] not in used_ids]

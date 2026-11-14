@@ -1,4 +1,4 @@
-import re
+import re, requests
 from common import CFG
 from llm import ask_llm
 from textfix import nums
@@ -36,9 +36,61 @@ def supported(desc, res):
     out = ask_llm('qa', {'description': desc, 'blurb': res}, retries=0, system=VERIFY)
     return isinstance(out, dict) and out.get('ok') is True
 
+DLC_RE = re.compile(r'(?i)\b(upgrade|dlc|season pass|add-?on|expansion pack|bonus content|soundtrack)\b')
+UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+
+def _clean_title(name):
+    s = re.sub(r'[™®©]', '', name or '')
+    s = re.sub(r'\s*[-–:]?\s*\(?\b(standard|digital|definitive|deluxe|complete|ultimate|gold|premium)\s+edition\)?\s*$', '', s, flags=re.I)
+    return ' '.join(s.split())
+
+def steam_desc_by_name(game):
+    q = _clean_title(game)
+    if not q:
+        return ''
+    try:
+        r = requests.get('https://store.steampowered.com/search/results/',
+                         params={'term': q, 'json': 1}, headers=UA, timeout=15)
+        if r.status_code != 200:
+            return ''
+        items = (r.json() or {}).get('items') or []
+        app = None
+        for it in items:
+            nm = (it.get('name') or '').lower()
+            if 'demo' in nm or 'soundtrack' in nm:
+                continue
+            m = re.search(r'/apps?/(\d+)/', it.get('logo') or '')
+            if m:
+                app = m.group(1)
+                break
+        if not app:
+            m = re.search(r'/apps?/(\d+)/', r.text)
+            app = m.group(1) if m else None
+        if not app:
+            return ''
+        d = requests.get('https://store.steampowered.com/api/appdetails',
+                         params={'appids': app, 'l': 'english', 'cc': 'us'},
+                         headers=UA, timeout=15).json().get(str(app), {}).get('data') or {}
+        if d.get('type') != 'game':
+            return ''
+        sd = ' '.join((d.get('short_description') or '').split())
+        if len(sd) >= 50 and not DLC_RE.search(sd):
+            return sd[:500]
+        raw = re.sub(r'<[^>]+>', ' ', d.get('about_the_game') or d.get('detailed_description') or '')
+        about = ' '.join(raw.split())
+        if len(about) >= 50 and not DLC_RE.search(about[:300]):
+            return about[:500]
+        return sd[:500]
+    except Exception:
+        return ''
+
 def make_blurb(game, desc):
     desc = ' '.join((desc or '').split())[:500]
-    if len(desc) < 20 or re.search(r'(?i)\b(upgrade|dlc|season pass|add-?on|expansion pack|bonus content|soundtrack)\b', desc):
+    if len(desc) < 60 or DLC_RE.search(desc):
+        fb = steam_desc_by_name(game)
+        if fb and len(fb) >= 25 and not DLC_RE.search(fb):
+            desc = fb
+    if len(desc) < 20 or DLC_RE.search(desc):
         return None
     allowed = nums(game + ' ' + desc)
     for attempt in range(2):

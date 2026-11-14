@@ -9,7 +9,7 @@ from api_sources import fetch_epic, fetch_gamerpower
 redo = '--redo' in sys.argv
 only = sys.argv[sys.argv.index('--only') + 1].lower().split(',') if '--only' in sys.argv else None
 descs = {}
-for fn in (lambda: fetch_epic_deals(ttl=0), fetch_epic, fetch_gamerpower):
+for fn in (lambda: fetch_epic_deals(ttl=0), lambda: fetch_epic(min_local=0), fetch_gamerpower):
     try:
         for x in fn():
             descs[x['link']] = x.get('desc')
@@ -17,11 +17,11 @@ for fn in (lambda: fetch_epic_deals(ttl=0), fetch_epic, fetch_gamerpower):
         print('сбой источника:', str(e)[:80])
 res, failed = {}, set()
 for o in load_offers():
-    if o.get('blurb') and not redo:
+    if (o.get('blurb') and not redo) or o.get('category') != 'games':
         continue
     if only and not any(s.strip() in (o['title']['en'] + ' ' + o['title']['ru']).lower() for s in only):
         continue
-    d = descs.get(o['link'])
+    d = o.get('desc') or descs.get(o['link'])
     m = re.search(r'/app/(\d+)/', o['link'])
     if not d and m:
         d = desc_of(int(m.group(1)))

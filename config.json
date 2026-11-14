@@ -23,7 +23,7 @@
   },
   "publish_threshold": 75,
   "digest_threshold": 85,
-  "digest_size": 4,
+  "digest_size": 3,
   "digest_lang": "uk",
   "max_new_per_run": 15,
   "auto_publish": false,

@@ -1,6 +1,7 @@
 import datetime as dt, re, sys
 sys.path.insert(0, 'scripts')
-from common import update_offers, offer_id, today
+from common import load_offers, update_offers, offer_id, today
+from blurb import make_blurb
 import epic_watch as ew
 from epicdeals import _money
 
@@ -25,10 +26,19 @@ def main():
         name, end = e.get('title', ''), w[1].astimezone(dt.timezone.utc).date().isoformat()
         ds = end[8:10] + '/' + end[5:7] + '/' + end[:4]
         cid = offer_id(link)
-        cards.append({'id': cid, 'title': {l: name for l in T}, 'text': {l: T[l].format(d=ds, p=orig) for l in T}, 'category': 'games', 'link': link,
-                      'source': 'epic-games', 'found_at': today().isoformat(), 'approved_at': today().isoformat(), 'expires_at': end, 'score': 95,
-                      'worth': tp['originalPrice'] / 10 ** dec, 'status': 'active', 'announced': False,
-                      'give': {'game': name, 'store': 'Epic Games Store', 'price': orig, 'until': end}})
+        desc = (e.get('description') or '')[:400]
+        card = {'id': cid, 'title': {l: name for l in T}, 'text': {l: T[l].format(d=ds, p=orig) for l in T}, 'category': 'games', 'link': link,
+                'source': 'epic-games', 'found_at': today().isoformat(), 'approved_at': today().isoformat(), 'expires_at': end, 'score': 95,
+                'worth': tp['originalPrice'] / 10 ** dec, 'status': 'active', 'announced': False, 'desc': desc,
+                'give': {'game': name, 'store': 'Epic Games Store', 'price': orig, 'until': end}}
+        cards.append(card)
+    have_now = {slug(o['link']) for o in load_offers() if o['source'] == 'epic-games'}
+    for c in cards:
+        if slug(c['link']) not in have_now:
+            bl = make_blurb(c['give']['game'], c.get('desc'))
+            if bl:
+                c['blurb'] = bl
+
     def apply(cur):
         have = {slug(o['link']) for o in cur if o['source'] == 'epic-games'}
         fresh = [c for c in cards if slug(c['link']) not in have]
