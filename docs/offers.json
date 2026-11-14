@@ -627,5 +627,87 @@
   },
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "4a8a25d642d6",
+  "title": {
+   "uk": "OCTOPATH TRAVELER −70%",
+   "ru": "OCTOPATH TRAVELER −70%",
+   "en": "OCTOPATH TRAVELER −70%",
+   "sk": "OCTOPATH TRAVELER −70%"
+  },
+  "text": {
+   "uk": "OCTOPATH TRAVELER у Epic Games Store зараз за 330₴ замість 1 099₴. У топі Epic Games Store: №76 за продажами. Не пропусти 🎮",
+   "ru": "OCTOPATH TRAVELER в Epic Games Store сейчас за 330₴ вместо 1 099₴. В топе Epic Games Store: №76 по продажам. Не пропусти 🎮",
+   "en": "OCTOPATH TRAVELER on Epic Games Store is 330₴ instead of 1 099₴ right now. In the Epic Games Store charts: #76 bestseller. Don't miss it 🎮",
+   "sk": "OCTOPATH TRAVELER v Epic Games Store je teraz za 330₴ namiesto 1 099₴. V rebríčku Epic Games Store: #76 podľa predajov. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/octopath-traveler",
+  "source": "epic-charts",
+  "found_at": "2026-11-14",
+  "expires_at": null,
+  "score": 90,
+  "worth": 1099.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 76,
+  "deal": {
+   "game": "OCTOPATH TRAVELER™",
+   "pct": 70,
+   "old": "1 099₴",
+   "new": "330₴",
+   "store": "Epic Games Store",
+   "rank_sales": 76
+  },
+  "blurb": {
+   "uk": "Подорожуєш світом за вісьмох різних героїв та відкриваєш їхні історії",
+   "ru": "Путешествуешь по миру за восемь разных героев и открываешь их истории",
+   "en": "Travel across a vast world as eight different characters and discover their stories",
+   "sk": "Cestuješ svetom za ôsmich rôznych hrdinov a objavuješ ich príbehy"
+  },
+  "status": "active"
+ },
+ {
+  "id": "17919fd1bccf",
+  "title": {
+   "uk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN −70%",
+   "ru": "STRANGER OF PARADISE FINAL FANTASY ORIGIN −70%",
+   "en": "STRANGER OF PARADISE FINAL FANTASY ORIGIN −70%",
+   "sk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN −70%"
+  },
+  "text": {
+   "uk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN у Epic Games Store зараз за 300₴ замість 999₴. У топі Epic Games Store: №85 за продажами. Гарний момент забрати 🎮",
+   "ru": "STRANGER OF PARADISE FINAL FANTASY ORIGIN в Epic Games Store сейчас за 300₴ вместо 999₴. В топе Epic Games Store: №85 по продажам. Хороший момент забрать 🎮",
+   "en": "STRANGER OF PARADISE FINAL FANTASY ORIGIN on Epic Games Store is 300₴ instead of 999₴ right now. In the Epic Games Store charts: #85 bestseller. A good moment to grab it 🎮",
+   "sk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN v Epic Games Store je teraz za 300₴ namiesto 999₴. V rebríčku Epic Games Store: #85 podľa predajov. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/stranger-of-paradise-final-fantasy-origin",
+  "source": "epic-charts",
+  "found_at": "2026-11-14",
+  "expires_at": null,
+  "score": 90,
+  "worth": 999.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 85,
+  "deal": {
+   "game": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
+   "pct": 70,
+   "old": "999₴",
+   "new": "300₴",
+   "store": "Epic Games Store",
+   "rank_sales": 85
+  },
+  "blurb": {
+   "uk": "Борешся з темрявою та долаєш складні випробування, щоб повернути світло кристалів у королівство",
+   "ru": "Сражаешься с тьмой и проходишь сложные испытания, чтобы вернуть свет кристаллов в королевство",
+   "en": "Fight the darkness and face tough challenges to bring the light of the crystals back to the kingdom",
+   "sk": "Bojuješ s temnotou a prekonávaš ťažké výzvy, aby si vrátil svetlo kryštálov do kráľovstva"
+  },
+  "status": "active"
  }
 ]
