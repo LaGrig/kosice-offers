@@ -21,5 +21,22 @@
       "en": "Open catalog",
       "sk": "Otvoriť katalóg"
     }
+  },
+  {
+    "category": "services",
+    "emoji": "🧾",
+    "url": "http://test.net",
+    "title": {
+      "uk": "Друк курсових",
+      "ru": "Печать курсовых",
+      "en": "Printing of term papers",
+      "sk": "Tlač semestrálnich prác"
+    },
+    "text": {
+      "uk": "Друк на кольоровому принтері, формат А1",
+      "ru": "Печать на цветном принтере, формат А1",
+      "en": "Printing on a color printer, A1 format",
+      "sk": "Tlač na farebnej tlačiarenke, formát A1"
+    }
   }
 ]
