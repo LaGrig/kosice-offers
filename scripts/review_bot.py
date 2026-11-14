@@ -251,11 +251,28 @@ def menu_view():
     return text, kb
 
 
-def list_view(status, page=0):
+def active_cats_view():
+    """Show category filter buttons (and 'All') before listing active offers."""
+    counts = {}
+    total = 0
+    for o in load_offers():
+        if o.get('status') == 'active':
+            total += 1
+            k = o.get('category') or 'other'
+            counts[k] = counts.get(k, 0) + 1
+    rows = [[{'text': f'📋 Все вместе ({total})', 'callback_data': 'ls:active:0:all'}]]
+    for i in range(0, len(CATS), 3):
+        rows.append([{'text': f'{lbl} ({counts.get(k, 0)})', 'callback_data': f'ls:active:0:{k}'} for k, lbl in CATS[i:i + 3]])
+    rows.append([{'text': '➕ Добавить', 'callback_data': 'add'}, {'text': '🏠 Меню', 'callback_data': 'menu'}])
+    text = f'🟢 <b>Активные карточки</b> (всего: {total})\n\nВыбери рубрику или открой все вместе:'
+    return text, {'inline_keyboard': rows}
+
+
+def list_view(status, page=0, cat='all'):
     titles = {'active': '🟢 Активные карточки', 'pending': '🟡 На проверке', 'hidden': '🙈 Скрытые карточки'}
     lang = CFG.get('digest_lang', 'uk')
     items = sorted(
-        [o for o in load_offers() if o.get('status') == status],
+        [o for o in load_offers() if o.get('status') == status and (status != 'active' or cat == 'all' or o.get('category') == cat)],
         key=lambda o: (o.get('approved_at') or o.get('found_at') or ''),
         reverse=True,
     )
@@ -274,13 +291,21 @@ def list_view(status, page=0):
     if pages > 1:
         nav = []
         if page > 0:
-            nav.append({'text': '⬅️', 'callback_data': f'ls:{status}:{page - 1}'})
+            nav.append({'text': '⬅️', 'callback_data': f'ls:{status}:{page - 1}:{cat}'})
         nav.append({'text': f'{page + 1}/{pages}', 'callback_data': 'noop'})
         if page + 1 < pages:
-            nav.append({'text': '➡️', 'callback_data': f'ls:{status}:{page + 1}'})
+            nav.append({'text': '➡️', 'callback_data': f'ls:{status}:{page + 1}:{cat}'})
         rows.append(nav)
-    rows.append([{'text': '➕ Добавить', 'callback_data': 'add'}, {'text': '🏠 Меню', 'callback_data': 'menu'}])
-    body = f'<b>{titles.get(status, status)}</b> (всего: {len(items)})'
+    bottom = [{'text': '🗂 Рубрики', 'callback_data': 'ls:active:0'}] if status == 'active' else []
+    bottom.extend([{'text': '➕ Добавить', 'callback_data': 'add'}, {'text': '🏠 Меню', 'callback_data': 'menu'}])
+    rows.append(bottom)
+    if status == 'active' and cat != 'all':
+        head = f"🟢 Активные · {CAT_MAP.get(cat, cat)}"
+    elif status == 'active':
+        head = "🟢 Активные · Все рубрики"
+    else:
+        head = titles.get(status, status)
+    body = f'<b>{head}</b> (всего: {len(items)})'
     if not chunk:
         body += '\n\nСписок пуст.'
     return body, {'inline_keyboard': rows}
@@ -319,7 +344,8 @@ def card_view(o):
     ]
     if re.match(r'^https?://', o.get('link') or ''):
         rows.append([{'text': '🔗 Открыть оригинал', 'url': o['link']}])
-    rows.append([{'text': '⬅️ К списку', 'callback_data': f'ls:{status}:0'}, {'text': '🏠 Меню', 'callback_data': 'menu'}])
+    back_list = f"ls:active:0:{o.get('category') or 'all'}" if status == 'active' else f'ls:{status}:0'
+    rows.append([{'text': '⬅️ К списку', 'callback_data': back_list}, {'text': '🏠 Меню', 'callback_data': 'menu'}])
     return text, {'inline_keyboard': rows}
 
 
@@ -518,7 +544,7 @@ def handle_message(msg):
             return
         if cmd in ('/list', '/pending'):
             clear_state()
-            t, kb = list_view('active' if cmd == '/list' else 'pending', 0)
+            t, kb = active_cats_view() if cmd == '/list' else list_view('pending', 0)
             send_msg(t, kb)
             return
         clear_state()
@@ -668,8 +694,12 @@ def handle(cb):
     if action == 'ls':
         clear_state()
         call('answerCallbackQuery', callback_query_id=cb['id'])
-        page = int(parts[2]) if len(parts) > 2 and parts[2].isdigit() else 0
-        t, kb = list_view(oid, page)
+        if oid == 'active' and len(parts) < 4:
+            t, kb = active_cats_view()
+        else:
+            page = int(parts[2]) if len(parts) > 2 and parts[2].isdigit() else 0
+            cat = parts[3] if len(parts) > 3 else 'all'
+            t, kb = list_view(oid, page, cat)
         edit_or_send(where, t, kb)
         return
     if action in ('adm', 'ed'):
@@ -879,16 +909,18 @@ def handle(cb):
         return
     if action == 'rc':
         call('answerCallbackQuery', callback_query_id=cb['id'], text='🗑 Удаляю...')
-        old_st = 'active'
+        old_st, old_cat = 'active', 'all'
         with offers_lock():
             items = load_offers()
             target = next((x for x in items if x['id'] == oid), None)
             if target:
                 old_st = target.get('status', 'active')
+                old_cat = target.get('category') or 'all'
                 log_removed(target, 'admin rm')
                 save_offers([x for x in items if x['id'] != oid])
+        back_list = f'ls:active:0:{old_cat}' if old_st == 'active' else f'ls:{old_st}:0'
         edit_or_send(where, '🗑 Карточка удалена.', {'inline_keyboard': [
-            [{'text': '⬅️ К списку', 'callback_data': f'ls:{old_st}:0'}, {'text': '🏠 Меню', 'callback_data': 'menu'}],
+            [{'text': '⬅️ К списку', 'callback_data': back_list}, {'text': '🏠 Меню', 'callback_data': 'menu'}],
         ]})
         if target and old_st == 'active':
             push()
