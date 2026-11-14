@@ -143,7 +143,7 @@ function react(id, r, row) {
   });
 }
 const $ = id => document.getElementById(id);
-const fmt = d => d.split('-').reverse().join('/');
+const fmt = d => d.slice(8,10) + '/' + d.slice(5,7);
 function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
 function money(s){ return String(s || '').replace(/^UAH\s*([\d.,]+)$/, (m, x) => Math.round(parseFloat(x.replace(/,/g, ''))) + '₴'); }
 function zeroOf(p){ if (!p) return ''; if (p.endsWith('₴')) return '0₴'; if (p.startsWith('$')) return '$0'; if (p.endsWith('€')) return '0€'; return '0'; }

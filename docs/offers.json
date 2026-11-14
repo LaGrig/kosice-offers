@@ -238,10 +238,10 @@
    "rank_sales": 50
   },
   "blurb": {
-   "uk": "Б'єшся в масштабнихバトル Другої світової, керуєш танками та артилерією разом з іншими",
-   "ru": "Сражаешься в масштабных боях Второй мировой, управляешь танками и артиллерией",
-   "en": "Fight in massive World War Two battles, commanding infantry, tanks, and artillery",
-   "sk": "Bojuješ v masívnych bitkách druhej svetovej vojny s pechotou, tankmi a artilériou"
+   "uk": "Б'єшся в масштабних битвах Другої світової, керуєш технікою та стратегічно захоплюєш території",
+   "ru": "Сражаешься в масштабных битвах Второй мировой, управляешь техникой и захватываешь территории",
+   "en": "Fight in massive World War Two battles, command vehicles and strategically capture territory",
+   "sk": "Bojuješ v masívnych bitkách Druhej svetovej vojny, ovládaš techniku a strategicky zaberáš územia"
   },
   "status": "active",
   "miss_p": 0,
