@@ -83,7 +83,13 @@
    "rank_sales": null,
    "rank_play": null
   },
-  "miss_p": 0
+  "miss_p": 0,
+  "blurb": {
+   "uk": "Стріляєш, збираєш лут і разом із друзями борешся проти лихого генія на невідомій планеті",
+   "ru": "Стреляешь, собираешь лут и вместе с друзьями сражаешься против злого гения на чужой планете",
+   "en": "Shoot, loot, and fight against an evil mastermind with your friends on an unpredictable planet",
+   "sk": "Strieľáš, zbieraš loot a spolu s kamarátmi bojuješ proti zlému geniovi na neznámej planéte"
+  }
  },
  {
   "id": "c391548c4a29",
@@ -319,7 +325,12 @@
    "store": "Epic Games Store",
    "rank_sales": null
   },
-  "blurb": null,
+  "blurb": {
+   "uk": "Б'єшся в бійках з особливим стилем та використовуєш систему для підсилення атак",
+   "ru": "Дерешься в уникальном визуальном стиле и используешь систему для усиления атак",
+   "en": "Fight in a unique art style and use a special system to boost your attacks",
+   "sk": "Biješ sa v unikátnom štýle a využívaš systém na posilnenie svojich útokov"
+  },
   "status": "active",
   "miss_p": 0,
   "fails": 0,
@@ -626,7 +637,13 @@
    "until": "2026-11-19"
   },
   "fails": 0,
-  "miss": 0
+  "miss": 0,
+  "blurb": {
+   "uk": "Збираєш загін, шукаєш синергію між юнітами та ведеш армію до перемоги над монстрами",
+   "ru": "Собираешь отряд, ищешь синергию между юнитами и ведешь армию к победе над монстрами",
+   "en": "Recruit units, find synergies, and lead your army to victory over dangerous monsters",
+   "sk": "Kombinuješ jednotky, hľadáš synergie a vedieš svoju armádu k víťazstvu nad monštrami"
+  }
  },
  {
   "id": "4a8a25d642d6",
