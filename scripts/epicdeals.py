@@ -11,7 +11,8 @@ Q = """query searchStoreQuery($allowCountries: String, $category: String, $count
         productSlug
         urlSlug
         offerMappings { pageSlug pageType }
-        price(country: $country) { totalPrice { discountPrice originalPrice discount currencyCode currencyInfo { decimals } } }
+        price(country: $country) { totalPrice { discountPrice originalPrice discount currencyCode currencyInfo { decimals } } lineOffers { appliedRules { endDate } } }
+        promotions(category: $category) { promotionalOffers { promotionalOffers { endDate } } }
       }
       paging { count total }
     }
@@ -30,6 +31,18 @@ def _post(start, cc):
     if not cat:
         raise RuntimeError('Epic GraphQL: ' + json.dumps(j.get('errors'), ensure_ascii=False)[:300])
     return cat['searchStore']
+
+def _end_date(e):
+    """Extract sale end date (YYYY-MM-DD) from lineOffers or promotions."""
+    for lo in ((e.get('price') or {}).get('lineOffers') or []):
+        for r in (lo.get('appliedRules') or []):
+            if r.get('endDate'):
+                return r['endDate'][:10]
+    for po in ((e.get('promotions') or {}).get('promotionalOffers') or []):
+        for r in (po.get('promotionalOffers') or []):
+            if r.get('endDate'):
+                return r['endDate'][:10]
+    return None
 
 def _money(v, cur):
     if cur == '₴':
@@ -61,10 +74,12 @@ def _fetch_raw():
             link = 'https://store.epicgames.com/p/' + slug.replace('/home', '')
             cur = {'UAH': '₴', 'EUR': '€', 'USD': '$'}.get(tp.get('currencyCode'), tp.get('currencyCode') or '')
             country = {'UA': 'Украине', 'SK': 'Словакии'}.get(cc, 'вашем регионе')
+            exp = _end_date(e)
             summary = ('Epic Games Store: скидка ' + str(pct) + '% на игру ' + e.get('title', '') + '. Цена в ' + country + ' была '
-                       + _money(o, cur) + ', стала ' + _money(d, cur) + '. Срок окончания скидки в данных не указан.')
+                       + _money(o, cur) + ', стала ' + _money(d, cur) + '.'
+                       + (' Скидка действует до ' + exp + '.' if exp else ' Срок окончания скидки в данных не указан.'))
             out.append({'id': offer_id(link + '|' + _money(d, cur)), 'title': e.get('title', ''), 'summary': summary, 'link': link,
-                        'source': 'epic-deals', 'expires_at': None, 'worth': o, 'kind': 'deal', 'store': 'Epic Games Store', 'popular': True,
+                        'source': 'epic-deals', 'expires_at': exp, 'worth': o, 'kind': 'deal', 'store': 'Epic Games Store', 'popular': True,
                         'steam_app': None, 'steam_pct': 0, 'steam_reviews': 0, 'metacritic': 0, 'saved': o - d, 'epic_id': e.get('id'), 'desc': (e.get('description') or '')[:400],
                         'deal': {'game': e.get('title', ''), 'pct': pct, 'old': _money(o, cur), 'new': _money(d, cur), 'store': 'Epic Games Store'}})
         start += len(els)

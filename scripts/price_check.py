@@ -59,6 +59,8 @@ def epic_refresh(cards, c):
         if not x:
             continue
         d = dict(x['deal'])
+        if x.get('expires_at'):
+            d['expires_at'] = x['expires_at']
         old = o.get('deal') or {}
         d['rank_sales'] = ranks.get(x.get('epic_id')) if ranks is not None else old.get('rank_sales')
         fresh[o['id']] = d
@@ -98,6 +100,9 @@ def main():
                 o['miss_p'] = miss[o['id']]
             d = fresh.get(o['id'])
             if d:
+                exp = d.pop('expires_at', None)
+                if exp and not o.get('expires_at'):
+                    o['expires_at'] = exp
                 o['deal'] = d
                 p = deal_post({'deal': d})
                 o['title'], o['text'] = p['title'], p['text']
