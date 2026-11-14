@@ -26,11 +26,14 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 .rb[data-r=dead]{flex:2.4;font-size:14px}
 .hint{color:var(--hint);font-size:12px;margin:-4px 0 10px}
 .state{margin:2px 0 6px;font-size:14px}
+.head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.adm{display:inline-block;margin-top:10px;margin-left:6px;padding:8px 12px;border-radius:12px;background:var(--bg);color:var(--fg);border:0;font:inherit;cursor:pointer;text-decoration:none}
+.adm-top{flex:none;white-space:nowrap;border:0;border-radius:10px;padding:6px 10px;background:var(--card);color:var(--fg);font:inherit;cursor:pointer}
 .empty{color:var(--hint);text-align:center;margin-top:40px}
 </style>
 </head>
 <body>
-<h1 id='h1'></h1>
+<div class='head'><h1 id='h1'></h1><button id='admBtn' class='adm-top' style='display:none'>⚙️ Адмінка</button></div>
 <div class='row' id='chips'></div>
 <div class='bar'>
 <select id='sort'></select>
@@ -97,6 +100,12 @@ const store = {
   set(k, v){ try { localStorage.setItem(k, v); } catch(e){} }
 };
 const u = T && T.initDataUnsafe && T.initDataUnsafe.user;
+const IS_ADMIN = Boolean(u && u.id === 331425564);
+function openBot(param) {
+  const url = 'https://t.me/StudhubKosiceBot?start=' + param;
+  if (T && T.openTelegramLink) { T.openTelegramLink(url); if (T.close) T.close(); }
+  else window.open(url, '_blank');
+}
 const tgLang = (u && u.language_code) || 'en';
 let lang = store.get('lang', ['uk','ru','sk','en'].includes(tgLang) ? tgLang : 'en');
 if (!I18N[lang]) lang = 'en';
@@ -187,11 +196,13 @@ function render(){
   else if (sort === 'ending') list.sort((a,b) => (a.expires_at || '9999').localeCompare(b.expires_at || '9999'));
   else list.sort((a,b) => b.found_at.localeCompare(a.found_at));
   const box = $('list'); box.replaceChildren();
-  links.filter(l => l.category === cat).forEach(l => {
+  links.forEach((l, idx) => {
+    if (l.category !== cat) return;
     const c = el('div', 'card pin');
     c.append(el('h3', null, (l.emoji || '🔗') + ' ' + (l.title[lang] || l.title.en || '')));
     c.append(el('div', null, l.text[lang] || l.text.en || ''));
     if (/^https?:/.test(l.url)) { const a = el('a', 'go', (l.button && (l.button[lang] || l.button.en)) || tx.open); a.href = l.url; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
+    if (IS_ADMIN) { const ab = el('button', 'adm', '⚙️'); ab.onclick = () => openBot('pin_' + idx); c.append(ab); }
     box.append(c);
   });
   if (!list.length) { box.append(el('div', 'empty', tx.empty)); return; }
@@ -202,6 +213,7 @@ function render(){
     if (st) c.append(st);
     c.append(el('div', null, (o.blurb && o.blurb[lang]) || o.text[lang] || o.text.en || ''));
     if (/^https?:/.test(o.link)) { const a = el('a', 'go', tx.open); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
+    if (IS_ADMIN) { const ab = el('button', 'adm', '⚙️'); ab.onclick = () => openBot('adm_' + o.id); c.append(ab); }
     if (o.expires_at) {
       const m = el('div', 'meta');
       m.append(el('span', null, tx.until + ' ' + fmt(o.expires_at)));
@@ -224,6 +236,7 @@ function chips(){
 $('lang').value = lang;
 $('sort').onchange = e => { sort = e.target.value; store.set('sort', sort); render(); };
 $('lang').onchange = e => { lang = e.target.value; store.set('lang', lang); renderUI(); render(); };
+if (IS_ADMIN) { $('admBtn').style.display = ''; $('admBtn').onclick = () => openBot('admin'); }
 renderUI();
 fetch(API + '/counts').then(r => r.json()).then(d => { counts = d; render(); }).catch(() => {});
 if (T && T.initData) fetch(API + '/mine', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({initData: T.initData})}).then(r => r.json()).then(d => { mine = d; render(); }).catch(() => {});
