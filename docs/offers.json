@@ -435,10 +435,10 @@
    "sk": "Euro Truck Simulator 2 −75%"
   },
   "text": {
-   "uk": "Euro Truck Simulator 2 у Steam зараз за 100₴ замість 400₴. У топі Steam: №2 за продажами, №15 за онлайном. Саме час додати до бібліотеки 🎮",
-   "ru": "Euro Truck Simulator 2 в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №2 по продажам, №15 по онлайну. Самое время добавить в библиотеку 🎮",
-   "en": "Euro Truck Simulator 2 on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #2 bestseller, #15 most played. Time to add it to your library 🎮",
-   "sk": "Euro Truck Simulator 2 v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #2 podľa predajov, #15 podľa online. Čas pridať ju do knižnice 🎮"
+   "uk": "Euro Truck Simulator 2 у Steam зараз за 100₴ замість 400₴. У топі Steam: №3 за продажами, №15 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "Euro Truck Simulator 2 в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №3 по продажам, №15 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "Euro Truck Simulator 2 on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #3 bestseller, #15 most played. Time to add it to your library 🎮",
+   "sk": "Euro Truck Simulator 2 v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #3 podľa predajov, #15 podľa online. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/227300/",
@@ -457,7 +457,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 2,
+   "rank_sales": 3,
    "rank_play": 15
   },
   "blurb": {
@@ -480,10 +480,10 @@
    "sk": "American Truck Simulator −75%"
   },
   "text": {
-   "uk": "American Truck Simulator у Steam зараз за 100₴ замість 400₴. У топі Steam: №38 за продажами. Студентський бюджет скаже дякую 🎮",
-   "ru": "American Truck Simulator в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №38 по продажам. Студенческий бюджет скажет спасибо 🎮",
-   "en": "American Truck Simulator on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #38 bestseller. Your student budget will thank you 🎮",
-   "sk": "American Truck Simulator v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #38 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+   "uk": "American Truck Simulator у Steam зараз за 100₴ замість 400₴. У топі Steam: №36 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "American Truck Simulator в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №36 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "American Truck Simulator on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #36 bestseller. Your student budget will thank you 🎮",
+   "sk": "American Truck Simulator v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #36 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/270880/",
@@ -502,7 +502,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 38,
+   "rank_sales": 36,
    "rank_play": null
   },
   "blurb": {
