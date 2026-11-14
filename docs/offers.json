@@ -668,7 +668,8 @@
    "sk": "Cestuješ svetom za ôsmich rôznych hrdinov a objavuješ ich príbehy"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "17919fd1bccf",
@@ -710,6 +711,7 @@
    "sk": "Bojuješ s temnotou a prekonávaš ťažké výzvy, aby si vrátil svetlo kryštálov do kráľovstva"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
