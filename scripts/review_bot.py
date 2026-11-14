@@ -201,6 +201,39 @@ def parse_date(s):
     return dt.date.fromisoformat(s).isoformat()
 
 
+def pin_exp_days(days, starts_at=None):
+    """Compute inclusive YYYY-MM-DD end date for a pin lasting `days` days."""
+    if starts_at and starts_at > today().isoformat():
+        return (dt.date.fromisoformat(starts_at) + dt.timedelta(days=days - 1)).isoformat()
+    return (today() + dt.timedelta(days=days)).isoformat()
+
+
+def parse_pin_exp(s, starts_at=None):
+    """Parse '-', number of days N, or date into ISO YYYY-MM-DD (or None for permanent)."""
+    raw = (s or '').strip().lower()
+    if raw in ('-', 'нет', 'без срока', 'постоянный', 'постоянно', 'none', '0'):
+        return None
+    if re.fullmatch(r'\d{1,4}', raw):
+        days = int(raw)
+        if days < 1 or days > 3650:
+            raise ValueError('bad days')
+        return pin_exp_days(days, starts_at)
+    return parse_date(s)
+
+
+def pin_exp_keyboard(prefix, cancel_cb):
+    """Build inline keyboard for pin duration selection."""
+    return {'inline_keyboard': [
+        [{'text': '1 дн.', 'callback_data': f'{prefix}:1'},
+         {'text': '3 дн.', 'callback_data': f'{prefix}:3'},
+         {'text': '7 дн.', 'callback_data': f'{prefix}:7'}],
+        [{'text': '14 дн.', 'callback_data': f'{prefix}:14'},
+         {'text': '30 дн.', 'callback_data': f'{prefix}:30'},
+         {'text': '♾ Постоянный', 'callback_data': f'{prefix}:none'}],
+        [{'text': '❌ Отмена', 'callback_data': cancel_cb}],
+    ]}
+
+
 def fmt_date(d):
     if not d:
         return '♾ без срока'
@@ -352,12 +385,14 @@ def card_view(o):
 def pins_view():
     links = load_links()
     lang = CFG.get('digest_lang', 'uk')
+    today_s = today().isoformat()
     rows = []
     for idx, l in enumerate(links):
         title = (l.get('title') or {}).get(lang) or (l.get('title') or {}).get('en') or 'Закреп'
         em = l.get('emoji') or '🔗'
         cat = CAT_MAP.get(l.get('category'), l.get('category', ''))
-        rows.append([{'text': f'{em} {title[:28]} ({cat})', 'callback_data': f'pin:{idx}'}])
+        sched = f" · ⏳с {fmt_short(l['starts_at'])}" if l.get('starts_at') and l['starts_at'] > today_s else ''
+        rows.append([{'text': f'{em} {title[:22]} · {fmt_short(l.get("expires_at"))}{sched} ({cat})', 'callback_data': f'pin:{idx}'}])
     rows.append([{'text': '➕ Добавить закреп', 'callback_data': 'am:pin'}, {'text': '🏠 Меню', 'callback_data': 'menu'}])
     text = f'📌 <b>Закреплённые карточки</b> (всего: {len(links)})'
     if not links:
@@ -374,15 +409,20 @@ def pin_view(idx):
     title = (l.get('title') or {}).get(lang) or (l.get('title') or {}).get('en') or ''
     desc = (l.get('text') or {}).get(lang) or (l.get('text') or {}).get('en') or ''
     cat = CAT_MAP.get(l.get('category'), l.get('category', ''))
+    today_s = today().isoformat()
+    start_s = f"⏳ С 00:01 {fmt_date(l['starts_at'])}" if l.get('starts_at') and l['starts_at'] > today_s else '🟢 Активен сейчас'
+    exp_s = f"📅 До {fmt_date(l['expires_at'])} 23:59" if l.get('expires_at') else '♾ Постоянный закреп'
     text = (
         f"📌 <b>Закреп #{idx + 1}</b> · {cat}\n"
+        f"{start_s} · {exp_s}\n"
         f"{l.get('emoji') or '🔗'} <b>{html.escape(title)}</b>\n\n"
         f"{html.escape(desc[:900])}\n\n"
         f"🔗 {html.escape(l.get('url', ''))}"
     )
     rows = [
         [{'text': '✏️ Заголовок', 'callback_data': f'pt:{idx}'}, {'text': '💬 Описание', 'callback_data': f'pb:{idx}'}],
-        [{'text': '🔗 Ссылка', 'callback_data': f'pu:{idx}'}, {'text': '🗑 Удалить', 'callback_data': f'prm:{idx}'}],
+        [{'text': '🔗 Ссылка', 'callback_data': f'pu:{idx}'}, {'text': '📅 Срок', 'callback_data': f'pe:{idx}'}],
+        [{'text': '🗑 Удалить', 'callback_data': f'prm:{idx}'}],
     ]
     if re.match(r'^https?://', l.get('url') or ''):
         rows.append([{'text': '🔗 Открыть', 'url': l['url']}])
@@ -430,7 +470,12 @@ def show_add_preview(st, where=None):
     st['step'] = 'add_confirm'
     mode_lbl = MODES.get(st['mode'], st['mode'])
     cat_lbl = CAT_MAP.get(st['cat'], st['cat'])
-    exp_lbl = '📌 Закреп (без срока)' if st['mode'] == 'pin' else fmt_date(st.get('expires_at'))
+    if st['mode'] == 'pin':
+        st_start = f"🕛 С 00:01 {fmt_date(st['starts_at'])}" if st.get('starts_at') else '⚡ Немедленно'
+        st_exp = f"⏳ До {fmt_date(st['expires_at'])} 23:59" if st.get('expires_at') else '♾ Постоянный закреп'
+        exp_lbl = f'{st_start} · {st_exp}'
+    else:
+        exp_lbl = fmt_date(st.get('expires_at'))
     warn = '' if ok else '\n⚠️ <i>Автоперевод не сработал, использован исходный текст.</i>\n'
     preview = (
         f"👀 <b>Предпросмотр</b>\n"
@@ -616,16 +661,44 @@ def handle_message(msg):
         send_pin_admin(idx)
         return
 
+    if step == 'pin_exp':
+        idx = STATE['idx']
+        links = load_links()
+        if idx < 0 or idx >= len(links):
+            clear_state()
+            send_msg('⚠️ Закреп не найден.')
+            return
+        try:
+            new_exp = parse_pin_exp(text, links[idx].get('starts_at'))
+        except ValueError:
+            send_msg('⚠️ Введи число дней (например <code>5</code>), дату (<code>26/11</code>, <code>2026-11-26</code>) или <code>-</code> (постоянный).')
+            return
+        clear_state()
+        def upd_exp(x):
+            if new_exp:
+                x['expires_at'] = new_exp
+            else:
+                x.pop('expires_at', None)
+        p = update_pin(idx, upd_exp)
+        if not p:
+            send_msg('⚠️ Закреп не найден.')
+            return
+        push()
+        send_pin_admin(idx)
+        return
+
     if step == 'add_title':
         STATE['title'] = text
         STATE['step'] = 'add_text'
-        send_msg('💬 Шаг 2/4: Пришли <b>описание</b> (1–3 предложения, на любом языке):', {'inline_keyboard': [[{'text': '❌ Отмена', 'callback_data': 'menu'}]]})
+        tot = 5 if STATE.get('mode') == 'pin' else 4
+        send_msg(f'💬 Шаг 2/{tot}: Пришли <b>описание</b> (1–3 предложения, на любом языке):', {'inline_keyboard': [[{'text': '❌ Отмена', 'callback_data': 'menu'}]]})
         return
 
     if step == 'add_text':
         STATE['text'] = text
         STATE['step'] = 'add_link'
-        send_msg('🔗 Шаг 3/4: Пришли <b>ссылку</b> (<code>https://...</code>):', {'inline_keyboard': [[{'text': '❌ Отмена', 'callback_data': 'menu'}]]})
+        tot = 5 if STATE.get('mode') == 'pin' else 4
+        send_msg(f'🔗 Шаг 3/{tot}: Пришли <b>ссылку</b> (<code>https://...</code>):', {'inline_keyboard': [[{'text': '❌ Отмена', 'callback_data': 'menu'}]]})
         return
 
     if step == 'add_link':
@@ -634,7 +707,14 @@ def handle_message(msg):
             return
         STATE['link'] = text
         if STATE['mode'] == 'pin':
-            show_add_preview(STATE)
+            STATE['step'] = 'add_pin_start'
+            tom = (today() + dt.timedelta(days=1)).isoformat()
+            kb = {'inline_keyboard': [
+                [{'text': '⚡ Немедленно', 'callback_data': 'aps:now'}],
+                [{'text': f'🕛 С 00:01 завтра ({fmt_short(tom)})', 'callback_data': 'aps:tom'}],
+                [{'text': '❌ Отмена', 'callback_data': 'menu'}],
+            ]}
+            send_msg('🕒 Шаг 4/5: Когда опубликовать закреп?', kb)
             return
         STATE['step'] = 'add_exp'
         kb = {'inline_keyboard': [
@@ -650,6 +730,15 @@ def handle_message(msg):
             STATE['expires_at'] = parse_date(text)
         except ValueError:
             send_msg('⚠️ Неверный формат даты. Пример: <code>26/11</code>, <code>2026-11-26</code> или <code>-</code> (без срока).')
+            return
+        show_add_preview(STATE)
+        return
+
+    if step == 'add_pin_exp':
+        try:
+            STATE['expires_at'] = parse_pin_exp(text, STATE.get('starts_at'))
+        except ValueError:
+            send_msg('⚠️ Введи число дней (например <code>5</code>), дату (<code>26/11</code>, <code>2026-11-26</code>) или <code>-</code> (постоянный).')
             return
         show_add_preview(STATE)
 
@@ -735,9 +824,32 @@ def handle(cb):
         STATE['step'] = 'add_title'
         edit_or_send(
             where,
-            f"{MODES[STATE['mode']]} · {CAT_MAP.get(oid, oid)}\n\n✏️ Шаг 1/4: Пришли <b>заголовок</b> (на любом языке — переведу на 4 языка):",
+            f"{MODES[STATE['mode']]} · {CAT_MAP.get(oid, oid)}\n\n✏️ Шаг 1/{5 if STATE.get('mode') == 'pin' else 4}: Пришли <b>заголовок</b> (на любом языке — переведу на 4 языка):",
             {'inline_keyboard': [[{'text': '❌ Отмена', 'callback_data': 'menu'}]]},
         )
+        return
+    if action == 'aps':
+        call('answerCallbackQuery', callback_query_id=cb['id'])
+        if not STATE or STATE.get('step') != 'add_pin_start':
+            start_add(where)
+            return
+        STATE['starts_at'] = (today() + dt.timedelta(days=1)).isoformat() if oid == 'tom' else None
+        STATE['step'] = 'add_pin_exp'
+        start_note = f"Старт: <b>00:01 {fmt_date(STATE['starts_at'])}</b>\n" if STATE['starts_at'] else "Старт: <b>немедленно</b>\n"
+        edit_or_send(
+            where,
+            f"📅 Шаг 5/5: На сколько дней закрепить карточку? (удаление в 23:59 последнего дня)\n\n"
+            f"{start_note}Выбери кнопкой или пришли число дней (например <code>5</code>) / дату (<code>26/11</code>):",
+            pin_exp_keyboard('ape', 'menu'),
+        )
+        return
+    if action == 'ape':
+        call('answerCallbackQuery', callback_query_id=cb['id'])
+        if not STATE or STATE.get('step') != 'add_pin_exp':
+            start_add(where)
+            return
+        STATE['expires_at'] = None if oid == 'none' else pin_exp_days(int(oid), STATE.get('starts_at'))
+        show_add_preview(STATE, where)
         return
     if action == 'ae':
         call('answerCallbackQuery', callback_query_id=cb['id'])
@@ -758,18 +870,24 @@ def handle(cb):
         if st['mode'] == 'pin':
             with offers_lock():
                 links = load_links()
-                links.append({
+                pin_obj = {
                     'category': st['cat'],
                     'emoji': CAT_EMOJI.get(st['cat'], '📌'),
                     'url': st['link'],
                     'title': st['tr']['title'],
                     'text': st['tr']['text'],
-                })
+                }
+                if st.get('starts_at'):
+                    pin_obj['starts_at'] = st['starts_at']
+                if st.get('expires_at'):
+                    pin_obj['expires_at'] = st['expires_at']
+                links.append(pin_obj)
                 save_links(links)
                 new_idx = len(links) - 1
+            msg_head = f"🕒 Закреп запланирован с 00:01 {fmt_date(st['starts_at'])}" if st.get('starts_at') else '✅ Закреп опубликован'
             edit_or_send(
                 where,
-                f"✅ Закреп опубликован: <b>{html.escape(st['tr']['title']['uk'])}</b>",
+                f"{msg_head}: <b>{html.escape(st['tr']['title']['uk'])}</b>",
                 {'inline_keyboard': [[{'text': '⚙️ Открыть закреп', 'callback_data': f'pin:{new_idx}'}, {'text': '🏠 Меню', 'callback_data': 'menu'}]]},
             )
             push()
@@ -815,6 +933,45 @@ def handle(cb):
         STATE = {'step': step_map[action][0], 'idx': idx}
         call('answerCallbackQuery', callback_query_id=cb['id'])
         send_msg(step_map[action][1] + '\n\nДля отмены: /cancel', {'inline_keyboard': [[{'text': '❌ Отмена', 'callback_data': f'pin:{idx}'}]]})
+        return
+    if action == 'pe':
+        idx = int(oid)
+        links = load_links()
+        if idx < 0 or idx >= len(links):
+            call('answerCallbackQuery', callback_query_id=cb['id'], text='Закреп не найден')
+            return
+        clear_state()
+        STATE = {'step': 'pin_exp', 'idx': idx}
+        call('answerCallbackQuery', callback_query_id=cb['id'])
+        cur_l = links[idx]
+        cur_exp = f"До {fmt_date(cur_l['expires_at'])} 23:59" if cur_l.get('expires_at') else '♾ Постоянный'
+        edit_or_send(
+            where,
+            f"📅 Сейчас: <b>{cur_exp}</b>\n\nВыбери новый срок кнопкой или пришли число дней (<code>5</code>), дату (<code>26/11</code>) или <code>-</code> (постоянный):",
+            pin_exp_keyboard(f'pse:{idx}', f'pin:{idx}'),
+        )
+        return
+    if action == 'pse':
+        idx = int(oid)
+        val = parts[2] if len(parts) > 2 else 'none'
+        clear_state()
+        links = load_links()
+        if idx < 0 or idx >= len(links):
+            call('answerCallbackQuery', callback_query_id=cb['id'], text='Закреп не найден')
+            return
+        new_exp = None if val == 'none' else pin_exp_days(int(val), links[idx].get('starts_at'))
+        def upd_pse(x):
+            if new_exp:
+                x['expires_at'] = new_exp
+            else:
+                x.pop('expires_at', None)
+        p = update_pin(idx, upd_pse)
+        call('answerCallbackQuery', callback_query_id=cb['id'], text='📅 Срок обновлён')
+        if not p:
+            edit_or_send(where, '⚠️ Закреп не найден.')
+            return
+        send_pin_admin(idx, where)
+        push()
         return
     if action == 'prm':
         idx = int(oid)

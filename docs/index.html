@@ -190,7 +190,8 @@ function renderUI(){
 }
 function render(){
   const tx = tr();
-  const t = new Date().toISOString().slice(0,10);
+  const now = new Date();
+  const t = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
   const list = offers.filter(o => o.status === 'active' && (!o.expires_at || o.expires_at >= t) && (cat === 'all' || o.category === cat));
   if (sort === 'rating') list.sort((a, b) => cs(b.id) - cs(a.id));
   else if (sort === 'ending') list.sort((a,b) => (a.expires_at || '9999').localeCompare(b.expires_at || '9999'));
@@ -198,11 +199,13 @@ function render(){
   const box = $('list'); box.replaceChildren();
   links.forEach((l, idx) => {
     if (l.category !== cat) return;
+    if ((l.starts_at && l.starts_at > t) || (l.expires_at && l.expires_at < t)) return;
     const c = el('div', 'card pin');
     c.append(el('h3', null, (l.emoji || '🔗') + ' ' + (l.title[lang] || l.title.en || '')));
     c.append(el('div', null, l.text[lang] || l.text.en || ''));
     if (/^https?:/.test(l.url)) { const a = el('a', 'go', (l.button && (l.button[lang] || l.button.en)) || tx.open); a.href = l.url; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
     if (IS_ADMIN) { const ab = el('button', 'adm', '⚙️'); ab.onclick = () => openBot('pin_' + idx); c.append(ab); }
+    if (l.expires_at) { const m = el('div', 'meta'); m.append(el('span', null, tx.until + ' ' + fmt(l.expires_at))); c.append(m); }
     box.append(c);
   });
   if (!list.length) { box.append(el('div', 'empty', tx.empty)); return; }
