@@ -109,7 +109,7 @@
   "link": "https://store.epicgames.com/p/final-fantasy-vii-rebirth",
   "source": "epic-charts",
   "found_at": "2026-11-05",
-  "expires_at": null,
+  "expires_at": "2026-11-16",
   "score": 90,
   "worth": 1699.0,
   "pop": {},
@@ -153,7 +153,7 @@
   "link": "https://store.epicgames.com/p/final-fantasy-vii-remake-intergrade",
   "source": "epic-charts",
   "found_at": "2026-11-05",
-  "expires_at": null,
+  "expires_at": "2026-11-16",
   "score": 90,
   "worth": 1099.0,
   "pop": {},
@@ -222,7 +222,7 @@
   "link": "https://store.epicgames.com/p/hell-let-loose-03f036",
   "source": "epic-charts",
   "found_at": "2026-11-08",
-  "expires_at": null,
+  "expires_at": "2026-11-16",
   "score": 90,
   "worth": 999.0,
   "pop": {},
@@ -266,7 +266,7 @@
   "link": "https://store.epicgames.com/p/just-cause-4",
   "source": "epic-charts",
   "found_at": "2026-11-08",
-  "expires_at": null,
+  "expires_at": "2026-11-16",
   "score": 90,
   "worth": 569.0,
   "pop": {},
@@ -310,7 +310,7 @@
   "link": "https://store.epicgames.com/p/garou-city-of-the-wolves-556c5a",
   "source": "epic-charts",
   "found_at": "2026-11-09",
-  "expires_at": null,
+  "expires_at": "2026-11-21",
   "score": 90,
   "worth": 649.0,
   "pop": {},
@@ -480,10 +480,10 @@
    "sk": "American Truck Simulator −75%"
   },
   "text": {
-   "uk": "American Truck Simulator у Steam зараз за 100₴ замість 400₴. У топі Steam: №38 за продажами. Студентський бюджет скаже дякую 🎮",
-   "ru": "American Truck Simulator в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №38 по продажам. Студенческий бюджет скажет спасибо 🎮",
-   "en": "American Truck Simulator on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #38 bestseller. Your student budget will thank you 🎮",
-   "sk": "American Truck Simulator v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #38 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+   "uk": "American Truck Simulator у Steam зараз за 100₴ замість 400₴. У топі Steam: №37 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "American Truck Simulator в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №37 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "American Truck Simulator on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #37 bestseller. Your student budget will thank you 🎮",
+   "sk": "American Truck Simulator v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #37 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/270880/",
@@ -502,7 +502,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 38,
+   "rank_sales": 37,
    "rank_play": null
   },
   "blurb": {
@@ -570,10 +570,10 @@
    "sk": "Hearts of Iron IV −70%"
   },
   "text": {
-   "uk": "Hearts of Iron IV у Steam зараз за 404₴ замість 1 349₴. У топі Steam: №19 за продажами, №39 за онлайном. Гарний момент забрати 🎮",
-   "ru": "Hearts of Iron IV в Steam сейчас за 404₴ вместо 1 349₴. В топе Steam: №19 по продажам, №39 по онлайну. Хороший момент забрать 🎮",
-   "en": "Hearts of Iron IV on Steam is 404₴ instead of 1 349₴ right now. In the Steam charts: #19 bestseller, #39 most played. A good moment to grab it 🎮",
-   "sk": "Hearts of Iron IV v Steam je teraz za 404₴ namiesto 1 349₴. V rebríčku Steam: #19 podľa predajov, #39 podľa online. Dobrý čas ju chytiť 🎮"
+   "uk": "Hearts of Iron IV у Steam зараз за 404₴ замість 1 349₴. У топі Steam: №17 за продажами, №39 за онлайном. Гарний момент забрати 🎮",
+   "ru": "Hearts of Iron IV в Steam сейчас за 404₴ вместо 1 349₴. В топе Steam: №17 по продажам, №39 по онлайну. Хороший момент забрать 🎮",
+   "en": "Hearts of Iron IV on Steam is 404₴ instead of 1 349₴ right now. In the Steam charts: #17 bestseller, #39 most played. A good moment to grab it 🎮",
+   "sk": "Hearts of Iron IV v Steam je teraz za 404₴ namiesto 1 349₴. V rebríčku Steam: #17 podľa predajov, #39 podľa online. Dobrý čas ju chytiť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/394360/",
@@ -592,7 +592,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 19,
+   "rank_sales": 17,
    "rank_play": 39
   },
   "blurb": {
@@ -663,7 +663,7 @@
   "link": "https://store.epicgames.com/p/octopath-traveler",
   "source": "epic-charts",
   "found_at": "2026-11-14",
-  "expires_at": null,
+  "expires_at": "2026-11-16",
   "score": 90,
   "worth": 1099.0,
   "pop": {},
@@ -707,7 +707,7 @@
   "link": "https://store.epicgames.com/p/stranger-of-paradise-final-fantasy-origin",
   "source": "epic-charts",
   "found_at": "2026-11-14",
-  "expires_at": null,
+  "expires_at": "2026-11-16",
   "score": 90,
   "worth": 999.0,
   "pop": {},
