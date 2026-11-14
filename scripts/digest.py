@@ -146,7 +146,7 @@ def pick(active, sent):
         e = o.get('expires_at')
         return (dt.date.fromisoformat(e) - t).days if e else 99
 
-    unsent = [o for o in active if o['id'] not in sent]
+    unsent = [o for o in active if o['id'] not in sent and not o.get('no_digest')]
     city = sorted([o for o in unsent if o.get('category') != 'games' and not o.get('pinned')],
                   key=lambda o: (o.get('expires_at') or '9999', -o['score']))
     all_epic = [o for o in active if o['source'] == 'epic-games']
@@ -177,7 +177,7 @@ def pick(active, sent):
 
     # минимум 3: добираем ещё действующими, но уже показанными находками
     if len(top) < size:
-        again = sorted([o for o in active if o['id'] not in used_ids and not o.get('pinned') and o['source'] != 'manual'],
+        again = sorted([o for o in active if o['id'] not in used_ids and not o.get('pinned') and not o.get('no_digest') and o['source'] != 'manual'],
                        key=lambda o: (0 if o.get('category') != 'games' else (1 if o.get('kind') != 'deal' else 2), o.get('chart_rank') or 999))
         for o in again:
             if len(top) >= size:

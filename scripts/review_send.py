@@ -24,7 +24,7 @@ def main():
                 + (' · популярность ' + str(o['pop']) if o.get('pop') else '')
                 + ('\n🏷 ' + html.escape(', '.join((o['meta'].get('genre') or [])[:2] + (o['meta'].get('tags') or [])[:6])) if o.get('meta') else ''))
         kb = {'inline_keyboard': [
-            [{'text': '✅ Публикуем', 'callback_data': 'ok:' + o['id']}, {'text': '❌ Отмена', 'callback_data': 'no:' + o['id']}],
+            [{'text': '✅ Публикуем', 'callback_data': 'ok:' + o['id']}, {'text': '✏️ Править', 'callback_data': 'ed:' + o['id']}, {'text': '❌ Отмена', 'callback_data': 'no:' + o['id']}],
             [{'text': '🔗 Оригинал', 'url': o['link']}],
         ]}
         r = requests.post(API + '/sendMessage', json={'chat_id': owner, 'text': text, 'parse_mode': 'HTML',

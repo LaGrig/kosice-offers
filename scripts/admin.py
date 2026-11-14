@@ -40,6 +40,8 @@ elif a[0] == 'set' and len(a) == 5:
             if o['id'] == oid:
                 for l in (LANGS if lang == 'all' else (lang,)):
                     o[field][l] = val
+                    if field == 'text' and isinstance(o.get('blurb'), dict):
+                        o['blurb'][l] = val
     update_offers(apply)
     print('изменено', oid, field, lang)
 elif a[0] == 'add':
