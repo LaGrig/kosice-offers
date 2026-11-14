@@ -48,7 +48,7 @@ def urgency(o, tx):
         return '⏰ ' + tx['last']
     if left <= 3:
         return '⏰ ' + tx['days'].format(n=left)
-    return '⏳ ' + tx['until'] + ' ' + short(e)
+    return '⏳ ' + tx['until'] + ' ' + e[8:10] + '/' + e[5:7]
 
 def zero_of(price):
     if price.endswith('₴'):

@@ -25,6 +25,7 @@ VERIFY = '''Ты проверяешь короткую реплику об иг�
 
 BAN = re.compile(r'(?i)(москв|moscow|росі[яйї]|росси|russia|оновлен|обновлен|update|edition|видан|издан|скидк|знижк|бесплат|безкошт|раздач|роздач|\bfree\b|zadarmo|zľav|\bsale\b|discount|₴|\$|€)')
 CYR = re.compile('[А-Яа-яІіЇїЄєҐґ]')
+CJK = re.compile(r'[\u3000-\u9fff\uac00-\ud7af\uff00-\uffef]')
 EMOJI = re.compile('[\U0001F000-\U0001FAFF\u2190-\u27BF\u2B00-\u2BFF\uFE0F\u200d]')
 BAD_START = re.compile(r'(?i)^(тут|здесь|here|tu|toto)\b')
 
@@ -101,7 +102,7 @@ def make_blurb(game, desc):
         for lang in ('uk', 'ru', 'en', 'sk'):
             raw = str(out.get(lang, ''))
             v = clean(raw)
-            if not v or len(v) > 140 or '\n' in raw or BAN.search(v) or (nums(v) - allowed) or BAD_START.search(v):
+            if not v or len(v) > 140 or '\n' in raw or BAN.search(v) or (nums(v) - allowed) or BAD_START.search(v) or CJK.search(v):
                 ok = False
                 break
             if (lang in ('uk', 'ru')) != bool(CYR.search(v)):
