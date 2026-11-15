@@ -390,10 +390,10 @@
    "sk": "Grand Theft Auto IV: The −70%"
   },
   "text": {
-   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. У топі Steam: №100 за продажами. Саме час додати до бібліотеки 🎮",
-   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. В топе Steam: №100 по продажам. Самое время добавить в библиотеку 🎮",
-   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. In the Steam charts: #100 bestseller. Time to add it to your library 🎮",
-   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. V rebríčku Steam: #100 podľa predajov. Čas pridať ju do knižnice 🎮"
+   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. Самое время добавить в библиотеку 🎮",
+   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. Time to add it to your library 🎮",
+   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/12210/",
@@ -412,7 +412,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 100,
+   "rank_sales": null,
    "rank_play": null
   },
   "blurb": {
@@ -525,10 +525,10 @@
    "sk": "The Elder Scrolls V: Skyrim Special Edition −80%"
   },
   "text": {
-   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №39 за продажами, №48 за онлайном. Саме час додати до бібліотеки 🎮",
-   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №39 по продажам, №48 по онлайну. Самое время добавить в библиотеку 🎮",
-   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #39 bestseller, #48 most played. Time to add it to your library 🎮",
-   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #39 podľa predajov, #48 podľa online. Čas pridať ju do knižnice 🎮"
+   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №38 за продажами, №48 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №38 по продажам, №48 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #38 bestseller, #48 most played. Time to add it to your library 🎮",
+   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #38 podľa predajov, #48 podľa online. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/489830/",
@@ -547,7 +547,7 @@
    "old": "649₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 39,
+   "rank_sales": 38,
    "rank_play": 48
   },
   "blurb": {
@@ -821,10 +821,10 @@
    "sk": "Black Desert −91%"
   },
   "text": {
-   "uk": "Black Desert у Steam зараз за 14₴ замість 149₴. У топі Steam: №89 за продажами. Не пропусти 🎮",
-   "ru": "Black Desert в Steam сейчас за 14₴ вместо 149₴. В топе Steam: №89 по продажам. Не пропусти 🎮",
-   "en": "Black Desert on Steam is 14₴ instead of 149₴ right now. In the Steam charts: #89 bestseller. Don't miss it 🎮",
-   "sk": "Black Desert v Steam je teraz za 14₴ namiesto 149₴. V rebríčku Steam: #89 podľa predajov. Nenechaj si ujsť 🎮"
+   "uk": "Black Desert у Steam зараз за 14₴ замість 149₴. У топі Steam: №91 за продажами. Не пропусти 🎮",
+   "ru": "Black Desert в Steam сейчас за 14₴ вместо 149₴. В топе Steam: №91 по продажам. Не пропусти 🎮",
+   "en": "Black Desert on Steam is 14₴ instead of 149₴ right now. In the Steam charts: #91 bestseller. Don't miss it 🎮",
+   "sk": "Black Desert v Steam je teraz za 14₴ namiesto 149₴. V rebríčku Steam: #91 podľa predajov. Nenechaj si ujsť 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/582660/",
@@ -843,7 +843,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 89,
+   "rank_sales": 91,
    "rank_play": null
   },
   "blurb": {
