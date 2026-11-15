@@ -773,7 +773,8 @@
    "sk": "Vydáš sa do tajomného Nového sveta, aby si dobýval zemia a viedol veľké kampane"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "5e7c04764193",
@@ -810,7 +811,8 @@
   },
   "blurb": null,
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "fa30b6ee6d59",
@@ -853,6 +855,7 @@
    "sk": "Bojuješ s bossmi, dobývaš hradov s priateľmi a skúšas rôzne remeslá v otvorenom svete"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
