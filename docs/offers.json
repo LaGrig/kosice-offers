@@ -732,5 +732,124 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "6acef15aa40e",
+  "title": {
+   "uk": "Total War: WARHAMMER II −75%",
+   "ru": "Total War: WARHAMMER II −75%",
+   "en": "Total War: WARHAMMER II −75%",
+   "sk": "Total War: WARHAMMER II −75%"
+  },
+  "text": {
+   "uk": "Total War: WARHAMMER II у Epic Games Store зараз за 237₴ замість 949₴. У топі Epic Games Store: №65 за продажами. Гарний момент забрати 🎮",
+   "ru": "Total War: WARHAMMER II в Epic Games Store сейчас за 237₴ вместо 949₴. В топе Epic Games Store: №65 по продажам. Хороший момент забрать 🎮",
+   "en": "Total War: WARHAMMER II on Epic Games Store is 237₴ instead of 949₴ right now. In the Epic Games Store charts: #65 bestseller. A good moment to grab it 🎮",
+   "sk": "Total War: WARHAMMER II v Epic Games Store je teraz za 237₴ namiesto 949₴. V rebríčku Epic Games Store: #65 podľa predajov. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/total-war-warhammer-ii",
+  "source": "epic-charts",
+  "found_at": "2026-11-15",
+  "expires_at": "2026-11-26",
+  "score": 90,
+  "worth": 949.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 65,
+  "deal": {
+   "game": "Total War: WARHAMMER II",
+   "pct": 75,
+   "old": "949₴",
+   "new": "237₴",
+   "store": "Epic Games Store",
+   "rank_sales": 65
+  },
+  "blurb": {
+   "uk": "Відправляєшся у таємничий Новий Світ, щоб завойовувати землі та вести масштабні кампанії",
+   "ru": "Отправляешься в таинственный Новый Свет, чтобы захватывать земли и вести масштабные кампании",
+   "en": "Journey to the mysterious New World to conquer lands and lead grand campaigns",
+   "sk": "Vydáš sa do tajomného Nového sveta, aby si dobýval zemia a viedol veľké kampane"
+  },
+  "status": "active"
+ },
+ {
+  "id": "5e7c04764193",
+  "title": {
+   "uk": "RIDE 5 −80%",
+   "ru": "RIDE 5 −80%",
+   "en": "RIDE 5 −80%",
+   "sk": "RIDE 5 −80%"
+  },
+  "text": {
+   "uk": "RIDE 5 у Epic Games Store зараз за 284₴ замість 1 419₴. У топі Epic Games Store: №86 за продажами. Студентський бюджет скаже дякую 🎮",
+   "ru": "RIDE 5 в Epic Games Store сейчас за 284₴ вместо 1 419₴. В топе Epic Games Store: №86 по продажам. Студенческий бюджет скажет спасибо 🎮",
+   "en": "RIDE 5 on Epic Games Store is 284₴ instead of 1 419₴ right now. In the Epic Games Store charts: #86 bestseller. Your student budget will thank you 🎮",
+   "sk": "RIDE 5 v Epic Games Store je teraz za 284₴ namiesto 1 419₴. V rebríčku Epic Games Store: #86 podľa predajov. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/ride-5",
+  "source": "epic-charts",
+  "found_at": "2026-11-15",
+  "expires_at": "2026-11-26",
+  "score": 90,
+  "worth": 1419.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 86,
+  "deal": {
+   "game": "RIDE 5",
+   "pct": 80,
+   "old": "1 419₴",
+   "new": "284₴",
+   "store": "Epic Games Store",
+   "rank_sales": 86
+  },
+  "blurb": null,
+  "status": "active"
+ },
+ {
+  "id": "fa30b6ee6d59",
+  "title": {
+   "uk": "Black Desert −91%",
+   "ru": "Black Desert −91%",
+   "en": "Black Desert −91%",
+   "sk": "Black Desert −91%"
+  },
+  "text": {
+   "uk": "Black Desert у Steam зараз за 14₴ замість 149₴. У топі Steam: №89 за продажами. Не пропусти 🎮",
+   "ru": "Black Desert в Steam сейчас за 14₴ вместо 149₴. В топе Steam: №89 по продажам. Не пропусти 🎮",
+   "en": "Black Desert on Steam is 14₴ instead of 149₴ right now. In the Steam charts: #89 bestseller. Don't miss it 🎮",
+   "sk": "Black Desert v Steam je teraz za 14₴ namiesto 149₴. V rebríčku Steam: #89 podľa predajov. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/582660/",
+  "source": "steam-chart",
+  "found_at": "2026-11-15",
+  "expires_at": "2026-11-28",
+  "score": 90,
+  "worth": 149.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 89,
+  "deal": {
+   "game": "Black Desert",
+   "pct": 91,
+   "old": "149₴",
+   "new": "14₴",
+   "store": "Steam",
+   "rank_sales": 89,
+   "rank_play": null
+  },
+  "blurb": {
+   "uk": "Б’єшся з босами, завойовуєш замки з друзями та розвиваєш різні ремесла у відкритому світі",
+   "ru": "Сражаешься с боссами, захватываешь замки с друзьями и осваиваешь ремесла в открытом мире",
+   "en": "Fight massive bosses, conquer castles with friends and master various professions in an open world",
+   "sk": "Bojuješ s bossmi, dobývaš hradov s priateľmi a skúšas rôzne remeslá v otvorenom svete"
+  },
+  "status": "active"
  }
 ]
