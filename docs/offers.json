@@ -435,10 +435,10 @@
    "sk": "Euro Truck Simulator 2 −75%"
   },
   "text": {
-   "uk": "Euro Truck Simulator 2 у Steam зараз за 100₴ замість 400₴. У топі Steam: №4 за продажами, №15 за онлайном. Саме час додати до бібліотеки 🎮",
-   "ru": "Euro Truck Simulator 2 в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №4 по продажам, №15 по онлайну. Самое время добавить в библиотеку 🎮",
-   "en": "Euro Truck Simulator 2 on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #4 bestseller, #15 most played. Time to add it to your library 🎮",
-   "sk": "Euro Truck Simulator 2 v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #4 podľa predajov, #15 podľa online. Čas pridať ju do knižnice 🎮"
+   "uk": "Euro Truck Simulator 2 у Steam зараз за 100₴ замість 400₴. У топі Steam: №5 за продажами, №13 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "Euro Truck Simulator 2 в Steam сейчас за 100₴ вместо 400₴. В топе Steam: №5 по продажам, №13 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "Euro Truck Simulator 2 on Steam is 100₴ instead of 400₴ right now. In the Steam charts: #5 bestseller, #13 most played. Time to add it to your library 🎮",
+   "sk": "Euro Truck Simulator 2 v Steam je teraz za 100₴ namiesto 400₴. V rebríčku Steam: #5 podľa predajov, #13 podľa online. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/227300/",
@@ -457,8 +457,8 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 4,
-   "rank_play": 15
+   "rank_sales": 5,
+   "rank_play": 13
   },
   "blurb": {
    "uk": "Перевозиш важливі вантажі на великі відстані та підкорюєш дороги міст",
@@ -525,10 +525,10 @@
    "sk": "The Elder Scrolls V: Skyrim Special Edition −80%"
   },
   "text": {
-   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №39 за продажами, №47 за онлайном. Саме час додати до бібліотеки 🎮",
-   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №39 по продажам, №47 по онлайну. Самое время добавить в библиотеку 🎮",
-   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #39 bestseller, #47 most played. Time to add it to your library 🎮",
-   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #39 podľa predajov, #47 podľa online. Čas pridať ju do knižnice 🎮"
+   "uk": "The Elder Scrolls V: Skyrim Special Edition у Steam зараз за 129₴ замість 649₴. У топі Steam: №39 за продажами, №48 за онлайном. Саме час додати до бібліотеки 🎮",
+   "ru": "The Elder Scrolls V: Skyrim Special Edition в Steam сейчас за 129₴ вместо 649₴. В топе Steam: №39 по продажам, №48 по онлайну. Самое время добавить в библиотеку 🎮",
+   "en": "The Elder Scrolls V: Skyrim Special Edition on Steam is 129₴ instead of 649₴ right now. In the Steam charts: #39 bestseller, #48 most played. Time to add it to your library 🎮",
+   "sk": "The Elder Scrolls V: Skyrim Special Edition v Steam je teraz za 129₴ namiesto 649₴. V rebríčku Steam: #39 podľa predajov, #48 podľa online. Čas pridať ju do knižnice 🎮"
   },
   "category": "games",
   "link": "https://store.steampowered.com/app/489830/",
@@ -548,7 +548,7 @@
    "new": "129₴",
    "store": "Steam",
    "rank_sales": 39,
-   "rank_play": 47
+   "rank_play": 48
   },
   "blurb": {
    "uk": "Досліджуєш епічний фентезійний світ і відчуваєш себе частиною цієї пригоди",
@@ -772,7 +772,8 @@
    "en": "Journey to the mysterious New World to conquer lands and lead grand campaigns",
    "sk": "Vydáš sa do tajomného Nového sveta, aby si dobýval zemia a viedol veľké kampane"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "5e7c04764193",
@@ -808,7 +809,8 @@
    "rank_sales": 86
   },
   "blurb": null,
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "fa30b6ee6d59",
@@ -850,6 +852,7 @@
    "en": "Fight massive bosses, conquer castles with friends and master various professions in an open world",
    "sk": "Bojuješ s bossmi, dobývaš hradov s priateľmi a skúšas rôzne remeslá v otvorenom svete"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
