@@ -24,5 +24,5 @@ def deal_post(item):
     for lang, t in T.items():
         body = t['body'].format(game=game, store=d['store'], new=d['new'], old=d['old'])
         text[lang] = body + ' ' + t['tails'][k % len(t['tails'])]
-        title[lang] = game + ' −' + str(d['pct']) + '%'
+        title[lang] = game
     return {'title': title, 'text': text}
