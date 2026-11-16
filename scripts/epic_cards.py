@@ -24,7 +24,7 @@ def main():
         sym = ew.CUR.get(tp.get('currencyCode'), tp.get('currencyCode') or '')
         orig = _money(tp['originalPrice'] / 10 ** dec, sym)
         name, end = e.get('title', ''), w[1].astimezone(dt.timezone.utc).date().isoformat()
-        ds = end[8:10] + '/' + end[5:7] + '/' + end[:4]
+        ds = end[8:10] + '/' + end[5:7] + '/' + end[2:4]
         cid = offer_id(link)
         desc = (e.get('description') or '')[:400]
         card = {'id': cid, 'title': {l: name for l in T}, 'text': {l: T[l].format(d=ds, p=orig) for l in T}, 'category': 'games', 'link': link,

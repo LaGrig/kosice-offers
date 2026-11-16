@@ -70,9 +70,13 @@ def reviews(app):
 
 def desc_of(app):
     try:
-        r = get_json(STORE, {'appids': app, 'l': 'english', 'cc': 'us', 'filters': 'basic'})
+        r = get_json(STORE, {'appids': app, 'l': 'english', 'cc': 'us', 'filters': 'basic,genres'})
         d = (r.get(str(app)) or {}).get('data')
-        return (d.get('short_description') or '')[:400] if isinstance(d, dict) else ''
+        if not isinstance(d, dict):
+            return ''
+        genres = [g['description'] for g in (d.get('genres') or []) if g.get('description')]
+        pref = ('Genres: ' + ', '.join(genres) + '. ') if genres else ''
+        return (pref + (d.get('short_description') or ''))[:450]
     except Exception:
         return ''
 

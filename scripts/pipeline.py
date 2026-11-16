@@ -42,6 +42,7 @@ def process(item, today_s, force=False):
         return {'id': item['id'], 'title': post['title'], 'text': post['text'], 'category': 'games', 'link': item['link'],
                 'source': item['source'], 'found_at': today_s, 'expires_at': exp, 'score': 90, 'worth': item.get('worth'),
                 'pop': {}, 'meta': None, 'kind': 'deal', 'chart_rank': item.get('chart_rank'), 'deal': item['deal'],
+                'desc': item.get('desc'),
                 'blurb': make_blurb(item['deal']['game'], item.get('desc')),
                 'status': 'active' if auto else 'pending'}, 'ok'
     facts = dict(item)

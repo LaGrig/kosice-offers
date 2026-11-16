@@ -194,6 +194,10 @@ def parse_date(s):
         if val < today():
             val = dt.date(y + 1, mo, d)
         return val.isoformat()
+    m = re.fullmatch(r'(\d{1,2})[./](\d{1,2})[./](\d{2})', s)
+    if m:
+        d, mo, y = int(m.group(1)), int(m.group(2)), 2000 + int(m.group(3))
+        return dt.date(y, mo, d).isoformat()
     m = re.fullmatch(r'(\d{1,2})[./](\d{1,2})[./](\d{4})', s)
     if m:
         d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
@@ -237,13 +241,13 @@ def pin_exp_keyboard(prefix, cancel_cb):
 def fmt_date(d):
     if not d:
         return '♾ без срока'
-    return d[8:10] + '/' + d[5:7] + '/' + d[:4]
+    return d[8:10] + '/' + d[5:7] + '/' + d[2:4]
 
 
 def fmt_short(d):
     if not d:
         return '♾'
-    return d[8:10] + '/' + d[5:7]
+    return d[8:10] + '/' + d[5:7] + '/' + d[2:4]
 
 
 def main_kb(oid, link):

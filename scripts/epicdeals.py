@@ -11,6 +11,7 @@ Q = """query searchStoreQuery($allowCountries: String, $category: String, $count
         productSlug
         urlSlug
         offerMappings { pageSlug pageType }
+        tags { name groupName }
         price(country: $country) { totalPrice { discountPrice originalPrice discount currencyCode currencyInfo { decimals } } lineOffers { appliedRules { endDate } } }
         promotions(category: $category) { promotionalOffers { promotionalOffers { endDate } } }
       }
@@ -74,13 +75,17 @@ def _fetch_raw():
             link = 'https://store.epicgames.com/p/' + slug.replace('/home', '')
             cur = {'UAH': '₴', 'EUR': '€', 'USD': '$'}.get(tp.get('currencyCode'), tp.get('currencyCode') or '')
             country = {'UA': 'Украине', 'SK': 'Словакии'}.get(cc, 'вашем регионе')
+            gtags = [t['name'] for t in (e.get('tags') or []) if t.get('name') and t.get('groupName') == 'genre']
+            ftags = [t['name'] for t in (e.get('tags') or []) if t.get('name') and t.get('groupName') == 'feature']
+            tags = gtags + [t for t in ftags if t not in gtags]
+            desc = (('Genres: ' + ', '.join(tags) + '. ') if tags else '') + (e.get('description') or '')[:400]
             exp = _end_date(e)
             summary = ('Epic Games Store: скидка ' + str(pct) + '% на игру ' + e.get('title', '') + '. Цена в ' + country + ' была '
                        + _money(o, cur) + ', стала ' + _money(d, cur) + '.'
                        + (' Скидка действует до ' + exp + '.' if exp else ' Срок окончания скидки в данных не указан.'))
             out.append({'id': offer_id(link + '|' + _money(d, cur)), 'title': e.get('title', ''), 'summary': summary, 'link': link,
                         'source': 'epic-deals', 'expires_at': exp, 'worth': o, 'kind': 'deal', 'store': 'Epic Games Store', 'popular': True,
-                        'steam_app': None, 'steam_pct': 0, 'steam_reviews': 0, 'metacritic': 0, 'saved': o - d, 'epic_id': e.get('id'), 'desc': (e.get('description') or '')[:400],
+                        'steam_app': None, 'steam_pct': 0, 'steam_reviews': 0, 'metacritic': 0, 'saved': o - d, 'epic_id': e.get('id'), 'desc': desc,
                         'deal': {'game': e.get('title', ''), 'pct': pct, 'old': _money(o, cur), 'new': _money(d, cur), 'store': 'Epic Games Store'}})
         start += len(els)
         if start >= ((st.get('paging') or {}).get('total') or 10 ** 9):

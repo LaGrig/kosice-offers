@@ -3,24 +3,27 @@ from common import CFG
 from llm import ask_llm
 from textfix import nums
 
-SYSTEM = '''Ты — друг-студент, который коротко рассказывает другу, о чём игра и чем она цепляет. Тебе дают название и описание игры.
-Напиши ОДНУ короткую фразу (до 100 символов) на каждом из языков: uk, ru, en, sk. Как в переписке между друзьями: просто и тепло, на «ты», без канцелярита и рекламных штампов.
+SYSTEM = '''Ты — друг-студент, который коротко рассказывает другу, о чём игра и чем она цепляет. Тебе дают название, жанры и описание игры.
+Напиши ОДНУ короткую фразу (до 120 символов) на каждом из языков: uk, ru, en, sk. Как в переписке между друзьями: просто и тепло, на «ты», без канцелярита и рекламных штампов.
+Формат строго: «<Жанр>: <коротко что делаешь в игре>» (жанр с большой буквы, затем двоеточие и продолжение со строчной буквы).
+Примеры:
+- «Покрокова стратегія: завойовуєш землі Нового Світу та ведеш масштабні битви»
+- «Мотогонки: гоняешь по реальным трассам на бешеной скорости»
+- «Turn-based strategy: conquer the New World and lead massive battles»
+- «Ťahová stratégia: dobývaš Nový svet a vedieš masívne bitky»
 Правила:
-- Опирайся только на описание. Не придумывай жанр, сюжет, персонажей, графику, сложность, режимы, рейтинг, число игроков, платформы.
-- Не упоминай цену, скидку, бесплатность, раздачу, сроки и любые числа.
-- Не начинай фразу словами «тут», «здесь», «here». Не используй слова «шедевр», «культовый», «must have».
-- Без эмодзи и без восклицательных знаков. Пиши от второго лица в настоящем времени, как рассказываешь другу: «Выживаешь в городе», «Собираешь оружие», «Стреляешь вместе с друзьями». Начинай с большой буквы.
-- Не используй слова «обновление», «версия», «издание», «дополнение».
-- Не называй реальные страны, города и национальности (Москва, Россия и т.п.): пиши нейтрально, например «метро» или «постапокалиптическая пустошь».
+- Опирайся на название, теги жанров (Genres:) и описание. Указывай точный жанр игры (например: RPG, Экшен-RPG, Стратегия, Пошаговая стратегия, Шутер, Гонки, Мотогонки, Симулятор, Файтинг, Приключение, Экшен, MMORPG, Рогалик). Не выдумывай сюжет, персонажей, графику, сложность или режимы, которых нет в описании.
+- Не упоминай цену, скидку, бесплатность, раздачу, сроки и любые числа (кроме тех, что есть в описании).
+- Не начинай фразу словами «тут», «здесь», «here». Не используй слова «шедевр», «культовый», «must have», «обновление», «версия», «издание», «дополнение».
+- Без эмодзи и без восклицательных знаков. После двоеточия пиши от второго лица в настоящем времени («Собираешь команду» со строчной после двоеточия).
+- Не называй реальные страны, города и национальности: пиши нейтрально.
 - Расскажи об игре в целом, а не об одном режиме или дополнении. Если описание про дополнение, набор, апгрейд или бонусный контент, либо по нему нельзя понять суть игры, верни пустые строки во всех языках.
 - Не смешивай языки. Название игры не пиши в тексте.
-Примеры тона (про выдуманные игры):
-- описание «Кооперативная ферма: днём выращиваешь урожай, ночью отбиваешься от монстров» -> uk: «Вдень сієш, вночі відбиваєшся від монстрів, і краще це робити з другом»
-- описание «Головоломка про кота, который ищет выход из лабиринта» -> ru: «Расслабляющий пазл, где ты помогаешь коту выбраться из лабиринта»
 Ответь ТОЛЬКО JSON: {"uk": "", "ru": "", "en": "", "sk": ""}'''
 
-VERIFY = '''Ты проверяешь короткую реплику об игре. Тебе дают описание игры и реплику на нескольких языках.
-Определи, есть ли в реплике утверждения, которых нет в описании: жанр, сюжет, персонажи, графика, сложность, режимы игры, место действия.
+VERIFY = '''Ты проверяешь короткую реплику об игре в формате «Жанр: описание». Тебе дают название игры, теги Genres и описание, а также реплику на нескольких языках.
+Называть жанр игры, который следует из тегов Genres, названия игры или описания (например: RPG, экшен-RPG, стратегия, гонки, мотогонки, шутер, симулятор, файтинг, приключение), — РАЗРЕШЕНО.
+Определи, есть ли в реплике выдуманные факты о сюжете, персонажах, графике, сложности, режимах игры или месте действия, которых нет в описании.
 Ответь ТОЛЬКО JSON: {"ok": true или false, "unsupported": ["что именно выдумано"]}'''
 
 BAN = re.compile(r'(?i)(москв|moscow|росі[яйї]|росси|russia|оновлен|обновлен|update|edition|видан|издан|скидк|знижк|бесплат|безкошт|раздач|роздач|\bfree\b|zadarmo|zľav|\bsale\b|discount|₴|\$|€)')
@@ -31,10 +34,18 @@ BAD_START = re.compile(r'(?i)^(тут|здесь|here|tu|toto)\b')
 
 def clean(s):
     v = ' '.join(EMOJI.sub('', s).split())
+    if ':' not in v:
+        for sep in (' — ', ' – ', ' - '):
+            if sep in v:
+                v = v.replace(sep, ': ', 1)
+                break
     return v[:1].upper() + v[1:]
 
-def supported(desc, res):
-    out = ask_llm('qa', {'description': desc, 'blurb': res}, retries=0, system=VERIFY)
+def supported(desc, res, game=None):
+    payload = {'description': desc, 'blurb': res}
+    if game:
+        payload['game'] = game
+    out = ask_llm('qa', payload, retries=1, system=VERIFY)
     return isinstance(out, dict) and out.get('ok') is True
 
 DLC_RE = re.compile(r'(?i)\b(upgrade|dlc|season pass|add-?on|expansion pack|bonus content|soundtrack)\b')
@@ -74,35 +85,42 @@ def steam_desc_by_name(game):
                          headers=UA, timeout=15).json().get(str(app), {}).get('data') or {}
         if d.get('type') != 'game':
             return ''
+        genres = [g['description'] for g in (d.get('genres') or []) if g.get('description')]
+        pref = ('Genres: ' + ', '.join(genres) + '. ') if genres else ''
         sd = ' '.join((d.get('short_description') or '').split())
         if len(sd) >= 50 and not DLC_RE.search(sd):
-            return sd[:500]
+            return (pref + sd)[:550]
         raw = re.sub(r'<[^>]+>', ' ', d.get('about_the_game') or d.get('detailed_description') or '')
         about = ' '.join(raw.split())
         if len(about) >= 50 and not DLC_RE.search(about[:300]):
-            return about[:500]
-        return sd[:500]
+            return (pref + about)[:550]
+        return (pref + sd)[:550]
     except Exception:
         return ''
 
 def make_blurb(game, desc):
-    desc = ' '.join((desc or '').split())[:500]
-    if len(desc) < 60 or DLC_RE.search(desc):
+    desc = ' '.join((desc or '').split())[:550]
+    if 'Genres:' not in desc or len(desc) < 80 or DLC_RE.search(desc):
         fb = steam_desc_by_name(game)
-        if fb and len(fb) >= 25 and not DLC_RE.search(fb):
-            desc = fb
+        if fb and not DLC_RE.search(fb):
+            if len(desc) < 60 or DLC_RE.search(desc):
+                if len(fb) >= 25:
+                    desc = fb
+            elif fb.startswith('Genres:'):
+                gline = fb.split('. ', 1)[0] + '. '
+                desc = (gline + desc)[:550]
     if len(desc) < 20 or DLC_RE.search(desc):
         return None
     allowed = nums(game + ' ' + desc)
-    for attempt in range(2):
-        out = ask_llm('writer', {'game': game, 'description': desc}, retries=0, system=SYSTEM)
+    for attempt in range(3):
+        out = ask_llm('writer', {'game': game, 'description': desc}, retries=1, system=SYSTEM)
         if not isinstance(out, dict):
             continue
         res, ok = {}, True
         for lang in ('uk', 'ru', 'en', 'sk'):
             raw = str(out.get(lang, ''))
             v = clean(raw)
-            if not v or len(v) > 140 or '\n' in raw or BAN.search(v) or (nums(v) - allowed) or BAD_START.search(v) or CJK.search(v):
+            if not v or ':' not in v or len(v) > 160 or '\n' in raw or BAN.search(v) or (nums(v) - allowed) or BAD_START.search(v) or CJK.search(v):
                 ok = False
                 break
             if (lang in ('uk', 'ru')) != bool(CYR.search(v)):
@@ -111,7 +129,7 @@ def make_blurb(game, desc):
             res[lang] = v
         if not ok:
             continue
-        if CFG.get('blurb_verify', True) and not supported(desc, res):
+        if CFG.get('blurb_verify', True) and not supported(desc, res, game=game):
             continue
         return res
     return None

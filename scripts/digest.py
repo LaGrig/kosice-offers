@@ -1,5 +1,6 @@
 import datetime as dt, html, json, os, re, requests, time
-from common import CFG, ROOT, load_offers, today
+from common import CFG, ROOT, load_offers, update_offers, today
+from blurb import make_blurb
 from givefmt import norm_price
 from dealtext import clean_game
 
@@ -24,7 +25,7 @@ def esc(s):
     return html.escape(str(s))
 
 def short(d):
-    return d[8:10] + '/' + d[5:7] + '/' + d[:4]
+    return d[8:10] + '/' + d[5:7] + '/' + d[2:4]
 
 def when(o):
     return o.get('approved_at') or o['found_at']
@@ -45,10 +46,8 @@ def urgency(o, tx):
         return ''
     left = (dt.date.fromisoformat(e) - today()).days
     if left <= 0:
-        return '⏰ ' + tx['last']
-    if left <= 3:
-        return '⏰ ' + tx['days'].format(n=left)
-    return '⏳ ' + tx['until'] + ' ' + e[8:10] + '/' + e[5:7]
+        return '⏰ ' + tx['until'] + ' ' + short(e) + ' (' + tx['last'] + ')'
+    return '⏳ ' + tx['until'] + ' ' + short(e)
 
 def zero_of(price):
     if price.endswith('₴'):
@@ -63,29 +62,22 @@ def block(o, lang, tx):
     d, g = o.get('deal'), o.get('give')
     emoji, tag = tx['tag'].get(o['category'], tx['tag']['other'])
     state, name, blurb = '', o['title'][lang], (o.get('blurb') or {}).get(lang)
+    u = urgency(o, tx)
     if d:
         name = clean_game(d['game'])
-        rank = d.get('rank_sales') or d.get('rank_play')
         state = '💸 ' + tx['deal'] + ' <b>−' + str(d['pct']) + '%</b> · <b>' + esc(d['new']) + '</b> <s>' + esc(d['old']) + '</s> · ' + esc(d['store'])
-        if rank:
-            state += ' · 🏆 ' + tx['top'] + '-' + str(rank)
-        u = urgency(o, tx)
-        if u:
-            state += ' · ' + u
     elif g:
         name = g['game']
         price = norm_price(g.get('price') or '')
         money = ('<b>' + esc(zero_of(price)) + '</b> <s>' + esc(price) + '</s>') if price else '<b>' + tx['free1'] + '</b>'
         state = '🎁 ' + tx['give'] + ' · ' + money + ' · ' + esc(g['store'])
-        u = urgency(o, tx)
-        if u:
-            state += ' · ' + u
     else:
         blurb = blurb or hook(o['text'][lang])
-        state = urgency(o, tx)
     lines = [emoji + ' <b>' + tag + '</b> · ' + name_link(o, name)]
     if state:
         lines.append(state)
+    if u:
+        lines.append(u)
     if blurb:
         lines.append('💬 <i>' + esc(blurb) + '</i>')
     return '\n'.join(lines)
@@ -97,23 +89,39 @@ def block_epic(group, lang, tx):
     lines = [emoji + ' <b>' + tag + '</b> · <b>Epic Games Store</b>']
     urgencies = [urgency(o, tx) for o in group]
     same_u = urgencies[0] if len(set(urgencies)) == 1 and urgencies[0] else ''
-    head_bits = ['🎁 ' + tx['give']]
+    lines.append('🎁 ' + tx['give'])
     if same_u:
-        head_bits.append(same_u)
-    lines.append(' · '.join(head_bits))
+        lines.append(same_u)
     for o, u in zip(group, urgencies):
         g = o.get('give') or {}
         name = g.get('game') or o['title'][lang]
         price = norm_price(g.get('price') or '')
         money = ('<b>' + esc(zero_of(price)) + '</b> <s>' + esc(price) + '</s>') if price else '<b>' + tx['free1'] + '</b>'
-        row = '• ' + name_link(o, name) + ' · ' + money
+        lines.append('• ' + name_link(o, name) + ' · ' + money)
         if not same_u and u:
-            row += ' · ' + u
-        lines.append(row)
+            lines.append('  ' + u)
         bl = (o.get('blurb') or {}).get(lang)
         if bl:
             lines.append('  💬 <i>' + esc(bl) + '</i>')
     return '\n'.join(lines)
+
+def ensure_game_blurbs(top, lang):
+    """Generate missing game blurbs before rendering the digest."""
+    flat = [x for slot in top for x in (slot if isinstance(slot, list) else [slot])]
+    fixed = {}
+    for o in flat:
+        if o.get('category') == 'games' and not (o.get('blurb') or {}).get(lang):
+            game = (o.get('deal') or o.get('give') or {}).get('game') or (o.get('title') or {}).get('en', '')
+            bl = make_blurb(game, o.get('desc'))
+            if bl:
+                o['blurb'] = bl
+                fixed[o['id']] = bl
+    if fixed:
+        def apply(cur):
+            for o in cur:
+                if o['id'] in fixed:
+                    o['blurb'] = fixed[o['id']]
+        update_offers(apply)
 
 def render_slot(slot, lang, tx):
     return block_epic(slot, lang, tx) if isinstance(slot, list) else block(slot, lang, tx)
@@ -205,6 +213,7 @@ def main():
     if not top:
         print('нечего публиковать')
         return
+    ensure_game_blurbs(top, lang)
     parts = ['🔥 <b>' + tx['head'] + '</b> · ' + short(t) + '\n<i>' + tx['subs'][today().toordinal() % len(tx['subs'])] + '</i>'] + [render_slot(s, lang, tx) for s in top]
     body = {'chat_id': os.environ.get('DIGEST_CHAT') or os.environ['CHANNEL'], 'text': '\n\n'.join(parts), 'parse_mode': 'HTML',
             'disable_web_page_preview': True, 'reply_markup': {'inline_keyboard': [[{'text': tx['open'], 'url': os.environ['MINIAPP_LINK']}]]}}
