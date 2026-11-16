@@ -20,6 +20,8 @@ select{flex:1;border:0;border-radius:12px;padding:9px;background:var(--card);col
 .meta{display:flex;justify-content:space-between;color:var(--hint);font-size:12px;margin-top:8px}
 .go{display:inline-block;margin-top:10px;padding:8px 14px;border-radius:12px;background:var(--accent);color:var(--accent-fg);text-decoration:none}
 .pin{outline:1px dashed var(--hint)}
+.card.perm{border-left:3px solid #10b981}
+.badge-perm{display:inline-block;padding:3px 9px;border-radius:999px;background:rgba(16,185,129,.15);color:#10b981;font-size:12px;font-weight:600}
 .rx{display:flex;gap:6px;margin-top:10px}
 .rb{flex:1;border:0;border-radius:10px;padding:7px;background:var(--bg);color:var(--fg);font:inherit;font-size:16px}
 .rb.on{background:var(--accent);color:var(--accent-fg)}
@@ -46,7 +48,8 @@ const I18N = {
   uk: {
     title: 'Студентські знахідки Кошице',
     cats: {all:'Усе', food:'Їжа', games:'Ігри', events:'Події', places:'Місця', it_soft:'IT і софт', services:'Послуги', jobs:'Робота', study:'Навчання', other:'Інше'},
-    sorts: {new:'Нові', rating:'Краще', ending:'Скоро закінчаться'},
+    sorts: {new:'Нові', rating:'Краще', ending:'Скоро закінчаться', perm:'♾ Безстрокове'},
+    permBadge: '♾ Безстрокова пропозиція',
     hint: 'Постав реакцію, щоб побачити оцінки інших студентів',
     empty: 'Поки нічого немає в цьому розділі',
     open: 'Відкрити',
@@ -58,7 +61,8 @@ const I18N = {
   ru: {
     title: 'Студенческие находки Кошице',
     cats: {all:'Все', food:'Еда', games:'Игры', events:'События', places:'Места', it_soft:'IT и софт', services:'Услуги', jobs:'Работа', study:'Учёба', other:'Другое'},
-    sorts: {new:'Новые', rating:'Лучшее', ending:'Скоро закончатся'},
+    sorts: {new:'Новые', rating:'Лучшее', ending:'Скоро закончатся', perm:'♾ Бессрочное'},
+    permBadge: '♾ Бессрочное предложение',
     hint: 'Поставь реакцию, чтобы увидеть оценки других студентов',
     empty: 'Пока ничего нет в этом разделе',
     open: 'Открыть',
@@ -70,7 +74,8 @@ const I18N = {
   en: {
     title: 'Košice Student Deals',
     cats: {all:'All', food:'Food', games:'Games', events:'Events', places:'Places', it_soft:'IT & Soft', services:'Services', jobs:'Jobs', study:'Study', other:'Other'},
-    sorts: {new:'Newest', rating:'Best', ending:'Ending soon'},
+    sorts: {new:'Newest', rating:'Best', ending:'Ending soon', perm:'♾ Ongoing'},
+    permBadge: '♾ Ongoing offer',
     hint: 'React to see other students’ ratings',
     empty: 'Nothing in this category yet',
     open: 'Open',
@@ -82,7 +87,8 @@ const I18N = {
   sk: {
     title: 'Študentské objavy Košice',
     cats: {all:'Všetko', food:'Jedlo', games:'Hry', events:'Udalosti', places:'Miesta', it_soft:'IT a softvér', services:'Služby', jobs:'Práca', study:'Štúdium', other:'Ostatné'},
-    sorts: {new:'Najnovšie', rating:'Najlepšie', ending:'Čoskoro končia'},
+    sorts: {new:'Najnovšie', rating:'Najlepšie', ending:'Čoskoro končia', perm:'♾ Dlhodobé'},
+    permBadge: '♾ Dlhodobá ponuka',
     hint: 'Reaguj, aby si videl hodnotenia ostatných študentov',
     empty: 'V tejto kategórii zatiaľ nič nie je',
     open: 'Otvoriť',
@@ -192,7 +198,8 @@ function render(){
   const tx = tr();
   const now = new Date();
   const t = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
-  const list = offers.filter(o => o.status === 'active' && (!o.expires_at || o.expires_at >= t) && (cat === 'all' || o.category === cat));
+  let list = offers.filter(o => o.status === 'active' && (!o.expires_at || o.expires_at >= t) && (cat === 'all' || o.category === cat));
+  if (sort === 'perm') list = list.filter(o => !o.expires_at);
   if (sort === 'rating') list.sort((a, b) => cs(b.id) - cs(a.id));
   else if (sort === 'ending') list.sort((a,b) => (a.expires_at || '9999').localeCompare(b.expires_at || '9999'));
   else list.sort((a,b) => b.found_at.localeCompare(a.found_at));
@@ -210,18 +217,17 @@ function render(){
   });
   if (!list.length) { box.append(el('div', 'empty', tx.empty)); return; }
   list.forEach(o => {
-    const c = el('div', 'card');
+    const c = el('div', 'card' + (!o.expires_at ? ' perm' : ''));
     c.append(el('h3', null, (o.title[lang] || o.title.en || '').replace(/\s*[−-]\d+%$/, '')));
     const st = (o.blurb && o.blurb[lang]) ? stateEl(o) : null;
     if (st) c.append(st);
     c.append(el('div', null, (o.blurb && o.blurb[lang]) || o.text[lang] || o.text.en || ''));
     if (/^https?:/.test(o.link)) { const a = el('a', 'go', tx.open); a.href = o.link; a.target = '_blank'; a.rel = 'noopener'; c.append(a); }
     if (IS_ADMIN) { const ab = el('button', 'adm', '⚙️'); ab.onclick = () => openBot('adm_' + o.id); c.append(ab); }
-    if (o.expires_at) {
-      const m = el('div', 'meta');
-      m.append(el('span', null, tx.until + ' ' + fmt(o.expires_at)));
-      c.append(m);
-    }
+    const m = el('div', 'meta');
+    if (o.expires_at) m.append(el('span', null, tx.until + ' ' + fmt(o.expires_at)));
+    else m.append(el('span', 'badge-perm', tx.permBadge));
+    c.append(m);
     const rx = el('div', 'rx');
     RX.forEach(([k, e]) => { const b = el('button', 'rb', e); b.dataset.r = k; b.onclick = () => react(o.id, k, rx); rx.append(b); });
     paint(rx, o.id); c.append(rx); box.append(c);

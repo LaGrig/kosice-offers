@@ -997,5 +997,125 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "6ab31c600e0e",
+  "title": {
+   "uk": "McDonald’s — знижки по ISIC",
+   "ru": "McDonald’s — скидки по ISIC",
+   "en": "McDonald’s — ISIC discounts",
+   "sk": "McDonald’s — ISIC zľavy"
+  },
+  "text": {
+   "uk": "Спеціальні ціни на мале McMenu, каву в McCafé та пиріжок за 1 € до великого McMenu за карткою ISIC (у т.ч. у Кошице).",
+   "ru": "Спеццены на малое McMenu, кофе в McCafé и пирожок за 1 € к большому McMenu по карте ISIC (в т.ч. в Кошице).",
+   "en": "Special student prices on small McMenu, McCafé coffee, and a 1 € fruit pie with large McMenu via ISIC in Košice.",
+   "sk": "Špeciálne študentské ceny na malé McMenu, kávu v McCafé a ovocnú taštičku za 1 € k veľkému McMenu s preukazom ISIC v Košiciach."
+  },
+  "category": "food",
+  "link": "https://www.mcdonalds.sk/o-nas/isic-a-itic/",
+  "source": "manual",
+  "found_at": "2026-11-16",
+  "approved_at": "2026-11-16",
+  "expires_at": null,
+  "score": 90,
+  "status": "active",
+  "no_digest": true
+ },
+ {
+  "id": "8664c85342a9",
+  "title": {
+   "uk": "Tesco + ISIC: −10% щотижня",
+   "ru": "Tesco + ISIC: −10% каждую неделю",
+   "en": "Tesco + ISIC: 10% off weekly",
+   "sk": "Tesco + ISIC: −10 % každý týždeň"
+  },
+  "text": {
+   "uk": "−10% на одну покупку на тиждень (пн–пт, знижка до 10 €) після прив’язки ISIC у додатку Tesco Clubcard.",
+   "ru": "−10% на одну покупку в неделю (пн–пт, скидка до 10 €) после привязки ISIC в приложении Tesco Clubcard.",
+   "en": "10% off one shopping trip per week (Mon–Fri, up to €10 discount) when linking ISIC in the Tesco Clubcard app.",
+   "sk": "10 % zľava na jeden nákup týždenne (po–pia, max. zľava 10 €) po prepojení ISIC v aplikácii Tesco Clubcard."
+  },
+  "category": "food",
+  "link": "https://tesco.sk/clubcard/isic/",
+  "source": "manual",
+  "found_at": "2026-11-16",
+  "approved_at": "2026-11-16",
+  "expires_at": null,
+  "score": 90,
+  "status": "active",
+  "no_digest": true
+ },
+ {
+  "id": "943d8149deae",
+  "title": {
+   "uk": "Munch: набори їжі −50–70%",
+   "ru": "Munch: наборы еды −50–70%",
+   "en": "Munch: 50–70% off food bags",
+   "sk": "Munch: balíčky jedla −50–70 %"
+  },
+  "text": {
+   "uk": "Ресторани, пекарні та кав’ярні Кошице наприкінці дня віддають нерозпродані набори їжі та випічки зі знижкою 50–70%.",
+   "ru": "Рестораны, пекарни и кафе Кошице в конце дня отдают нераспроданные наборы еды и выпечки со скидкой 50–70%.",
+   "en": "Restaurants, bakeries, and cafés in Košice offer unsold food and pastry bags at 50–70% off via the Munch app.",
+   "sk": "Reštaurácie, pekárne a kaviarne v Košiciach ponúkajú koncom dňa nepredané balíčky jedla a pečiva so zľavou 50–70 %."
+  },
+  "category": "food",
+  "link": "https://munch.eco/sk/",
+  "source": "manual",
+  "found_at": "2026-11-16",
+  "approved_at": "2026-11-16",
+  "expires_at": null,
+  "score": 90,
+  "status": "active",
+  "no_digest": true
+ },
+ {
+  "id": "47ca00d9ae3d",
+  "title": {
+   "uk": "Los Capolitos — −10% по ISIC",
+   "ru": "Los Capolitos — −10% по ISIC",
+   "en": "Los Capolitos — 10% off with ISIC",
+   "sk": "Los Capolitos — 10 % s ISIC"
+  },
+  "text": {
+   "uk": "Знижка 10% на все меню (буріто, кесаділья, тако, боули та напої) або студентські пропозиції по ISIC у Кошице.",
+   "ru": "Скидка 10% на всё меню (буррито, кесадилья, тако, боулы и напитки) или спецпредложения по ISIC в Кошице.",
+   "en": "10% off the menu (burritos, quesadillas, tacos, bowls, and drinks) or student specials with ISIC in Košice.",
+   "sk": "10 % zľava na celé menu (burrito, quesadilla, tacos, bowl a nápoje) alebo študentské ponuky s ISIC v Košiciach."
+  },
+  "category": "food",
+  "link": "https://capolitos.sk/",
+  "source": "manual",
+  "found_at": "2026-11-16",
+  "approved_at": "2026-11-16",
+  "expires_at": null,
+  "score": 90,
+  "status": "active",
+  "no_digest": true
+ },
+ {
+  "id": "bb4c76c729bd",
+  "title": {
+   "uk": "Tchibo — −20% на каву по ISIC",
+   "ru": "Tchibo — −20% на кофе по ISIC",
+   "en": "Tchibo — 20% off coffee with ISIC",
+   "sk": "Tchibo — 20 % na kávu s ISIC"
+  },
+  "text": {
+   "uk": "Знижка 20% на свіжоприготовлені напої у кава-барі Tchibo та спецціни на каву по картці ISIC.",
+   "ru": "Скидка 20% на свежеприготовленные напитки в кофе-баре Tchibo и спеццены на кофе по карте ISIC.",
+   "en": "20% off freshly prepared drinks at Tchibo coffee bars and special student prices with an ISIC card.",
+   "sk": "20 % zľava na čerstvo pripravené nápoje v kávovom bare Tchibo a zvýhodnené ceny s preukazom ISIC."
+  },
+  "category": "food",
+  "link": "https://www.tchibo.sk/",
+  "source": "manual",
+  "found_at": "2026-11-16",
+  "approved_at": "2026-11-16",
+  "expires_at": null,
+  "score": 90,
+  "status": "active",
+  "no_digest": true
  }
 ]
