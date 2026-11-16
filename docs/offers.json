@@ -1071,51 +1071,235 @@
   "no_digest": true
  },
  {
-  "id": "47ca00d9ae3d",
+  "id": "da5a5d0538fc",
   "title": {
-   "uk": "Los Capolitos — −10% по ISIC",
-   "ru": "Los Capolitos — −10% по ISIC",
-   "en": "Los Capolitos — 10% off with ISIC",
-   "sk": "Los Capolitos — 10 % s ISIC"
+   "uk": "Lidl: Хурма Sharon зі знижкою 51%",
+   "ru": "Lidl: Хурма Sharon со скидкой 51%",
+   "en": "Lidl: Sharon Persimmon 51% off",
+   "sk": "Lidl: Khaki/Sharon so zľavou 51 %"
   },
   "text": {
-   "uk": "Знижка 10% на все меню (буріто, кесаділья, тако, боули та напої) або студентські пропозиції по ISIC у Кошице.",
-   "ru": "Скидка 10% на всё меню (буррито, кесадилья, тако, боулы и напитки) или спецпредложения по ISIC в Кошице.",
-   "en": "10% off the menu (burritos, quesadillas, tacos, bowls, and drinks) or student specials with ISIC in Košice.",
-   "sk": "10 % zľava na celé menu (burrito, quesadilla, tacos, bowl a nápoje) alebo študentské ponuky s ISIC v Košiciach."
+   "uk": "Знижка 51% у Lidl: було 0,99 €, тепер 0,49 € за штуку з карткою Lidl Plus. Акція діє тільки в магазинах з 19.11 по 22.11 🧡",
+   "ru": "Скидка 51% в Lidl: было 0,99 €, стало 0,49 € за штуку с картой Lidl Plus. Акция действует только в магазинах с 19.11 по 22.11 🧡",
+   "en": "51% off at Lidl: was 0,99 €, now 0,49 € per piece with Lidl Plus card. Offer available only in stores from 19.11 to 22.11 🧡",
+   "sk": "Zľava 51 % v Lidl: bolo 0,99 €, teraz 0,49 € za kus s kartou Lidl Plus. Akcia platí iba v predajniach od 19.11. do 22.11. 🧡"
   },
   "category": "food",
-  "link": "https://capolitos.sk/",
-  "source": "manual",
+  "link": "https://www.lidl.sk/p/kaki-sharon/p11029962",
+  "source": "lidl-food",
   "found_at": "2026-11-16",
-  "approved_at": "2026-11-16",
-  "expires_at": null,
-  "score": 90,
+  "expires_at": "2026-11-22",
+  "score": 95,
+  "worth": 0.99,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
   "status": "active",
-  "no_digest": true
+  "approved_at": "2026-11-16"
  },
  {
-  "id": "bb4c76c729bd",
+  "id": "81c2ced3eff9",
   "title": {
-   "uk": "Tchibo — −20% на каву по ISIC",
-   "ru": "Tchibo — −20% на кофе по ISIC",
-   "en": "Tchibo — 20% off coffee with ISIC",
-   "sk": "Tchibo — 20 % na kávu s ISIC"
+   "uk": "Авокадо в Lidl зі знижкою 47%",
+   "ru": "Авокадо в Lidl со скидкой 47%",
+   "en": "Avocado at Lidl with 47% off",
+   "sk": "Avokádo v Lidle so zľavou 47 %"
   },
   "text": {
-   "uk": "Знижка 20% на свіжоприготовлені напої у кава-барі Tchibo та спецціни на каву по картці ISIC.",
-   "ru": "Скидка 20% на свежеприготовленные напитки в кофе-баре Tchibo и спеццены на кофе по карте ISIC.",
-   "en": "20% off freshly prepared drinks at Tchibo coffee bars and special student prices with an ISIC card.",
-   "sk": "20 % zľava na čerstvo pripravené nápoje v kávovom bare Tchibo a zvýhodnené ceny s preukazom ISIC."
+   "uk": "Знижка 47% на авокадо в Lidl: було 1,69 €, тепер 0,89 € з карткою Lidl Plus. Акція діє тільки в магазинах з 19.11 по 22.11 🥑",
+   "ru": "Скидка 47% на авокадо в Lidl: было 1,69 €, стало 0,89 € по карте Lidl Plus. Акция действует только в магазинах с 19.11 по 22.11 🥑",
+   "en": "47% off avocado at Lidl: was 1,69 €, now 0,89 € with Lidl Plus card. Offer available in stores from 19.11 to 22.11 🥑",
+   "sk": "Zľava 47 % na avokádo v Lidle: bolo 1,69 €, teraz 0,89 € s kartou Lidl Plus. Akcia platí iba v predajniach od 19.11. do 22.11. 🥑"
   },
   "category": "food",
-  "link": "https://www.tchibo.sk/",
-  "source": "manual",
+  "link": "https://www.lidl.sk/p/avokado/p11150914",
+  "source": "lidl-food",
   "found_at": "2026-11-16",
-  "approved_at": "2026-11-16",
-  "expires_at": null,
-  "score": 90,
+  "expires_at": "2026-11-22",
+  "score": 96,
+  "worth": 1.69,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
   "status": "active",
-  "no_digest": true
+  "approved_at": "2026-11-16"
+ },
+ {
+  "id": "c2932aab0a15",
+  "title": {
+   "uk": "Знижка на цілу качку в Lidl",
+   "ru": "Скидка на целую утку в Lidl",
+   "en": "Discount on whole duck at Lidl",
+   "sk": "Zľava na celú kačicu v Lidle"
+  },
+  "text": {
+   "uk": "Знижка 44% на цілу качку в Lidl: було 4,99 €, тепер 2,79 € за 1 кг з карткою Lidl Plus. Акція діє в магазинах з 16.11 по 22.11 🦆",
+   "ru": "Скидка 44% на целую утку в Lidl: было 4,99 €, стало 2,79 € за 1 кг с картой Lidl Plus. Акция действует в магазинах с 16.11 по 22.11 🦆",
+   "en": "44% off whole duck at Lidl: was 4,99 €, now 2,79 € per 1 kg with Lidl Plus card. Available in stores from 16.11 to 22.11 🦆",
+   "sk": "Zľava 44 % na celú kačicu v Lidle: bolo 4,99 €, teraz 2,79 € za 1 kg s kartou Lidl Plus. Ponuka platí v predajniach od 16.11. do 22.11. 🦆"
+  },
+  "category": "food",
+  "link": "https://www.lidl.sk/p/kacica-cela/p11262941",
+  "source": "lidl-food",
+  "found_at": "2026-11-16",
+  "expires_at": "2026-11-22",
+  "score": 93,
+  "worth": 4.99,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "active",
+  "approved_at": "2026-11-16"
+ },
+ {
+  "id": "d32ba454d588",
+  "title": {
+   "uk": "Знижка на коктейльні помідори в Lidl",
+   "ru": "Скидка на коктейльные помидоры в Lidl",
+   "en": "Discount on cherry tomatoes at Lidl",
+   "sk": "Zľava na kokteilové paradajky v Lidle"
+  },
+  "text": {
+   "uk": "Знижка 43% на коктейльні помідори (300 г) у Lidl: було 2,79 €, тепер 1,59 €. Акція діє в магазинах з 16.11 по 22.11 🍅",
+   "ru": "Скидка 43% на коктейльные помидоры (300 г) в Lidl: было 2,79 €, стало 1,59 €. Акция действует в магазинах с 16.11 по 22.11 🍅",
+   "en": "43% off cherry tomatoes (300 g) at Lidl: was €2.79, now €1.59. Available in stores from Nov 16 to Nov 22 🍅",
+   "sk": "Zľava 43 % na kokteilové paradajky (300 g) v Lidle: bolo 2,79 €, teraz 1,59 €. Akcia platí v predajniach od 16.11. do 22.11. 🍅"
+  },
+  "category": "food",
+  "link": "https://www.lidl.sk/p/kokteilove-paradajky-strapcove/p11214396",
+  "source": "lidl-food",
+  "found_at": "2026-11-16",
+  "expires_at": "2026-11-22",
+  "score": 100,
+  "worth": 2.79,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "active",
+  "approved_at": "2026-11-16"
+ },
+ {
+  "id": "2d57c7239bd5",
+  "title": {
+   "uk": "Мандарини Satsumas у Lidl",
+   "ru": "Мандарины Satsumas в Lidl",
+   "en": "Satsumas Mandarins at Lidl",
+   "sk": "Mandarínky Satsumas v Lidle"
+  },
+  "text": {
+   "uk": "Знижка 40% у Lidl: було 2,49 €, тепер 1,49 € за 1 кг з карткою Lidl Plus. Акція діє в магазинах з 16.11 по 22.11. 🍊",
+   "ru": "Скидка 40% в Lidl: было 2,49 €, стало 1,49 € за 1 кг с картой Lidl Plus. Акция действует в магазинах с 16.11 по 22.11. 🍊",
+   "en": "40% off at Lidl: was 2,49 €, now 1,49 € per 1 kg with Lidl Plus card. Offer available in stores from 16.11 to 22.11. 🍊",
+   "sk": "Zľava 40 % v Lidle: bolo 2,49 €, teraz 1,49 € za 1 kg s kartou Lidl Plus. Akcia platí v predajniach od 16.11. do 22.11. 🍊"
+  },
+  "category": "food",
+  "link": "https://www.lidl.sk/p/mandarinky-satsumas/p11214590",
+  "source": "lidl-food",
+  "found_at": "2026-11-16",
+  "expires_at": "2026-11-22",
+  "score": 100,
+  "worth": 2.49,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "active",
+  "approved_at": "2026-11-16"
+ },
+ {
+  "id": "808b46027db9",
+  "title": {
+   "uk": "Знижка на малини в Lidl",
+   "ru": "Скидка на малину в Lidl",
+   "en": "Raspberry discount at Lidl",
+   "sk": "Zľava na maliny v Lidle"
+  },
+  "text": {
+   "uk": "Знижка 37% у Lidl: було 2,99 €, тепер 1,89 € за упаковку 125 г. Пропозиція діє тільки в магазинах з 19.11 по 22.11 🍓",
+   "ru": "Скидка 37% в Lidl: было 2,99 €, стало 1,89 € за упаковку 125 г. Акция действует только в магазинах с 19.11 по 22.11 🍓",
+   "en": "37% off at Lidl: was 2,99 €, now 1,89 € for a 125 g pack. Available only in stores from 19.11 to 22.11 🍓",
+   "sk": "Zľava 37 % v Lidle: bolo 2,99 €, teraz 1,89 € za 125 g balenie. Platí iba v predajniach od 19.11. do 22.11. 🍓"
+  },
+  "category": "food",
+  "link": "https://www.lidl.sk/p/maliny/p11029869",
+  "source": "lidl-food",
+  "found_at": "2026-11-16",
+  "expires_at": "2026-11-22",
+  "score": 100,
+  "worth": 2.99,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "active",
+  "approved_at": "2026-11-16"
+ },
+ {
+  "id": "45eee28f0f0f",
+  "title": {
+   "uk": "Знижки до 22% у pizzaBurger Originál Košice",
+   "ru": "Скидки до 22% в pizzaBurger Originál Košice",
+   "en": "Up to 22% off at pizzaBurger Originál Košice",
+   "sk": "Zľavy do 22 % v pizzaBurger Originál Košice"
+  },
+  "text": {
+   "uk": "Забирай комбо-сети зі знижкою до 22% у pizzaBurger Originál Košice. Combo pre 2 osoby: було 34.00 €, тепер 26.60 €; Clasik set .II: було 19.00 €, тепер 15.00 €; Combo s pizzou: було 26.00 €, тепер 21.30 € 🍕🍔",
+   "ru": "Забирай комбо-сеты со скидкой до 22% в pizzaBurger Originál Košice. Combo pre 2 osoby: было 34.00 €, стало 26.60 €; Clasik set .II: было 19.00 €, стало 15.00 €; Combo s pizzou: было 26.00 €, стало 21.30 € 🍕🍔",
+   "en": "Get combo sets with up to 22% off at pizzaBurger Originál Košice. Combo pre 2 osoby: was 34.00 €, now 26.60 €; Clasik set .II: was 19.00 €, now 15.00 €; Combo s pizzou: was 26.00 €, now 21.30 € 🍕🍔",
+   "sk": "Využi zľavové sety do 22 % v pizzaBurger Originál Košice. Combo pre 2 osoby: bolo 34.00 €, teraz 26.60 €; Clasik set .II: bolo 19.00 €, teraz 15.00 €; Combo s pizzou: bolo 26.00 €, teraz 21.30 € 🍕🍔"
+  },
+  "category": "food",
+  "link": "https://www.pizzaburgerkosice.sk/#menu-combo",
+  "source": "kosice-delivery",
+  "found_at": "2026-11-16",
+  "expires_at": null,
+  "score": 96,
+  "worth": 34.0,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "active",
+  "approved_at": "2026-11-16"
+ },
+ {
+  "id": "c3ed3ece5cb2",
+  "title": {
+   "uk": "Безкоштовний набір соусів у pizzaBurger Originál",
+   "ru": "Бесплатный набор соусов в pizzaBurger Originál",
+   "en": "Free sauce set at pizzaBurger Originál",
+   "sk": "Zadarom omáčkový set v pizzaBurger Originál"
+  },
+  "text": {
+   "uk": "Забирай безкоштовний дегустаційний набір соусів Django Sauce (5 x 50 г) при замовленні двох піц у pizzaBurger Originál Košice. У сеті: Bacon, Biela, Sweet Chilli, Dark smog BBQ та Cheddar 🍕",
+   "ru": "Забирай бесплатный дегустационный набор соусов Django Sauce (5 x 50 г) при заказе двух пиц в pizzaBurger Originál Košice. В сете: Bacon, Biela, Sweet Chilli, Dark smog BBQ и Cheddar 🍕",
+   "en": "Get a free Django Sauce tasting set (5 x 50g) when you order two pizzas at pizzaBurger Originál Košice. The set includes: Bacon, Biela, Sweet Chilli, Dark smog BBQ, and Cheddar 🍕",
+   "sk": "K dvom pizzám v pizzaBurger Originál Košice získaš zadarmo degustačný set omáčok Django Sauce (5 x 50 g). V sete sú: Bacon, Biela, Sweet Chilli, Dark smog BBQ a Cheddar 🍕"
+  },
+  "category": "food",
+  "link": "https://www.pizzaburgerkosice.sk/promocje",
+  "source": "kosice-delivery",
+  "found_at": "2026-11-16",
+  "expires_at": null,
+  "score": 100,
+  "worth": 10.0,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": null,
+  "status": "active",
+  "approved_at": "2026-11-16"
  }
 ]
