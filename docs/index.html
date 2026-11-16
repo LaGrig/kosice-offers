@@ -211,7 +211,7 @@ function render(){
   if (!list.length) { box.append(el('div', 'empty', tx.empty)); return; }
   list.forEach(o => {
     const c = el('div', 'card');
-    c.append(el('h3', null, o.title[lang] || o.title.en || ''));
+    c.append(el('h3', null, (o.title[lang] || o.title.en || '').replace(/\s*[−-]\d+%$/, '')));
     const st = (o.blurb && o.blurb[lang]) ? stateEl(o) : null;
     if (st) c.append(st);
     c.append(el('div', null, (o.blurb && o.blurb[lang]) || o.text[lang] || o.text.en || ''));
