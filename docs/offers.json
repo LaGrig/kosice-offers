@@ -131,7 +131,7 @@
    "sk": "Akčná RPG: cestuješ s priateľmi po obrovskom svete a hľadáš nové dobrodružstvá"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -175,7 +175,7 @@
    "sk": "Akčné RPG: bojuješ proti korporácii v meste Midgar a skúmaš svet"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -244,7 +244,7 @@
    "sk": "Strieľačka: bojuješ vo veľkomiernych bitkách Druhej svetovej vojny so stovkou hráčov"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -288,7 +288,7 @@
    "sk": "Akcia: bojuješ s extrémnym počasím a vytváraš chaos pomocou háka a wingsuitu"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -547,7 +547,7 @@
    "old": "649₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 44,
+   "rank_sales": 42,
    "rank_play": 46
   },
   "blurb": {
@@ -685,7 +685,7 @@
    "sk": "RPG: cestuješ svetom a objavuješ príbehy ôsmich rôznych hrdinov"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -729,7 +729,7 @@
    "sk": "Akčné RPG: prekonávaš náročné výzvy, aby si vrátil svetlo kryštálov do kráľovstva ovládnutého tmou"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -852,7 +852,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 94,
+   "rank_sales": 86,
    "rank_play": null
   },
   "blurb": {
