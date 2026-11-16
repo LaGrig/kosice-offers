@@ -92,94 +92,6 @@
   }
  },
  {
-  "id": "c391548c4a29",
-  "title": {
-   "uk": "FINAL FANTASY VII REBIRTH",
-   "ru": "FINAL FANTASY VII REBIRTH",
-   "en": "FINAL FANTASY VII REBIRTH",
-   "sk": "FINAL FANTASY VII REBIRTH"
-  },
-  "text": {
-   "uk": "FINAL FANTASY VII REBIRTH у Epic Games Store зараз за 255₴ замість 1 699₴. Саме час додати до бібліотеки 🎮",
-   "ru": "FINAL FANTASY VII REBIRTH в Epic Games Store сейчас за 255₴ вместо 1 699₴. Самое время добавить в библиотеку 🎮",
-   "en": "FINAL FANTASY VII REBIRTH on Epic Games Store is 255₴ instead of 1 699₴ right now. Time to add it to your library 🎮",
-   "sk": "FINAL FANTASY VII REBIRTH v Epic Games Store je teraz za 255₴ namiesto 1 699₴. Čas pridať ju do knižnice 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/final-fantasy-vii-rebirth",
-  "source": "epic-charts",
-  "found_at": "2026-11-05",
-  "expires_at": "2026-11-16",
-  "score": 90,
-  "worth": 1699.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 22,
-  "deal": {
-   "game": "FINAL FANTASY VII REBIRTH",
-   "pct": 85,
-   "old": "1 699₴",
-   "new": "255₴",
-   "store": "Epic Games Store",
-   "rank_sales": 6
-  },
-  "blurb": {
-   "uk": "Екшен-RPG: подорожуєш разом із друзями по величезному світу та шукаєш нові пригоди",
-   "ru": "Экшен-RPG: путешествуешь вместе с друзьями по огромному миру и ищешь новые приключения",
-   "en": "Action RPG: journey across a vast world with your friends and seek new adventures",
-   "sk": "Akčná RPG: cestuješ s priateľmi po obrovskom svete a hľadáš nové dobrodružstvá"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
- },
- {
-  "id": "c6739a851319",
-  "title": {
-   "uk": "FINAL FANTASY VII REMAKE INTERGRADE",
-   "ru": "FINAL FANTASY VII REMAKE INTERGRADE",
-   "en": "FINAL FANTASY VII REMAKE INTERGRADE",
-   "sk": "FINAL FANTASY VII REMAKE INTERGRADE"
-  },
-  "text": {
-   "uk": "FINAL FANTASY VII REMAKE INTERGRADE у Epic Games Store зараз за 198₴ замість 1 099₴. Гарний момент забрати 🎮",
-   "ru": "FINAL FANTASY VII REMAKE INTERGRADE в Epic Games Store сейчас за 198₴ вместо 1 099₴. Хороший момент забрать 🎮",
-   "en": "FINAL FANTASY VII REMAKE INTERGRADE on Epic Games Store is 198₴ instead of 1 099₴ right now. A good moment to grab it 🎮",
-   "sk": "FINAL FANTASY VII REMAKE INTERGRADE v Epic Games Store je teraz za 198₴ namiesto 1 099₴. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/final-fantasy-vii-remake-intergrade",
-  "source": "epic-charts",
-  "found_at": "2026-11-05",
-  "expires_at": "2026-11-16",
-  "score": 90,
-  "worth": 1099.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 54,
-  "deal": {
-   "game": "FINAL FANTASY VII REMAKE INTERGRADE",
-   "pct": 82,
-   "old": "1 099₴",
-   "new": "198₴",
-   "store": "Epic Games Store",
-   "rank_sales": 8
-  },
-  "blurb": {
-   "uk": "Екшен-RPG: борешся проти корпорації в місті Мідгар та досліджуєш світ",
-   "ru": "Экшен-RPG: сражаешься против корпорации в городе Мидгар и исследуешь мир",
-   "en": "Action RPG: fight against a corporation in the city of Midgar and explore the world",
-   "sk": "Akčné RPG: bojuješ proti korporácii v meste Midgar a skúmaš svet"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
- },
- {
   "id": "b6d634ee9a1c",
   "title": {
    "uk": "Знижки на софт для студентів",
@@ -203,94 +115,6 @@
   "status": "active",
   "pinned": false,
   "fails": 0
- },
- {
-  "id": "c0fc743aff78",
-  "title": {
-   "uk": "Hell Let Loose",
-   "ru": "Hell Let Loose",
-   "en": "Hell Let Loose",
-   "sk": "Hell Let Loose"
-  },
-  "text": {
-   "uk": "Hell Let Loose у Epic Games Store зараз за 250₴ замість 999₴. Студентський бюджет скаже дякую 🎮",
-   "ru": "Hell Let Loose в Epic Games Store сейчас за 250₴ вместо 999₴. Студенческий бюджет скажет спасибо 🎮",
-   "en": "Hell Let Loose on Epic Games Store is 250₴ instead of 999₴ right now. Your student budget will thank you 🎮",
-   "sk": "Hell Let Loose v Epic Games Store je teraz za 250₴ namiesto 999₴. Tvoj študentský rozpočet poďakuje 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/hell-let-loose-03f036",
-  "source": "epic-charts",
-  "found_at": "2026-11-08",
-  "expires_at": "2026-11-16",
-  "score": 90,
-  "worth": 999.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 90,
-  "deal": {
-   "game": "Hell Let Loose",
-   "pct": 75,
-   "old": "999₴",
-   "new": "250₴",
-   "store": "Epic Games Store",
-   "rank_sales": 55
-  },
-  "blurb": {
-   "uk": "Шутер: береш участь у масштабних битвах Другої світової війни разом зі ста гравцями",
-   "ru": "Шутер: участвуешь в масштабных сражениях Второй мировой войны вместе со ста игроками",
-   "en": "Shooter: join massive World War Two battles with a hundred players",
-   "sk": "Strieľačka: bojuješ vo veľkomiernych bitkách Druhej svetovej vojny so stovkou hráčov"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
- },
- {
-  "id": "a41ad95b27cd",
-  "title": {
-   "uk": "Just Cause 4 Reloaded",
-   "ru": "Just Cause 4 Reloaded",
-   "en": "Just Cause 4 Reloaded",
-   "sk": "Just Cause 4 Reloaded"
-  },
-  "text": {
-   "uk": "Just Cause 4 Reloaded у Epic Games Store зараз за 85₴ замість 569₴. Студентський бюджет скаже дякую 🎮",
-   "ru": "Just Cause 4 Reloaded в Epic Games Store сейчас за 85₴ вместо 569₴. Студенческий бюджет скажет спасибо 🎮",
-   "en": "Just Cause 4 Reloaded on Epic Games Store is 85₴ instead of 569₴ right now. Your student budget will thank you 🎮",
-   "sk": "Just Cause 4 Reloaded v Epic Games Store je teraz za 85₴ namiesto 569₴. Tvoj študentský rozpočet poďakuje 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/just-cause-4",
-  "source": "epic-charts",
-  "found_at": "2026-11-08",
-  "expires_at": "2026-11-16",
-  "score": 90,
-  "worth": 569.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 97,
-  "deal": {
-   "game": "Just Cause 4 Reloaded",
-   "pct": 85,
-   "old": "569₴",
-   "new": "85₴",
-   "store": "Epic Games Store",
-   "rank_sales": 62
-  },
-  "blurb": {
-   "uk": "Екшен: подолаєш екстремальну погоду та створюєш хаос за допомогою гака та вінгсьюта",
-   "ru": "Экшен: преодолеваешь экстремальную погоду и создаешь хаос с помощью крюка и вингсьюта",
-   "en": "Action: overcome extreme weather and create chaos using a grappling hook and wingsuit",
-   "sk": "Akcia: bojuješ s extrémnym počasím a vytváraš chaos pomocou háka a wingsuitu"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
  },
  {
   "id": "3156e8473bf0",
@@ -412,7 +236,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 78,
+   "rank_sales": 79,
    "rank_play": null
   },
   "blurb": {
@@ -502,7 +326,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 43,
+   "rank_sales": 44,
    "rank_play": null
   },
   "blurb": {
@@ -592,7 +416,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 25,
+   "rank_sales": 23,
    "rank_play": 41
   },
   "blurb": {
@@ -644,94 +468,6 @@
    "en": "Strategy: recruit units, find synergies and lead your army through challenges",
    "sk": "Stratégia: zbieraš jednotky, hľadáš synergie a vedieš armádu cez výzvy"
   }
- },
- {
-  "id": "4a8a25d642d6",
-  "title": {
-   "uk": "OCTOPATH TRAVELER",
-   "ru": "OCTOPATH TRAVELER",
-   "en": "OCTOPATH TRAVELER",
-   "sk": "OCTOPATH TRAVELER"
-  },
-  "text": {
-   "uk": "OCTOPATH TRAVELER у Epic Games Store зараз за 330₴ замість 1 099₴. Не пропусти 🎮",
-   "ru": "OCTOPATH TRAVELER в Epic Games Store сейчас за 330₴ вместо 1 099₴. Не пропусти 🎮",
-   "en": "OCTOPATH TRAVELER on Epic Games Store is 330₴ instead of 1 099₴ right now. Don't miss it 🎮",
-   "sk": "OCTOPATH TRAVELER v Epic Games Store je teraz za 330₴ namiesto 1 099₴. Nenechaj si ujsť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/octopath-traveler",
-  "source": "epic-charts",
-  "found_at": "2026-11-14",
-  "expires_at": "2026-11-16",
-  "score": 90,
-  "worth": 1099.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 76,
-  "deal": {
-   "game": "OCTOPATH TRAVELER™",
-   "pct": 70,
-   "old": "1 099₴",
-   "new": "330₴",
-   "store": "Epic Games Store",
-   "rank_sales": null
-  },
-  "blurb": {
-   "uk": "RPG: подорожуєш світом та відкриваєш історії восьми різних героїв",
-   "ru": "RPG: путешествуешь по миру и открываешь истории восьми разных героев",
-   "en": "RPG: travel across the world and discover the stories of eight different characters",
-   "sk": "RPG: cestuješ svetom a objavuješ príbehy ôsmich rôznych hrdinov"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
- },
- {
-  "id": "17919fd1bccf",
-  "title": {
-   "uk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
-   "ru": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
-   "en": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
-   "sk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN"
-  },
-  "text": {
-   "uk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN у Epic Games Store зараз за 300₴ замість 999₴. Гарний момент забрати 🎮",
-   "ru": "STRANGER OF PARADISE FINAL FANTASY ORIGIN в Epic Games Store сейчас за 300₴ вместо 999₴. Хороший момент забрать 🎮",
-   "en": "STRANGER OF PARADISE FINAL FANTASY ORIGIN on Epic Games Store is 300₴ instead of 999₴ right now. A good moment to grab it 🎮",
-   "sk": "STRANGER OF PARADISE FINAL FANTASY ORIGIN v Epic Games Store je teraz za 300₴ namiesto 999₴. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/stranger-of-paradise-final-fantasy-origin",
-  "source": "epic-charts",
-  "found_at": "2026-11-14",
-  "expires_at": "2026-11-16",
-  "score": 90,
-  "worth": 999.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 85,
-  "deal": {
-   "game": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
-   "pct": 70,
-   "old": "999₴",
-   "new": "300₴",
-   "store": "Epic Games Store",
-   "rank_sales": null
-  },
-  "blurb": {
-   "uk": "Екшен-RPG: долаєш складні випробування, щоб повернути світло кристалів у поглинуте темрявою королівство",
-   "ru": "Экшен-RPG: преодолеваешь сложные испытания, чтобы вернуть свет кристаллов в поглощенное тьмой королевство",
-   "en": "Action RPG: overcome challenging trials to bring the light of the crystals back to a kingdom conquered by darkness",
-   "sk": "Akčné RPG: prekonávaš náročné výzvy, aby si vrátil svetlo kryštálov do kráľovstva ovládnutého tmou"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
  },
  {
   "id": "6acef15aa40e",
@@ -852,7 +588,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 86,
+   "rank_sales": 96,
    "rank_play": null
   },
   "blurb": {
