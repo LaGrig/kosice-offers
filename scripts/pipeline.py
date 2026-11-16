@@ -87,7 +87,8 @@ def process(item, today_s, force=False):
         'score': score, 'worth': item.get('worth'), 'pop': pop, 'meta': meta, 'kind': item.get('kind'), 'chart_rank': item.get('chart_rank'), 'give': item.get('give'),
         'status': 'active' if (CFG['auto_publish'] or (item.get('chart_rank') and CFG.get('deals', {}).get('auto_chart'))) else 'pending',
     }
-    offer['blurb'] = make_blurb((item.get('give') or {}).get('game') or item['title'], item.get('desc'))
+    if offer['category'] == 'games':
+        offer['blurb'] = make_blurb((item.get('give') or {}).get('game') or item['title'], item.get('desc'))
     return offer, 'ok'
 
 def main():
