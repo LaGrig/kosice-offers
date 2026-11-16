@@ -810,7 +810,12 @@
    "store": "Epic Games Store",
    "rank_sales": 33
   },
-  "blurb": null,
+  "blurb": {
+   "uk": "Відчуваєш реальний драйв і ганяєш на треку на шаленій швидкості",
+   "ru": "Чувствуешь реальный драйв и гоняешь по треку на бешеной скорости",
+   "en": "Feel the adrenaline and race on the track at break-neck speed",
+   "sk": "Cítiš ten adrenalín atlačíš na trať s maximálnou rýchlosťou"
+  },
   "status": "active",
   "miss_p": 0,
   "fails": 0,
