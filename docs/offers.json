@@ -906,7 +906,8 @@
    "sk": "Pretekáš na motorkách, trénuješ a volíš si medzi arkádovým štýlom alebo realizmom"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "53a51e8e187b",
@@ -948,7 +949,8 @@
    "sk": "Buduješ ríche v strategickej kampani a bojuješ v obrovských bitvách v reálnom čase"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "e3efe528e67b",
@@ -990,6 +992,7 @@
    "sk": "Pretekáš s cool autami, staváš vlastné trate a súboríš sa s ostatnými"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
