@@ -166,12 +166,12 @@ def fetch_deals():
 from chartdeals import chart_deals, chart_live
 from epiccharts import epic_chart_deals
 from epicdeals import fetch_epic_deals
-from food_sources import fetch_lidl_food, fetch_kosice_delivery
+from food_sources import fetch_kosice_delivery
 
 FETCHERS = {
     'epic-games': fetch_epic, 'gamerpower': fetch_gamerpower,
     'steam-chart': chart_deals, 'epic-charts': epic_chart_deals, 'epic-deals': fetch_epic_deals,
-    'cheapshark': fetch_deals, 'lidl-food': fetch_lidl_food, 'kosice-delivery': fetch_kosice_delivery,
+    'cheapshark': fetch_deals, 'kosice-delivery': fetch_kosice_delivery,
 }
 LIVE_OVERRIDE = {'epic-games': lambda: [{'link': x['link']} for x in fetch_epic(min_local=0)], 'steam-chart': lambda: [{'link': l} for l in chart_live()], 'epic-charts': lambda: [{'link': x['link']} for x in fetch_epic_deals()]}
 NO_LIVE_CHECK = {'lidl-food', 'kosice-delivery'}
