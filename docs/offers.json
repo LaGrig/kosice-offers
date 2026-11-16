@@ -1,97 +1,5 @@
 [
  {
-  "id": "c23877379a5d",
-  "title": {
-   "uk": "Borderlands 3",
-   "ru": "Borderlands 3",
-   "en": "Borderlands 3",
-   "sk": "Borderlands 3"
-  },
-  "text": {
-   "uk": "Borderlands 3 у Steam зараз за 84₴ замість 849₴. Не пропусти 🎮",
-   "ru": "Borderlands 3 в Steam сейчас за 84₴ вместо 849₴. Не пропусти 🎮",
-   "en": "Borderlands 3 on Steam is 84₴ instead of 849₴ right now. Don't miss it 🎮",
-   "sk": "Borderlands 3 v Steam je teraz za 84₴ namiesto 849₴. Nenechaj si ujsť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/397540/",
-  "source": "steam-chart",
-  "found_at": "2026-11-03",
-  "expires_at": "2026-11-16",
-  "score": 100,
-  "worth": 849.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 43,
-  "status": "active",
-  "approved_at": "2026-11-03",
-  "fails": 0,
-  "miss": 0,
-  "deal": {
-   "game": "Borderlands 3",
-   "pct": 90,
-   "old": "849₴",
-   "new": "84₴",
-   "store": "Steam",
-   "rank_sales": null,
-   "rank_play": null
-  },
-  "miss_p": 1,
-  "blurb": {
-   "uk": "Екшен-RPG: вибираєш одного з мисливців за сховищем та нищиш ворогів за допомогою безлічі різних гармат",
-   "ru": "Экшен-RPG: выбираешь одного из охотников за хранилищем и истребляешь врагов с помощью огромного арсенала пушек",
-   "en": "Action RPG: pick one of the Vault Hunters and blast through new worlds with a massive variety of guns",
-   "sk": "Akčná RPG: vyber si jedného z lovcov kľučovníkov a vyčist nové svety pomocou obrovského množstva zbraní"
-  }
- },
- {
-  "id": "13c72ea36348",
-  "title": {
-   "uk": "Borderlands 2",
-   "ru": "Borderlands 2",
-   "en": "Borderlands 2",
-   "sk": "Borderlands 2"
-  },
-  "text": {
-   "uk": "Borderlands 2 у Steam зараз за 38₴ замість 389₴. Гарний момент забрати 🎮",
-   "ru": "Borderlands 2 в Steam сейчас за 38₴ вместо 389₴. Хороший момент забрать 🎮",
-   "en": "Borderlands 2 on Steam is 38₴ instead of 389₴ right now. A good moment to grab it 🎮",
-   "sk": "Borderlands 2 v Steam je teraz za 38₴ namiesto 389₴. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/49520/",
-  "source": "steam-chart",
-  "found_at": "2026-11-03",
-  "expires_at": "2026-11-16",
-  "score": 100,
-  "worth": 389.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 57,
-  "status": "active",
-  "approved_at": "2026-11-03",
-  "fails": 0,
-  "miss": 0,
-  "deal": {
-   "game": "Borderlands 2",
-   "pct": 90,
-   "old": "389₴",
-   "new": "38₴",
-   "store": "Steam",
-   "rank_sales": null,
-   "rank_play": null
-  },
-  "miss_p": 1,
-  "blurb": {
-   "uk": "Екшен-RPG: шукаєш рідкісний лут та б'єшся з монстрами й лиходієм разом із друзями",
-   "ru": "Экшен-RPG: ищешь редкий лут и сражаешься с монстрами и злодеем вместе с друзьями",
-   "en": "Action RPG: hunt for loot and fight monsters and a villain together with friends",
-   "sk": "Akčná RPG: hľadáš vzácny loot a bojuješ proti mutantom a zloduchovi spolu s kamarátmi"
-  }
- },
- {
   "id": "b6d634ee9a1c",
   "title": {
    "uk": "Знижки на софт для студентів",
@@ -236,7 +144,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 80,
+   "rank_sales": 81,
    "rank_play": null
   },
   "blurb": {
@@ -281,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 5,
+   "rank_sales": 4,
    "rank_play": 12
   },
   "blurb": {
@@ -371,7 +279,7 @@
    "old": "649₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 45,
+   "rank_sales": 44,
    "rank_play": 46
   },
   "blurb": {
@@ -416,7 +324,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 23,
+   "rank_sales": 21,
    "rank_play": 41
   },
   "blurb": {
@@ -588,7 +496,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 96,
+   "rank_sales": null,
    "rank_play": null
   },
   "blurb": {
