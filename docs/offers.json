@@ -189,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 11,
+   "rank_sales": 10,
    "rank_play": 14
   },
   "blurb": {
@@ -234,7 +234,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 56,
+   "rank_sales": 58,
    "rank_play": null
   },
   "blurb": {
@@ -279,7 +279,7 @@
    "old": "649₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 52,
+   "rank_sales": 53,
    "rank_play": 46
   },
   "blurb": {
@@ -408,7 +408,7 @@
    "old": "949₴",
    "new": "237₴",
    "store": "Epic Games Store",
-   "rank_sales": 44
+   "rank_sales": 68
   },
   "blurb": {
    "uk": "Стратегія: завойовуєш землі та ведеш масштабні кампанії в таємничому Новому Світі",
@@ -452,7 +452,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 28
+   "rank_sales": 26
   },
   "blurb": {
    "uk": "Симулятор: гоняєш на мотоциклах по трасах на шаленій швидкості",
@@ -541,7 +541,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 34
+   "rank_sales": 33
   },
   "blurb": {
    "uk": "Мотогонки: змагаєшся в сезоні 2025 року та проходиш випробування в різних режимах",
@@ -585,7 +585,7 @@
    "old": "949₴",
    "new": "237₴",
    "store": "Epic Games Store",
-   "rank_sales": 81
+   "rank_sales": 96
   },
   "blurb": {
    "uk": "Покрокова стратегія: будуєш імперію та ведеш масштабні битви в реальному часі",
@@ -629,7 +629,7 @@
    "old": "1 139₴",
    "new": "171₴",
    "store": "Epic Games Store",
-   "rank_sales": 72
+   "rank_sales": 88
   },
   "blurb": {
    "uk": "Гонки: змагаєшся на крутих машинках та будуєш власні траси",
@@ -833,7 +833,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 41,
+   "rank_sales": 42,
    "rank_play": 67
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -879,7 +879,7 @@
    "old": "700₴",
    "new": "175₴",
    "store": "Steam",
-   "rank_sales": 57,
+   "rank_sales": 55,
    "rank_play": null
   },
   "desc": "Genres: Action, Simulation, Strategy. Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
@@ -925,7 +925,7 @@
    "old": "1 899₴",
    "new": "569₴",
    "store": "Steam",
-   "rank_sales": 63,
+   "rank_sales": 65,
    "rank_play": null
   },
   "desc": "Genres: RPG. Lead the Phantom Thieves of Hearts in this award winning, stylish turn-based RPG filled with dungeon crawling, party customization, strategic combat, and Persona fusion. Explore Tokyo, build relationships, battle Shadows, and infiltrate the minds of the corrupt to make them change their ways!",
