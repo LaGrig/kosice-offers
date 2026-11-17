@@ -801,5 +801,177 @@
   "status": "active",
   "no_digest": true,
   "fails": 0
+ },
+ {
+  "id": "a91daa71cce5",
+  "title": {
+   "uk": "Total War: WARHAMMER III",
+   "ru": "Total War: WARHAMMER III",
+   "en": "Total War: WARHAMMER III",
+   "sk": "Total War: WARHAMMER III"
+  },
+  "text": {
+   "uk": "Total War: WARHAMMER III у Steam зараз за 284₴ замість 1 899₴. Гарний момент забрати 🎮",
+   "ru": "Total War: WARHAMMER III в Steam сейчас за 284₴ вместо 1 899₴. Хороший момент забрать 🎮",
+   "en": "Total War: WARHAMMER III on Steam is 284₴ instead of 1 899₴ right now. A good moment to grab it 🎮",
+   "sk": "Total War: WARHAMMER III v Steam je teraz za 284₴ namiesto 1 899₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1142710/",
+  "source": "steam-chart",
+  "found_at": "2026-11-17",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 1899.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 39,
+  "deal": {
+   "game": "Total War: WARHAMMER III",
+   "pct": 85,
+   "old": "1 899₴",
+   "new": "284₴",
+   "store": "Steam",
+   "rank_sales": 39,
+   "rank_play": 66
+  },
+  "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
+  "blurb": {
+   "uk": "Стратегія: збираєш армії та б'єшся в царстві хаосу за долю світу",
+   "ru": "Стратегия: собираешь армии и сражаешься в царстве хаоса за судьбу мира",
+   "en": "Strategy: rally your forces and fight in the realm of chaos for the fate of the world",
+   "sk": "Stratégia: zbieraš armády a bojuješ v ríši chaosu o osud sveta"
+  },
+  "status": "active"
+ },
+ {
+  "id": "bccad89502bc",
+  "title": {
+   "uk": "Call to Arms - Gates of Hell: Ostfront",
+   "ru": "Call to Arms - Gates of Hell: Ostfront",
+   "en": "Call to Arms - Gates of Hell: Ostfront",
+   "sk": "Call to Arms - Gates of Hell: Ostfront"
+  },
+  "text": {
+   "uk": "Call to Arms - Gates of Hell: Ostfront у Steam зараз за 175₴ замість 700₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Call to Arms - Gates of Hell: Ostfront в Steam сейчас за 175₴ вместо 700₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Call to Arms - Gates of Hell: Ostfront on Steam is 175₴ instead of 700₴ right now. Your student budget will thank you 🎮",
+   "sk": "Call to Arms - Gates of Hell: Ostfront v Steam je teraz za 175₴ namiesto 700₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/400750/",
+  "source": "steam-chart",
+  "found_at": "2026-11-17",
+  "expires_at": "2026-11-23",
+  "score": 90,
+  "worth": 700.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 54,
+  "deal": {
+   "game": "Call to Arms - Gates of Hell: Ostfront",
+   "pct": 75,
+   "old": "700₴",
+   "new": "175₴",
+   "store": "Steam",
+   "rank_sales": 54,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Simulation, Strategy. Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
+  "blurb": {
+   "uk": "Стратегія: керуєш різними підрозділами та ведеш реалістичні битви часів Другої світової",
+   "ru": "Стратегия: командуешь различными войсками и ведешь реалистичные сражения времен Второй мировой",
+   "en": "Strategy: command various troops and lead realistic battles of World War 2",
+   "sk": "Stratégia: velíš rôznym jednotkám a vedieš realistické bitky z obdobia Druhej svetovej vojny"
+  },
+  "status": "active"
+ },
+ {
+  "id": "4b616a7ef7c4",
+  "title": {
+   "uk": "Persona 5 Royal",
+   "ru": "Persona 5 Royal",
+   "en": "Persona 5 Royal",
+   "sk": "Persona 5 Royal"
+  },
+  "text": {
+   "uk": "Persona 5 Royal у Steam зараз за 569₴ замість 1 899₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Persona 5 Royal в Steam сейчас за 569₴ вместо 1 899₴. Самое время добавить в библиотеку 🎮",
+   "en": "Persona 5 Royal on Steam is 569₴ instead of 1 899₴ right now. Time to add it to your library 🎮",
+   "sk": "Persona 5 Royal v Steam je teraz za 569₴ namiesto 1 899₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1687950/",
+  "source": "steam-chart",
+  "found_at": "2026-11-17",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 1899.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 83,
+  "deal": {
+   "game": "Persona 5 Royal",
+   "pct": 70,
+   "old": "1 899₴",
+   "new": "569₴",
+   "store": "Steam",
+   "rank_sales": 83,
+   "rank_play": null
+  },
+  "desc": "Genres: RPG. Lead the Phantom Thieves of Hearts in this award winning, stylish turn-based RPG filled with dungeon crawling, party customization, strategic combat, and Persona fusion. Explore Tokyo, build relationships, battle Shadows, and infiltrate the minds of the corrupt to make them change their ways!",
+  "blurb": {
+   "uk": "RPG: керуєш розбійниками сердець, заводиш друзів та виправляєш поганих людей",
+   "ru": "RPG: управляешь ворами сердец, заводишь друзей и исправляешь плохих людей",
+   "en": "RPG: lead the phantom thieves, build relationships and change the hearts of the corrupt",
+   "sk": "RPG: vedieš phantom thiefov, buduješ vzťahy a meníš srdcia skorumpovaných ľudí"
+  },
+  "status": "active"
+ },
+ {
+  "id": "06818ba9150b",
+  "title": {
+   "uk": "Like a Dragon: Infinite Wealth",
+   "ru": "Like a Dragon: Infinite Wealth",
+   "en": "Like a Dragon: Infinite Wealth",
+   "sk": "Like a Dragon: Infinite Wealth"
+  },
+  "text": {
+   "uk": "Like a Dragon: Infinite Wealth у Steam зараз за 399₴ замість 1 999₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Like a Dragon: Infinite Wealth в Steam сейчас за 399₴ вместо 1 999₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Like a Dragon: Infinite Wealth on Steam is 399₴ instead of 1 999₴ right now. Your student budget will thank you 🎮",
+   "sk": "Like a Dragon: Infinite Wealth v Steam je teraz za 399₴ namiesto 1 999₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2072450/",
+  "source": "steam-chart",
+  "found_at": "2026-11-17",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 1999.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 98,
+  "deal": {
+   "game": "Like a Dragon: Infinite Wealth",
+   "pct": 80,
+   "old": "1 999₴",
+   "new": "399₴",
+   "store": "Steam",
+   "rank_sales": 98,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. Two larger-than-life heroes, Ichiban Kasuga and Kazuma Kiryu are brought together by the hand of fate, or perhaps something more sinister… Live it up in Japan and explore all that Hawaii has to offer in an RPG adventure so big it spans the Pacific.",
+  "blurb": {
+   "uk": "Екшен-RPG: подорожуєш між Японією та Гаваями разом із двома героями",
+   "ru": "Экшен-RPG: путешествуешь между Японией и Гавайями вместе с двумя героями",
+   "en": "Action RPG: travel between Japan and Hawaii together with two heroes",
+   "sk": "Akčné RPG: cestuješ medzi Japonskom a Havajom spolu s dvoma hrdinami"
+  },
+  "status": "active"
  }
 ]
