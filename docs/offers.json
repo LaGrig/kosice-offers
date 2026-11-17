@@ -844,7 +844,8 @@
    "sk": "Stratégia: zbieraš armády a bojuješ v ríši chaosu o osud sveta"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "bccad89502bc",
@@ -888,7 +889,8 @@
    "sk": "Stratégia: velíš rôznym jednotkám a vedieš realistické bitky z obdobia Druhej svetovej vojny"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "4b616a7ef7c4",
@@ -932,7 +934,8 @@
    "sk": "RPG: vedieš phantom thiefov, buduješ vzťahy a meníš srdcia skorumpovaných ľudí"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "06818ba9150b",
@@ -976,6 +979,7 @@
    "sk": "Akčné RPG: cestuješ medzi Japonskom a Havajom spolu s dvoma hrdinami"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
