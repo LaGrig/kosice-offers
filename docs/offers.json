@@ -985,5 +985,262 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "e2f6a884fda3",
+  "title": {
+   "uk": "Call of Duty: Black Ops III",
+   "ru": "Call of Duty: Black Ops III",
+   "en": "Call of Duty: Black Ops III",
+   "sk": "Call of Duty: Black Ops III"
+  },
+  "text": {
+   "uk": "Call of Duty: Black Ops III у Steam зараз за 638₴ замість 2 552₴. Гарний момент забрати 🎮",
+   "ru": "Call of Duty: Black Ops III в Steam сейчас за 638₴ вместо 2 552₴. Хороший момент забрать 🎮",
+   "en": "Call of Duty: Black Ops III on Steam is 638₴ instead of 2 552₴ right now. A good moment to grab it 🎮",
+   "sk": "Call of Duty: Black Ops III v Steam je teraz za 638₴ namiesto 2 552₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/311210/",
+  "source": "steam-chart",
+  "found_at": "2026-11-18",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 2552.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 19,
+  "deal": {
+   "game": "Call of Duty®: Black Ops III",
+   "pct": 75,
+   "old": "2 552₴",
+   "new": "638₴",
+   "store": "Steam",
+   "rank_sales": 19,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
+  "blurb": {
+   "uk": "Екшен-пригода: проходиш динамічні місії та відбиваєшся від натовпів зомбі",
+   "ru": "Экшен-приключение: проходишь динамичные миссии и отбиваешься от толп зомби",
+   "en": "Action-adventure: complete dynamic missions and fight off hordes of zombies",
+   "sk": "Akčné dobrodružstvo: plníš dynamické misie a bojuješ proti hordám zombiev"
+  },
+  "status": "active"
+ },
+ {
+  "id": "0a0b58a057df",
+  "title": {
+   "uk": "Detroit: Become Human",
+   "ru": "Detroit: Become Human",
+   "en": "Detroit: Become Human",
+   "sk": "Detroit: Become Human"
+  },
+  "text": {
+   "uk": "Detroit: Become Human у Epic Games Store зараз за 135₴ замість 673₴. Не пропусти 🎮",
+   "ru": "Detroit: Become Human в Epic Games Store сейчас за 135₴ вместо 673₴. Не пропусти 🎮",
+   "en": "Detroit: Become Human on Epic Games Store is 135₴ instead of 673₴ right now. Don't miss it 🎮",
+   "sk": "Detroit: Become Human v Epic Games Store je teraz za 135₴ namiesto 673₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/detroit-become-human",
+  "source": "epic-charts",
+  "found_at": "2026-11-18",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 673.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 76,
+  "deal": {
+   "game": "Detroit: Become Human",
+   "pct": 80,
+   "old": "673₴",
+   "new": "135₴",
+   "store": "Epic Games Store",
+   "rank_sales": 76
+  },
+  "desc": "Genres: Action, Narration, Single Player. Detroit 2038. Technology has evolved to a point where human like androids are everywhere. They speak, move and behave like human beings, but they are only machines serving humans.",
+  "blurb": {
+   "uk": "Пригодницький екшен: керуєш андроїдами в світі майбутнього та вирішуєш їхню долю",
+   "ru": "Приключенческий экшен: управляешь андроидами в мире будущего и решаешь их судьбу",
+   "en": "Action-adventure: control androids in a future world and decide their fate",
+   "sk": "Akčné dobrodružstvo: ovládáš androidov vo svete budúcnosti a rozhoduješ o ich osude"
+  },
+  "status": "active"
+ },
+ {
+  "id": "ded076a2c116",
+  "title": {
+   "uk": "Goat Simulator 3",
+   "ru": "Goat Simulator 3",
+   "en": "Goat Simulator 3",
+   "sk": "Goat Simulator 3"
+  },
+  "text": {
+   "uk": "Goat Simulator 3 у Steam зараз за 180₴ замість 600₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Goat Simulator 3 в Steam сейчас за 180₴ вместо 600₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Goat Simulator 3 on Steam is 180₴ instead of 600₴ right now. Your student budget will thank you 🎮",
+   "sk": "Goat Simulator 3 v Steam je teraz za 180₴ namiesto 600₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/850190/",
+  "source": "steam-chart",
+  "found_at": "2026-11-18",
+  "expires_at": "2026-11-23",
+  "score": 90,
+  "worth": 600.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 80,
+  "deal": {
+   "game": "Goat Simulator 3",
+   "pct": 70,
+   "old": "600₴",
+   "new": "180₴",
+   "store": "Steam",
+   "rank_sales": 80,
+   "rank_play": null
+  },
+  "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
+  "blurb": {
+   "uk": "Симулятор: створюєш хаос разом із друзями та проходиш міні-ігри в ролі кози",
+   "ru": "Симулятор: творишь хаос вместе с друзьями и проходишь мини-игры в роли козы",
+   "en": "Simulation: create carnage with your friends and play mini-games as a goat",
+   "sk": "Simulátor: s kamarátmi tvoríš chaos a hráš mini-hry v roli kozy"
+  },
+  "status": "active"
+ },
+ {
+  "id": "fdd5271c828a",
+  "title": {
+   "uk": "Kingdom Come: Deliverance",
+   "ru": "Kingdom Come: Deliverance",
+   "en": "Kingdom Come: Deliverance",
+   "sk": "Kingdom Come: Deliverance"
+  },
+  "text": {
+   "uk": "Kingdom Come: Deliverance у Steam зараз за 119₴ замість 799₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Kingdom Come: Deliverance в Steam сейчас за 119₴ вместо 799₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Kingdom Come: Deliverance on Steam is 119₴ instead of 799₴ right now. Your student budget will thank you 🎮",
+   "sk": "Kingdom Come: Deliverance v Steam je teraz za 119₴ namiesto 799₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/379430/",
+  "source": "steam-chart",
+  "found_at": "2026-11-18",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 799.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 85,
+  "deal": {
+   "game": "Kingdom Come: Deliverance",
+   "pct": 85,
+   "old": "799₴",
+   "new": "119₴",
+   "store": "Steam",
+   "rank_sales": 85,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. Story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices. Explore castles, forests, villages and other realistic settings in medieval Bohemia!",
+  "blurb": {
+   "uk": "Екшен-RPG: мстишся за батьків та приймаєш важливі рішення у відкритому середньовічному світі",
+   "ru": "Экшен-RPG: мстишь за родителей и принимаешь важные решения в открытом средневековом мире",
+   "en": "Action RPG: avenge your parents and make influential choices in an open medieval world",
+   "sk": "Akčnové RPG: mstíš sa za rodičov a prijímaš dôležité rozhodnutia v otvorenom stredovekom svete"
+  },
+  "status": "active"
+ },
+ {
+  "id": "a476a03e189b",
+  "title": {
+   "uk": "Call of Duty: WWII",
+   "ru": "Call of Duty: WWII",
+   "en": "Call of Duty: WWII",
+   "sk": "Call of Duty: WWII"
+  },
+  "text": {
+   "uk": "Call of Duty: WWII у Steam зараз за 638₴ замість 2 552₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Call of Duty: WWII в Steam сейчас за 638₴ вместо 2 552₴. Самое время добавить в библиотеку 🎮",
+   "en": "Call of Duty: WWII on Steam is 638₴ instead of 2 552₴ right now. Time to add it to your library 🎮",
+   "sk": "Call of Duty: WWII v Steam je teraz za 638₴ namiesto 2 552₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/476600/",
+  "source": "steam-chart",
+  "found_at": "2026-11-18",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 2552.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 91,
+  "deal": {
+   "game": "Call of Duty®: WWII",
+   "pct": 75,
+   "old": "2 552₴",
+   "new": "638₴",
+   "store": "Steam",
+   "rank_sales": 91,
+   "rank_play": null
+  },
+  "desc": "Genres: Action. Call of Duty®: WWII - a breathtaking experience that redefines World War II.",
+  "blurb": {
+   "uk": "Екшен: береш участь у запеклих боях часів Другої світової війни",
+   "ru": "Экшен: участвуешь в ожесточенных сражениях времен Второй мировой войны",
+   "en": "Action: fight in the intense battles of World War II",
+   "sk": "Akcia: bojuješ v intenzívnych bitkách Druhej svetovej vojny"
+  },
+  "status": "active"
+ },
+ {
+  "id": "222efb5c4efc",
+  "title": {
+   "uk": "Call of Duty: Black Ops Cold War",
+   "ru": "Call of Duty: Black Ops Cold War",
+   "en": "Call of Duty: Black Ops Cold War",
+   "sk": "Call of Duty: Black Ops Cold War"
+  },
+  "text": {
+   "uk": "Call of Duty: Black Ops Cold War у Steam зараз за 638₴ замість 2 552₴. Не пропусти 🎮",
+   "ru": "Call of Duty: Black Ops Cold War в Steam сейчас за 638₴ вместо 2 552₴. Не пропусти 🎮",
+   "en": "Call of Duty: Black Ops Cold War on Steam is 638₴ instead of 2 552₴ right now. Don't miss it 🎮",
+   "sk": "Call of Duty: Black Ops Cold War v Steam je teraz za 638₴ namiesto 2 552₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1985810/",
+  "source": "steam-chart",
+  "found_at": "2026-11-18",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 2552.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 98,
+  "deal": {
+   "game": "Call of Duty®: Black Ops Cold War",
+   "pct": 75,
+   "old": "2 552₴",
+   "new": "638₴",
+   "store": "Steam",
+   "rank_sales": 98,
+   "rank_play": null
+  },
+  "desc": "Genres: Action. Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s.",
+  "blurb": {
+   "uk": "Екшен: проходиш через геополітичні сутички часів холодної війни",
+   "ru": "Экшен: участвуешь в геополитических сражениях времен холодной войны",
+   "en": "Action: fight through the volatile geopolitical battles of the cold war",
+   "sk": "Akcia: bojuješ v geopolitických stretiavaniach počas studenej vojny"
+  },
+  "status": "active"
  }
 ]
