@@ -189,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 14,
+   "rank_sales": 15,
    "rank_play": 14
   },
   "blurb": {
@@ -234,7 +234,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 59,
+   "rank_sales": 58,
    "rank_play": null
   },
   "blurb": {
@@ -324,7 +324,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 43,
+   "rank_sales": 45,
    "rank_play": 45
   },
   "blurb": {
@@ -833,7 +833,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 30,
+   "rank_sales": 33,
    "rank_play": 67
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -879,7 +879,7 @@
    "old": "700₴",
    "new": "175₴",
    "store": "Steam",
-   "rank_sales": 48,
+   "rank_sales": 49,
    "rank_play": null
   },
   "desc": "Genres: Action, Simulation, Strategy. Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
@@ -925,7 +925,7 @@
    "old": "1 899₴",
    "new": "569₴",
    "store": "Steam",
-   "rank_sales": 58,
+   "rank_sales": 61,
    "rank_play": null
   },
   "desc": "Genres: RPG. Lead the Phantom Thieves of Hearts in this award winning, stylish turn-based RPG filled with dungeon crawling, party customization, strategic combat, and Persona fusion. Explore Tokyo, build relationships, battle Shadows, and infiltrate the minds of the corrupt to make them change their ways!",
@@ -1027,7 +1027,8 @@
    "en": "Action-adventure: complete dynamic missions and fight off hordes of zombies",
    "sk": "Akčné dobrodružstvo: plníš dynamické misie a bojuješ proti hordám zombiev"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "0a0b58a057df",
@@ -1069,7 +1070,8 @@
    "en": "Action-adventure: control androids in a future world and decide their fate",
    "sk": "Akčné dobrodružstvo: ovládáš androidov vo svete budúcnosti a rozhoduješ o ich osude"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "ded076a2c116",
@@ -1102,7 +1104,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Steam",
-   "rank_sales": 80,
+   "rank_sales": 82,
    "rank_play": null
   },
   "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
@@ -1112,7 +1114,8 @@
    "en": "Simulation: create carnage with your friends and play mini-games as a goat",
    "sk": "Simulátor: s kamarátmi tvoríš chaos a hráš mini-hry v roli kozy"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "fdd5271c828a",
@@ -1155,7 +1158,8 @@
    "en": "Action RPG: avenge your parents and make influential choices in an open medieval world",
    "sk": "Akčnové RPG: mstíš sa za rodičov a prijímaš dôležité rozhodnutia v otvorenom stredovekom svete"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "a476a03e189b",
@@ -1188,7 +1192,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 91,
+   "rank_sales": 88,
    "rank_play": null
   },
   "desc": "Genres: Action. Call of Duty®: WWII - a breathtaking experience that redefines World War II.",
@@ -1198,7 +1202,8 @@
    "en": "Action: fight in the intense battles of World War II",
    "sk": "Akcia: bojuješ v intenzívnych bitkách Druhej svetovej vojny"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "222efb5c4efc",
@@ -1241,6 +1246,7 @@
    "en": "Action: fight through the volatile geopolitical battles of the cold war",
    "sk": "Akcia: bojuješ v geopolitických stretiavaniach počas studenej vojny"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
