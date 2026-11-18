@@ -144,7 +144,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 86,
+   "rank_sales": 87,
    "rank_play": null
   },
   "blurb": {
@@ -189,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 14,
+   "rank_sales": 13,
    "rank_play": 14
   },
   "blurb": {
@@ -234,7 +234,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 59,
+   "rank_sales": 60,
    "rank_play": null
   },
   "blurb": {
@@ -324,7 +324,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 43,
+   "rank_sales": 41,
    "rank_play": 43
   },
   "blurb": {
@@ -408,7 +408,7 @@
    "old": "949₴",
    "new": "237₴",
    "store": "Epic Games Store",
-   "rank_sales": 68
+   "rank_sales": 72
   },
   "blurb": {
    "uk": "Стратегія: завойовуєш землі та ведеш масштабні кампанії в таємничому Новому Світі",
@@ -452,7 +452,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 26
+   "rank_sales": 23
   },
   "blurb": {
    "uk": "Симулятор: гоняєш на мотоциклах по трасах на шаленій швидкості",
@@ -541,7 +541,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 33
+   "rank_sales": 35
   },
   "blurb": {
    "uk": "Мотогонки: змагаєшся в сезоні 2025 року та проходиш випробування в різних режимах",
@@ -585,7 +585,7 @@
    "old": "949₴",
    "new": "237₴",
    "store": "Epic Games Store",
-   "rank_sales": 96
+   "rank_sales": null
   },
   "blurb": {
    "uk": "Покрокова стратегія: будуєш імперію та ведеш масштабні битви в реальному часі",
@@ -629,7 +629,7 @@
    "old": "1 139₴",
    "new": "171₴",
    "store": "Epic Games Store",
-   "rank_sales": 88
+   "rank_sales": 96
   },
   "blurb": {
    "uk": "Гонки: змагаєшся на крутих машинках та будуєш власні траси",
@@ -833,7 +833,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 34,
+   "rank_sales": 35,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -879,7 +879,7 @@
    "old": "700₴",
    "new": "175₴",
    "store": "Steam",
-   "rank_sales": 53,
+   "rank_sales": 55,
    "rank_play": null
   },
   "desc": "Genres: Action, Simulation, Strategy. Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
@@ -925,7 +925,7 @@
    "old": "1 899₴",
    "new": "569₴",
    "store": "Steam",
-   "rank_sales": 66,
+   "rank_sales": 68,
    "rank_play": null
   },
   "desc": "Genres: RPG. Lead the Phantom Thieves of Hearts in this award winning, stylish turn-based RPG filled with dungeon crawling, party customization, strategic combat, and Persona fusion. Explore Tokyo, build relationships, battle Shadows, and infiltrate the minds of the corrupt to make them change their ways!",
@@ -1063,7 +1063,7 @@
    "old": "673₴",
    "new": "135₴",
    "store": "Epic Games Store",
-   "rank_sales": 76
+   "rank_sales": 60
   },
   "desc": "Genres: Action, Narration, Single Player. Detroit 2038. Technology has evolved to a point where human like androids are everywhere. They speak, move and behave like human beings, but they are only machines serving humans.",
   "blurb": {
@@ -1200,7 +1200,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 78,
+   "rank_sales": 77,
    "rank_play": null
   },
   "desc": "Genres: Action. Call of Duty®: WWII - a breathtaking experience that redefines World War II.",
@@ -1246,7 +1246,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 85,
+   "rank_sales": 83,
    "rank_play": null
   },
   "desc": "Genres: Action. Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s.",
