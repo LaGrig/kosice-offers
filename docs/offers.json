@@ -1029,7 +1029,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "0a0b58a057df",
@@ -1073,7 +1074,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "ded076a2c116",
@@ -1118,7 +1120,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "fdd5271c828a",
@@ -1163,7 +1166,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "a476a03e189b",
@@ -1208,7 +1212,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "222efb5c4efc",
@@ -1253,6 +1258,7 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  }
 ]
