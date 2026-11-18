@@ -1028,7 +1028,8 @@
    "sk": "Akčné dobrodružstvo: plníš dynamické misie a bojuješ proti hordám zombiev"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "0a0b58a057df",
@@ -1071,7 +1072,8 @@
    "sk": "Akčné dobrodružstvo: ovládáš androidov vo svete budúcnosti a rozhoduješ o ich osude"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "ded076a2c116",
@@ -1115,7 +1117,8 @@
    "sk": "Simulátor: s kamarátmi tvoríš chaos a hráš mini-hry v roli kozy"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "fdd5271c828a",
@@ -1159,7 +1162,8 @@
    "sk": "Akčnové RPG: mstíš sa za rodičov a prijímaš dôležité rozhodnutia v otvorenom stredovekom svete"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "a476a03e189b",
@@ -1203,7 +1207,8 @@
    "sk": "Akcia: bojuješ v intenzívnych bitkách Druhej svetovej vojny"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "222efb5c4efc",
@@ -1247,6 +1252,7 @@
    "sk": "Akcia: bojuješ v geopolitických stretiavaniach počas studenej vojny"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
