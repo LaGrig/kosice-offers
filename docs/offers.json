@@ -114,51 +114,6 @@
   "miss": 0
  },
  {
-  "id": "7166fa76bb4a",
-  "title": {
-   "uk": "Grand Theft Auto IV: The",
-   "ru": "Grand Theft Auto IV: The",
-   "en": "Grand Theft Auto IV: The",
-   "sk": "Grand Theft Auto IV: The"
-  },
-  "text": {
-   "uk": "Grand Theft Auto IV: The у Steam зараз за 128₴ замість 429₴. Саме час додати до бібліотеки 🎮",
-   "ru": "Grand Theft Auto IV: The в Steam сейчас за 128₴ вместо 429₴. Самое время добавить в библиотеку 🎮",
-   "en": "Grand Theft Auto IV: The on Steam is 128₴ instead of 429₴ right now. Time to add it to your library 🎮",
-   "sk": "Grand Theft Auto IV: The v Steam je teraz za 128₴ namiesto 429₴. Čas pridať ju do knižnice 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/12210/",
-  "source": "steam-chart",
-  "found_at": "2026-11-10",
-  "expires_at": "2026-11-19",
-  "score": 90,
-  "worth": 429.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 97,
-  "deal": {
-   "game": "Grand Theft Auto IV: The Complete Edition",
-   "pct": 70,
-   "old": "429₴",
-   "new": "128₴",
-   "store": "Steam",
-   "rank_sales": 27,
-   "rank_play": null
-  },
-  "blurb": {
-   "uk": "Екшен-пригода: виживаєш у великому місті та борешся за гроші й статус",
-   "ru": "Экшен-приключение: выживаешь в большом городе и борешься за деньги и статус",
-   "en": "Action-adventure: survive in a big city and fight for money and status",
-   "sk": "Akčné dobrodružstvo: prežívaš vo veľkom meste a bojuješ o peniaze a status"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 0
- },
- {
   "id": "bd3699997b09",
   "title": {
    "uk": "Euro Truck Simulator 2",
@@ -234,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 72,
+   "rank_sales": 71,
    "rank_play": null
   },
   "blurb": {
@@ -412,7 +367,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 53,
+   "rank_sales": 55,
    "rank_play": null
   },
   "blurb": {
@@ -745,7 +700,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 47,
+   "rank_sales": 44,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -791,7 +746,7 @@
    "old": "700₴",
    "new": "175₴",
    "store": "Steam",
-   "rank_sales": 96,
+   "rank_sales": 99,
    "rank_play": null
   },
   "desc": "Genres: Action, Simulation, Strategy. Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
@@ -837,7 +792,7 @@
    "old": "1 899₴",
    "new": "569₴",
    "store": "Steam",
-   "rank_sales": 98,
+   "rank_sales": null,
    "rank_play": null
   },
   "desc": "Genres: RPG. Lead the Phantom Thieves of Hearts in this award winning, stylish turn-based RPG filled with dungeon crawling, party customization, strategic combat, and Persona fusion. Explore Tokyo, build relationships, battle Shadows, and infiltrate the minds of the corrupt to make them change their ways!",
@@ -883,7 +838,7 @@
    "old": "1 999₴",
    "new": "399₴",
    "store": "Steam",
-   "rank_sales": 99,
+   "rank_sales": null,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Two larger-than-life heroes, Ichiban Kasuga and Kazuma Kiryu are brought together by the hand of fate, or perhaps something more sinister… Live it up in Japan and explore all that Hawaii has to offer in an RPG adventure so big it spans the Pacific.",
@@ -929,7 +884,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 36,
+   "rank_sales": 35,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -1020,7 +975,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Steam",
-   "rank_sales": 37,
+   "rank_sales": 39,
    "rank_play": null
   },
   "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
@@ -1158,7 +1113,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 91,
+   "rank_sales": 95,
    "rank_play": null
   },
   "desc": "Genres: Action. Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s.",
@@ -1204,7 +1159,7 @@
    "old": "1 699₴",
    "new": "254₴",
    "store": "Steam",
-   "rank_sales": 7,
+   "rank_sales": 6,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
@@ -1296,7 +1251,7 @@
    "old": "1 519₴",
    "new": "303₴",
    "store": "Steam",
-   "rank_sales": 48,
+   "rank_sales": 46,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Experience the first-ever open world Star Wars™ game and explore distinct locations across the galaxy, both iconic and new. Risk it all as scoundrel Kay Vess, seeking freedom and the means to start a new life.",
@@ -1342,7 +1297,7 @@
    "old": "649₴",
    "new": "194₴",
    "store": "Steam",
-   "rank_sales": 82,
+   "rank_sales": 80,
    "rank_play": null
   },
   "desc": "Genres: RPG. From the creators of South Park, Trey Parker and Matt Stone, comes South Park: The Fractured But Whole, a sequel to 2014's award-winning South Park: The Stick of Truth.",
