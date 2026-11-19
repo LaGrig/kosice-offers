@@ -1258,7 +1258,8 @@
    "sk": "Action-RPG: putuješ s priateľmi po rozľahlom svete za novými dobrodrustvami"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "3a0f2b2f96b7",
@@ -1302,7 +1303,8 @@
    "sk": "Akčné RPG: skúmaš mesto Midgar a bojuješ s nepriateľmi pomocou nového bojového systému"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "f468c8f856fc",
@@ -1346,7 +1348,8 @@
    "sk": "Dobrodružstvo: preskúmaš otvorený svet galaxie a riskuješ všetko pre svoju slobodu"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "22c4eb73500c",
@@ -1390,6 +1393,7 @@
    "sk": "RPG: vytváraš svoj vlastného hrdinu a prežívaš v meste vtipné dobrodružstvá"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
