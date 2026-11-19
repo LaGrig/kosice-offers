@@ -226,24 +226,29 @@ def _scan_promocje(site, promo_url):
 
 
 def fetch_kosice_delivery():
-    """Scan direct official Košice restaurant/delivery sites for combo deals and free-item promos."""
+    """Scan direct official Košice restaurant/delivery sites, emitting at most one card per venue."""
     out = []
     for site in KOSICE_DELIVERY_SITES:
+        combo, pr = None, None
         try:
             r = requests.get(site['url'], headers=HEAD, timeout=12)
             if r.status_code == 200:
                 combo = _scan_combo_discounts(site, r.text)
-                if combo:
-                    out.append(combo)
         except Exception as e:
             print('Kosice site warning:', site['url'], str(e)[:60])
         if site.get('promo_url'):
             try:
                 pr = _scan_promocje(site, site['promo_url'])
-                if pr:
-                    out.append(pr)
             except Exception as e:
                 print('Kosice promo warning:', site['promo_url'], str(e)[:60])
+        if combo and pr:
+            combo['title'] = f"{site['name']}: комбо до −{combo['combos'][0]['pct']}% и подарок"
+            combo['summary'] = (combo['summary'] + ' Плюс акция на сайте: ' + pr['promo_text'])[:1400]
+            out.append(combo)
+        elif combo:
+            out.append(combo)
+        elif pr:
+            out.append(pr)
     return out
 
 

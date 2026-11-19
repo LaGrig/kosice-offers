@@ -1,7 +1,7 @@
 import sys
 from common import CFG, load_offers, save_offers, update_offers, today
 from llm import ask_llm
-from collect import collect, mark_seen
+from collect import collect, domain_of, mark_seen
 from verify import link_ok, steam_ok
 from popularity import signals
 from steam_signal import steam_signal, steam_strong
@@ -116,7 +116,17 @@ def main():
             log_auto_reject(item, why)
     def merge(cur):
         have = {o['id'] for o in cur}
-        cur.extend(o for o in added if o['id'] not in have)
+        have_food = {domain_of(o['link']) for o in cur if o.get('category') == 'food'}
+        for o in added:
+            if o['id'] in have:
+                continue
+            if o.get('category') == 'food':
+                d = domain_of(o['link'])
+                if d in have_food:
+                    continue
+                have_food.add(d)
+            cur.append(o)
+            have.add(o['id'])
     update_offers(merge)
     mark_seen([i['id'] for i in items if i['id'] not in failed])
 

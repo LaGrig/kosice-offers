@@ -21,6 +21,11 @@ def external_link(entry_link, summary):
             return href
     return entry_link
 
+def domain_of(url):
+    """Return normalized host without leading www. for per-venue food deduplication."""
+    host = urlparse(url).netloc.lower()
+    return host[4:] if host.startswith('www.') else host
+
 def link_key(url):
     p = urlparse(url)
     host = p.netloc.lower()
@@ -39,6 +44,7 @@ def collect():
     existing = load_offers()
     seen = load_seen() | {o['id'] for o in existing}
     keys = {link_key(o['link']) for o in existing}
+    food_hosts = {domain_of(o['link']) for o in existing if o.get('category') == 'food'}
     found = {}
     try:
         from api_sources import fetch_all
@@ -51,6 +57,11 @@ def collect():
                 continue
             if i in seen or i in found or k in keys:
                 continue
+            if it['source'] == 'kosice-delivery':
+                d = domain_of(it['link'])
+                if d in food_hosts:
+                    continue
+                food_hosts.add(d)
             if it['source'] in ('cheapshark', 'steam-chart', 'epic-deals', 'epic-charts'):
                 deals_new.append(it)
                 continue
