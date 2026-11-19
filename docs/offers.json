@@ -1215,5 +1215,172 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "eeaa3b922534",
+  "title": {
+   "uk": "FINAL FANTASY VII REBIRTH",
+   "ru": "FINAL FANTASY VII REBIRTH",
+   "en": "FINAL FANTASY VII REBIRTH",
+   "sk": "FINAL FANTASY VII REBIRTH"
+  },
+  "text": {
+   "uk": "FINAL FANTASY VII REBIRTH у Steam зараз за 254₴ замість 1 699₴. Саме час додати до бібліотеки 🎮",
+   "ru": "FINAL FANTASY VII REBIRTH в Steam сейчас за 254₴ вместо 1 699₴. Самое время добавить в библиотеку 🎮",
+   "en": "FINAL FANTASY VII REBIRTH on Steam is 254₴ instead of 1 699₴ right now. Time to add it to your library 🎮",
+   "sk": "FINAL FANTASY VII REBIRTH v Steam je teraz za 254₴ namiesto 1 699₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2909400/",
+  "source": "steam-chart",
+  "found_at": "2026-11-19",
+  "expires_at": "2026-12-02",
+  "score": 90,
+  "worth": 1699.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 13,
+  "deal": {
+   "game": "FINAL FANTASY VII REBIRTH",
+   "pct": 85,
+   "old": "1 699₴",
+   "new": "254₴",
+   "store": "Steam",
+   "rank_sales": 13,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
+  "blurb": {
+   "uk": "Action-RPG: подорожуєш разом із друзями розлогим світом та шукаєш нові пригоди",
+   "ru": "Экшен-RPG: путешествуешь с друзьями по огромному миру в поисках новых приключений",
+   "en": "Action-RPG: journey across a vibrant world with your friends in search of new adventures",
+   "sk": "Action-RPG: putuješ s priateľmi po rozľahlom svete za novými dobrodrustvami"
+  },
+  "status": "active"
+ },
+ {
+  "id": "3a0f2b2f96b7",
+  "title": {
+   "uk": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "ru": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "en": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "sk": "FINAL FANTASY VII REMAKE INTERGRADE"
+  },
+  "text": {
+   "uk": "FINAL FANTASY VII REMAKE INTERGRADE у Steam зараз за 197₴ замість 1 099₴. Гарний момент забрати 🎮",
+   "ru": "FINAL FANTASY VII REMAKE INTERGRADE в Steam сейчас за 197₴ вместо 1 099₴. Хороший момент забрать 🎮",
+   "en": "FINAL FANTASY VII REMAKE INTERGRADE on Steam is 197₴ instead of 1 099₴ right now. A good moment to grab it 🎮",
+   "sk": "FINAL FANTASY VII REMAKE INTERGRADE v Steam je teraz za 197₴ namiesto 1 099₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1462040/",
+  "source": "steam-chart",
+  "found_at": "2026-11-19",
+  "expires_at": "2026-12-02",
+  "score": 90,
+  "worth": 1099.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 24,
+  "deal": {
+   "game": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "pct": 82,
+   "old": "1 099₴",
+   "new": "197₴",
+   "store": "Steam",
+   "rank_sales": 24,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
+  "blurb": null,
+  "status": "active"
+ },
+ {
+  "id": "f468c8f856fc",
+  "title": {
+   "uk": "Star Wars Outlaws",
+   "ru": "Star Wars Outlaws",
+   "en": "Star Wars Outlaws",
+   "sk": "Star Wars Outlaws"
+  },
+  "text": {
+   "uk": "Star Wars Outlaws у Steam зараз за 303₴ замість 1 519₴. Не пропусти 🎮",
+   "ru": "Star Wars Outlaws в Steam сейчас за 303₴ вместо 1 519₴. Не пропусти 🎮",
+   "en": "Star Wars Outlaws on Steam is 303₴ instead of 1 519₴ right now. Don't miss it 🎮",
+   "sk": "Star Wars Outlaws v Steam je teraz za 303₴ namiesto 1 519₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2842040/",
+  "source": "steam-chart",
+  "found_at": "2026-11-19",
+  "expires_at": "2026-12-02",
+  "score": 90,
+  "worth": 1519.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 59,
+  "deal": {
+   "game": "Star Wars Outlaws",
+   "pct": 80,
+   "old": "1 519₴",
+   "new": "303₴",
+   "store": "Steam",
+   "rank_sales": 59,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure. Experience the first-ever open world Star Wars™ game and explore distinct locations across the galaxy, both iconic and new. Risk it all as scoundrel Kay Vess, seeking freedom and the means to start a new life.",
+  "blurb": {
+   "uk": "Пригода: досліджуєш відкритий світ галактики та ризикуєш усім заради свободи",
+   "ru": "Приключение: исследуешь открытый мир галактики и рискуешь всем ради свободы",
+   "en": "Adventure: explore an open world galaxy and risk it all to find your freedom",
+   "sk": "Dobrodružstvo: preskúmaš otvorený svet galaxie a riskuješ všetko pre svoju slobodu"
+  },
+  "status": "active"
+ },
+ {
+  "id": "22c4eb73500c",
+  "title": {
+   "uk": "South Park: The Fractured But Whole",
+   "ru": "South Park: The Fractured But Whole",
+   "en": "South Park: The Fractured But Whole",
+   "sk": "South Park: The Fractured But Whole"
+  },
+  "text": {
+   "uk": "South Park: The Fractured But Whole у Steam зараз за 194₴ замість 649₴. Саме час додати до бібліотеки 🎮",
+   "ru": "South Park: The Fractured But Whole в Steam сейчас за 194₴ вместо 649₴. Самое время добавить в библиотеку 🎮",
+   "en": "South Park: The Fractured But Whole on Steam is 194₴ instead of 649₴ right now. Time to add it to your library 🎮",
+   "sk": "South Park: The Fractured But Whole v Steam je teraz za 194₴ namiesto 649₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/488790/",
+  "source": "steam-chart",
+  "found_at": "2026-11-19",
+  "expires_at": "2026-12-02",
+  "score": 90,
+  "worth": 649.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 91,
+  "deal": {
+   "game": "South Park™: The Fractured But Whole™",
+   "pct": 70,
+   "old": "649₴",
+   "new": "194₴",
+   "store": "Steam",
+   "rank_sales": 91,
+   "rank_play": null
+  },
+  "desc": "Genres: RPG. From the creators of South Park, Trey Parker and Matt Stone, comes South Park: The Fractured But Whole, a sequel to 2014's award-winning South Park: The Stick of Truth.",
+  "blurb": {
+   "uk": "RPG: створюєш свого героя та проходиш через кумедні пригоди в місті",
+   "ru": "RPG: создаешь своего героя и проходишь через забавные приключения в городе",
+   "en": "RPG: create your own hero and go through funny adventures in town",
+   "sk": "RPG: vytváraš svoj vlastného hrdinu a prežívaš v meste vtipné dobrodružstvá"
+  },
+  "status": "active"
  }
 ]
