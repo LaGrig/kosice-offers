@@ -1343,7 +1343,8 @@
   "expires_at": null,
   "score": 95,
   "status": "active",
-  "approved_at": "2026-11-19"
+  "approved_at": "2026-11-19",
+  "fails": 0
  },
  {
   "id": "f1b48a1f28e3",
@@ -1366,6 +1367,7 @@
   "expires_at": null,
   "score": 95,
   "status": "active",
-  "approved_at": "2026-11-19"
+  "approved_at": "2026-11-19",
+  "fails": 0
  }
 ]
