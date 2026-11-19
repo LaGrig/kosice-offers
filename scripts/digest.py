@@ -19,6 +19,7 @@ L = {
            'tag': {'games': ('🎮', 'Hra'), 'food': ('🍔', 'Jedlo'), 'events': ('🎟', 'Udalosť'), 'places': ('📍', 'Miesto'), 'jobs': ('💼', 'Brigáda'), 'it_soft': ('💻', 'Softvér'), 'services': ('🧾', 'Služba'), 'study': ('🎓', 'Štúdium'), 'other': ('✨', 'Objav')}},
 }
 SENT = ROOT / 'data' / 'digest_sent.json'
+HISTORY = ROOT / 'data' / 'digest_history.json'
 SRC_RANK = {'epic-games': 0, 'gamerpower': 1}
 
 def esc(s):
@@ -129,6 +130,29 @@ def render_slot(slot, lang, tx):
 def load_sent():
     return set(json.loads(SENT.read_text())) if SENT.exists() else set()
 
+def load_history():
+    return json.loads(HISTORY.read_text(encoding='utf-8')) if HISTORY.exists() else {}
+
+def save_history(hist):
+    HISTORY.write_text(json.dumps(hist, ensure_ascii=False, indent=2), encoding='utf-8')
+
+def alive_epic_slugs():
+    """Return slugs of currently live Epic Games free giveaways, or None if unreachable."""
+    try:
+        import epic_watch as ew
+        out = set()
+        for e in ew.fetch():
+            w, link = ew.window(e, 'promotionalOffers'), ew.link_of(e)
+            tp = ((e.get('price') or {}).get('totalPrice')) or {}
+            if w and link and tp.get('originalPrice') and tp.get('discountPrice') == 0:
+                s = slug_of(link)
+                if s:
+                    out.add(s)
+        return out
+    except Exception as e:
+        print('проверка раздач Epic недоступна:', e)
+        return None
+
 def alive_deal_links():
     try:
         from chartdeals import chart_live
@@ -145,8 +169,9 @@ def slug_of(link):
     m = re.search(r'/p/([^/?#]+)', link or '')
     return m.group(1) if m else None
 
-def pick(active, sent):
+def pick(active, sent, history=None):
     t = today()
+    history = history or {}
     day3 = (t - dt.timedelta(days=3)).isoformat()
     size = min(CFG.get('digest_size', 3), 3)
 
@@ -154,11 +179,21 @@ def pick(active, sent):
         e = o.get('expires_at')
         return (dt.date.fromisoformat(e) - t).days if e else 99
 
+    def eligible_rotate(o):
+        last = history.get(o['id'])
+        return not last or (t - dt.date.fromisoformat(last)).days >= 5
+
     unsent = [o for o in active if o['id'] not in sent and not o.get('no_digest')]
-    city = sorted([o for o in unsent if o.get('category') != 'games' and not o.get('pinned')],
-                  key=lambda o: (o.get('expires_at') or '9999', -o['score']))
+    city_unsent = sorted(
+        [o for o in unsent if o.get('category') != 'games' and not o.get('pinned')],
+        key=lambda o: (o.get('expires_at') or '9999', 0 if o.get('category') == 'food' else 1, -o['score']),
+    )
+    city_rotate = sorted(
+        [o for o in active if o.get('category') != 'games' and not o.get('pinned') and not o.get('no_digest') and eligible_rotate(o)],
+        key=lambda o: (history.get(o['id'], ''), 0 if o.get('category') == 'food' else 1, -o['score']),
+    )
     all_epic = [o for o in active if o['source'] == 'epic-games']
-    epic_due = [o for o in all_epic if o['id'] not in sent or left(o) <= 0]
+    epic_due = [o for o in all_epic if o['id'] not in sent or left(o) == 1]
     gives = sorted([o for o in unsent if o.get('category') == 'games' and o.get('kind') != 'deal' and o['source'] != 'epic-games' and not o.get('pinned')],
                    key=lambda o: (SRC_RANK.get(o['source'], 2), o.get('expires_at') or '9999', -o['score']))
     deals = sorted([o for o in unsent if o.get('category') == 'games' and o.get('kind') == 'deal' and when(o) >= day3],
@@ -166,9 +201,10 @@ def pick(active, sent):
 
     top = []
     used_ids = set()
-    if city and len(top) < size:
-        top.append(city[0])
-        used_ids.add(city[0]['id'])
+    city_first = city_unsent[0] if city_unsent else (city_rotate[0] if city_rotate else None)
+    if city_first and len(top) < size:
+        top.append(city_first)
+        used_ids.add(city_first['id'])
     if epic_due and len(top) < size:
         top.append(all_epic)
         used_ids |= {o['id'] for o in all_epic}
@@ -176,7 +212,7 @@ def pick(active, sent):
         top.append(gives[0])
         used_ids.add(gives[0]['id'])
 
-    for o in city[1:] + deals + gives[1:]:
+    for o in city_unsent[1:] + deals + gives[1:]:
         if len(top) >= size:
             break
         if o['id'] not in used_ids:
@@ -205,11 +241,16 @@ def main():
     lang = CFG['digest_lang']
     tx = L[lang]
     preview = bool(os.environ.get('DIGEST_CHAT'))
-    active = [o for o in load_offers() if o['status'] == 'active' and (not o.get('expires_at') or o['expires_at'] >= t)]
+    active = [o for o in load_offers() if o['status'] == 'active' and (not o.get('expires_at') or o['expires_at'] >= t) and 'example.com' not in (o.get('link') or '')]
+    alive_epic = alive_epic_slugs()
+    if alive_epic:
+        active = [o for o in active if o['source'] != 'epic-games' or slug_of(o['link']) in alive_epic]
+    else:
+        active = [o for o in active if o['source'] != 'epic-games' or not o.get('expires_at') or o['expires_at'] > t]
     alive = alive_deal_links()
     if alive is not None:
         active = [o for o in active if o.get('kind') != 'deal' or o['source'] not in ('steam-chart', 'epic-charts') or o['link'] in alive]
-    top, ids = pick(active, set() if preview else load_sent())
+    top, ids = pick(active, set() if preview else load_sent(), {} if preview else load_history())
     if not top:
         print('нечего публиковать')
         return
@@ -221,6 +262,10 @@ def main():
     print(r.status_code, r.text[:200])
     if r.status_code == 200 and not preview:
         SENT.write_text(json.dumps(sorted(load_sent() | ids)))
+        hist = load_history()
+        for oid in ids:
+            hist[oid] = t
+        save_history(hist)
         try:
             mid = r.json()['result']['message_id']
             f = ROOT / 'data' / 'channel_posts.json'

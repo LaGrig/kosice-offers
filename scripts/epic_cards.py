@@ -1,10 +1,12 @@
-import datetime as dt, re, sys
+import datetime as dt, json, re, sys, time
 sys.path.insert(0, 'scripts')
 from common import load_offers, update_offers, offer_id, today
 from blurb import make_blurb
 import epic_watch as ew
+from common import ROOT
 from epicdeals import _money
 
+REMOVED = ROOT / 'data' / 'removed.jsonl'
 T = {'uk': 'Безкоштовно в Epic Games Store до {d}. Зазвичай {p}.', 'ru': 'Бесплатно в Epic Games Store до {d}. Обычно {p}.',
      'en': 'Free on Epic Games Store until {d}. Usually {p}.', 'sk': 'Zadarmo v Epic Games Store do {d}. Zvyčajne {p}.'}
 
@@ -39,15 +41,29 @@ def main():
             if bl:
                 c['blurb'] = bl
 
+    ended = []
     def apply(cur):
+        ended.clear()
         have = {slug(o['link']) for o in cur if o['source'] == 'epic-games'}
         fresh = [c for c in cards if slug(c['link']) not in have]
         for c in fresh:
             print('новая карточка раздачи:', c['give']['game'])
         dup = {slug(c['link']) for c in cards}
-        out = [o for o in cur if not (o['source'].startswith('reddit') and slug(o['link']) in dup)]
+        out = []
+        for o in cur:
+            if dup and o['source'] == 'epic-games' and slug(o['link']) not in dup:
+                ended.append(o)
+                print('снята завершившаяся раздача Epic:', (o.get('give') or {}).get('game') or o['title'].get('ru', ''))
+                continue
+            if o['source'].startswith('reddit') and slug(o['link']) in dup:
+                continue
+            out.append(o)
         return out + fresh
     update_offers(apply)
+    if ended:
+        with open(REMOVED, 'a', encoding='utf-8') as f:
+            for o in ended:
+                f.write(json.dumps({'ts': time.strftime('%F %T'), 'id': o['id'], 'title': o['title'].get('ru', ''), 'source': o['source'], 'link': o['link'], 'why': 'раздача Epic завершилась'}, ensure_ascii=False) + '\n')
     print('карточки текущих раздач Epic:', [c['give']['game'] + (' (анонс уже был)' if c['announced'] else '') for c in cards])
 
 if __name__ == '__main__':
