@@ -144,7 +144,7 @@
    "old": "429₴",
    "new": "128₴",
    "store": "Steam",
-   "rank_sales": 49,
+   "rank_sales": 51,
    "rank_play": null
   },
   "blurb": {
@@ -189,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 15,
+   "rank_sales": 16,
    "rank_play": 14
   },
   "blurb": {
@@ -234,7 +234,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 63,
+   "rank_sales": 62,
    "rank_play": null
   },
   "blurb": {
@@ -279,7 +279,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 34,
+   "rank_sales": 33,
    "rank_play": 43
   },
   "blurb": {
@@ -880,7 +880,7 @@
    "old": "1 899₴",
    "new": "569₴",
    "store": "Steam",
-   "rank_sales": 85,
+   "rank_sales": 87,
    "rank_play": null
   },
   "desc": "Genres: RPG. Lead the Phantom Thieves of Hearts in this award winning, stylish turn-based RPG filled with dungeon crawling, party customization, strategic combat, and Persona fusion. Explore Tokyo, build relationships, battle Shadows, and infiltrate the minds of the corrupt to make them change their ways!",
@@ -972,7 +972,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 20,
+   "rank_sales": 21,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -1063,7 +1063,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Steam",
-   "rank_sales": 87,
+   "rank_sales": 86,
    "rank_play": null
   },
   "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
@@ -1155,7 +1155,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 65,
+   "rank_sales": 66,
    "rank_play": null
   },
   "desc": "Genres: Action. Call of Duty®: WWII - a breathtaking experience that redefines World War II.",
@@ -1201,7 +1201,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 66,
+   "rank_sales": 68,
    "rank_play": null
   },
   "desc": "Genres: Action. Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s.",
@@ -1257,7 +1257,8 @@
    "en": "Action-RPG: journey across a vibrant world with your friends in search of new adventures",
    "sk": "Action-RPG: putuješ s priateľmi po rozľahlom svete za novými dobrodrustvami"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "3a0f2b2f96b7",
@@ -1295,7 +1296,8 @@
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
   "blurb": null,
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "f468c8f856fc",
@@ -1338,7 +1340,8 @@
    "en": "Adventure: explore an open world galaxy and risk it all to find your freedom",
    "sk": "Dobrodružstvo: preskúmaš otvorený svet galaxie a riskuješ všetko pre svoju slobodu"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "22c4eb73500c",
@@ -1371,7 +1374,7 @@
    "old": "649₴",
    "new": "194₴",
    "store": "Steam",
-   "rank_sales": 91,
+   "rank_sales": 90,
    "rank_play": null
   },
   "desc": "Genres: RPG. From the creators of South Park, Trey Parker and Matt Stone, comes South Park: The Fractured But Whole, a sequel to 2014's award-winning South Park: The Stick of Truth.",
@@ -1381,6 +1384,7 @@
    "en": "RPG: create your own hero and go through funny adventures in town",
    "sk": "RPG: vytváraš svoj vlastného hrdinu a prežívaš v meste vtipné dobrodružstvá"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
