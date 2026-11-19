@@ -1321,5 +1321,51 @@
   },
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "324f0069f090",
+  "title": {
+   "uk": "Študentské jedálne UPJŠ: ціни на харчування",
+   "ru": "Študentské jedálne UPJŠ: цены на питание",
+   "en": "Študentské jedálne UPJŠ: meal prices",
+   "sk": "Študentské jedálne UPJŠ: ceny stravovania"
+  },
+  "text": {
+   "uk": "Доступне харчування для студентів та докторантів: при замовленні ціна становить 4,60 € (з урахуванням дотації 2,40 € від вартості 7,00 €). При вільному продажу дотація становить 2,40 € для страв від 4,00 € до 8,00 € та 4,80 € для страв від 8,01 €.",
+   "ru": "Доступное питание для студентов и докторантов: при заказе цена составляет 4,60 € (с учетом дотации 2,40 € при стоимости 7,00 €). При свободной продаже дотация составляет 2,40 € для блюд от 4,00 € до 8,00 € и 4,80 € для блюд от 8,01 €.",
+   "en": "Affordable meals for students and doctoral candidates: pre-ordered meals cost 4,60 € (with a 2,40 € subsidy on a 7,00 € price). For direct sales, the subsidy is 2,40 € for meals from 4,00 € to 8,00 € and 4,80 € for meals from 8,01 €.",
+   "sk": "Lacné stravovanie pre študentov a doktorandov: pri objednávkach cena jedla 4,60 € (po započítaní dotácie 2,40 € z ceny 7,00 €). Pri voľnom predaji je dotácia 2,40 € pre jedlo od 4,00 € do 8,00 € a 4,80 € pre jedlo od 8,01 €."
+  },
+  "category": "food",
+  "link": "https://www.upjs.sk/pracoviska/studentske-domovy-jedalne/studentske-jedalne/cena-stravneho-student-doktorand/",
+  "source": "discovery",
+  "found_at": "2026-11-19",
+  "expires_at": null,
+  "score": 95,
+  "status": "active",
+  "approved_at": "2026-11-19"
+ },
+ {
+  "id": "f1b48a1f28e3",
+  "title": {
+   "uk": "Jedálne TUKE",
+   "ru": "Jedálne TUKE",
+   "en": "Jedálne TUKE",
+   "sk": "Jedálne TUKE"
+  },
+  "text": {
+   "uk": "Ситні обіди за доступними цінами: супи від 0,90 €, основні страви від 3,40 €, десерти від 2,20 €. Адреси в Кошице: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. Також доступна піца в Pizzéria Forte (Jedlíkova 7) від 7,30 € та випічка в Libresso (Němcovej 7).",
+   "ru": "Сытные обеды по доступным ценам: супы от 0,90 €, основные блюда от 3,40 €, десерты от 2,20 €. Адреса в Кошице: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. Также доступна пицца в Pizzéria Forte (Jedlíkova 7) от 7,30 € и выпечка в Libresso (Němcovej 7).",
+   "en": "Affordable hearty meals: soups from €0.90, main courses from €3.40, and desserts from €2.20. Locations in Košice: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. Also available: pizza at Pizzéria Forte (Jedlíkova 7) from €7.30 and pastries at Libresso (Němcovej 7).",
+   "sk": "Syrné obedy za dostupné ceny: polievky od 0,90 €, hlavné jedlá od 3,40 €, dezerty od 2,20 €. Adresy v Košiciach: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. K dispozícii aj pizza v Pizzéria Forte (Jedlíkova 7) od 7,30 € a pečivo v Libresso (Němcovej 7)."
+  },
+  "category": "food",
+  "link": "https://jedalen.tuke.sk/jedalny-listok",
+  "source": "discovery",
+  "found_at": "2026-11-19",
+  "expires_at": null,
+  "score": 95,
+  "status": "active",
+  "approved_at": "2026-11-19"
  }
 ]
