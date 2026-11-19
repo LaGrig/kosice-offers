@@ -154,7 +154,7 @@
    "sk": "Akčné dobrodružstvo: prežívaš vo veľkom meste a bojuješ o peniaze a status"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -189,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 14,
+   "rank_sales": 12,
    "rank_play": 18
   },
   "blurb": {
@@ -279,7 +279,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 16,
+   "rank_sales": 18,
    "rank_play": 44
   },
   "blurb": {
@@ -451,7 +451,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 54,
+   "rank_sales": 53,
    "rank_play": null
   },
   "blurb": {
@@ -788,7 +788,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 48,
+   "rank_sales": 47,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -834,7 +834,7 @@
    "old": "700₴",
    "new": "175₴",
    "store": "Steam",
-   "rank_sales": 95,
+   "rank_sales": 96,
    "rank_play": null
   },
   "desc": "Genres: Action, Simulation, Strategy. Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
@@ -880,7 +880,7 @@
    "old": "1 899₴",
    "new": "569₴",
    "store": "Steam",
-   "rank_sales": 94,
+   "rank_sales": 98,
    "rank_play": null
   },
   "desc": "Genres: RPG. Lead the Phantom Thieves of Hearts in this award winning, stylish turn-based RPG filled with dungeon crawling, party customization, strategic combat, and Persona fusion. Explore Tokyo, build relationships, battle Shadows, and infiltrate the minds of the corrupt to make them change their ways!",
@@ -926,7 +926,7 @@
    "old": "1 999₴",
    "new": "399₴",
    "store": "Steam",
-   "rank_sales": 93,
+   "rank_sales": 99,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Two larger-than-life heroes, Ichiban Kasuga and Kazuma Kiryu are brought together by the hand of fate, or perhaps something more sinister… Live it up in Japan and explore all that Hawaii has to offer in an RPG adventure so big it spans the Pacific.",
@@ -972,7 +972,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 37,
+   "rank_sales": 36,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -1063,7 +1063,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Steam",
-   "rank_sales": 31,
+   "rank_sales": 37,
    "rank_play": null
   },
   "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
@@ -1155,7 +1155,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 79,
+   "rank_sales": 81,
    "rank_play": null
   },
   "desc": "Genres: Action. Call of Duty®: WWII - a breathtaking experience that redefines World War II.",
@@ -1201,7 +1201,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 89,
+   "rank_sales": 91,
    "rank_play": null
   },
   "desc": "Genres: Action. Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s.",
@@ -1339,7 +1339,7 @@
    "old": "1 519₴",
    "new": "303₴",
    "store": "Steam",
-   "rank_sales": 49,
+   "rank_sales": 48,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Experience the first-ever open world Star Wars™ game and explore distinct locations across the galaxy, both iconic and new. Risk it all as scoundrel Kay Vess, seeking freedom and the means to start a new life.",
@@ -1385,7 +1385,7 @@
    "old": "649₴",
    "new": "194₴",
    "store": "Steam",
-   "rank_sales": 84,
+   "rank_sales": 82,
    "rank_play": null
   },
   "desc": "Genres: RPG. From the creators of South Park, Trey Parker and Matt Stone, comes South Park: The Fractured But Whole, a sequel to 2014's award-winning South Park: The Stick of Truth.",
