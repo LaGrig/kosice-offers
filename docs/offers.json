@@ -294,45 +294,6 @@
   "miss": 0
  },
  {
-  "id": "4a787cac066d",
-  "title": {
-   "uk": "Knightica",
-   "ru": "Knightica",
-   "en": "Knightica",
-   "sk": "Knightica"
-  },
-  "text": {
-   "uk": "Безкоштовно в Epic Games Store до 19/11/2026. Зазвичай 275₴.",
-   "ru": "Бесплатно в Epic Games Store до 19/11/2026. Обычно 275₴.",
-   "en": "Free on Epic Games Store until 19/11/2026. Usually 275₴.",
-   "sk": "Zadarmo v Epic Games Store do 19/11/2026. Zvyčajne 275₴."
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/knightica-3be45c",
-  "source": "epic-games",
-  "found_at": "2026-11-13",
-  "approved_at": "2026-11-13",
-  "expires_at": "2026-11-19",
-  "score": 95,
-  "worth": 275.0,
-  "status": "active",
-  "announced": true,
-  "give": {
-   "game": "Knightica",
-   "store": "Epic Games Store",
-   "price": "275₴",
-   "until": "2026-11-19"
-  },
-  "fails": 0,
-  "miss": 1,
-  "blurb": {
-   "uk": "Стратегія: збираєш загін, шукаєш синергії та ведеш армію через випробування",
-   "ru": "Стратегия: собираешь отряд, ищешь синергии и ведешь армию через испытания",
-   "en": "Strategy: recruit units, find synergies and lead your army through challenges",
-   "sk": "Stratégia: zbieraš jednotky, hľadáš synergie a vedieš armádu cez výzvy"
-  }
- },
- {
   "id": "6acef15aa40e",
   "title": {
    "uk": "Total War: WARHAMMER II",
@@ -619,7 +580,6 @@
   "expires_at": null,
   "score": 90,
   "status": "active",
-  "no_digest": true,
   "fails": 0
  },
  {
@@ -644,7 +604,6 @@
   "expires_at": null,
   "score": 90,
   "status": "active",
-  "no_digest": true,
   "fails": 0
  },
  {
@@ -669,7 +628,6 @@
   "expires_at": null,
   "score": 90,
   "status": "active",
-  "no_digest": true,
   "fails": 0
  },
  {
@@ -754,7 +712,6 @@
   "expires_at": null,
   "score": 90,
   "status": "active",
-  "no_digest": true,
   "fails": 0
  },
  {
