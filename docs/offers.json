@@ -1295,7 +1295,12 @@
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
-  "blurb": null,
+  "blurb": {
+   "uk": "Екшен-RPG: досліджуєш місто Мідгар та б'єшся з ворогами за допомогою нової системи бою",
+   "ru": "Экшен-RPG: исследуешь город Мидгар и сражаешься с врагами с помощью новой системы боя",
+   "en": "Action RPG: explore the city of Midgar and fight enemies using a new battle system",
+   "sk": "Akčné RPG: skúmaš mesto Midgar a bojuješ s nepriateľmi pomocou nového bojového systému"
+  },
   "status": "active",
   "miss_p": 0
  },
