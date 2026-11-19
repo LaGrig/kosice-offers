@@ -588,16 +588,16 @@
  {
   "id": "45eee28f0f0f",
   "title": {
-   "uk": "Знижки до 22% у pizzaBurger Originál Košice",
-   "ru": "Скидки до 22% в pizzaBurger Originál Košice",
-   "en": "Up to 22% off at pizzaBurger Originál Košice",
-   "sk": "Zľavy do 22 % v pizzaBurger Originál Košice"
+   "uk": "pizzaBurger Originál: комбо до −22% та соуси у подарунок",
+   "ru": "pizzaBurger Originál: комбо до −22% и соусы в подарок",
+   "en": "pizzaBurger Originál: combos up to −22% & free sauces",
+   "sk": "pizzaBurger Originál: combo do −22 % a omáčky zadarmo"
   },
   "text": {
-   "uk": "Забирай комбо-сети зі знижкою до 22% у pizzaBurger Originál Košice. Combo pre 2 osoby: було 34.00 €, тепер 26.60 €; Clasik set .II: було 19.00 €, тепер 15.00 €; Combo s pizzou: було 26.00 €, тепер 21.30 € 🍕🍔",
-   "ru": "Забирай комбо-сеты со скидкой до 22% в pizzaBurger Originál Košice. Combo pre 2 osoby: было 34.00 €, стало 26.60 €; Clasik set .II: было 19.00 €, стало 15.00 €; Combo s pizzou: было 26.00 €, стало 21.30 € 🍕🍔",
-   "en": "Get combo sets with up to 22% off at pizzaBurger Originál Košice. Combo pre 2 osoby: was 34.00 €, now 26.60 €; Clasik set .II: was 19.00 €, now 15.00 €; Combo s pizzou: was 26.00 €, now 21.30 € 🍕🍔",
-   "sk": "Využi zľavové sety do 22 % v pizzaBurger Originál Košice. Combo pre 2 osoby: bolo 34.00 €, teraz 26.60 €; Clasik set .II: bolo 19.00 €, teraz 15.00 €; Combo s pizzou: bolo 26.00 €, teraz 21.30 € 🍕🍔"
+   "uk": "Комбо-набори зі знижкою до 22%: набір на двох за 26,60 € замість 34 €, класичний сет II за 15 € замість 19 €, комбо з піцою за 21,30 € замість 26 €. До двох піц — набір із 5 соусів Django Sauce безкоштовно 🍕🍔",
+   "ru": "Комбо-наборы со скидкой до 22%: сет на двоих за 26,60 € вместо 34 €, классический сет II за 15 € вместо 19 €, комбо с пиццей за 21,30 € вместо 26 €. К двум пиццам — набор из 5 соусов Django Sauce бесплатно 🍕🍔",
+   "en": "Combo sets up to 22% off: combo for 2 for 26.60 € instead of 34 €, Classic Set II for 15 € instead of 19 €, pizza combo for 21.30 € instead of 26 €. Free 5-sauce Django Sauce tasting set with two pizzas 🍕🍔",
+   "sk": "Combo sety so zľavou do 22 %: combo pre 2 osoby za 26,60 € namiesto 34 €, Clasik set II za 15 € namiesto 19 €, combo s pizzou za 21,30 € namiesto 26 €. K dvom pizziam degustačný set 5 omáčok Django Sauce zadarmo 🍕🍔"
   },
   "category": "food",
   "link": "https://www.pizzaburgerkosice.sk/#menu-combo",
@@ -606,36 +606,6 @@
   "expires_at": null,
   "score": 96,
   "worth": 34.0,
-  "pop": {},
-  "meta": null,
-  "kind": null,
-  "chart_rank": null,
-  "give": null,
-  "status": "active",
-  "approved_at": "2026-11-16",
-  "fails": 0
- },
- {
-  "id": "c3ed3ece5cb2",
-  "title": {
-   "uk": "Безкоштовний набір соусів у pizzaBurger Originál",
-   "ru": "Бесплатный набор соусов в pizzaBurger Originál",
-   "en": "Free sauce set at pizzaBurger Originál",
-   "sk": "Zadarom omáčkový set v pizzaBurger Originál"
-  },
-  "text": {
-   "uk": "Забирай безкоштовний дегустаційний набір соусів Django Sauce (5 x 50 г) при замовленні двох піц у pizzaBurger Originál Košice. У сеті: Bacon, Biela, Sweet Chilli, Dark smog BBQ та Cheddar 🍕",
-   "ru": "Забирай бесплатный дегустационный набор соусов Django Sauce (5 x 50 г) при заказе двух пиц в pizzaBurger Originál Košice. В сете: Bacon, Biela, Sweet Chilli, Dark smog BBQ и Cheddar 🍕",
-   "en": "Get a free Django Sauce tasting set (5 x 50g) when you order two pizzas at pizzaBurger Originál Košice. The set includes: Bacon, Biela, Sweet Chilli, Dark smog BBQ, and Cheddar 🍕",
-   "sk": "K dvom pizzám v pizzaBurger Originál Košice získaš zadarmo degustačný set omáčok Django Sauce (5 x 50 g). V sete sú: Bacon, Biela, Sweet Chilli, Dark smog BBQ a Cheddar 🍕"
-  },
-  "category": "food",
-  "link": "https://www.pizzaburgerkosice.sk/promocje",
-  "source": "kosice-delivery",
-  "found_at": "2026-11-16",
-  "expires_at": null,
-  "score": 100,
-  "worth": 10.0,
   "pop": {},
   "meta": null,
   "kind": null,
