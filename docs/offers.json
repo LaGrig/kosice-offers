@@ -324,7 +324,7 @@
    "until": "2026-11-19"
   },
   "fails": 0,
-  "miss": 0,
+  "miss": 1,
   "blurb": {
    "uk": "Стратегія: збираєш загін, шукаєш синергії та ведеш армію через випробування",
    "ru": "Стратегия: собираешь отряд, ищешь синергии и ведешь армию через испытания",
@@ -1437,6 +1437,7 @@
    "en": "Adventure: explore a cursed island and find your missing pirate crew",
    "sk": "Dobrodružstvo: preskúmaš prekliaty ostrov a hľadáš svoju missing pirátsku posádku"
   },
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  }
 ]
