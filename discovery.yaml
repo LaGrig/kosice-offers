@@ -1,0 +1,41 @@
+blocked_domains:
+  - isic.sk
+  - zlavomat.sk
+  - zlavadna.sk
+  - bistro.sk
+  - wolt.com
+  - bolt.eu
+  - menucka.sk
+  - obedovat.sk
+  - sme.sk
+  - aktuality.sk
+  - pravda.sk
+  - azet.sk
+  - zoznam.sk
+  - modrykonik.sk
+  - facebook.com
+  - instagram.com
+  - tiktok.com
+  - youtube.com
+  - reddit.com
+  - google.com
+  - maps.google.com
+  - tracxn.com
+  - mapquest.com
+  - akcneletaky.sk
+  - letakomat.sk
+  - letakuj.sk
+  - kupi.sk
+  - dealkosice.sk
+  - tastetown.app
+
+categories:
+  food:
+    one_per_domain: true
+    max_add: 8
+    queries:
+      - "Košice vysokoškolská jedáleň jedálny lístok ceny TUKE"
+      - "site:upjs.sk študentská jedáleň jedálny lístok cena stravného"
+      - "site:uvlf.sk študentská jedáleň stravovanie"
+      - "Košice študentská zľava jedlo káva burger pizza"
+      - "Košice pizza burger kebab combo akcia zľava objednať"
