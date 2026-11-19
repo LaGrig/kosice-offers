@@ -1399,5 +1399,43 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "65babc856bcc",
+  "title": {
+   "uk": "Mark of the Deep",
+   "ru": "Mark of the Deep",
+   "en": "Mark of the Deep",
+   "sk": "Mark of the Deep"
+  },
+  "text": {
+   "uk": "Безкоштовно в Epic Games Store до 26/11/26. Зазвичай 415₴.",
+   "ru": "Бесплатно в Epic Games Store до 26/11/26. Обычно 415₴.",
+   "en": "Free on Epic Games Store until 26/11/26. Usually 415₴.",
+   "sk": "Zadarmo v Epic Games Store do 26/11/26. Zvyčajne 415₴."
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/mark-of-the-deep-f7dc08",
+  "source": "epic-games",
+  "found_at": "2026-11-19",
+  "approved_at": "2026-11-19",
+  "expires_at": "2026-11-26",
+  "score": 95,
+  "worth": 415.0,
+  "status": "active",
+  "announced": false,
+  "desc": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
+  "give": {
+   "game": "Mark of the Deep",
+   "store": "Epic Games Store",
+   "price": "415₴",
+   "until": "2026-11-26"
+  },
+  "blurb": {
+   "uk": "Пригода: досліджуєш проклятий острів та шукаєш свою зниклу команду піратів",
+   "ru": "Приключение: исследуешь проклятый остров и ищешь свою пропавшую команду пиратов",
+   "en": "Adventure: explore a cursed island and find your missing pirate crew",
+   "sk": "Dobrodružstvo: preskúmaš prekliaty ostrov a hľadáš svoju missing pirátsku posádku"
+  }
  }
 ]
