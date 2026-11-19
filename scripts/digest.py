@@ -212,7 +212,7 @@ def pick(active, sent, history=None):
         top.append(gives[0])
         used_ids.add(gives[0]['id'])
 
-    for o in city_unsent[1:] + deals + gives[1:]:
+    for o in deals + gives[1:] + city_unsent[1:]:
         if len(top) >= size:
             break
         if o['id'] not in used_ids:
