@@ -516,16 +516,16 @@
  {
   "id": "6ab31c600e0e",
   "title": {
-   "uk": "McDonald’s — знижки по ISIC",
-   "ru": "McDonald’s — скидки по ISIC",
-   "en": "McDonald’s — ISIC discounts",
-   "sk": "McDonald’s — ISIC zľavy"
+   "ru": "McDonald’s — комбо и кофе со скидкой по ISIC",
+   "uk": "McDonald’s — комбо та кава зі знижкою за ISIC",
+   "en": "McDonald’s — student deals on McMenu & coffee with ISIC",
+   "sk": "McDonald’s — menu a káva so zľavou na ISIC"
   },
   "text": {
-   "uk": "Спеціальні ціни на мале McMenu, каву в McCafé та пиріжок за 1 € до великого McMenu за карткою ISIC (у т.ч. у Кошице).",
-   "ru": "Спеццены на малое McMenu, кофе в McCafé и пирожок за 1 € к большому McMenu по карте ISIC (в т.ч. в Кошице).",
-   "en": "Special student prices on small McMenu, McCafé coffee, and a 1 € fruit pie with large McMenu via ISIC in Košice.",
-   "sk": "Špeciálne študentské ceny na malé McMenu, kávu v McCafé a ovocnú taštičku za 1 € k veľkému McMenu s preukazom ISIC v Košiciach."
+   "ru": "По студенческому ISIC дешевле берёшь малое McMenu, кофе в McCafé или горячий пирожок всего за 1 € к большому меню. Просто отсканируй карту из приложения ISIC на киоске или покажи на кассе.",
+   "uk": "За студентським ISIC дешевше береш мале McMenu, каву в McCafé або гарячий пиріжок усього за 1 € до великого меню. Просто відскануй картку з додатка ISIC на кіоску або покажи на касі.",
+   "en": "Use your ISIC student card to get cheaper small McMenus, McCafé coffee, or a hot pie for just 1 € with a large menu. Simply scan your digital ISIC at the kiosk or show it at the counter.",
+   "sk": "So študentským ISIC-om máš lacnejšie malé McMenu, kávu v McCafé alebo horúcu taštičku len za 1 € k veľkému menu. Stačí naskenovať kartu z aplikácie ISIC na kiosku alebo pri pokladni."
   },
   "category": "food",
   "link": "https://www.mcdonalds.sk/o-nas/isic-a-itic/",
@@ -540,16 +540,16 @@
  {
   "id": "8664c85342a9",
   "title": {
-   "uk": "Tesco + ISIC: −10% щотижня",
-   "ru": "Tesco + ISIC: −10% каждую неделю",
-   "en": "Tesco + ISIC: 10% off weekly",
-   "sk": "Tesco + ISIC: −10 % každý týždeň"
+   "ru": "Tesco + ISIC — −10% на продукты каждую неделю",
+   "uk": "Tesco + ISIC — −10% на продукти щотижня",
+   "en": "Tesco + ISIC — 10% off groceries every week",
+   "sk": "Tesco + ISIC — −10 % na nákup každý týždeň"
   },
   "text": {
-   "uk": "−10% на одну покупку на тиждень (пн–пт, знижка до 10 €) після прив’язки ISIC у додатку Tesco Clubcard.",
-   "ru": "−10% на одну покупку в неделю (пн–пт, скидка до 10 €) после привязки ISIC в приложении Tesco Clubcard.",
-   "en": "10% off one shopping trip per week (Mon–Fri, up to €10 discount) when linking ISIC in the Tesco Clubcard app.",
-   "sk": "10 % zľava na jeden nákup týždenne (po–pia, max. zľava 10 €) po prepojení ISIC v aplikácii Tesco Clubcard."
+   "ru": "Экономь 10% на большой закупке продуктов раз в неделю с понедельника по пятницу (скидка до 10 €). Просто привяжи свой ISIC в приложении Tesco Clubcard и активируй купон на кассе.",
+   "uk": "Заощаджуй 10% на великій закупці продуктів раз на тиждень із понеділка по п’ятницю (знижка до 10 €). Просто прив’яжи свій ISIC у додатку Tesco Clubcard та активуй купон на касі.",
+   "en": "Save 10% on a big grocery run once a week from Monday to Friday (up to 10 € off). Just link your ISIC in the Tesco Clubcard app and scan the coupon at checkout.",
+   "sk": "Ušetri 10 % na veľkom nákupe potravín raz týždenne od pondelka do piatka (zľava do 10 €). Stačí si prepojiť ISIC v aplikácii Tesco Clubcard a aktivovať kupón pri pokladni."
   },
   "category": "food",
   "link": "https://tesco.sk/clubcard/isic/",
@@ -564,16 +564,16 @@
  {
   "id": "943d8149deae",
   "title": {
-   "uk": "Munch: набори їжі −50–70%",
-   "ru": "Munch: наборы еды −50–70%",
-   "en": "Munch: 50–70% off food bags",
-   "sk": "Munch: balíčky jedla −50–70 %"
+   "ru": "Munch — пакеты с едой и выпечкой за полцены",
+   "uk": "Munch — пакети з їжею та випічкою за пів ціни",
+   "en": "Munch — surprise food & pastry bags at 50–70% off",
+   "sk": "Munch — balíčky s jedlom a pečivom za polovicu"
   },
   "text": {
-   "uk": "Ресторани, пекарні та кав’ярні Кошице наприкінці дня віддають нерозпродані набори їжі та випічки зі знижкою 50–70%.",
-   "ru": "Рестораны, пекарни и кафе Кошице в конце дня отдают нераспроданные наборы еды и выпечки со скидкой 50–70%.",
-   "en": "Restaurants, bakeries, and cafés in Košice offer unsold food and pastry bags at 50–70% off via the Munch app.",
-   "sk": "Reštaurácie, pekárne a kaviarne v Košiciach ponúkajú koncom dňa nepredané balíčky jedla a pečiva so zľavou 50–70 %."
+   "ru": "Вечером кафе, пекарни и магазины Кошице отдают свежую нераспроданную еду со скидкой 50–70%. Бронируй сюрприз-пакет в приложении или на сайте и забирай по пути домой.",
+   "uk": "Увечері кав’ярні, пекарні та магазини Кошице віддають свіжу нерозпродану їжу зі знижкою 50–70%. Бронюй сюрприз-пакет у додатку або на сайті та забирай дорогою додому.",
+   "en": "Every evening, Košice cafés, bakeries, and shops sell fresh surplus food at 50–70% off. Reserve a surprise bag in the Munch app or website and pick it up on your way home.",
+   "sk": "Večer kaviarne, pekárne a obchody v Košiciach ponúkajú čerstvé nepredané jedlo so zľavou 50–70 %. Rezervuj si balíček v aplikácii alebo na webe a vyzdvihni si ho cestou domov."
   },
   "category": "food",
   "link": "https://munch.eco/sk/",
@@ -588,16 +588,16 @@
  {
   "id": "45eee28f0f0f",
   "title": {
-   "uk": "pizzaBurger Originál: комбо до −22% та соуси у подарунок",
-   "ru": "pizzaBurger Originál: комбо до −22% и соусы в подарок",
-   "en": "pizzaBurger Originál: combos up to −22% & free sauces",
-   "sk": "pizzaBurger Originál: combo do −22 % a omáčky zadarmo"
+   "ru": "pizzaBurger Originál — комбо-сеты до −22%",
+   "uk": "pizzaBurger Originál — комбо-сети до −22%",
+   "en": "pizzaBurger Originál — combo sets up to −22%",
+   "sk": "pizzaBurger Originál — combo sety so zľavou do −22 %"
   },
   "text": {
-   "uk": "Комбо-набори зі знижкою до 22%: набір на двох за 26,60 € замість 34 €, класичний сет II за 15 € замість 19 €, комбо з піцою за 21,30 € замість 26 €. До двох піц — набір із 5 соусів Django Sauce безкоштовно 🍕🍔",
-   "ru": "Комбо-наборы со скидкой до 22%: сет на двоих за 26,60 € вместо 34 €, классический сет II за 15 € вместо 19 €, комбо с пиццей за 21,30 € вместо 26 €. К двум пиццам — набор из 5 соусов Django Sauce бесплатно 🍕🍔",
-   "en": "Combo sets up to 22% off: combo for 2 for 26.60 € instead of 34 €, Classic Set II for 15 € instead of 19 €, pizza combo for 21.30 € instead of 26 €. Free 5-sauce Django Sauce tasting set with two pizzas 🍕🍔",
-   "sk": "Combo sety so zľavou do 22 %: combo pre 2 osoby za 26,60 € namiesto 34 €, Clasik set II za 15 € namiesto 19 €, combo s pizzou za 21,30 € namiesto 26 €. K dvom pizziam degustačný set 5 omáčok Django Sauce zadarmo 🍕🍔"
+   "ru": "Бери комбо на компанию в общагу со скидкой до 22%: например, сет с бургерами и закусками за 15 € вместо 19 €. А если берёшь две пиццы — добавят 5 фирменных соусов Django бесплатно 🍕🍔",
+   "uk": "Бери комбо на компанію в гуртожиток зі знижкою до 22%: наприклад, сет із бургерами та закусками за 15 € замість 19 €. А якщо береш дві піци — додадуть 5 фірмових соусів Django безкоштовно 🍕🍔",
+   "en": "Order a combo set for your dorm crew at up to 22% off: for example, a burger and snacks set for 15 € instead of 19 €. Order two pizzas and you'll also get 5 signature Django sauces for free 🍕🍔",
+   "sk": "Zober si combo pre partiu na intrák so zľavou do 22 %: napríklad set s burgrami a prílohami za 15 € namiesto 19 €. A ak vezmeš dve pizze, dostaneš k nim 5 omáčok Django zadarmo 🍕🍔"
   },
   "category": "food",
   "link": "https://www.pizzaburgerkosice.sk/#menu-combo",
@@ -618,16 +618,16 @@
  {
   "id": "c411727643c8",
   "title": {
-   "uk": "Lidl: тижневі знижки до −50% на продукти",
-   "ru": "Lidl: еженедельные скидки до −50% на продукты",
-   "en": "Lidl: weekly food discounts up to −50%",
-   "sk": "Lidl: týždenné zľavy až −50 % na potraviny"
+   "ru": "Lidl — скидки недели до −50% на продукты",
+   "uk": "Lidl — знижки тижня до −50% на продукти",
+   "en": "Lidl — weekly grocery deals up to −50%",
+   "sk": "Lidl — týždenné zľavy do −50 % na potraviny"
   },
   "text": {
-   "uk": "Супермаркет: щотижневі акції на м’ясо, сир, випічку, овочі та фрукти, а також додаткові купони у додатку Lidl Plus.",
-   "ru": "Супермаркет: еженедельные акции на мясо, сыр, выпечку, овощи и фрукты, а также дополнительные купоны в приложении Lidl Plus.",
-   "en": "Supermarket: weekly deals on meat, cheese, bakery, fruits & vegetables, plus extra coupons in the Lidl Plus app.",
-   "sk": "Supermarket: týždenné akcie na mäso, syry, pečivo, ovocie a zeleninu a extra kupóny v aplikácii Lidl Plus."
+   "ru": "Проверяй свежие акции недели перед походом в магазин: мясо, сыр, выпечка и фрукты часто идут за полцены. Не забудь активировать купоны в приложении Lidl Plus перед кассой.",
+   "uk": "Перевіряй свіжі акції тижня перед походом у магазин: м’ясо, сир, випічка та фрукти часто йдуть за пів ціни. Не забудь активувати купони в додатку Lidl Plus перед касою.",
+   "en": "Check this week's fresh deals before shopping: meat, cheese, bakery items, and fruit often go for half price. Don't forget to activate your extra coupons in the Lidl Plus app before checkout.",
+   "sk": "Pozri si aktuálne akcie týždňa pred nákupom: mäso, syry, pečivo a ovocie bývajú často za polovicu. Nezabudni si pred pokladňou aktivovať kupóny v aplikácii Lidl Plus."
   },
   "category": "food",
   "link": "https://www.lidl.sk/c/jedlo-a-napoje/s10068374",
@@ -1325,16 +1325,16 @@
  {
   "id": "324f0069f090",
   "title": {
-   "uk": "Študentské jedálne UPJŠ: ціни на харчування",
-   "ru": "Študentské jedálne UPJŠ: цены на питание",
-   "en": "Študentské jedálne UPJŠ: meal prices",
-   "sk": "Študentské jedálne UPJŠ: ceny stravovania"
+   "ru": "Študentské jedálne UPJŠ — обеды со скидкой за 4,60 €",
+   "uk": "Študentské jedálne UPJŠ — обіди зі знижкою за 4,60 €",
+   "en": "Študentské jedálne UPJŠ — student lunches for 4.60 €",
+   "sk": "Študentské jedálne UPJŠ — obedy so zľavou za 4,60 €"
   },
   "text": {
-   "uk": "Доступне харчування для студентів та докторантів: при замовленні ціна становить 4,60 € (з урахуванням дотації 2,40 € від вартості 7,00 €). При вільному продажу дотація становить 2,40 € для страв від 4,00 € до 8,00 € та 4,80 € для страв від 8,01 €.",
-   "ru": "Доступное питание для студентов и докторантов: при заказе цена составляет 4,60 € (с учетом дотации 2,40 € при стоимости 7,00 €). При свободной продаже дотация составляет 2,40 € для блюд от 4,00 € до 8,00 € и 4,80 € для блюд от 8,01 €.",
-   "en": "Affordable meals for students and doctoral candidates: pre-ordered meals cost 4,60 € (with a 2,40 € subsidy on a 7,00 € price). For direct sales, the subsidy is 2,40 € for meals from 4,00 € to 8,00 € and 4,80 € for meals from 8,01 €.",
-   "sk": "Lacné stravovanie pre študentov a doktorandov: pri objednávkach cena jedla 4,60 € (po započítaní dotácie 2,40 € z ceny 7,00 €). Pri voľnom predaji je dotácia 2,40 € pre jedlo od 4,00 € do 8,00 € a 4,80 € pre jedlo od 8,01 €."
+   "ru": "В студенческих столовых UPJŠ полноценный обед обойдётся тебе всего в 4,60 € вместо 7 € — остальное покрывает вуз. Заказывай меню заранее или просто бери блюда на месте по студенческому.",
+   "uk": "У студентських їдальнях UPJŠ повноцінний обід обійдеться тобі всього в 4,60 € замість 7 € — решту покриває виш. Замовляй меню заздалегідь або просто бери страви на місці за студентським.",
+   "en": "Get a full lunch at UPJŠ student canteens for just 4.60 € instead of 7 € — the university covers the rest. Pre-order your menu online or grab dishes on the spot with your student ID.",
+   "sk": "V študentských jedálňach UPJŠ ťa kompletný obed vyjde len na 4,60 € namiesto 7 € — zvyšok dopláca univerzita. Objednaj si menu vopred alebo si jednoducho vyber jedlo na mieste so študentským preukazom."
   },
   "category": "food",
   "link": "https://www.upjs.sk/pracoviska/studentske-domovy-jedalne/studentske-jedalne/cena-stravneho-student-doktorand/",
@@ -1349,16 +1349,16 @@
  {
   "id": "f1b48a1f28e3",
   "title": {
-   "uk": "Jedálne TUKE",
-   "ru": "Jedálne TUKE",
-   "en": "Jedálne TUKE",
-   "sk": "Jedálne TUKE"
+   "ru": "Jedálne TUKE — горячие обеды от 3,40 €",
+   "uk": "Jedálne TUKE — гарячі обіди від 3,40 €",
+   "en": "Jedálne TUKE — hot lunches from 3.40 €",
+   "sk": "Jedálne TUKE — teplé obedy od 3,40 €"
   },
   "text": {
-   "uk": "Ситні обіди за доступними цінами: супи від 0,90 €, основні страви від 3,40 €, десерти від 2,20 €. Адреси в Кошице: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. Також доступна піца в Pizzéria Forte (Jedlíkova 7) від 7,30 € та випічка в Libresso (Němcovej 7).",
-   "ru": "Сытные обеды по доступным ценам: супы от 0,90 €, основные блюда от 3,40 €, десерты от 2,20 €. Адреса в Кошице: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. Также доступна пицца в Pizzéria Forte (Jedlíkova 7) от 7,30 € и выпечка в Libresso (Němcovej 7).",
-   "en": "Affordable hearty meals: soups from €0.90, main courses from €3.40, and desserts from €2.20. Locations in Košice: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. Also available: pizza at Pizzéria Forte (Jedlíkova 7) from €7.30 and pastries at Libresso (Němcovej 7).",
-   "sk": "Sýte obedy za dostupné ceny: polievky od 0,90 €, hlavné jedlá od 3,40 €, dezerty od 2,20 €. Adresy v Košiciach: Němcovej 1, Jedlíkova 7, Urbánkova 2, Němcovej 9. K dispozícii aj pizza v Pizzéria Forte (Jedlíkova 7) od 7,30 € a pečivo v Libresso (Němcovej 7)."
+   "ru": "В столовых кампуса TUKE можно плотно пообедать между парами: супы от 0,90 €, горячие блюда от 3,40 €, а на Jedlíkova 7 пекут пиццу. Смотри свежее меню на день по ссылке и заходи в ближайшую столовую у общаг.",
+   "uk": "У їдальнях кампусу TUKE можна ситно пообідати між парами: супи від 0,90 €, гарячі страви від 3,40 €, а на Jedlíkova 7 печуть піцу. Дивись свіже меню на день за посиланням і заходь у найближчу їдальню біля гуртожитків.",
+   "en": "Grab a filling lunch between classes at TUKE campus canteens: soups from 0.90 €, mains from 3.40 €, plus fresh pizza at Jedlíkova 7. Check today's menu via the link and drop by the nearest dorm canteen.",
+   "sk": "V jedálňach kampusu TUKE sa môžeš sýto naobedovať medzi prednáškami: polievky od 0,90 €, hlavné jedlá od 3,40 € a na Jedlíkovej 7 pečú aj pizzu. Pozri si dnešné menu na odkaze a zastav sa v najbližšej jedálni pri internátoch."
   },
   "category": "food",
   "link": "https://jedalen.tuke.sk/jedalny-listok",
