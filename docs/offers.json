@@ -189,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 99,
+   "rank_sales": null,
    "rank_play": null
   },
   "blurb": {
@@ -234,7 +234,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 19,
+   "rank_sales": 21,
    "rank_play": 41
   },
   "blurb": {
@@ -367,7 +367,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 72,
+   "rank_sales": 71,
    "rank_play": null
   },
   "blurb": {
@@ -945,7 +945,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Steam",
-   "rank_sales": 58,
+   "rank_sales": 57,
    "rank_play": null
   },
   "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
@@ -1175,7 +1175,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 23,
+   "rank_sales": 24,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
