@@ -144,7 +144,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 20,
+   "rank_sales": 21,
    "rank_play": 18
   },
   "blurb": {
@@ -189,7 +189,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 86,
+   "rank_sales": 84,
    "rank_play": null
   },
   "blurb": {
@@ -367,7 +367,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 64,
+   "rank_sales": 65,
    "rank_play": null
   },
   "blurb": {
@@ -670,7 +670,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 60,
+   "rank_sales": 62,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -854,7 +854,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 36,
+   "rank_sales": 37,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -945,7 +945,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Steam",
-   "rank_sales": 47,
+   "rank_sales": 52,
    "rank_play": null
   },
   "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
@@ -1129,7 +1129,7 @@
    "old": "1 699₴",
    "new": "254₴",
    "store": "Steam",
-   "rank_sales": 10,
+   "rank_sales": 9,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
@@ -1175,7 +1175,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 21,
+   "rank_sales": 20,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1221,7 +1221,7 @@
    "old": "1 519₴",
    "new": "303₴",
    "store": "Steam",
-   "rank_sales": 74,
+   "rank_sales": 75,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Experience the first-ever open world Star Wars™ game and explore distinct locations across the galaxy, both iconic and new. Risk it all as scoundrel Kay Vess, seeking freedom and the means to start a new life.",
@@ -1410,7 +1410,8 @@
    "en": "Action-adventure: search for traces of your wife, solve puzzles and fight monsters",
    "sk": "Akčné dobrodružstvo: hľadáš stopy manželky, riešiš hádanky a bojuješ s monštrami"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "0e6742129401",
@@ -1453,7 +1454,8 @@
    "en": "Grand strategy: manage your dynasty and carve a path to greatness in the Middle Ages",
    "sk": "Globálna stratégia: spravuješ dynastiu a prekonávaš prekážky na ceste k veľkosti vo stredoveku"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "8af939872a5a",
@@ -1486,7 +1488,7 @@
    "old": "999₴",
    "new": "199₴",
    "store": "Steam",
-   "rank_sales": 28,
+   "rank_sales": 25,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
@@ -1496,7 +1498,8 @@
    "en": "Adventure: tackle a huge variety of gameplay challenges together with a friend",
    "sk": "Dobrodružstvo: prekonávaš s kamarátom množstvo rônych herných výziev"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "d7a643709813",
@@ -1538,7 +1541,8 @@
    "en": "Action-adventure: fight grotesque monsters and solve eerie puzzles in a fog-engulfed town",
    "sk": "Akčné dobrodružstvo: bojuješ s mutantmi a riešiš znepokojivé hádanky v meste zahalnutom hmlou"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "c067011195f5",
@@ -1580,7 +1584,8 @@
    "en": "Shooter: fight in the heat of the Great War using the new technologies of the era",
    "sk": "Strieľačka: bojuješ v centre prvej svetovej vojny s využitím nových technológií tej doby"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "1a60abf1763e",
@@ -1622,6 +1627,7 @@
    "en": "Adventure: create carnage in a sandbox together with your friends as goats",
    "sk": "Dobrodružstvo: s kamarátmi vytváraš chaos v pieskovisku v roli kozov"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
