@@ -1369,5 +1369,259 @@
   "status": "active",
   "approved_at": "2026-11-19",
   "fails": 0
+ },
+ {
+  "id": "37495ca13305",
+  "title": {
+   "uk": "SILENT HILL 2",
+   "ru": "SILENT HILL 2",
+   "en": "SILENT HILL 2",
+   "sk": "SILENT HILL 2"
+  },
+  "text": {
+   "uk": "SILENT HILL 2 у Epic Games Store зараз за 368₴ замість 1 315₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "SILENT HILL 2 в Epic Games Store сейчас за 368₴ вместо 1 315₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "SILENT HILL 2 on Epic Games Store is 368₴ instead of 1 315₴ right now. Your student budget will thank you 🎮",
+   "sk": "SILENT HILL 2 v Epic Games Store je teraz za 368₴ namiesto 1 315₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/silent-hill-2-4542c7",
+  "source": "epic-charts",
+  "found_at": "2026-11-20",
+  "expires_at": "2026-11-24",
+  "score": 90,
+  "worth": 1315.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 21,
+  "deal": {
+   "game": "SILENT HILL 2",
+   "pct": 72,
+   "old": "1 315₴",
+   "new": "368₴",
+   "store": "Epic Games Store",
+   "rank_sales": 21
+  },
+  "desc": "Genres: Horror, Action-Adventure, Controller Support, Single Player. Investigating a letter from his late wife, James returns to where they made so many memories - Silent Hill.\nConfront the monsters, solve puzzles, and search for traces of your wife in this remake of SILENT HILL 2.",
+  "blurb": {
+   "uk": "Екшен-пригода: шукаєш сліди дружини, розгадуєш пазли та борешся з монстрами",
+   "ru": "Экшен-приключение: ищешь следы жены, решаешь загадки и сражаешься с монстрами",
+   "en": "Action-adventure: search for traces of your wife, solve puzzles and fight monsters",
+   "sk": "Akčné dobrodružstvo: hľadáš stopy manželky, riešiš hádanky a bojuješ s monštrami"
+  },
+  "status": "active"
+ },
+ {
+  "id": "0e6742129401",
+  "title": {
+   "uk": "Crusader Kings III",
+   "ru": "Crusader Kings III",
+   "en": "Crusader Kings III",
+   "sk": "Crusader Kings III"
+  },
+  "text": {
+   "uk": "Crusader Kings III у Steam зараз за 404₴ замість 1 349₴. Не пропусти 🎮",
+   "ru": "Crusader Kings III в Steam сейчас за 404₴ вместо 1 349₴. Не пропусти 🎮",
+   "en": "Crusader Kings III on Steam is 404₴ instead of 1 349₴ right now. Don't miss it 🎮",
+   "sk": "Crusader Kings III v Steam je teraz za 404₴ namiesto 1 349₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1158310/",
+  "source": "steam-chart",
+  "found_at": "2026-11-20",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 1349.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 22,
+  "deal": {
+   "game": "Crusader Kings III",
+   "pct": 70,
+   "old": "1 349₴",
+   "new": "404₴",
+   "store": "Steam",
+   "rank_sales": 22,
+   "rank_play": 73
+  },
+  "desc": "Genres: RPG, Simulation, Strategy. Love, fight, scheme, and claim greatness. Determine your noble house’s legacy in the sprawling grand strategy of Crusader Kings III. Death is only the beginning as you guide your dynasty’s bloodline in the rich and larger-than-life simulation of the Middle Ages.",
+  "blurb": {
+   "uk": "Глобальна стратегія: керуєш династією та розвиваєш свій шлях до величі в середньовіччі",
+   "ru": "Глобальная стратегия: управляешь династией и прокладываешь путь к величию в средневековье",
+   "en": "Grand strategy: manage your dynasty and carve a path to greatness in the Middle Ages",
+   "sk": "Globálna stratégia: spravuješ dynastiu a prekonávaš prekážky na ceste k veľkosti vo stredoveku"
+  },
+  "status": "active"
+ },
+ {
+  "id": "8af939872a5a",
+  "title": {
+   "uk": "It Takes Two",
+   "ru": "It Takes Two",
+   "en": "It Takes Two",
+   "sk": "It Takes Two"
+  },
+  "text": {
+   "uk": "It Takes Two у Steam зараз за 199₴ замість 999₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "It Takes Two в Steam сейчас за 199₴ вместо 999₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "It Takes Two on Steam is 199₴ instead of 999₴ right now. Your student budget will thank you 🎮",
+   "sk": "It Takes Two v Steam je teraz za 199₴ namiesto 999₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1426210/",
+  "source": "steam-chart",
+  "found_at": "2026-11-20",
+  "expires_at": "2026-12-03",
+  "score": 90,
+  "worth": 999.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 28,
+  "deal": {
+   "game": "It Takes Two",
+   "pct": 80,
+   "old": "999₴",
+   "new": "199₴",
+   "store": "Steam",
+   "rank_sales": 28,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
+  "blurb": {
+   "uk": "Пригода: проходиш через купу різних випробувань разом із другом",
+   "ru": "Приключение: проходишь через множество разных испытаний вместе с другом",
+   "en": "Adventure: tackle a huge variety of gameplay challenges together with a friend",
+   "sk": "Dobrodružstvo: prekonávaš s kamarátom množstvo rônych herných výziev"
+  },
+  "status": "active"
+ },
+ {
+  "id": "d7a643709813",
+  "title": {
+   "uk": "SILENT HILL f",
+   "ru": "SILENT HILL f",
+   "en": "SILENT HILL f",
+   "sk": "SILENT HILL f"
+  },
+  "text": {
+   "uk": "SILENT HILL f у Epic Games Store зараз за 413₴ замість 1 475₴. Не пропусти 🎮",
+   "ru": "SILENT HILL f в Epic Games Store сейчас за 413₴ вместо 1 475₴. Не пропусти 🎮",
+   "en": "SILENT HILL f on Epic Games Store is 413₴ instead of 1 475₴ right now. Don't miss it 🎮",
+   "sk": "SILENT HILL f v Epic Games Store je teraz za 413₴ namiesto 1 475₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/silent-hill-f-714aed",
+  "source": "epic-charts",
+  "found_at": "2026-11-20",
+  "expires_at": "2026-11-24",
+  "score": 90,
+  "worth": 1475.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 37,
+  "deal": {
+   "game": "SILENT HILL f",
+   "pct": 72,
+   "old": "1 475₴",
+   "new": "413₴",
+   "store": "Epic Games Store",
+   "rank_sales": 37
+  },
+  "desc": "Genres: Horror, Narration, Action-Adventure, Controller Support, Single Player. Hinako's hometown is engulfed in fog, driving her to fight grotesque monsters and solve eerie puzzles. Uncover the disturbing beauty hidden in terror.",
+  "blurb": {
+   "uk": "Екшен-пригода: борешся з монстрами та розгадуєш моторошні пазли в місті, що потонуло в тумані",
+   "ru": "Экшен-приключение: сражаешься с монстрами и решаешь жуткие загадки в городе, окутанном туманом",
+   "en": "Action-adventure: fight grotesque monsters and solve eerie puzzles in a fog-engulfed town",
+   "sk": "Akčné dobrodružstvo: bojuješ s mutantmi a riešiš znepokojivé hádanky v meste zahalnutom hmlou"
+  },
+  "status": "active"
+ },
+ {
+  "id": "c067011195f5",
+  "title": {
+   "uk": "Battlefield 1 Revolution",
+   "ru": "Battlefield 1 Revolution",
+   "en": "Battlefield 1 Revolution",
+   "sk": "Battlefield 1 Revolution"
+  },
+  "text": {
+   "uk": "Battlefield 1 Revolution у Epic Games Store зараз за 60₴ замість 1 199₴. Не пропусти 🎮",
+   "ru": "Battlefield 1 Revolution в Epic Games Store сейчас за 60₴ вместо 1 199₴. Не пропусти 🎮",
+   "en": "Battlefield 1 Revolution on Epic Games Store is 60₴ instead of 1 199₴ right now. Don't miss it 🎮",
+   "sk": "Battlefield 1 Revolution v Epic Games Store je teraz za 60₴ namiesto 1 199₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/battlefield-1-124758",
+  "source": "epic-charts",
+  "found_at": "2026-11-20",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1199.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 44,
+  "deal": {
+   "game": "Battlefield™ 1 Revolution",
+   "pct": 95,
+   "old": "1 199₴",
+   "new": "60₴",
+   "store": "Epic Games Store",
+   "rank_sales": 44
+  },
+  "desc": "Genres: First Person, Shooter, Online Multiplayer, Single Player. Battlefield™ 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever.",
+  "blurb": {
+   "uk": "Шутер: б'єшся в розпалі Першої світової війни за допомогою нових технологій того часу",
+   "ru": "Шутер: сражаешься в разгар Первой мировой войны с использованием новых технологий того времени",
+   "en": "Shooter: fight in the heat of the Great War using the new technologies of the era",
+   "sk": "Strieľačka: bojuješ v centre prvej svetovej vojny s využitím nových technológií tej doby"
+  },
+  "status": "active"
+ },
+ {
+  "id": "1a60abf1763e",
+  "title": {
+   "uk": "Goat Simulator 3",
+   "ru": "Goat Simulator 3",
+   "en": "Goat Simulator 3",
+   "sk": "Goat Simulator 3"
+  },
+  "text": {
+   "uk": "Goat Simulator 3 у Epic Games Store зараз за 180₴ замість 600₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Goat Simulator 3 в Epic Games Store сейчас за 180₴ вместо 600₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Goat Simulator 3 on Epic Games Store is 180₴ instead of 600₴ right now. Your student budget will thank you 🎮",
+   "sk": "Goat Simulator 3 v Epic Games Store je teraz za 180₴ namiesto 600₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/goat-simulator-3",
+  "source": "epic-charts",
+  "found_at": "2026-11-20",
+  "expires_at": "2026-11-23",
+  "score": 90,
+  "worth": 600.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 68,
+  "deal": {
+   "game": "Goat Simulator 3",
+   "pct": 70,
+   "old": "600₴",
+   "new": "180₴",
+   "store": "Epic Games Store",
+   "rank_sales": 68
+  },
+  "desc": "Genres: Comedy, Adventure, Co-op, Multiplayer, Single Player. Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.",
+  "blurb": {
+   "uk": "Пригода: створюєш хаос у пісочниці разом із друзями за ролі козлів",
+   "ru": "Приключение: создаешь хаос в песочнице вместе с друзьями за роли козлов",
+   "en": "Adventure: create carnage in a sandbox together with your friends as goats",
+   "sk": "Dobrodružstvo: s kamarátmi vytváraš chaos v pieskovisku v roli kozov"
+  },
+  "status": "active"
  }
 ]
