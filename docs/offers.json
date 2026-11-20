@@ -55,7 +55,7 @@
    "old": "649₴",
    "new": "162₴",
    "store": "Epic Games Store",
-   "rank_sales": 81
+   "rank_sales": null
   },
   "blurb": {
    "uk": "Файтинг: б'єшся з суперниками в динамічних поєдинках",
@@ -144,7 +144,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 20,
+   "rank_sales": 19,
    "rank_play": 18
   },
   "blurb": {
@@ -234,7 +234,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 21,
+   "rank_sales": 14,
    "rank_play": 41
   },
   "blurb": {
@@ -279,7 +279,7 @@
    "old": "949₴",
    "new": "237₴",
    "store": "Epic Games Store",
-   "rank_sales": 64
+   "rank_sales": null
   },
   "blurb": {
    "uk": "Стратегія: завойовуєш землі та ведеш масштабні кампанії в таємничому Новому Світі",
@@ -323,7 +323,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 29
+   "rank_sales": 35
   },
   "blurb": {
    "uk": "Симулятор: гоняєш на мотоциклах по трасах на шаленій швидкості",
@@ -367,7 +367,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 71,
+   "rank_sales": 77,
    "rank_play": null
   },
   "blurb": {
@@ -412,7 +412,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 41
+   "rank_sales": 62
   },
   "blurb": {
    "uk": "Мотогонки: змагаєшся в сезоні 2025 року та проходиш випробування в різних режимах",
@@ -670,7 +670,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 62,
+   "rank_sales": 67,
    "rank_play": 68
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -854,7 +854,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 51,
+   "rank_sales": 57,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -900,7 +900,7 @@
    "old": "673₴",
    "new": "135₴",
    "store": "Epic Games Store",
-   "rank_sales": 38
+   "rank_sales": 24
   },
   "desc": "Genres: Action, Narration, Single Player. Detroit 2038. Technology has evolved to a point where human like androids are everywhere. They speak, move and behave like human beings, but they are only machines serving humans.",
   "blurb": {
@@ -945,7 +945,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Steam",
-   "rank_sales": 57,
+   "rank_sales": 61,
    "rank_play": null
   },
   "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
@@ -1129,7 +1129,7 @@
    "old": "1 699₴",
    "new": "254₴",
    "store": "Steam",
-   "rank_sales": 12,
+   "rank_sales": 13,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
@@ -1175,7 +1175,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 24,
+   "rank_sales": 25,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1221,7 +1221,7 @@
    "old": "1 519₴",
    "new": "303₴",
    "store": "Steam",
-   "rank_sales": 92,
+   "rank_sales": 98,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Experience the first-ever open world Star Wars™ game and explore distinct locations across the galaxy, both iconic and new. Risk it all as scoundrel Kay Vess, seeking freedom and the means to start a new life.",
@@ -1401,7 +1401,7 @@
    "old": "1 315₴",
    "new": "368₴",
    "store": "Epic Games Store",
-   "rank_sales": 21
+   "rank_sales": 8
   },
   "desc": "Genres: Horror, Action-Adventure, Controller Support, Single Player. Investigating a letter from his late wife, James returns to where they made so many memories - Silent Hill.\nConfront the monsters, solve puzzles, and search for traces of your wife in this remake of SILENT HILL 2.",
   "blurb": {
@@ -1446,7 +1446,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 25,
+   "rank_sales": 23,
    "rank_play": 74
   },
   "desc": "Genres: RPG, Simulation, Strategy. Love, fight, scheme, and claim greatness. Determine your noble house’s legacy in the sprawling grand strategy of Crusader Kings III. Death is only the beginning as you guide your dynasty’s bloodline in the rich and larger-than-life simulation of the Middle Ages.",
@@ -1538,7 +1538,7 @@
    "old": "1 475₴",
    "new": "413₴",
    "store": "Epic Games Store",
-   "rank_sales": 37
+   "rank_sales": 17
   },
   "desc": "Genres: Horror, Narration, Action-Adventure, Controller Support, Single Player. Hinako's hometown is engulfed in fog, driving her to fight grotesque monsters and solve eerie puzzles. Uncover the disturbing beauty hidden in terror.",
   "blurb": {
@@ -1583,7 +1583,7 @@
    "old": "1 199₴",
    "new": "60₴",
    "store": "Epic Games Store",
-   "rank_sales": 44
+   "rank_sales": 28
   },
   "desc": "Genres: First Person, Shooter, Online Multiplayer, Single Player. Battlefield™ 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever.",
   "blurb": {
@@ -1628,7 +1628,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Epic Games Store",
-   "rank_sales": 68
+   "rank_sales": 99
   },
   "desc": "Genres: Comedy, Adventure, Co-op, Multiplayer, Single Player. Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.",
   "blurb": {
