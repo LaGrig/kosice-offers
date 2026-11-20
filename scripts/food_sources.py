@@ -183,12 +183,12 @@ def _scan_combo_discounts(site, html_text):
     best = combos[0]
     parts = [
         f"{c['title']}: {c['new']:.2f} € вместо {c['old']:.2f} € (−{c['pct']}%) — {c['desc']}"
-        for c in combos[:3]
+        for c in combos[:1]
     ]
-    summary = f"{site['name']} (Кошице): выгодные комбо-наборы на компанию со скидками до {best['pct']}%. " + '; '.join(parts)
+    summary = f"{site['name']} (Кошице): выгодные комбо-наборы на компанию со скидками до {best['pct']}%. Например, " + '; '.join(parts)
     return {
         'id': offer_id(link),
-        'title': f"{site['name']}: комбо-сеты со скидкой до −{best['pct']}%",
+        'title': f"{site['name']} — комбо-сеты до −{best['pct']}%",
         'summary': summary[:1200],
         'link': link,
         'source': 'kosice-delivery',
@@ -242,7 +242,7 @@ def fetch_kosice_delivery():
             except Exception as e:
                 print('Kosice promo warning:', site['promo_url'], str(e)[:60])
         if combo and pr:
-            combo['title'] = f"{site['name']}: комбо до −{combo['combos'][0]['pct']}% и подарок"
+            combo['title'] = f"{site['name']} — комбо-сеты до −{combo['combos'][0]['pct']}%"
             combo['summary'] = (combo['summary'] + ' Плюс акция на сайте: ' + pr['promo_text'])[:1400]
             out.append(combo)
         elif combo:
