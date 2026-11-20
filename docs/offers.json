@@ -1411,7 +1411,8 @@
    "sk": "Akčné dobrodružstvo: hľadáš stopy manželky, riešiš hádanky a bojuješ s monštrami"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "0e6742129401",
@@ -1455,7 +1456,8 @@
    "sk": "Globálna stratégia: spravuješ dynastiu a prekonávaš prekážky na ceste k veľkosti vo stredoveku"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "8af939872a5a",
@@ -1499,7 +1501,8 @@
    "sk": "Dobrodružstvo: prekonávaš s kamarátom množstvo rônych herných výziev"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "d7a643709813",
@@ -1542,7 +1545,8 @@
    "sk": "Akčné dobrodružstvo: bojuješ s mutantmi a riešiš znepokojivé hádanky v meste zahalnutom hmlou"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "c067011195f5",
@@ -1585,7 +1589,8 @@
    "sk": "Strieľačka: bojuješ v centre prvej svetovej vojny s využitím nových technológií tej doby"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "1a60abf1763e",
@@ -1628,6 +1633,7 @@
    "sk": "Dobrodružstvo: s kamarátmi vytváraš chaos v pieskovisku v roli kozov"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
