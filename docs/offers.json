@@ -1683,7 +1683,8 @@
    "sk": "Prehreplace: súťažíš v denných jazdách a unikáš pred políciou v nočných pouličných pretekoch"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "043489a1ccc1",
@@ -1727,7 +1728,8 @@
    "sk": "Akčné dobrodružstvo: prežívaš hrôzy na vesmírnomáši a bojuješ s monštrami"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "265c48434832",
@@ -1765,7 +1767,8 @@
   "desc": "Genres: Space, RPG, Shooter, Single Player. The Mass Effect™ Legendary Edition includes single-player base content and over 40 DLC from the highly acclaimed Mass Effect, Mass Effect 2, and Mass Effect 3 games, remastered and optimized for 4K Ultra HD.",
   "blurb": null,
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "086b8c7e4d83",
@@ -1808,7 +1811,8 @@
    "sk": "Strieľačka: bojuješ v masívnych bitkách s využitím rôznej techniky, zbraní a gadgetov"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "ff051ac6412a",
@@ -1852,7 +1856,8 @@
    "sk": "Stratégia: rozvíjaš svoju ríše, posúvaš kultúru dopredu a súťažíš s veľkými vodcami"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "c25cdbb72729",
@@ -1896,6 +1901,7 @@
    "sk": "Simulácia: spravuješ kolóniu na vesmírnej skale a pomáhaš posádke prežiť"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
