@@ -1641,5 +1641,255 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "dc641fb12861",
+  "title": {
+   "uk": "Need for Speed Heat",
+   "ru": "Need for Speed Heat",
+   "en": "Need for Speed Heat",
+   "sk": "Need for Speed Heat"
+  },
+  "text": {
+   "uk": "Need for Speed Heat у Epic Games Store зараз за 100₴ замість 1 999₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Need for Speed Heat в Epic Games Store сейчас за 100₴ вместо 1 999₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Need for Speed Heat on Epic Games Store is 100₴ instead of 1 999₴ right now. Your student budget will thank you 🎮",
+   "sk": "Need for Speed Heat v Epic Games Store je teraz za 100₴ namiesto 1 999₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/need-for-speed-heat-ccbf8d",
+  "source": "epic-charts",
+  "found_at": "2026-11-21",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1999.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 58,
+  "deal": {
+   "game": "Need for Speed™ Heat Deluxe Edition",
+   "pct": 95,
+   "old": "1 999₴",
+   "new": "100₴",
+   "store": "Epic Games Store",
+   "rank_sales": 58
+  },
+  "desc": "Genres: Action, Racing, Online Multiplayer, Co-op, Single Player. Hustle by day and risk it all at night in Need for Speed™ Heat, a thrilling race experience that pits you against a city’s rogue police force as you battle your way into street racing’s elite.",
+  "blurb": {
+   "uk": "Гонки: змагаєшся в денних заїздах та тікаєш від поліції в нічних вуличних перегонах",
+   "ru": "Гонки: участвуешь в дневных заездах и уходишь от полиции в ночных уличных гонках",
+   "en": "Racing: compete in daytime events and outrun the police in nighttime street races",
+   "sk": "Prehreplace: súťažíš v denných jazdách a unikáš pred políciou v nočných pouličných pretekoch"
+  },
+  "status": "active"
+ },
+ {
+  "id": "043489a1ccc1",
+  "title": {
+   "uk": "Dead Space",
+   "ru": "Dead Space",
+   "en": "Dead Space",
+   "sk": "Dead Space"
+  },
+  "text": {
+   "uk": "Dead Space у Steam зараз за 149₴ замість 1 499₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Dead Space в Steam сейчас за 149₴ вместо 1 499₴. Самое время добавить в библиотеку 🎮",
+   "en": "Dead Space on Steam is 149₴ instead of 1 499₴ right now. Time to add it to your library 🎮",
+   "sk": "Dead Space v Steam je teraz za 149₴ namiesto 1 499₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1693980/",
+  "source": "steam-chart",
+  "found_at": "2026-11-21",
+  "expires_at": "2026-12-03",
+  "score": 90,
+  "worth": 1499.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 61,
+  "deal": {
+   "game": "Dead Space",
+   "pct": 90,
+   "old": "1 499₴",
+   "new": "149₴",
+   "store": "Steam",
+   "rank_sales": 61,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure. The sci-fi survival-horror classic returns, completely rebuilt to offer an even more immersive experience — including visual, audio, and gameplay improvements — while staying faithful to the original game’s thrilling vision.",
+  "blurb": {
+   "uk": "Екшен-пригода: виживаєш у жахах космічного корабля та борешся з монстрами",
+   "ru": "Экшен-приключение: выживаешь в ужасах космического корабля и сражаешься с монстрами",
+   "en": "Action-adventure: survive the horrors of a spaceship and fight monsters",
+   "sk": "Akčné dobrodružstvo: prežívaš hrôzy na vesmírnomáši a bojuješ s monštrami"
+  },
+  "status": "active"
+ },
+ {
+  "id": "265c48434832",
+  "title": {
+   "uk": "Mass Effect Legendary Edition",
+   "ru": "Mass Effect Legendary Edition",
+   "en": "Mass Effect Legendary Edition",
+   "sk": "Mass Effect Legendary Edition"
+  },
+  "text": {
+   "uk": "Mass Effect Legendary Edition у Epic Games Store зараз за 225₴ замість 1 499₴. Гарний момент забрати 🎮",
+   "ru": "Mass Effect Legendary Edition в Epic Games Store сейчас за 225₴ вместо 1 499₴. Хороший момент забрать 🎮",
+   "en": "Mass Effect Legendary Edition on Epic Games Store is 225₴ instead of 1 499₴ right now. A good moment to grab it 🎮",
+   "sk": "Mass Effect Legendary Edition v Epic Games Store je teraz za 225₴ namiesto 1 499₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/mass-effect-legendary-edition",
+  "source": "epic-charts",
+  "found_at": "2026-11-21",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1499.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 66,
+  "deal": {
+   "game": "Mass Effect™ Legendary Edition",
+   "pct": 85,
+   "old": "1 499₴",
+   "new": "225₴",
+   "store": "Epic Games Store",
+   "rank_sales": 66
+  },
+  "desc": "Genres: Space, RPG, Shooter, Single Player. The Mass Effect™ Legendary Edition includes single-player base content and over 40 DLC from the highly acclaimed Mass Effect, Mass Effect 2, and Mass Effect 3 games, remastered and optimized for 4K Ultra HD.",
+  "blurb": null,
+  "status": "active"
+ },
+ {
+  "id": "086b8c7e4d83",
+  "title": {
+   "uk": "Battlefield V",
+   "ru": "Battlefield V",
+   "en": "Battlefield V",
+   "sk": "Battlefield V"
+  },
+  "text": {
+   "uk": "Battlefield V у Epic Games Store зараз за 65₴ замість 1 299₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Battlefield V в Epic Games Store сейчас за 65₴ вместо 1 299₴. Самое время добавить в библиотеку 🎮",
+   "en": "Battlefield V on Epic Games Store is 65₴ instead of 1 299₴ right now. Time to add it to your library 🎮",
+   "sk": "Battlefield V v Epic Games Store je teraz za 65₴ namiesto 1 299₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/battlefield-v-definitive-edition",
+  "source": "epic-charts",
+  "found_at": "2026-11-21",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1299.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 67,
+  "deal": {
+   "game": "Battlefield V Definitive Edition",
+   "pct": 95,
+   "old": "1 299₴",
+   "new": "65₴",
+   "store": "Epic Games Store",
+   "rank_sales": 67
+  },
+  "desc": "Genres: Action, Shooter, Controller Support, Co-op, Multiplayer, Single Player. This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2.",
+  "blurb": {
+   "uk": "Шутер: береш участь у масштабних боях, використовуючи різну зброю, техніку та гаджети",
+   "ru": "Шутер: участвуешь в масштабных сражениях, используя разную технику, оружие и гаджеты",
+   "en": "Shooter: engage in massive battles using a wide array of weapons, vehicles and gadgets",
+   "sk": "Strieľačka: bojuješ v masívnych bitkách s využitím rôznej techniky, zbraní a gadgetov"
+  },
+  "status": "active"
+ },
+ {
+  "id": "ff051ac6412a",
+  "title": {
+   "uk": "Sid Meier’s Civilization VI",
+   "ru": "Sid Meier’s Civilization VI",
+   "en": "Sid Meier’s Civilization VI",
+   "sk": "Sid Meier’s Civilization VI"
+  },
+  "text": {
+   "uk": "Sid Meier’s Civilization VI у Steam зараз за 52₴ замість 525₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Sid Meier’s Civilization VI в Steam сейчас за 52₴ вместо 525₴. Самое время добавить в библиотеку 🎮",
+   "en": "Sid Meier’s Civilization VI on Steam is 52₴ instead of 525₴ right now. Time to add it to your library 🎮",
+   "sk": "Sid Meier’s Civilization VI v Steam je teraz za 52₴ namiesto 525₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/289070/",
+  "source": "steam-chart",
+  "found_at": "2026-11-21",
+  "expires_at": "2026-12-03",
+  "score": 90,
+  "worth": 525.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 73,
+  "deal": {
+   "game": "Sid Meier’s Civilization® VI",
+   "pct": 90,
+   "old": "525₴",
+   "new": "52₴",
+   "store": "Steam",
+   "rank_sales": null,
+   "rank_play": 73
+  },
+  "desc": "Genres: Strategy. Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?",
+  "blurb": {
+   "uk": "Стратегія: розвиваєш свою імперію, просуваєш культуру та змагаєшся з великими лідерами",
+   "ru": "Стратегия: развиваешь свою империю, продвигаешь культуру и сражаешься с великими лидерами",
+   "en": "Strategy: expand your empire, advance your culture and compete against great leaders",
+   "sk": "Stratégia: rozvíjaš svoju ríše, posúvaš kultúru dopredu a súťažíš s veľkými vodcami"
+  },
+  "status": "active"
+ },
+ {
+  "id": "c25cdbb72729",
+  "title": {
+   "uk": "Oxygen Not Included",
+   "ru": "Oxygen Not Included",
+   "en": "Oxygen Not Included",
+   "sk": "Oxygen Not Included"
+  },
+  "text": {
+   "uk": "Oxygen Not Included у Steam зараз за 98₴ замість 329₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Oxygen Not Included в Steam сейчас за 98₴ вместо 329₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Oxygen Not Included on Steam is 98₴ instead of 329₴ right now. Your student budget will thank you 🎮",
+   "sk": "Oxygen Not Included v Steam je teraz za 98₴ namiesto 329₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/457140/",
+  "source": "steam-chart",
+  "found_at": "2026-11-21",
+  "expires_at": "2026-11-26",
+  "score": 90,
+  "worth": 329.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 74,
+  "deal": {
+   "game": "Oxygen Not Included",
+   "pct": 70,
+   "old": "329₴",
+   "new": "98₴",
+   "store": "Steam",
+   "rank_sales": 74,
+   "rank_play": null
+  },
+  "desc": "Genres: Indie, Simulation. Oxygen Not Included is a space-colony simulation game. Deep inside an alien space rock your industrious crew will need to master science, overcome strange new lifeforms, and harness incredible space tech to survive, and possibly, thrive.",
+  "blurb": {
+   "uk": "Симуляція: керуєш колонією на космічній скелі та допомагаєш команді вижити",
+   "ru": "Симулятор: управляешь колонией на космической скале и помогаешь команде выжить",
+   "en": "Simulation: manage a colony on a space rock and help your crew survive",
+   "sk": "Simulácia: spravuješ kolóniu na vesmírnej skale a pomáhaš posádke prežiť"
+  },
+  "status": "active"
  }
 ]
