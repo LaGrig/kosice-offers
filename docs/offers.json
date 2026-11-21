@@ -25,50 +25,6 @@
   "fails": 0
  },
  {
-  "id": "3156e8473bf0",
-  "title": {
-   "uk": "FATAL FURY: City of the Wolves",
-   "ru": "FATAL FURY: City of the Wolves",
-   "en": "FATAL FURY: City of the Wolves",
-   "sk": "FATAL FURY: City of the Wolves"
-  },
-  "text": {
-   "uk": "FATAL FURY: City of the Wolves у Epic Games Store зараз за 162₴ замість 649₴. Гарний момент забрати 🎮",
-   "ru": "FATAL FURY: City of the Wolves в Epic Games Store сейчас за 162₴ вместо 649₴. Хороший момент забрать 🎮",
-   "en": "FATAL FURY: City of the Wolves on Epic Games Store is 162₴ instead of 649₴ right now. A good moment to grab it 🎮",
-   "sk": "FATAL FURY: City of the Wolves v Epic Games Store je teraz za 162₴ namiesto 649₴. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/garou-city-of-the-wolves-556c5a",
-  "source": "epic-charts",
-  "found_at": "2026-11-09",
-  "expires_at": "2026-11-21",
-  "score": 90,
-  "worth": 649.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 91,
-  "deal": {
-   "game": "FATAL FURY: City of the Wolves Standard Edition",
-   "pct": 75,
-   "old": "649₴",
-   "new": "162₴",
-   "store": "Epic Games Store",
-   "rank_sales": null
-  },
-  "blurb": {
-   "uk": "Файтинг: б'єшся з суперниками в динамічних поєдинках",
-   "ru": "Файтинг: дерешься с соперниками в динамичных поединках",
-   "en": "Fighting: fight opponents in dynamic battles",
-   "sk": "Fighting: biješ sa s súpernikmi v dynamických súbojoch"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 0
- },
- {
   "id": "973e5551fad2",
   "title": {
    "uk": "For The King II",
@@ -144,7 +100,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 19,
+   "rank_sales": 16,
    "rank_play": 17
   },
   "blurb": {
@@ -234,7 +190,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 25,
+   "rank_sales": 27,
    "rank_play": 38
   },
   "blurb": {
@@ -323,7 +279,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 35
+   "rank_sales": 40
   },
   "blurb": {
    "uk": "Симулятор: гоняєш на мотоциклах по трасах на шаленій швидкості",
@@ -412,7 +368,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 62
+   "rank_sales": 80
   },
   "blurb": {
    "uk": "Мотогонки: змагаєшся в сезоні 2025 року та проходиш випробування в різних режимах",
@@ -670,7 +626,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 74,
+   "rank_sales": 67,
    "rank_play": 69
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -854,7 +810,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 67,
+   "rank_sales": 66,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -900,7 +856,7 @@
    "old": "673₴",
    "new": "135₴",
    "store": "Epic Games Store",
-   "rank_sales": 24
+   "rank_sales": 22
   },
   "desc": "Genres: Action, Narration, Single Player. Detroit 2038. Technology has evolved to a point where human like androids are everywhere. They speak, move and behave like human beings, but they are only machines serving humans.",
   "blurb": {
@@ -1175,7 +1131,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 33,
+   "rank_sales": 34,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1538,7 +1494,7 @@
    "old": "1 475₴",
    "new": "413₴",
    "store": "Epic Games Store",
-   "rank_sales": 17
+   "rank_sales": 14
   },
   "desc": "Genres: Horror, Narration, Action-Adventure, Controller Support, Single Player. Hinako's hometown is engulfed in fog, driving her to fight grotesque monsters and solve eerie puzzles. Uncover the disturbing beauty hidden in terror.",
   "blurb": {
@@ -1583,7 +1539,7 @@
    "old": "1 199₴",
    "new": "60₴",
    "store": "Epic Games Store",
-   "rank_sales": 28
+   "rank_sales": 33
   },
   "desc": "Genres: First Person, Shooter, Online Multiplayer, Single Player. Battlefield™ 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever.",
   "blurb": {
@@ -1628,7 +1584,7 @@
    "old": "600₴",
    "new": "180₴",
    "store": "Epic Games Store",
-   "rank_sales": 99
+   "rank_sales": 17
   },
   "desc": "Genres: Comedy, Adventure, Co-op, Multiplayer, Single Player. Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.",
   "blurb": {
@@ -1673,7 +1629,7 @@
    "old": "1 999₴",
    "new": "100₴",
    "store": "Epic Games Store",
-   "rank_sales": 58
+   "rank_sales": 49
   },
   "desc": "Genres: Action, Racing, Online Multiplayer, Co-op, Single Player. Hustle by day and risk it all at night in Need for Speed™ Heat, a thrilling race experience that pits you against a city’s rogue police force as you battle your way into street racing’s elite.",
   "blurb": {
@@ -1718,7 +1674,7 @@
    "old": "1 499₴",
    "new": "149₴",
    "store": "Steam",
-   "rank_sales": 79,
+   "rank_sales": 77,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. The sci-fi survival-horror classic returns, completely rebuilt to offer an even more immersive experience — including visual, audio, and gameplay improvements — while staying faithful to the original game’s thrilling vision.",
@@ -1764,7 +1720,7 @@
    "old": "1 499₴",
    "new": "225₴",
    "store": "Epic Games Store",
-   "rank_sales": 66
+   "rank_sales": 72
   },
   "desc": "Genres: Space, RPG, Shooter, Single Player. The Mass Effect™ Legendary Edition includes single-player base content and over 40 DLC from the highly acclaimed Mass Effect, Mass Effect 2, and Mass Effect 3 games, remastered and optimized for 4K Ultra HD.",
   "blurb": null,
@@ -1804,7 +1760,7 @@
    "old": "1 299₴",
    "new": "65₴",
    "store": "Epic Games Store",
-   "rank_sales": 67
+   "rank_sales": 62
   },
   "desc": "Genres: Action, Shooter, Controller Support, Co-op, Multiplayer, Single Player. This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2.",
   "blurb": {
@@ -1895,7 +1851,7 @@
    "old": "329₴",
    "new": "98₴",
    "store": "Steam",
-   "rank_sales": 81,
+   "rank_sales": 74,
    "rank_play": null
   },
   "desc": "Genres: Indie, Simulation. Oxygen Not Included is a space-colony simulation game. Deep inside an alien space rock your industrious crew will need to master science, overcome strange new lifeforms, and harness incredible space tech to survive, and possibly, thrive.",
