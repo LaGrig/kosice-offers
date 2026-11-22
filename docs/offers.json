@@ -1865,5 +1865,261 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "d0423bd2fc5a",
+  "title": {
+   "uk": "Battlefield 4",
+   "ru": "Battlefield 4",
+   "en": "Battlefield 4",
+   "sk": "Battlefield 4"
+  },
+  "text": {
+   "uk": "Battlefield 4 у Epic Games Store зараз за 60₴ замість 1 199₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Battlefield 4 в Epic Games Store сейчас за 60₴ вместо 1 199₴. Самое время добавить в библиотеку 🎮",
+   "en": "Battlefield 4 on Epic Games Store is 60₴ instead of 1 199₴ right now. Time to add it to your library 🎮",
+   "sk": "Battlefield 4 v Epic Games Store je teraz za 60₴ namiesto 1 199₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/battlefield-4-412248",
+  "source": "epic-charts",
+  "found_at": "2026-11-22",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1199.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 68,
+  "deal": {
+   "game": "Battlefield 4™ Premium Edition",
+   "pct": 95,
+   "old": "1 199₴",
+   "new": "60₴",
+   "store": "Epic Games Store",
+   "rank_sales": 68
+  },
+  "desc": "Genres: First Person, Shooter, Online Multiplayer, Single Player. Embrace unrivaled destruction in Battlefield 4™. Revel in the glorious chaos of all-out war packed with rewarding, tactical challenges in an interactive environment.",
+  "blurb": {
+   "uk": "Шутер: б'єшся в умовах тотальної війни та руйнуєш усе навколо",
+   "ru": "Шутер: сражаешься в условиях тотальной войны и рушишь всё вокруг",
+   "en": "Shooter: fight in all-out war and destroy everything around you",
+   "sk": "Strieľacia hra: bojuješ v totálnej vojne a ničíš všetko okolo seba"
+  },
+  "status": "active"
+ },
+ {
+  "id": "ea404f65ab66",
+  "title": {
+   "uk": "Halo: The Master Chief Collection",
+   "ru": "Halo: The Master Chief Collection",
+   "en": "Halo: The Master Chief Collection",
+   "sk": "Halo: The Master Chief Collection"
+  },
+  "text": {
+   "uk": "Halo: The Master Chief Collection у Steam зараз за 349₴ замість 1 399₴. Не пропусти 🎮",
+   "ru": "Halo: The Master Chief Collection в Steam сейчас за 349₴ вместо 1 399₴. Не пропусти 🎮",
+   "en": "Halo: The Master Chief Collection on Steam is 349₴ instead of 1 399₴ right now. Don't miss it 🎮",
+   "sk": "Halo: The Master Chief Collection v Steam je teraz za 349₴ namiesto 1 399₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/976730/",
+  "source": "steam-chart",
+  "found_at": "2026-11-22",
+  "expires_at": "2026-12-02",
+  "score": 90,
+  "worth": 1399.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 74,
+  "deal": {
+   "game": "Halo: The Master Chief Collection",
+   "pct": 75,
+   "old": "1 399₴",
+   "new": "349₴",
+   "store": "Steam",
+   "rank_sales": 74,
+   "rank_play": null
+  },
+  "desc": "Genres: Action. The Master Chief’s iconic journey includes six games, built for PC and collected in a single integrated experience. Whether you’re a long-time fan or meeting Spartan 117 for the first time, The Master Chief Collection is the definitive Halo gaming experience.",
+  "blurb": {
+   "uk": "Екшен: проходиш через шість ігор та долаєш шлях легендарного спартанця",
+   "ru": "Экшен: проходишь через шесть игр и преодолеваешь путь легендарного спартанца",
+   "en": "Action: go through six games and follow the journey of the legendary Spartan",
+   "sk": "Akcia: prechádzaš šiestimi hrami a absolvuješ cestu legendárneho Spartanca"
+  },
+  "status": "active"
+ },
+ {
+  "id": "df24bc7cb643",
+  "title": {
+   "uk": "Assetto Corsa",
+   "ru": "Assetto Corsa",
+   "en": "Assetto Corsa",
+   "sk": "Assetto Corsa"
+  },
+  "text": {
+   "uk": "Assetto Corsa у Steam зараз за 103₴ замість 415₴. Не пропусти 🎮",
+   "ru": "Assetto Corsa в Steam сейчас за 103₴ вместо 415₴. Не пропусти 🎮",
+   "en": "Assetto Corsa on Steam is 103₴ instead of 415₴ right now. Don't miss it 🎮",
+   "sk": "Assetto Corsa v Steam je teraz za 103₴ namiesto 415₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/244210/",
+  "source": "steam-chart",
+  "found_at": "2026-11-22",
+  "expires_at": "2026-12-03",
+  "score": 90,
+  "worth": 415.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 78,
+  "deal": {
+   "game": "Assetto Corsa",
+   "pct": 75,
+   "old": "415₴",
+   "new": "103₴",
+   "store": "Steam",
+   "rank_sales": null,
+   "rank_play": 78
+  },
+  "desc": "Genres: Indie, Racing, Simulation, Sports. Assetto Corsa v1.16 introduces the new &quot;Laguna Seca&quot; laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
+  "blurb": {
+   "uk": "Симулятор: керуєш реалістичними авто на відомих трасах",
+   "ru": "Симулятор: управляешь реалистичными авто на известных трассах",
+   "en": "Simulation: drive realistic cars on famous tracks",
+   "sk": "Simulátor: ovládaš realistické autá na známych traťach"
+  },
+  "status": "active"
+ },
+ {
+  "id": "7944c5195096",
+  "title": {
+   "uk": "STAR WARS Battlefront II: Celebration Edition",
+   "ru": "STAR WARS Battlefront II: Celebration Edition",
+   "en": "STAR WARS Battlefront II: Celebration Edition",
+   "sk": "STAR WARS Battlefront II: Celebration Edition"
+  },
+  "text": {
+   "uk": "STAR WARS Battlefront II: Celebration Edition у Epic Games Store зараз за 240₴ замість 1 199₴. Гарний момент забрати 🎮",
+   "ru": "STAR WARS Battlefront II: Celebration Edition в Epic Games Store сейчас за 240₴ вместо 1 199₴. Хороший момент забрать 🎮",
+   "en": "STAR WARS Battlefront II: Celebration Edition on Epic Games Store is 240₴ instead of 1 199₴ right now. A good moment to grab it 🎮",
+   "sk": "STAR WARS Battlefront II: Celebration Edition v Epic Games Store je teraz za 240₴ namiesto 1 199₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/star-wars-battlefront-2",
+  "source": "epic-charts",
+  "found_at": "2026-11-22",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1199.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 82,
+  "deal": {
+   "game": "STAR WARS™ Battlefront™ II: Celebration Edition",
+   "pct": 80,
+   "old": "1 199₴",
+   "new": "240₴",
+   "store": "Epic Games Store",
+   "rank_sales": 82
+  },
+  "desc": "Genres: Action, Shooter, Adventure, Co-op, Multiplayer, Single Player. Put your mastery of the blaster, lightsaber, and the Force to the test online and offline in STAR WARS™ Battlefront™ II: Celebration Edition",
+  "blurb": {
+   "uk": "Шутер: б'єшся бластерами та світловими мечами в онлайн та офлайн режимах",
+   "ru": "Шутер: сражаешься на бластерах и световых мечах в онлайн и офлайн режимах",
+   "en": "Shooter: fight with blasters and lightsabers in online and offline modes",
+   "sk": "Strieľačka: bojuješ s blastermi a svetelnými mečmi v online a offline režimoch"
+  },
+  "status": "active"
+ },
+ {
+  "id": "abe5cd59667e",
+  "title": {
+   "uk": "Battlefield V",
+   "ru": "Battlefield V",
+   "en": "Battlefield V",
+   "sk": "Battlefield V"
+  },
+  "text": {
+   "uk": "Battlefield V у Steam зараз за 64₴ замість 1 299₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Battlefield V в Steam сейчас за 64₴ вместо 1 299₴. Самое время добавить в библиотеку 🎮",
+   "en": "Battlefield V on Steam is 64₴ instead of 1 299₴ right now. Time to add it to your library 🎮",
+   "sk": "Battlefield V v Steam je teraz za 64₴ namiesto 1 299₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1238810/",
+  "source": "steam-chart",
+  "found_at": "2026-11-22",
+  "expires_at": "2026-12-03",
+  "score": 90,
+  "worth": 1299.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 96,
+  "deal": {
+   "game": "Battlefield™ V",
+   "pct": 95,
+   "old": "1 299₴",
+   "new": "64₴",
+   "store": "Steam",
+   "rank_sales": 96,
+   "rank_play": null
+  },
+  "desc": "Genres: Action. This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2.",
+  "blurb": {
+   "uk": "Екшен: береш участь у масштабному конфлікті, використовуючи різну зброю, техніку та гаджети",
+   "ru": "Экшен: участвуешь в масштабном конфликте, используя разное оружие, технику и гаджеты",
+   "en": "Action: engage in a massive conflict using a wide array of weapons, vehicles, and gadgets",
+   "sk": "Akcia: bojuješ vo veľkom konflikte s použitím rôznych zbraní, vozidiel a gadgetov"
+  },
+  "status": "active"
+ },
+ {
+  "id": "f9cece6ded72",
+  "title": {
+   "uk": "Battlefield 1",
+   "ru": "Battlefield 1",
+   "en": "Battlefield 1",
+   "sk": "Battlefield 1"
+  },
+  "text": {
+   "uk": "Battlefield 1 у Steam зараз за 59₴ замість 1 199₴. Не пропусти 🎮",
+   "ru": "Battlefield 1 в Steam сейчас за 59₴ вместо 1 199₴. Не пропусти 🎮",
+   "en": "Battlefield 1 on Steam is 59₴ instead of 1 199₴ right now. Don't miss it 🎮",
+   "sk": "Battlefield 1 v Steam je teraz za 59₴ namiesto 1 199₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1238840/",
+  "source": "steam-chart",
+  "found_at": "2026-11-22",
+  "expires_at": "2026-12-03",
+  "score": 90,
+  "worth": 1199.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 99,
+  "deal": {
+   "game": "Battlefield™ 1",
+   "pct": 95,
+   "old": "1 199₴",
+   "new": "59₴",
+   "store": "Steam",
+   "rank_sales": 99,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Massively Multiplayer. Battlefield™ 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever.",
+  "blurb": {
+   "uk": "Екшен: б'єшся в масштабних битвах часів Першої світової війни",
+   "ru": "Экшен: сражаешься в масштабных битвах времен Первой мировой войны",
+   "en": "Action: fight in massive battles during the First World War",
+   "sk": "Akcia: bojuješ v masívnych bitkách počas prvej svetovej vojny"
+  },
+  "status": "active"
  }
 ]
