@@ -100,8 +100,8 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 16,
-   "rank_play": 17
+   "rank_sales": 17,
+   "rank_play": 18
   },
   "blurb": {
    "uk": "Симулятор: перевозиш важливі вантажі на великі відстані через різні міста",
@@ -190,7 +190,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 32,
+   "rank_sales": 31,
    "rank_play": 38
   },
   "blurb": {
@@ -627,7 +627,7 @@
    "new": "284₴",
    "store": "Steam",
    "rank_sales": 64,
-   "rank_play": 69
+   "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
   "blurb": {
@@ -810,7 +810,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 60,
+   "rank_sales": 59,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -1131,7 +1131,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 41,
+   "rank_sales": 40,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1449,7 +1449,7 @@
    "new": "199₴",
    "store": "Steam",
    "rank_sales": 8,
-   "rank_play": 85
+   "rank_play": 57
   },
   "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
   "blurb": {
@@ -1806,7 +1806,7 @@
    "new": "52₴",
    "store": "Steam",
    "rank_sales": null,
-   "rank_play": 71
+   "rank_play": 63
   },
   "desc": "Genres: Strategy. Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?",
   "blurb": {
@@ -1906,7 +1906,8 @@
    "en": "Shooter: fight in all-out war and destroy everything around you",
    "sk": "Strieľacia hra: bojuješ v totálnej vojne a ničíš všetko okolo seba"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "ea404f65ab66",
@@ -1949,7 +1950,8 @@
    "en": "Action: go through six games and follow the journey of the legendary Spartan",
    "sk": "Akcia: prechádzaš šiestimi hrami a absolvuješ cestu legendárneho Spartanca"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "df24bc7cb643",
@@ -1983,7 +1985,7 @@
    "new": "103₴",
    "store": "Steam",
    "rank_sales": null,
-   "rank_play": 78
+   "rank_play": 77
   },
   "desc": "Genres: Indie, Racing, Simulation, Sports. Assetto Corsa v1.16 introduces the new &quot;Laguna Seca&quot; laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
   "blurb": {
@@ -1992,7 +1994,8 @@
    "en": "Simulation: drive realistic cars on famous tracks",
    "sk": "Simulátor: ovládaš realistické autá na známych traťach"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "7944c5195096",
@@ -2034,7 +2037,8 @@
    "en": "Shooter: fight with blasters and lightsabers in online and offline modes",
    "sk": "Strieľačka: bojuješ s blastermi a svetelnými mečmi v online a offline režimoch"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "abe5cd59667e",
@@ -2077,7 +2081,8 @@
    "en": "Action: engage in a massive conflict using a wide array of weapons, vehicles, and gadgets",
    "sk": "Akcia: bojuješ vo veľkom konflikte s použitím rôznych zbraní, vozidiel a gadgetov"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "f9cece6ded72",
@@ -2120,6 +2125,7 @@
    "en": "Action: fight in massive battles during the First World War",
    "sk": "Akcia: bojuješ v masívnych bitkách počas prvej svetovej vojny"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
