@@ -1907,7 +1907,8 @@
    "sk": "Strieľacia hra: bojuješ v totálnej vojne a ničíš všetko okolo seba"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "ea404f65ab66",
@@ -1951,7 +1952,8 @@
    "sk": "Akcia: prechádzaš šiestimi hrami a absolvuješ cestu legendárneho Spartanca"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "df24bc7cb643",
@@ -1995,7 +1997,8 @@
    "sk": "Simulátor: ovládaš realistické autá na známych traťach"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "7944c5195096",
@@ -2038,7 +2041,8 @@
    "sk": "Strieľačka: bojuješ s blastermi a svetelnými mečmi v online a offline režimoch"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "abe5cd59667e",
@@ -2082,7 +2086,8 @@
    "sk": "Akcia: bojuješ vo veľkom konflikte s použitím rôznych zbraní, vozidiel a gadgetov"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "f9cece6ded72",
@@ -2126,6 +2131,7 @@
    "sk": "Akcia: bojuješ v masívnych bitkách počas prvej svetovej vojny"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
