@@ -100,7 +100,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 11,
+   "rank_sales": 13,
    "rank_play": 18
   },
   "blurb": {
@@ -145,7 +145,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 84,
+   "rank_sales": 83,
    "rank_play": null
   },
   "blurb": {
@@ -190,7 +190,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 35,
+   "rank_sales": 37,
    "rank_play": 38
   },
   "blurb": {
@@ -626,7 +626,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 62,
+   "rank_sales": 61,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -810,7 +810,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 65,
+   "rank_sales": 64,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -1131,7 +1131,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 36,
+   "rank_sales": 40,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1402,7 +1402,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 20,
+   "rank_sales": 19,
    "rank_play": 68
   },
   "desc": "Genres: RPG, Simulation, Strategy. Love, fight, scheme, and claim greatness. Determine your noble house’s legacy in the sprawling grand strategy of Crusader Kings III. Death is only the beginning as you guide your dynasty’s bloodline in the rich and larger-than-life simulation of the Middle Ages.",
@@ -1674,7 +1674,7 @@
    "old": "1 499₴",
    "new": "149₴",
    "store": "Steam",
-   "rank_sales": 96,
+   "rank_sales": 98,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. The sci-fi survival-horror classic returns, completely rebuilt to offer an even more immersive experience — including visual, audio, and gameplay improvements — while staying faithful to the original game’s thrilling vision.",
@@ -1851,7 +1851,7 @@
    "old": "329₴",
    "new": "98₴",
    "store": "Steam",
-   "rank_sales": 89,
+   "rank_sales": 91,
    "rank_play": null
   },
   "desc": "Genres: Indie, Simulation. Oxygen Not Included is a space-colony simulation game. Deep inside an alien space rock your industrious crew will need to master science, overcome strange new lifeforms, and harness incredible space tech to survive, and possibly, thrive.",
@@ -1942,7 +1942,7 @@
    "old": "1 399₴",
    "new": "349₴",
    "store": "Steam",
-   "rank_sales": 95,
+   "rank_sales": 93,
    "rank_play": null
   },
   "desc": "Genres: Action. The Master Chief’s iconic journey includes six games, built for PC and collected in a single integrated experience. Whether you’re a long-time fan or meeting Spartan 117 for the first time, The Master Chief Collection is the definitive Halo gaming experience.",
@@ -2079,7 +2079,7 @@
    "old": "1 299₴",
    "new": "64₴",
    "store": "Steam",
-   "rank_sales": 97,
+   "rank_sales": null,
    "rank_play": null
   },
   "desc": "Genres: Action. This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2.",
