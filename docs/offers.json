@@ -25,51 +25,6 @@
   "fails": 0
  },
  {
-  "id": "973e5551fad2",
-  "title": {
-   "uk": "For The King II",
-   "ru": "For The King II",
-   "en": "For The King II",
-   "sk": "For The King II"
-  },
-  "text": {
-   "uk": "For The King II у Steam зараз за 179₴ замість 599₴. Гарний момент забрати 🎮",
-   "ru": "For The King II в Steam сейчас за 179₴ вместо 599₴. Хороший момент забрать 🎮",
-   "en": "For The King II on Steam is 179₴ instead of 599₴ right now. A good moment to grab it 🎮",
-   "sk": "For The King II v Steam je teraz za 179₴ namiesto 599₴. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/1676840/",
-  "source": "steam-chart",
-  "found_at": "2026-11-10",
-  "expires_at": "2026-11-23",
-  "score": 90,
-  "worth": 599.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 57,
-  "deal": {
-   "game": "For The King II",
-   "pct": 70,
-   "old": "599₴",
-   "new": "179₴",
-   "store": "Steam",
-   "rank_sales": null,
-   "rank_play": null
-  },
-  "blurb": {
-   "uk": "Покрокова rpg: подолаєш випробування та борешся проти тиранічної королеви",
-   "ru": "Пошаговая rpg: проходишь испытания и сражаешься против тираничной королевы",
-   "en": "Turn-based rpg: face challenges and fight against the tyrannical queen",
-   "sk": "Ťahové rpg: prekonávaš výzvy a bojuješ proti tyranskej kráľovnej"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 0
- },
- {
   "id": "bd3699997b09",
   "title": {
    "uk": "Euro Truck Simulator 2",
@@ -100,7 +55,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 13,
+   "rank_sales": 12,
    "rank_play": 17
   },
   "blurb": {
@@ -145,7 +100,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 79,
+   "rank_sales": 80,
    "rank_play": null
   },
   "blurb": {
@@ -190,7 +145,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 32,
+   "rank_sales": 36,
    "rank_play": 38
   },
   "blurb": {
@@ -626,7 +581,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 66,
+   "rank_sales": 65,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -638,52 +593,6 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0,
-  "miss": 0
- },
- {
-  "id": "bccad89502bc",
-  "title": {
-   "uk": "Call to Arms - Gates of Hell: Ostfront",
-   "ru": "Call to Arms - Gates of Hell: Ostfront",
-   "en": "Call to Arms - Gates of Hell: Ostfront",
-   "sk": "Call to Arms - Gates of Hell: Ostfront"
-  },
-  "text": {
-   "uk": "Call to Arms - Gates of Hell: Ostfront у Steam зараз за 175₴ замість 700₴. Студентський бюджет скаже дякую 🎮",
-   "ru": "Call to Arms - Gates of Hell: Ostfront в Steam сейчас за 175₴ вместо 700₴. Студенческий бюджет скажет спасибо 🎮",
-   "en": "Call to Arms - Gates of Hell: Ostfront on Steam is 175₴ instead of 700₴ right now. Your student budget will thank you 🎮",
-   "sk": "Call to Arms - Gates of Hell: Ostfront v Steam je teraz za 175₴ namiesto 700₴. Tvoj študentský rozpočet poďakuje 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/400750/",
-  "source": "steam-chart",
-  "found_at": "2026-11-17",
-  "expires_at": "2026-11-23",
-  "score": 90,
-  "worth": 700.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 54,
-  "deal": {
-   "game": "Call to Arms - Gates of Hell: Ostfront",
-   "pct": 75,
-   "old": "700₴",
-   "new": "175₴",
-   "store": "Steam",
-   "rank_sales": null,
-   "rank_play": null
-  },
-  "desc": "Genres: Action, Simulation, Strategy. Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
-  "blurb": {
-   "uk": "Стратегія: керуєш різними підрозділами та ведеш реалістичні битви часів Другої світової",
-   "ru": "Стратегия: командуешь различными войсками и ведешь реалистичные сражения времен Второй мировой",
-   "en": "Strategy: command various troops and lead realistic battles of World War 2",
-   "sk": "Stratégia: velíš rôznym jednotkám a vedieš realistické bitky z obdobia Druhej svetovej vojny"
-  },
-  "status": "active",
-  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -810,7 +719,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 63,
+   "rank_sales": 61,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -867,52 +776,6 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0,
-  "miss": 0
- },
- {
-  "id": "ded076a2c116",
-  "title": {
-   "uk": "Goat Simulator 3",
-   "ru": "Goat Simulator 3",
-   "en": "Goat Simulator 3",
-   "sk": "Goat Simulator 3"
-  },
-  "text": {
-   "uk": "Goat Simulator 3 у Steam зараз за 180₴ замість 600₴. Студентський бюджет скаже дякую 🎮",
-   "ru": "Goat Simulator 3 в Steam сейчас за 180₴ вместо 600₴. Студенческий бюджет скажет спасибо 🎮",
-   "en": "Goat Simulator 3 on Steam is 180₴ instead of 600₴ right now. Your student budget will thank you 🎮",
-   "sk": "Goat Simulator 3 v Steam je teraz za 180₴ namiesto 600₴. Tvoj študentský rozpočet poďakuje 🎮"
-  },
-  "category": "games",
-  "link": "https://store.steampowered.com/app/850190/",
-  "source": "steam-chart",
-  "found_at": "2026-11-18",
-  "expires_at": "2026-11-23",
-  "score": 90,
-  "worth": 600.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 80,
-  "deal": {
-   "game": "Goat Simulator 3",
-   "pct": 70,
-   "old": "600₴",
-   "new": "180₴",
-   "store": "Steam",
-   "rank_sales": null,
-   "rank_play": null
-  },
-  "desc": "Genres: Adventure, Casual, Simulation. Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
-  "blurb": {
-   "uk": "Симулятор: створюєш хаос разом із друзями та проходиш міні-ігри в ролі кози",
-   "ru": "Симулятор: творишь хаос вместе с друзьями и проходишь мини-игры в роли козы",
-   "en": "Simulation: create carnage with your friends and play mini-games as a goat",
-   "sk": "Simulátor: s kamarátmi tvoríš chaos a hráš mini-hry v roli kozy"
-  },
-  "status": "active",
-  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -1085,7 +948,7 @@
    "old": "1 699₴",
    "new": "254₴",
    "store": "Steam",
-   "rank_sales": 26,
+   "rank_sales": 27,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
@@ -1131,7 +994,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 38,
+   "rank_sales": 42,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1402,7 +1265,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 20,
+   "rank_sales": 22,
    "rank_play": 69
   },
   "desc": "Genres: RPG, Simulation, Strategy. Love, fight, scheme, and claim greatness. Determine your noble house’s legacy in the sprawling grand strategy of Crusader Kings III. Death is only the beginning as you guide your dynasty’s bloodline in the rich and larger-than-life simulation of the Middle Ages.",
@@ -1806,7 +1669,7 @@
    "old": "329₴",
    "new": "98₴",
    "store": "Steam",
-   "rank_sales": 92,
+   "rank_sales": 99,
    "rank_play": null
   },
   "desc": "Genres: Indie, Simulation. Oxygen Not Included is a space-colony simulation game. Deep inside an alien space rock your industrious crew will need to master science, overcome strange new lifeforms, and harness incredible space tech to survive, and possibly, thrive.",
@@ -2126,7 +1989,7 @@
    "old": "450₴",
    "new": "45₴",
    "store": "Steam",
-   "rank_sales": 58,
+   "rank_sales": 68,
    "rank_play": null
   },
   "desc": "Genres: Indie, Simulation, Strategy. Craft, Steal, Brawl and Escape! It’s time to bust out of the toughest prisons in the world as you return to the life of an inmate in The Escapists 2, now with multiplayer! Have you got what it takes to escape?",
