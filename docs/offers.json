@@ -2182,6 +2182,7 @@
    "sk": "Simulátor: kradneš veci, biješ sa a hľadáš spôsoby, ako utiecť z najprísnejších väzníc"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
