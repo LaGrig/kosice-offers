@@ -55,7 +55,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 19,
+   "rank_sales": 20,
    "rank_play": 17
   },
   "blurb": {
@@ -100,7 +100,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": 88,
+   "rank_sales": 90,
    "rank_play": null
   },
   "blurb": {
@@ -581,7 +581,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 70,
+   "rank_sales": 76,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -719,7 +719,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 61,
+   "rank_sales": 59,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -948,7 +948,7 @@
    "old": "1 699₴",
    "new": "254₴",
    "store": "Steam",
-   "rank_sales": 29,
+   "rank_sales": 31,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
@@ -994,7 +994,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 45,
+   "rank_sales": 43,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1989,7 +1989,7 @@
    "old": "450₴",
    "new": "45₴",
    "store": "Steam",
-   "rank_sales": 71,
+   "rank_sales": 69,
    "rank_play": null
   },
   "desc": "Genres: Indie, Simulation, Strategy. Craft, Steal, Brawl and Escape! It’s time to bust out of the toughest prisons in the world as you return to the life of an inmate in The Escapists 2, now with multiplayer! Have you got what it takes to escape?",
@@ -2045,7 +2045,8 @@
    "en": "Adventure: survive in the rugged heartland, rob and fight with your gang",
    "sk": "Dobrodružstvo: prežívaš v divokej krajine, rabuješ a bojuješ sa svojím gangom"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "45eeadcf736c",
@@ -2088,7 +2089,8 @@
    "en": "Adventure: decide the fate of humans and androids in a future where every choice changes the story",
    "sk": "Dobrodružstvo: rozhoduješ o osude ľudí a androidov v budúcnosti, kde každé tvoje rozhodnutie mení príbeh"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "5e3f2ca21269",
@@ -2121,7 +2123,7 @@
    "old": "599₴",
    "new": "149₴",
    "store": "Steam",
-   "rank_sales": 39,
+   "rank_sales": 38,
    "rank_play": null
   },
   "desc": "Genres: Simulation, Strategy. Build a soviet republic from an impoverished country into a rich industrial superpower in a city builder with intricate production chains and a fully simulated global economy. Manage the lives of your citizens from education to work and party loyalty to criminal activity.",
@@ -2131,7 +2133,8 @@
    "en": "Simulation: build an industrial republic and manage the lives of your citizens",
    "sk": "Simulátor: buduješ priemyselnú republiku a spravuješ životy svojich občanov"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "f145c62f6382",
@@ -2164,7 +2167,7 @@
    "old": "599₴",
    "new": "149₴",
    "store": "Steam",
-   "rank_sales": 82,
+   "rank_sales": 80,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, Massively Multiplayer, RPG. Every legend starts somewhere and in The Elder Scrolls Online, it starts with you. Join millions of players in an online, fantasy RPG set in a vast living Elder Scrolls world.",
@@ -2174,7 +2177,8 @@
    "en": "MMORPG: explore a vast fantasy world and create your own legend",
    "sk": "MMORPG: skúmaš obrovský fantasy svet a tvoríš svoju vlastnú legendu"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  },
  {
   "id": "1e5b5b06ad2e",
@@ -2207,7 +2211,7 @@
    "old": "1 599₴",
    "new": "159₴",
    "store": "Steam",
-   "rank_sales": 94,
+   "rank_sales": 92,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
@@ -2217,6 +2221,7 @@
    "en": "Action RPG: learn magic and create your own adventure in an open world",
    "sk": "Akčné RPG: študuješ mágiu a vytváraš vlastné dobrodružstvo v otvorenom svete"
   },
-  "status": "active"
+  "status": "active",
+  "miss_p": 0
  }
 ]
