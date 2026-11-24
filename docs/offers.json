@@ -2003,5 +2003,220 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "88b214e52d88",
+  "title": {
+   "uk": "Red Dead Redemption 2",
+   "ru": "Red Dead Redemption 2",
+   "en": "Red Dead Redemption 2",
+   "sk": "Red Dead Redemption 2"
+  },
+  "text": {
+   "uk": "Red Dead Redemption 2 у Steam зараз за 649₴ замість 2 599₴. Не пропусти 🎮",
+   "ru": "Red Dead Redemption 2 в Steam сейчас за 649₴ вместо 2 599₴. Не пропусти 🎮",
+   "en": "Red Dead Redemption 2 on Steam is 649₴ instead of 2 599₴ right now. Don't miss it 🎮",
+   "sk": "Red Dead Redemption 2 v Steam je teraz za 649₴ namiesto 2 599₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1174180/",
+  "source": "steam-chart",
+  "found_at": "2026-11-24",
+  "expires_at": "2026-12-07",
+  "score": 90,
+  "worth": 2599.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 2,
+  "deal": {
+   "game": "Red Dead Redemption 2",
+   "pct": 75,
+   "old": "2 599₴",
+   "new": "649₴",
+   "store": "Steam",
+   "rank_sales": 2,
+   "rank_play": 24
+  },
+  "desc": "Genres: Action, Adventure. Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive.",
+  "blurb": {
+   "uk": "Пригода: виживаєш у диких землях, грабуєш та б'єшся разом із бандою",
+   "ru": "Приключение: выживаешь в диких землях, грабишь и сражаешься вместе с бандой",
+   "en": "Adventure: survive in the rugged heartland, rob and fight with your gang",
+   "sk": "Dobrodružstvo: prežívaš v divokej krajine, rabuješ a bojuješ sa svojím gangom"
+  },
+  "status": "active"
+ },
+ {
+  "id": "45eeadcf736c",
+  "title": {
+   "uk": "Detroit: Become Human",
+   "ru": "Detroit: Become Human",
+   "en": "Detroit: Become Human",
+   "sk": "Detroit: Become Human"
+  },
+  "text": {
+   "uk": "Detroit: Become Human у Steam зараз за 129₴ замість 1 299₴. Не пропусти 🎮",
+   "ru": "Detroit: Become Human в Steam сейчас за 129₴ вместо 1 299₴. Не пропусти 🎮",
+   "en": "Detroit: Become Human on Steam is 129₴ instead of 1 299₴ right now. Don't miss it 🎮",
+   "sk": "Detroit: Become Human v Steam je teraz za 129₴ namiesto 1 299₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1222140/",
+  "source": "steam-chart",
+  "found_at": "2026-11-24",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 1299.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 33,
+  "deal": {
+   "game": "Detroit: Become Human",
+   "pct": 90,
+   "old": "1 299₴",
+   "new": "129₴",
+   "store": "Steam",
+   "rank_sales": 33,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure. Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
+  "blurb": {
+   "uk": "Пригода: вирішуєш долю людей та андроїдів у майбутньому, де кожен твій вибір змінює сюжет",
+   "ru": "Приключение: решаешь судьбу людей и андроидов в будущем, где каждый твой выбор меняет сюжет",
+   "en": "Adventure: decide the fate of humans and androids in a future where every choice changes the story",
+   "sk": "Dobrodružstvo: rozhoduješ o osude ľudí a androidov v budúcnosti, kde každé tvoje rozhodnutie mení príbeh"
+  },
+  "status": "active"
+ },
+ {
+  "id": "5e3f2ca21269",
+  "title": {
+   "uk": "Workers & Resources: Soviet Republic",
+   "ru": "Workers & Resources: Soviet Republic",
+   "en": "Workers & Resources: Soviet Republic",
+   "sk": "Workers & Resources: Soviet Republic"
+  },
+  "text": {
+   "uk": "Workers & Resources: Soviet Republic у Steam зараз за 149₴ замість 599₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Workers & Resources: Soviet Republic в Steam сейчас за 149₴ вместо 599₴. Самое время добавить в библиотеку 🎮",
+   "en": "Workers & Resources: Soviet Republic on Steam is 149₴ instead of 599₴ right now. Time to add it to your library 🎮",
+   "sk": "Workers & Resources: Soviet Republic v Steam je teraz za 149₴ namiesto 599₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/784150/",
+  "source": "steam-chart",
+  "found_at": "2026-11-24",
+  "expires_at": "2026-12-07",
+  "score": 90,
+  "worth": 599.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 39,
+  "deal": {
+   "game": "Workers & Resources: Soviet Republic",
+   "pct": 75,
+   "old": "599₴",
+   "new": "149₴",
+   "store": "Steam",
+   "rank_sales": 39,
+   "rank_play": null
+  },
+  "desc": "Genres: Simulation, Strategy. Build a soviet republic from an impoverished country into a rich industrial superpower in a city builder with intricate production chains and a fully simulated global economy. Manage the lives of your citizens from education to work and party loyalty to criminal activity.",
+  "blurb": {
+   "uk": "Симулятор: будуєш індустріальну республіку та керуєш життям своїх громадян",
+   "ru": "Симулятор: строишь индустриальную республику и управляешь жизнью своих граждан",
+   "en": "Simulation: build an industrial republic and manage the lives of your citizens",
+   "sk": "Simulátor: buduješ priemyselnú republiku a spravuješ životy svojich občanov"
+  },
+  "status": "active"
+ },
+ {
+  "id": "f145c62f6382",
+  "title": {
+   "uk": "The Elder Scrolls Online",
+   "ru": "The Elder Scrolls Online",
+   "en": "The Elder Scrolls Online",
+   "sk": "The Elder Scrolls Online"
+  },
+  "text": {
+   "uk": "The Elder Scrolls Online у Steam зараз за 149₴ замість 599₴. Не пропусти 🎮",
+   "ru": "The Elder Scrolls Online в Steam сейчас за 149₴ вместо 599₴. Не пропусти 🎮",
+   "en": "The Elder Scrolls Online on Steam is 149₴ instead of 599₴ right now. Don't miss it 🎮",
+   "sk": "The Elder Scrolls Online v Steam je teraz za 149₴ namiesto 599₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/306130/",
+  "source": "steam-chart",
+  "found_at": "2026-11-24",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 599.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 82,
+  "deal": {
+   "game": "The Elder Scrolls® Online",
+   "pct": 75,
+   "old": "599₴",
+   "new": "149₴",
+   "store": "Steam",
+   "rank_sales": 82,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, Massively Multiplayer, RPG. Every legend starts somewhere and in The Elder Scrolls Online, it starts with you. Join millions of players in an online, fantasy RPG set in a vast living Elder Scrolls world.",
+  "blurb": {
+   "uk": "MMORPG: досліджуєш величезний фентезійний світ та створюєш власну легенду",
+   "ru": "MMORPG: исследуешь огромный фэнтезийный мир и создаешь свою легенду",
+   "en": "MMORPG: explore a vast fantasy world and create your own legend",
+   "sk": "MMORPG: skúmaš obrovský fantasy svet a tvoríš svoju vlastnú legendu"
+  },
+  "status": "active"
+ },
+ {
+  "id": "1e5b5b06ad2e",
+  "title": {
+   "uk": "Hogwarts Legacy",
+   "ru": "Hogwarts Legacy",
+   "en": "Hogwarts Legacy",
+   "sk": "Hogwarts Legacy"
+  },
+  "text": {
+   "uk": "Hogwarts Legacy у Steam зараз за 159₴ замість 1 599₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Hogwarts Legacy в Steam сейчас за 159₴ вместо 1 599₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Hogwarts Legacy on Steam is 159₴ instead of 1 599₴ right now. Your student budget will thank you 🎮",
+   "sk": "Hogwarts Legacy v Steam je teraz za 159₴ namiesto 1 599₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/990080/",
+  "source": "steam-chart",
+  "found_at": "2026-11-24",
+  "expires_at": "2026-12-07",
+  "score": 90,
+  "worth": 1599.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 94,
+  "deal": {
+   "game": "Hogwarts Legacy",
+   "pct": 90,
+   "old": "1 599₴",
+   "new": "159₴",
+   "store": "Steam",
+   "rank_sales": 94,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
+  "blurb": {
+   "uk": "Екшен-RPG: вивчаєш магію та створюєш власну пригоду у відкритому світі",
+   "ru": "Экшен-RPG: изучаешь магию и создаешь собственное приключение в открытом мире",
+   "en": "Action RPG: learn magic and create your own adventure in an open world",
+   "sk": "Akčné RPG: študuješ mágiu a vytváraš vlastné dobrodružstvo v otvorenom svete"
+  },
+  "status": "active"
  }
 ]
