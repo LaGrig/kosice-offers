@@ -65,7 +65,7 @@
    "sk": "Simulátor: prepravuješ dôležité náklady na veľké vzdialosti cez rôzne mestá"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 1
  },
@@ -110,7 +110,7 @@
    "sk": "Simulátor: vozíš rôzne náklady v legendárnych kamionoch cez malebné krajiny"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 1
  },
@@ -581,7 +581,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 81,
+   "rank_sales": 79,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -719,7 +719,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 85,
+   "rank_sales": 81,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -994,7 +994,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 48,
+   "rank_sales": 51,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1190,51 +1190,6 @@
   "fails": 0
  },
  {
-  "id": "37495ca13305",
-  "title": {
-   "uk": "SILENT HILL 2",
-   "ru": "SILENT HILL 2",
-   "en": "SILENT HILL 2",
-   "sk": "SILENT HILL 2"
-  },
-  "text": {
-   "uk": "SILENT HILL 2 у Epic Games Store зараз за 368₴ замість 1 315₴. Студентський бюджет скаже дякую 🎮",
-   "ru": "SILENT HILL 2 в Epic Games Store сейчас за 368₴ вместо 1 315₴. Студенческий бюджет скажет спасибо 🎮",
-   "en": "SILENT HILL 2 on Epic Games Store is 368₴ instead of 1 315₴ right now. Your student budget will thank you 🎮",
-   "sk": "SILENT HILL 2 v Epic Games Store je teraz za 368₴ namiesto 1 315₴. Tvoj študentský rozpočet poďakuje 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/silent-hill-2-4542c7",
-  "source": "epic-charts",
-  "found_at": "2026-11-20",
-  "expires_at": "2026-11-24",
-  "score": 90,
-  "worth": 1315.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 21,
-  "deal": {
-   "game": "SILENT HILL 2",
-   "pct": 72,
-   "old": "1 315₴",
-   "new": "368₴",
-   "store": "Epic Games Store",
-   "rank_sales": 8
-  },
-  "desc": "Genres: Horror, Action-Adventure, Controller Support, Single Player. Investigating a letter from his late wife, James returns to where they made so many memories - Silent Hill.\nConfront the monsters, solve puzzles, and search for traces of your wife in this remake of SILENT HILL 2.",
-  "blurb": {
-   "uk": "Екшен-пригода: шукаєш сліди дружини, розгадуєш пазли та борешся з монстрами",
-   "ru": "Экшен-приключение: ищешь следы жены, решаешь загадки и сражаешься с монстрами",
-   "en": "Action-adventure: search for traces of your wife, solve puzzles and fight monsters",
-   "sk": "Akčné dobrodružstvo: hľadáš stopy manželky, riešiš hádanky a bojuješ s monštrami"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
- },
- {
   "id": "0e6742129401",
   "title": {
    "uk": "Crusader Kings III",
@@ -1311,7 +1266,7 @@
    "old": "999₴",
    "new": "199₴",
    "store": "Steam",
-   "rank_sales": 16,
+   "rank_sales": 18,
    "rank_play": 60
   },
   "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
@@ -1325,51 +1280,6 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
- },
- {
-  "id": "d7a643709813",
-  "title": {
-   "uk": "SILENT HILL f",
-   "ru": "SILENT HILL f",
-   "en": "SILENT HILL f",
-   "sk": "SILENT HILL f"
-  },
-  "text": {
-   "uk": "SILENT HILL f у Epic Games Store зараз за 413₴ замість 1 475₴. Не пропусти 🎮",
-   "ru": "SILENT HILL f в Epic Games Store сейчас за 413₴ вместо 1 475₴. Не пропусти 🎮",
-   "en": "SILENT HILL f on Epic Games Store is 413₴ instead of 1 475₴ right now. Don't miss it 🎮",
-   "sk": "SILENT HILL f v Epic Games Store je teraz za 413₴ namiesto 1 475₴. Nenechaj si ujsť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/silent-hill-f-714aed",
-  "source": "epic-charts",
-  "found_at": "2026-11-20",
-  "expires_at": "2026-11-24",
-  "score": 90,
-  "worth": 1475.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 37,
-  "deal": {
-   "game": "SILENT HILL f",
-   "pct": 72,
-   "old": "1 475₴",
-   "new": "413₴",
-   "store": "Epic Games Store",
-   "rank_sales": 21
-  },
-  "desc": "Genres: Horror, Narration, Action-Adventure, Controller Support, Single Player. Hinako's hometown is engulfed in fog, driving her to fight grotesque monsters and solve eerie puzzles. Uncover the disturbing beauty hidden in terror.",
-  "blurb": {
-   "uk": "Екшен-пригода: борешся з монстрами та розгадуєш моторошні пазли в місті, що потонуло в тумані",
-   "ru": "Экшен-приключение: сражаешься с монстрами и решаешь жуткие загадки в городе, окутанном туманом",
-   "en": "Action-adventure: fight grotesque monsters and solve eerie puzzles in a fog-engulfed town",
-   "sk": "Akčné dobrodružstvo: bojuješ s mutantmi a riešiš znepokojivé hádanky v meste zahalnutom hmlou"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
  },
  {
   "id": "c067011195f5",
@@ -1989,7 +1899,7 @@
    "old": "450₴",
    "new": "45₴",
    "store": "Steam",
-   "rank_sales": 68,
+   "rank_sales": 85,
    "rank_play": null
   },
   "desc": "Genres: Indie, Simulation, Strategy. Craft, Steal, Brawl and Escape! It’s time to bust out of the toughest prisons in the world as you return to the life of an inmate in The Escapists 2, now with multiplayer! Have you got what it takes to escape?",
@@ -2081,7 +1991,7 @@
    "old": "1 299₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 17,
+   "rank_sales": 16,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
