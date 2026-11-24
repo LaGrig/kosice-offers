@@ -100,7 +100,7 @@
    "old": "400₴",
    "new": "100₴",
    "store": "Steam",
-   "rank_sales": null,
+   "rank_sales": 98,
    "rank_play": null
   },
   "blurb": {
@@ -145,7 +145,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 49,
+   "rank_sales": 53,
    "rank_play": 41
   },
   "blurb": {
@@ -581,7 +581,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 75,
+   "rank_sales": 77,
    "rank_play": 65
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -719,7 +719,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 77,
+   "rank_sales": 78,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -948,7 +948,7 @@
    "old": "1 699₴",
    "new": "254₴",
    "store": "Steam",
-   "rank_sales": 35,
+   "rank_sales": 36,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
@@ -1311,7 +1311,7 @@
    "old": "999₴",
    "new": "199₴",
    "store": "Steam",
-   "rank_sales": 14,
+   "rank_sales": 15,
    "rank_play": 60
   },
   "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
@@ -1989,7 +1989,7 @@
    "old": "450₴",
    "new": "45₴",
    "store": "Steam",
-   "rank_sales": 58,
+   "rank_sales": 60,
    "rank_play": null
   },
   "desc": "Genres: Indie, Simulation, Strategy. Craft, Steal, Brawl and Escape! It’s time to bust out of the toughest prisons in the world as you return to the life of an inmate in The Escapists 2, now with multiplayer! Have you got what it takes to escape?",
@@ -2081,7 +2081,7 @@
    "old": "1 299₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 23,
+   "rank_sales": 19,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
@@ -2219,7 +2219,7 @@
    "old": "1 599₴",
    "new": "159₴",
    "store": "Steam",
-   "rank_sales": 37,
+   "rank_sales": 35,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
