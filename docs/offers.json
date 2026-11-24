@@ -2046,7 +2046,8 @@
    "sk": "Dobrodružstvo: prežívaš v divokej krajine, rabuješ a bojuješ sa svojím gangom"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "45eeadcf736c",
@@ -2090,7 +2091,8 @@
    "sk": "Dobrodružstvo: rozhoduješ o osude ľudí a androidov v budúcnosti, kde každé tvoje rozhodnutie mení príbeh"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "5e3f2ca21269",
@@ -2134,7 +2136,8 @@
    "sk": "Simulátor: buduješ priemyselnú republiku a spravuješ životy svojich občanov"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "f145c62f6382",
@@ -2178,7 +2181,8 @@
    "sk": "MMORPG: skúmaš obrovský fantasy svet a tvoríš svoju vlastnú legendu"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "1e5b5b06ad2e",
@@ -2222,6 +2226,7 @@
    "sk": "Akčné RPG: študuješ mágiu a vytváraš vlastné dobrodružstvo v otvorenom svete"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
