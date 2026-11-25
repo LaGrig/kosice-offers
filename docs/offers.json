@@ -2096,7 +2096,8 @@
    "sk": "Akčné dobrodružstvo: vyviničaj hordy tyranidov pomocou ničivých schopností a zbraní"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "04f11b07bf9f",
@@ -2140,7 +2141,8 @@
    "sk": "Simulátor: buduješ a rozvíjaš moderné mesto a riešiš rôzne problémy"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "cfa926b8db93",
@@ -2184,6 +2186,7 @@
    "sk": "RPG: preskumávaš otvorený svet a prežívaš v postapokalypse"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
