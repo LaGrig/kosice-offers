@@ -144,7 +144,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 48
+   "rank_sales": 52
   },
   "blurb": {
    "uk": "Симулятор: гоняєш на мотоциклах по трасах на шаленій швидкості",
@@ -233,7 +233,7 @@
    "old": "1 419₴",
    "new": "284₴",
    "store": "Epic Games Store",
-   "rank_sales": 96
+   "rank_sales": null
   },
   "blurb": {
    "uk": "Мотогонки: змагаєшся в сезоні 2025 року та проходиш випробування в різних режимах",
@@ -491,7 +491,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 91,
+   "rank_sales": 92,
    "rank_play": 66
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -629,7 +629,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 72,
+   "rank_sales": 76,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -904,7 +904,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 56,
+   "rank_sales": 57,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -1176,7 +1176,7 @@
    "old": "999₴",
    "new": "199₴",
    "store": "Steam",
-   "rank_sales": 20,
+   "rank_sales": 22,
    "rank_play": 60
   },
   "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
@@ -1222,7 +1222,7 @@
    "old": "1 199₴",
    "new": "60₴",
    "store": "Epic Games Store",
-   "rank_sales": 57
+   "rank_sales": 63
   },
   "desc": "Genres: First Person, Shooter, Online Multiplayer, Single Player. Battlefield™ 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever.",
   "blurb": {
@@ -1267,7 +1267,7 @@
    "old": "1 999₴",
    "new": "100₴",
    "store": "Epic Games Store",
-   "rank_sales": 76
+   "rank_sales": 77
   },
   "desc": "Genres: Action, Racing, Online Multiplayer, Co-op, Single Player. Hustle by day and risk it all at night in Need for Speed™ Heat, a thrilling race experience that pits you against a city’s rogue police force as you battle your way into street racing’s elite.",
   "blurb": {
@@ -1398,7 +1398,7 @@
    "old": "1 299₴",
    "new": "65₴",
    "store": "Epic Games Store",
-   "rank_sales": 89
+   "rank_sales": null
   },
   "desc": "Genres: Action, Shooter, Controller Support, Co-op, Multiplayer, Single Player. This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2.",
   "blurb": {
@@ -1535,7 +1535,7 @@
    "old": "1 199₴",
    "new": "60₴",
    "store": "Epic Games Store",
-   "rank_sales": 41
+   "rank_sales": 32
   },
   "desc": "Genres: First Person, Shooter, Online Multiplayer, Single Player. Embrace unrivaled destruction in Battlefield 4™. Revel in the glorious chaos of all-out war packed with rewarding, tactical challenges in an interactive environment.",
   "blurb": {
@@ -1901,7 +1901,7 @@
    "old": "1 299₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 19,
+   "rank_sales": 20,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
@@ -2039,7 +2039,7 @@
    "old": "1 599₴",
    "new": "159₴",
    "store": "Steam",
-   "rank_sales": 32,
+   "rank_sales": 33,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
@@ -2085,7 +2085,7 @@
    "old": "1 559₴",
    "new": "389₴",
    "store": "Steam",
-   "rank_sales": 33,
+   "rank_sales": 32,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes.",
@@ -2177,7 +2177,7 @@
    "old": "349₴",
    "new": "87₴",
    "store": "Steam",
-   "rank_sales": 82,
+   "rank_sales": 85,
    "rank_play": null
   },
   "desc": "Genres: RPG. From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.",
