@@ -2097,7 +2097,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "04f11b07bf9f",
@@ -2142,7 +2143,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "cfa926b8db93",
@@ -2187,6 +2189,7 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  }
 ]
