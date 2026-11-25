@@ -2053,5 +2053,129 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "7cddf74fa4a1",
+  "title": {
+   "uk": "Warhammer 40,000: Space Marine 2",
+   "ru": "Warhammer 40,000: Space Marine 2",
+   "en": "Warhammer 40,000: Space Marine 2",
+   "sk": "Warhammer 40,000: Space Marine 2"
+  },
+  "text": {
+   "uk": "Warhammer 40,000: Space Marine 2 у Steam зараз за 389₴ замість 1 559₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Warhammer 40,000: Space Marine 2 в Steam сейчас за 389₴ вместо 1 559₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Warhammer 40,000: Space Marine 2 on Steam is 389₴ instead of 1 559₴ right now. Your student budget will thank you 🎮",
+   "sk": "Warhammer 40,000: Space Marine 2 v Steam je teraz za 389₴ namiesto 1 559₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2183900/",
+  "source": "steam-chart",
+  "found_at": "2026-11-25",
+  "expires_at": "2026-12-04",
+  "score": 90,
+  "worth": 1559.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 38,
+  "deal": {
+   "game": "Warhammer 40,000: Space Marine 2",
+   "pct": 75,
+   "old": "1 559₴",
+   "new": "389₴",
+   "store": "Steam",
+   "rank_sales": 38,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes.",
+  "blurb": {
+   "uk": "Екшен-пригода: нищиш натовпи тиранідів за допомогою потужної зброї та здібностей",
+   "ru": "Экшен-приключение: уничтожаешь толпы тиранидов с помощью мощного оружия и способностей",
+   "en": "Action-adventure: obliterate tyranid swarms using deadly abilities and devastating weaponry",
+   "sk": "Akčné dobrodružstvo: vyviničaj hordy tyranidov pomocou ničivých schopností a zbraní"
+  },
+  "status": "active"
+ },
+ {
+  "id": "04f11b07bf9f",
+  "title": {
+   "uk": "Cities: Skylines",
+   "ru": "Cities: Skylines",
+   "en": "Cities: Skylines",
+   "sk": "Cities: Skylines"
+  },
+  "text": {
+   "uk": "Cities: Skylines у Steam зараз за 242₴ замість 809₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Cities: Skylines в Steam сейчас за 242₴ вместо 809₴. Самое время добавить в библиотеку 🎮",
+   "en": "Cities: Skylines on Steam is 242₴ instead of 809₴ right now. Time to add it to your library 🎮",
+   "sk": "Cities: Skylines v Steam je teraz za 242₴ namiesto 809₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/255710/",
+  "source": "steam-chart",
+  "found_at": "2026-11-25",
+  "expires_at": null,
+  "score": 90,
+  "worth": 809.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 64,
+  "deal": {
+   "game": "Cities: Skylines",
+   "pct": 70,
+   "old": "809₴",
+   "new": "242₴",
+   "store": "Steam",
+   "rank_sales": 64,
+   "rank_play": null
+  },
+  "desc": "Genres: Simulation, Strategy. Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
+  "blurb": {
+   "uk": "Симулятор: будуєш та розвиваєш сучасне місто, вирішуючи різні проблеми",
+   "ru": "Симулятор: строишь и развиваешь современный город, решая разные проблемы",
+   "en": "Simulation: build and develop a modern city while managing its challenges",
+   "sk": "Simulátor: buduješ a rozvíjaš moderné mesto a riešiš rôzne problémy"
+  },
+  "status": "active"
+ },
+ {
+  "id": "cfa926b8db93",
+  "title": {
+   "uk": "Fallout 4",
+   "ru": "Fallout 4",
+   "en": "Fallout 4",
+   "sk": "Fallout 4"
+  },
+  "text": {
+   "uk": "Fallout 4 у Steam зараз за 87₴ замість 349₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Fallout 4 в Steam сейчас за 87₴ вместо 349₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Fallout 4 on Steam is 87₴ instead of 349₴ right now. Your student budget will thank you 🎮",
+   "sk": "Fallout 4 v Steam je teraz za 87₴ namiesto 349₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/377160/",
+  "source": "steam-chart",
+  "found_at": "2026-11-25",
+  "expires_at": "2026-11-30",
+  "score": 90,
+  "worth": 349.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 73,
+  "deal": {
+   "game": "Fallout 4",
+   "pct": 75,
+   "old": "349₴",
+   "new": "87₴",
+   "store": "Steam",
+   "rank_sales": 73,
+   "rank_play": null
+  },
+  "desc": "Genres: RPG. From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.",
+  "blurb": null,
+  "status": "active"
  }
 ]
