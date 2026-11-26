@@ -2234,7 +2234,8 @@
    "sk": "Dobrodružstvo: bojuješ s grotesknými monštrami a riešiš znepokojivé hádanky v meste zahalenej hmlou"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "1e4c6fdf2974",
@@ -2278,7 +2279,8 @@
    "sk": "Dobrodružstvo: hľadáš stopy manželky v hmlovom meste, riešiš hádanky a bojuješ s monštrami"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "5ca9030a4745",
@@ -2322,6 +2324,7 @@
    "sk": "Akčné RPG: bojuješ proti mutantným robotom a odkrývaš tajomstvá utopického sveta"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
