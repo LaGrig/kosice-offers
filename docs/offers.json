@@ -2191,5 +2191,134 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "083305381560",
+  "title": {
+   "uk": "SILENT HILL f",
+   "ru": "SILENT HILL f",
+   "en": "SILENT HILL f",
+   "sk": "SILENT HILL f"
+  },
+  "text": {
+   "uk": "SILENT HILL f у Steam зараз за 413₴ замість 1 475₴. Не пропусти 🎮",
+   "ru": "SILENT HILL f в Steam сейчас за 413₴ вместо 1 475₴. Не пропусти 🎮",
+   "en": "SILENT HILL f on Steam is 413₴ instead of 1 475₴ right now. Don't miss it 🎮",
+   "sk": "SILENT HILL f v Steam je teraz za 413₴ namiesto 1 475₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2947440/",
+  "source": "steam-chart",
+  "found_at": "2026-11-26",
+  "expires_at": "2026-12-09",
+  "score": 90,
+  "worth": 1475.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 13,
+  "deal": {
+   "game": "SILENT HILL f",
+   "pct": 72,
+   "old": "1 475₴",
+   "new": "413₴",
+   "store": "Steam",
+   "rank_sales": 13,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure. Hinako's hometown is engulfed in fog, driving her to fight grotesque monsters and solve eerie puzzles. Uncover the disturbing beauty hidden in terror.",
+  "blurb": {
+   "uk": "Пригоди: борешся з гротескними монстрами та розгадуєш моторошні пазли в місті, оповитому туманом",
+   "ru": "Приключения: сражаешься с гротескными монстрами и решаешь жуткие загадки в городе, окутанном туманом",
+   "en": "Adventure: fight grotesque monsters and solve eerie puzzles in a fog-engulfed town",
+   "sk": "Dobrodružstvo: bojuješ s grotesknými monštrami a riešiš znepokojivé hádanky v meste zahalenej hmlou"
+  },
+  "status": "active"
+ },
+ {
+  "id": "1e4c6fdf2974",
+  "title": {
+   "uk": "SILENT HILL 2",
+   "ru": "SILENT HILL 2",
+   "en": "SILENT HILL 2",
+   "sk": "SILENT HILL 2"
+  },
+  "text": {
+   "uk": "SILENT HILL 2 у Steam зараз за 368₴ замість 1 315₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "SILENT HILL 2 в Steam сейчас за 368₴ вместо 1 315₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "SILENT HILL 2 on Steam is 368₴ instead of 1 315₴ right now. Your student budget will thank you 🎮",
+   "sk": "SILENT HILL 2 v Steam je teraz za 368₴ namiesto 1 315₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/2124490/",
+  "source": "steam-chart",
+  "found_at": "2026-11-26",
+  "expires_at": "2026-12-09",
+  "score": 90,
+  "worth": 1315.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 28,
+  "deal": {
+   "game": "SILENT HILL 2",
+   "pct": 72,
+   "old": "1 315₴",
+   "new": "368₴",
+   "store": "Steam",
+   "rank_sales": 28,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure. Investigating a letter from his late wife, James returns to where they made so many memories - Silent Hill. What he finds is a ghost town, prowled by disturbing monsters and cloaked in deep fog. Confront the monsters, solve puzzles, and search for traces of your wife in this remake of SILENT HILL 2.",
+  "blurb": {
+   "uk": "Пригода: шукаєш сліди дружини в туманному місті, розгадуєш пазли та борешся з монстрами",
+   "ru": "Приключение: ищешь следы жены в туманном городе, решаешь загадки и сражаешься с монстрами",
+   "en": "Adventure: search for traces of your wife in a foggy town, solve puzzles and fight monsters",
+   "sk": "Dobrodružstvo: hľadáš stopy manželky v hmlovom meste, riešiš hádanky a bojuješ s monštrami"
+  },
+  "status": "active"
+ },
+ {
+  "id": "5ca9030a4745",
+  "title": {
+   "uk": "Atomic Heart",
+   "ru": "Atomic Heart",
+   "en": "Atomic Heart",
+   "sk": "Atomic Heart"
+  },
+  "text": {
+   "uk": "Atomic Heart у Steam зараз за 299₴ замість 1 499₴. Не пропусти 🎮",
+   "ru": "Atomic Heart в Steam сейчас за 299₴ вместо 1 499₴. Не пропусти 🎮",
+   "en": "Atomic Heart on Steam is 299₴ instead of 1 499₴ right now. Don't miss it 🎮",
+   "sk": "Atomic Heart v Steam je teraz za 299₴ namiesto 1 499₴. Nenechaj si ujsť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/668580/",
+  "source": "steam-chart",
+  "found_at": "2026-11-26",
+  "expires_at": "2026-12-04",
+  "score": 90,
+  "worth": 1499.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 66,
+  "deal": {
+   "game": "Atomic Heart",
+   "pct": 80,
+   "old": "1 499₴",
+   "new": "299₴",
+   "store": "Steam",
+   "rank_sales": 66,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. In a mad and sublime utopian world, take part in explosive encounters. Adapt your fighting style to each opponent, use your environment and upgrade your equipment to fulfill your mission. If you want to reach the truth, you'll have to pay in blood.",
+  "blurb": {
+   "uk": "Екшен-RPG: борешся з роботами-мутантами та розкриваєш таємниці утопічного світу",
+   "ru": "Экшен-RPG: сражаешься с роботами-мутантами и раскрываешь тайны утопического мира",
+   "en": "Action RPG: fight mutant robots and uncover the secrets of a utopian world",
+   "sk": "Akčné RPG: bojuješ proti mutantným robotom a odkrývaš tajomstvá utopického sveta"
+  },
+  "status": "active"
  }
 ]
