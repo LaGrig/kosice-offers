@@ -2021,7 +2021,8 @@
    "sk": "RPG: prežívaš v nebezpečnom megapolise budúcnosti a modifikuješ svoje telo"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "a4b5812420a2",
@@ -2065,6 +2066,7 @@
    "sk": "Akčná RPG: dobývaš mesto späť z drtivých hordov krvavých nepriateľov v kooperatívnej streľacke"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
