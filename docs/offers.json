@@ -1978,5 +1978,91 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "d86fd20c0ba0",
+  "title": {
+   "uk": "Cyberpunk 2077",
+   "ru": "Cyberpunk 2077",
+   "en": "Cyberpunk 2077",
+   "sk": "Cyberpunk 2077"
+  },
+  "text": {
+   "uk": "Cyberpunk 2077 у Steam зараз за 419₴ замість 1 399₴. Гарний момент забрати 🎮",
+   "ru": "Cyberpunk 2077 в Steam сейчас за 419₴ вместо 1 399₴. Хороший момент забрать 🎮",
+   "en": "Cyberpunk 2077 on Steam is 419₴ instead of 1 399₴ right now. A good moment to grab it 🎮",
+   "sk": "Cyberpunk 2077 v Steam je teraz za 419₴ namiesto 1 399₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1091500/",
+  "source": "steam-chart",
+  "found_at": "2026-11-27",
+  "expires_at": "2026-12-10",
+  "score": 90,
+  "worth": 1399.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 15,
+  "deal": {
+   "game": "Cyberpunk 2077",
+   "pct": 70,
+   "old": "1 399₴",
+   "new": "419₴",
+   "store": "Steam",
+   "rank_sales": 23,
+   "rank_play": 15
+  },
+  "desc": "Genres: RPG. Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
+  "blurb": {
+   "uk": "RPG: виживаєш у небезпечному мегаполісі майбутнього та модифікуєш своє тіло",
+   "ru": "RPG: выживаешь в опасном мегаполисе будущего и модифицируешь свое тело",
+   "en": "RPG: survive in a dangerous futuristic megalopolis and modify your body",
+   "sk": "RPG: prežívaš v nebezpečnom megapolise budúcnosti a modifikuješ svoje telo"
+  },
+  "status": "active"
+ },
+ {
+  "id": "a4b5812420a2",
+  "title": {
+   "uk": "Warhammer 40,000: Darktide",
+   "ru": "Warhammer 40,000: Darktide",
+   "en": "Warhammer 40,000: Darktide",
+   "sk": "Warhammer 40,000: Darktide"
+  },
+  "text": {
+   "uk": "Warhammer 40,000: Darktide у Steam зараз за 189₴ замість 759₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Warhammer 40,000: Darktide в Steam сейчас за 189₴ вместо 759₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Warhammer 40,000: Darktide on Steam is 189₴ instead of 759₴ right now. Your student budget will thank you 🎮",
+   "sk": "Warhammer 40,000: Darktide v Steam je teraz za 189₴ namiesto 759₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.steampowered.com/app/1361210/",
+  "source": "steam-chart",
+  "found_at": "2026-11-27",
+  "expires_at": "2026-12-10",
+  "score": 90,
+  "worth": 759.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 68,
+  "deal": {
+   "game": "Warhammer 40,000: Darktide",
+   "pct": 75,
+   "old": "759₴",
+   "new": "189₴",
+   "store": "Steam",
+   "rank_sales": 68,
+   "rank_play": null
+  },
+  "desc": "Genres: Action, Adventure, RPG. Take back the city of Tertium from hordes of bloodthirsty foes in this intense and brutal action shooter. Warhammer 40,000: Darktide is the new co-op focused experience from the award-winning team behind the Vermintide series. As Tertium falls, Rejects Will Rise.",
+  "blurb": {
+   "uk": "Екшен-RPG: відбиваєш місто у натовпів кровожерстких ворогів у кооперативному шутері",
+   "ru": "Экшен-RPG: отбиваешь город у толп кровожадных врагов в кооперативном шутере",
+   "en": "Action RPG: take back the city from hordes of bloodthirsty foes in a co-op shooter",
+   "sk": "Akčná RPG: dobývaš mesto späť z drtivých hordov krvavých nepriateľov v kooperatívnej streľacke"
+  },
+  "status": "active"
  }
 ]
