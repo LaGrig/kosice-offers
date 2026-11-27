@@ -55,7 +55,7 @@
    "old": "149₴",
    "new": "14₴",
    "store": "Steam",
-   "rank_sales": 88,
+   "rank_sales": 85,
    "rank_play": null
   },
   "blurb": {
@@ -226,7 +226,7 @@
    "old": "1 899₴",
    "new": "284₴",
    "store": "Steam",
-   "rank_sales": 71,
+   "rank_sales": 68,
    "rank_play": 67
   },
   "desc": "Genres: Action, Strategy. The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?",
@@ -364,7 +364,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 72,
+   "rank_sales": 70,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -378,51 +378,6 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
- },
- {
-  "id": "0a0b58a057df",
-  "title": {
-   "uk": "Detroit: Become Human",
-   "ru": "Detroit: Become Human",
-   "en": "Detroit: Become Human",
-   "sk": "Detroit: Become Human"
-  },
-  "text": {
-   "uk": "Detroit: Become Human у Epic Games Store зараз за 135₴ замість 673₴. Не пропусти 🎮",
-   "ru": "Detroit: Become Human в Epic Games Store сейчас за 135₴ вместо 673₴. Не пропусти 🎮",
-   "en": "Detroit: Become Human on Epic Games Store is 135₴ instead of 673₴ right now. Don't miss it 🎮",
-   "sk": "Detroit: Become Human v Epic Games Store je teraz za 135₴ namiesto 673₴. Nenechaj si ujsť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/detroit-become-human",
-  "source": "epic-charts",
-  "found_at": "2026-11-18",
-  "expires_at": "2026-12-01",
-  "score": 90,
-  "worth": 673.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 76,
-  "deal": {
-   "game": "Detroit: Become Human",
-   "pct": 80,
-   "old": "673₴",
-   "new": "135₴",
-   "store": "Epic Games Store",
-   "rank_sales": 51
-  },
-  "desc": "Genres: Action, Narration, Single Player. Detroit 2038. Technology has evolved to a point where human like androids are everywhere. They speak, move and behave like human beings, but they are only machines serving humans.",
-  "blurb": {
-   "uk": "Пригодницький екшен: керуєш андроїдами в світі майбутнього та вирішуєш їхню долю",
-   "ru": "Приключенческий экшен: управляешь андроидами в мире будущего и решаешь их судьбу",
-   "en": "Action-adventure: control androids in a future world and decide their fate",
-   "sk": "Akčné dobrodružstvo: ovládáš androidov vo svete budúcnosti a rozhoduješ o ich osude"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
  },
  {
   "id": "fdd5271c828a",
@@ -593,7 +548,7 @@
    "old": "1 699₴",
    "new": "254₴",
    "store": "Steam",
-   "rank_sales": 38,
+   "rank_sales": 39,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. The Unknown Journey Continues... After escaping the city of Midgar, Cloud and his friends set out on a journey across the planet. New adventures await in a vibrant, expansive world in this standalone entry of the FFVII remake trilogy.",
@@ -639,7 +594,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 57,
+   "rank_sales": 55,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -825,7 +780,7 @@
    "old": "1 349₴",
    "new": "404₴",
    "store": "Steam",
-   "rank_sales": 51,
+   "rank_sales": 48,
    "rank_play": 87
   },
   "desc": "Genres: RPG, Simulation, Strategy. Love, fight, scheme, and claim greatness. Determine your noble house’s legacy in the sprawling grand strategy of Crusader Kings III. Death is only the beginning as you guide your dynasty’s bloodline in the rich and larger-than-life simulation of the Middle Ages.",
@@ -871,7 +826,7 @@
    "old": "999₴",
    "new": "199₴",
    "store": "Steam",
-   "rank_sales": 23,
+   "rank_sales": 26,
    "rank_play": 61
   },
   "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
@@ -1021,91 +976,6 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
- },
- {
-  "id": "265c48434832",
-  "title": {
-   "uk": "Mass Effect Legendary Edition",
-   "ru": "Mass Effect Legendary Edition",
-   "en": "Mass Effect Legendary Edition",
-   "sk": "Mass Effect Legendary Edition"
-  },
-  "text": {
-   "uk": "Mass Effect Legendary Edition у Epic Games Store зараз за 225₴ замість 1 499₴. Гарний момент забрати 🎮",
-   "ru": "Mass Effect Legendary Edition в Epic Games Store сейчас за 225₴ вместо 1 499₴. Хороший момент забрать 🎮",
-   "en": "Mass Effect Legendary Edition on Epic Games Store is 225₴ instead of 1 499₴ right now. A good moment to grab it 🎮",
-   "sk": "Mass Effect Legendary Edition v Epic Games Store je teraz za 225₴ namiesto 1 499₴. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/mass-effect-legendary-edition",
-  "source": "epic-charts",
-  "found_at": "2026-11-21",
-  "expires_at": "2026-12-01",
-  "score": 90,
-  "worth": 1499.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 66,
-  "deal": {
-   "game": "Mass Effect™ Legendary Edition",
-   "pct": 85,
-   "old": "1 499₴",
-   "new": "225₴",
-   "store": "Epic Games Store",
-   "rank_sales": null
-  },
-  "desc": "Genres: Space, RPG, Shooter, Single Player. The Mass Effect™ Legendary Edition includes single-player base content and over 40 DLC from the highly acclaimed Mass Effect, Mass Effect 2, and Mass Effect 3 games, remastered and optimized for 4K Ultra HD.",
-  "blurb": null,
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
- },
- {
-  "id": "086b8c7e4d83",
-  "title": {
-   "uk": "Battlefield V",
-   "ru": "Battlefield V",
-   "en": "Battlefield V",
-   "sk": "Battlefield V"
-  },
-  "text": {
-   "uk": "Battlefield V у Epic Games Store зараз за 65₴ замість 1 299₴. Саме час додати до бібліотеки 🎮",
-   "ru": "Battlefield V в Epic Games Store сейчас за 65₴ вместо 1 299₴. Самое время добавить в библиотеку 🎮",
-   "en": "Battlefield V on Epic Games Store is 65₴ instead of 1 299₴ right now. Time to add it to your library 🎮",
-   "sk": "Battlefield V v Epic Games Store je teraz za 65₴ namiesto 1 299₴. Čas pridať ju do knižnice 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/battlefield-v-definitive-edition",
-  "source": "epic-charts",
-  "found_at": "2026-11-21",
-  "expires_at": "2026-12-01",
-  "score": 90,
-  "worth": 1299.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 67,
-  "deal": {
-   "game": "Battlefield V Definitive Edition",
-   "pct": 95,
-   "old": "1 299₴",
-   "new": "65₴",
-   "store": "Epic Games Store",
-   "rank_sales": null
-  },
-  "desc": "Genres: Action, Shooter, Controller Support, Co-op, Multiplayer, Single Player. This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2.",
-  "blurb": {
-   "uk": "Шутер: береш участь у масштабних боях, використовуючи різну зброю, техніку та гаджети",
-   "ru": "Шутер: участвуешь в масштабных сражениях, используя разную технику, оружие и гаджеты",
-   "en": "Shooter: engage in massive battles using a wide array of weapons, vehicles and gadgets",
-   "sk": "Strieľačka: bojuješ v masívnych bitkách s využitím rôznej techniky, zbraní a gadgetov"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
  },
  {
   "id": "ff051ac6412a",
@@ -1289,51 +1159,6 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
- },
- {
-  "id": "7944c5195096",
-  "title": {
-   "uk": "STAR WARS Battlefront II: Celebration Edition",
-   "ru": "STAR WARS Battlefront II: Celebration Edition",
-   "en": "STAR WARS Battlefront II: Celebration Edition",
-   "sk": "STAR WARS Battlefront II: Celebration Edition"
-  },
-  "text": {
-   "uk": "STAR WARS Battlefront II: Celebration Edition у Epic Games Store зараз за 240₴ замість 1 199₴. Гарний момент забрати 🎮",
-   "ru": "STAR WARS Battlefront II: Celebration Edition в Epic Games Store сейчас за 240₴ вместо 1 199₴. Хороший момент забрать 🎮",
-   "en": "STAR WARS Battlefront II: Celebration Edition on Epic Games Store is 240₴ instead of 1 199₴ right now. A good moment to grab it 🎮",
-   "sk": "STAR WARS Battlefront II: Celebration Edition v Epic Games Store je teraz za 240₴ namiesto 1 199₴. Dobrý čas ju chytiť 🎮"
-  },
-  "category": "games",
-  "link": "https://store.epicgames.com/p/star-wars-battlefront-2",
-  "source": "epic-charts",
-  "found_at": "2026-11-22",
-  "expires_at": "2026-12-01",
-  "score": 90,
-  "worth": 1199.0,
-  "pop": {},
-  "meta": null,
-  "kind": "deal",
-  "chart_rank": 82,
-  "deal": {
-   "game": "STAR WARS™ Battlefront™ II: Celebration Edition",
-   "pct": 80,
-   "old": "1 199₴",
-   "new": "240₴",
-   "store": "Epic Games Store",
-   "rank_sales": null
-  },
-  "desc": "Genres: Action, Shooter, Adventure, Co-op, Multiplayer, Single Player. Put your mastery of the blaster, lightsaber, and the Force to the test online and offline in STAR WARS™ Battlefront™ II: Celebration Edition",
-  "blurb": {
-   "uk": "Шутер: б'єшся бластерами та світловими мечами в онлайн та офлайн режимах",
-   "ru": "Шутер: сражаешься на бластерах и световых мечах в онлайн и офлайн режимах",
-   "en": "Shooter: fight with blasters and lightsabers in online and offline modes",
-   "sk": "Strieľačka: bojuješ s blastermi a svetelnými mečmi v online a offline režimoch"
-  },
-  "status": "active",
-  "miss_p": 1,
-  "fails": 0,
-  "miss": 1
  },
  {
   "id": "abe5cd59667e",
@@ -1550,7 +1375,7 @@
    "old": "1 299₴",
    "new": "129₴",
    "store": "Steam",
-   "rank_sales": 33,
+   "rank_sales": 32,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
@@ -1734,7 +1559,7 @@
    "old": "1 559₴",
    "new": "389₴",
    "store": "Steam",
-   "rank_sales": 22,
+   "rank_sales": 23,
    "rank_play": 71
   },
   "desc": "Genres: Action, Adventure, RPG. Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes.",
@@ -1872,7 +1697,7 @@
    "old": "1 475₴",
    "new": "413₴",
    "store": "Steam",
-   "rank_sales": 11,
+   "rank_sales": 12,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Hinako's hometown is engulfed in fog, driving her to fight grotesque monsters and solve eerie puzzles. Uncover the disturbing beauty hidden in terror.",
@@ -1918,7 +1743,7 @@
    "old": "1 315₴",
    "new": "368₴",
    "store": "Steam",
-   "rank_sales": 34,
+   "rank_sales": 33,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Investigating a letter from his late wife, James returns to where they made so many memories - Silent Hill. What he finds is a ghost town, prowled by disturbing monsters and cloaked in deep fog. Confront the monsters, solve puzzles, and search for traces of your wife in this remake of SILENT HILL 2.",
@@ -1964,7 +1789,7 @@
    "old": "1 499₴",
    "new": "299₴",
    "store": "Steam",
-   "rank_sales": 48,
+   "rank_sales": 47,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. In a mad and sublime utopian world, take part in explosive encounters. Adapt your fighting style to each opponent, use your environment and upgrade your equipment to fulfill your mission. If you want to reach the truth, you'll have to pay in blood.",
@@ -2010,7 +1835,7 @@
    "old": "1 399₴",
    "new": "419₴",
    "store": "Steam",
-   "rank_sales": 2,
+   "rank_sales": 1,
    "rank_play": 16
   },
   "desc": "Genres: RPG. Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
