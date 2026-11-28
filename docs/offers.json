@@ -1930,7 +1930,8 @@
   "status": "active",
   "blurb": null,
   "miss": 0,
-  "approved_at": "2026-11-28"
+  "approved_at": "2026-11-28",
+  "fails": 0
  },
  {
   "id": "b5ce5454f0d6",
