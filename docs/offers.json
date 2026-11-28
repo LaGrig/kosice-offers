@@ -1928,7 +1928,8 @@
    "until": "2026-11-30"
   },
   "status": "pending",
-  "blurb": null
+  "blurb": null,
+  "miss": 0
  },
  {
   "id": "c6cd38c626b3",
@@ -1990,7 +1991,8 @@
    "ru": "Приключение: разгадываешь пазлы и собираешь предметы",
    "en": "Adventure: solve puzzles and collect items",
    "sk": "Dobrodružstvo: riešiš hádanky a zbieraš predmety"
-  }
+  },
+  "miss": 0
  },
  {
   "id": "b5ce5454f0d6",
@@ -2034,7 +2036,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "6ba80241e1f8",
@@ -2073,7 +2076,8 @@
   "blurb": null,
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "d7bee6e5cde2",
@@ -2117,7 +2121,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "08bdd992c64e",
@@ -2161,7 +2166,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "a61e183ad967",
@@ -2205,7 +2211,8 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  },
  {
   "id": "813f99217b14",
@@ -2249,6 +2256,7 @@
   },
   "status": "active",
   "miss_p": 0,
-  "fails": 0
+  "fails": 0,
+  "miss": 0
  }
 ]
