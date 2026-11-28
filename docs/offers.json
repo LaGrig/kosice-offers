@@ -2033,7 +2033,8 @@
    "sk": "Action-RPG: študuješ mágiu a preskúmaš svet čarovňikov"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "6ba80241e1f8",
@@ -2071,7 +2072,8 @@
   "desc": "Genres: Action, Fighting, Adventure, Multiplayer, Single Player. Discover a reborn Mortal Kombat Universe created by the Fire God Liu Kang. Mortal Kombat 1 ushers in a new era of the iconic franchise with a new fighting system, game modes, and fatalities!",
   "blurb": null,
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "d7bee6e5cde2",
@@ -2114,7 +2116,8 @@
    "sk": "Strieľacia hra: navádzaš poriadok na kriminálnych uliciach mesta v roli kyborga-policajta"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "08bdd992c64e",
@@ -2157,7 +2160,8 @@
    "sk": "Akcia s otvoreným svetom: chrániš mesto spolu s Batmanovou rodinou"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "a61e183ad967",
@@ -2200,7 +2204,8 @@
    "sk": "Akčné RPG: prežívaš v meste so zombimi pomocou parkuru a bojových zručností"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  },
  {
   "id": "813f99217b14",
@@ -2243,6 +2248,7 @@
    "sk": "Akčný šuter: zostavíš partiu vyvrhov a pokúsiš sa zvrátiť Ligu Spravodlivosti"
   },
   "status": "active",
-  "miss_p": 0
+  "miss_p": 0,
+  "fails": 0
  }
 ]
