@@ -65,7 +65,7 @@
    "sk": "Action MMORPG: bojuješ s bossmi, dobývaš hradce a vyvíjaš remeslá v otvorenom svete"
   },
   "status": "active",
-  "miss_p": 0,
+  "miss_p": 1,
   "fails": 0,
   "miss": 0
  },
@@ -364,7 +364,7 @@
    "old": "2 552₴",
    "new": "638₴",
    "store": "Steam",
-   "rank_sales": 58,
+   "rank_sales": 57,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure. Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
@@ -594,7 +594,7 @@
    "old": "1 099₴",
    "new": "197₴",
    "store": "Steam",
-   "rank_sales": 57,
+   "rank_sales": 58,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.",
@@ -826,7 +826,7 @@
    "old": "999₴",
    "new": "199₴",
    "store": "Steam",
-   "rank_sales": 24,
+   "rank_sales": 27,
    "rank_play": 48
   },
   "desc": "Genres: Action, Adventure. Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
@@ -1513,7 +1513,7 @@
    "old": "1 599₴",
    "new": "159₴",
    "store": "Steam",
-   "rank_sales": 32,
+   "rank_sales": 33,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
@@ -1559,7 +1559,7 @@
    "old": "1 559₴",
    "new": "389₴",
    "store": "Steam",
-   "rank_sales": 27,
+   "rank_sales": 25,
    "rank_play": 67
   },
   "desc": "Genres: Action, Adventure, RPG. Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes.",
@@ -1789,7 +1789,7 @@
    "old": "1 499₴",
    "new": "299₴",
    "store": "Steam",
-   "rank_sales": 60,
+   "rank_sales": 62,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. In a mad and sublime utopian world, take part in explosive encounters. Adapt your fighting style to each opponent, use your environment and upgrade your equipment to fulfill your mission. If you want to reach the truth, you'll have to pay in blood.",
@@ -1881,7 +1881,7 @@
    "old": "759₴",
    "new": "189₴",
    "store": "Steam",
-   "rank_sales": 78,
+   "rank_sales": 75,
    "rank_play": null
   },
   "desc": "Genres: Action, Adventure, RPG. Take back the city of Tertium from hordes of bloodthirsty foes in this intense and brutal action shooter. Warhammer 40,000: Darktide is the new co-op focused experience from the award-winning team behind the Vermintide series. As Tertium falls, Rejects Will Rise.",
