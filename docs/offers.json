@@ -1895,5 +1895,348 @@
   "miss_p": 0,
   "fails": 0,
   "miss": 0
+ },
+ {
+  "id": "13308415314b",
+  "title": {
+   "uk": "Dead Age 2 — безкоштовно в GOG",
+   "ru": "Dead Age 2 — бесплатно в GOG",
+   "en": "Dead Age 2 — free on GOG",
+   "sk": "Dead Age 2 — zadarmo v GOG"
+  },
+  "text": {
+   "uk": "Забирай Dead Age 2 безкоштовно в GOG до 30 листопада. Просто авторизуйся у своєму акаунті та додай гру в бібліотеку 🎮",
+   "ru": "Забирай Dead Age 2 бесплатно в GOG до 30 ноября. Просто авторизуйся в своём аккаунте и добавь игру в библиотеку 🎮",
+   "en": "Get Dead Age 2 for free on GOG until November 30. Just log into your account and add the game to your library 🎮",
+   "sk": "Zober si Dead Age 2 zadarmo v GOG do 30. novembra. Stačí sa prihlásiť do svojho účtu a pridať hru do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://www.gamerpower.com/open/dead-age-2-gog-giveaway",
+  "source": "gamerpower",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-11-30",
+  "score": 100,
+  "worth": 17.99,
+  "pop": {},
+  "meta": null,
+  "kind": null,
+  "chart_rank": null,
+  "give": {
+   "game": "Dead Age 2",
+   "store": "GOG",
+   "price": "$17.99",
+   "until": "2026-11-30"
+  },
+  "status": "pending",
+  "blurb": null
+ },
+ {
+  "id": "c6cd38c626b3",
+  "title": {
+   "uk": "Boots Quest DX — безкоштовно в itch.io",
+   "ru": "Boots Quest DX — бесплатно в itch.io",
+   "en": "Boots Quest DX — free on itch.io",
+   "sk": "Boots Quest DX — zadarmo na itch.io"
+  },
+  "text": {
+   "uk": "Забирай гру Boots Quest DX безкоштовно в itch.io до 30 листопада 2026 року. Просто завантаж її на сторінці роздачі 🎮",
+   "ru": "Забирай игру Boots Quest DX бесплатно в itch.io до 30 ноября 2026 года. Просто скачай её на странице раздачи 🎮",
+   "en": "Get Boots Quest DX for free on itch.io until November 30, 2026. Just download it on the giveaway page 🎮",
+   "sk": "Zober si hru Boots Quest DX zadarmo na itch.io do 30. novembra 2026. Stač si ju stiahnuť na stránke s rozdaním 🎮"
+  },
+  "category": "games",
+  "link": "https://www.gamerpower.com/open/boots-quest-dx-itch-io-giveaway",
+  "source": "gamerpower",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-11-30",
+  "score": 100,
+  "worth": 9.99,
+  "pop": {
+   "rating": 4.9,
+   "ratings": 25.0,
+   "claimed_users": 23860
+  },
+  "meta": {
+   "genre": [
+    "Adventure",
+    "Puzzle",
+    "Role Playing"
+   ],
+   "tags": [
+    "Casual",
+    "Collectathon",
+    "Exploration",
+    "Funny",
+    "Parody",
+    "zelda-like"
+   ],
+   "made_with": [
+    "GameMaker"
+   ],
+   "status": "Released",
+   "session": "About a half-hour"
+  },
+  "kind": null,
+  "chart_rank": null,
+  "give": {
+   "game": "Boots Quest DX",
+   "store": "itch.io",
+   "price": "$9.99",
+   "until": "2026-11-30"
+  },
+  "status": "pending",
+  "blurb": {
+   "uk": "Пригода: розгадуєш пазли та збираєш предмети",
+   "ru": "Приключение: разгадываешь пазлы и собираешь предметы",
+   "en": "Adventure: solve puzzles and collect items",
+   "sk": "Dobrodružstvo: riešiš hádanky a zbieraš predmety"
+  }
+ },
+ {
+  "id": "b5ce5454f0d6",
+  "title": {
+   "uk": "Hogwarts Legacy",
+   "ru": "Hogwarts Legacy",
+   "en": "Hogwarts Legacy",
+   "sk": "Hogwarts Legacy"
+  },
+  "text": {
+   "uk": "Hogwarts Legacy у Epic Games Store зараз за 160₴ замість 1 599₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Hogwarts Legacy в Epic Games Store сейчас за 160₴ вместо 1 599₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Hogwarts Legacy on Epic Games Store is 160₴ instead of 1 599₴ right now. Your student budget will thank you 🎮",
+   "sk": "Hogwarts Legacy v Epic Games Store je teraz za 160₴ namiesto 1 599₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/hogwarts-legacy",
+  "source": "epic-charts",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1599.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 16,
+  "deal": {
+   "game": "Hogwarts Legacy",
+   "pct": 90,
+   "old": "1 599₴",
+   "new": "160₴",
+   "store": "Epic Games Store",
+   "rank_sales": 16
+  },
+  "desc": "Genres: Action, RPG, Adventure, Single Player. Hogwarts Legacy",
+  "blurb": {
+   "uk": "Action-RPG: вивчаєш магію та досліджуєш світ чарівництва",
+   "ru": "Экшен-RPG: изучаешь магию и исследуешь мир волшебства",
+   "en": "Action RPG: learn magic and explore the wizarding world",
+   "sk": "Action-RPG: študuješ mágiu a preskúmaš svet čarovňikov"
+  },
+  "status": "active"
+ },
+ {
+  "id": "6ba80241e1f8",
+  "title": {
+   "uk": "Mortal Kombat 1",
+   "ru": "Mortal Kombat 1",
+   "en": "Mortal Kombat 1",
+   "sk": "Mortal Kombat 1"
+  },
+  "text": {
+   "uk": "Mortal Kombat 1 у Epic Games Store зараз за 195₴ замість 1 299₴. Гарний момент забрати 🎮",
+   "ru": "Mortal Kombat 1 в Epic Games Store сейчас за 195₴ вместо 1 299₴. Хороший момент забрать 🎮",
+   "en": "Mortal Kombat 1 on Epic Games Store is 195₴ instead of 1 299₴ right now. A good moment to grab it 🎮",
+   "sk": "Mortal Kombat 1 v Epic Games Store je teraz za 195₴ namiesto 1 299₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/mortal-kombat-1",
+  "source": "epic-charts",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 1299.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 31,
+  "deal": {
+   "game": "Mortal Kombat 1",
+   "pct": 85,
+   "old": "1 299₴",
+   "new": "195₴",
+   "store": "Epic Games Store",
+   "rank_sales": 31
+  },
+  "desc": "Genres: Action, Fighting, Adventure, Multiplayer, Single Player. Discover a reborn Mortal Kombat Universe created by the Fire God Liu Kang. Mortal Kombat 1 ushers in a new era of the iconic franchise with a new fighting system, game modes, and fatalities!",
+  "blurb": null,
+  "status": "active"
+ },
+ {
+  "id": "d7bee6e5cde2",
+  "title": {
+   "uk": "RoboCop: Rogue City",
+   "ru": "RoboCop: Rogue City",
+   "en": "RoboCop: Rogue City",
+   "sk": "RoboCop: Rogue City"
+  },
+  "text": {
+   "uk": "RoboCop: Rogue City у Epic Games Store зараз за 82₴ замість 820₴. Гарний момент забрати 🎮",
+   "ru": "RoboCop: Rogue City в Epic Games Store сейчас за 82₴ вместо 820₴. Хороший момент забрать 🎮",
+   "en": "RoboCop: Rogue City on Epic Games Store is 82₴ instead of 820₴ right now. A good moment to grab it 🎮",
+   "sk": "RoboCop: Rogue City v Epic Games Store je teraz za 82₴ namiesto 820₴. Dobrý čas ju chytiť 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/robocop-rogue-city",
+  "source": "epic-charts",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 820.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 48,
+  "deal": {
+   "game": "RoboCop: Rogue City",
+   "pct": 90,
+   "old": "820₴",
+   "new": "82₴",
+   "store": "Epic Games Store",
+   "rank_sales": 48
+  },
+  "desc": "Genres: Action, Shooter, Single Player. Become the iconic part man, part machine, all cop hero as you attempt to bring justice to the dangerous, crime-ridden streets of Old Detroit.",
+  "blurb": {
+   "uk": "Шутер: наводиш лад на злочинних вулицях міста в ролі кіборга-поліцейського",
+   "ru": "Шутер: наводишь порядок на криминальных улицах города в роли киборга-полицейского",
+   "en": "Shooter: bring justice to crime-ridden streets as a cyborg cop",
+   "sk": "Strieľacia hra: navádzaš poriadok na kriminálnych uliciach mesta v roli kyborga-policajta"
+  },
+  "status": "active"
+ },
+ {
+  "id": "08bdd992c64e",
+  "title": {
+   "uk": "Gotham Knights",
+   "ru": "Gotham Knights",
+   "en": "Gotham Knights",
+   "sk": "Gotham Knights"
+  },
+  "text": {
+   "uk": "Gotham Knights у Epic Games Store зараз за 112₴ замість 749₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Gotham Knights в Epic Games Store сейчас за 112₴ вместо 749₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Gotham Knights on Epic Games Store is 112₴ instead of 749₴ right now. Your student budget will thank you 🎮",
+   "sk": "Gotham Knights v Epic Games Store je teraz za 112₴ namiesto 749₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/gotham-knights",
+  "source": "epic-charts",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 749.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 82,
+  "deal": {
+   "game": "Gotham Knights",
+   "pct": 85,
+   "old": "749₴",
+   "new": "112₴",
+   "store": "Epic Games Store",
+   "rank_sales": 82
+  },
+  "desc": "Genres: Action, Open World, Adventure, Co-op, Single Player. Batman is dead. It is now up to the Batman Family - Batgirl, Nightwing, Red Hood, and Robin - to protect Gotham City.   ",
+  "blurb": {
+   "uk": "Екшен з відкритим світом: захищаєш місто разом із родиною Бетмена",
+   "ru": "Экшен с открытым миром: защищаешь город вместе с семьей Бэтмена",
+   "en": "Open world action: protect the city together with the Batman Family",
+   "sk": "Akcia s otvoreným svetom: chrániš mesto spolu s Batmanovou rodinou"
+  },
+  "status": "active"
+ },
+ {
+  "id": "a61e183ad967",
+  "title": {
+   "uk": "Dying Light: Essentials Edition",
+   "ru": "Dying Light: Essentials Edition",
+   "en": "Dying Light: Essentials Edition",
+   "sk": "Dying Light: Essentials Edition"
+  },
+  "text": {
+   "uk": "Dying Light: Essentials Edition у Epic Games Store зараз за 67₴ замість 666₴. Студентський бюджет скаже дякую 🎮",
+   "ru": "Dying Light: Essentials Edition в Epic Games Store сейчас за 67₴ вместо 666₴. Студенческий бюджет скажет спасибо 🎮",
+   "en": "Dying Light: Essentials Edition on Epic Games Store is 67₴ instead of 666₴ right now. Your student budget will thank you 🎮",
+   "sk": "Dying Light: Essentials Edition v Epic Games Store je teraz za 67₴ namiesto 666₴. Tvoj študentský rozpočet poďakuje 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/dying-light",
+  "source": "epic-charts",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 666.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 83,
+  "deal": {
+   "game": "Dying Light: Essentials Edition",
+   "pct": 90,
+   "old": "666₴",
+   "new": "67₴",
+   "store": "Epic Games Store",
+   "rank_sales": 83
+  },
+  "desc": "Genres: Action, RPG, Open World, Co-op, Single Player. Start your Dying Light adventure with the Essentials Edition, which contains the base game, Bozak Horde DLC, Cuisine and Cargo DLC, as well as 8 additional DLC containing vanity items and weapon blueprints.",
+  "blurb": {
+   "uk": "Екшен-RPG: виживаєш у місті з зомбі, використовуючи паркур та бойові навички",
+   "ru": "Экшен-RPG: выживаешь в городе с зомби, используя паркур и боевые навыки",
+   "en": "Action-RPG: survive in a zombie-infested city using parkour and combat skills",
+   "sk": "Akčné RPG: prežívaš v meste so zombimi pomocou parkuru a bojových zručností"
+  },
+  "status": "active"
+ },
+ {
+  "id": "813f99217b14",
+  "title": {
+   "uk": "Suicide Squad: Kill the Justice League",
+   "ru": "Suicide Squad: Kill the Justice League",
+   "en": "Suicide Squad: Kill the Justice League",
+   "sk": "Suicide Squad: Kill the Justice League"
+  },
+  "text": {
+   "uk": "Suicide Squad: Kill the Justice League у Epic Games Store зараз за 115₴ замість 2 299₴. Саме час додати до бібліотеки 🎮",
+   "ru": "Suicide Squad: Kill the Justice League в Epic Games Store сейчас за 115₴ вместо 2 299₴. Самое время добавить в библиотеку 🎮",
+   "en": "Suicide Squad: Kill the Justice League on Epic Games Store is 115₴ instead of 2 299₴ right now. Time to add it to your library 🎮",
+   "sk": "Suicide Squad: Kill the Justice League v Epic Games Store je teraz za 115₴ namiesto 2 299₴. Čas pridať ju do knižnice 🎮"
+  },
+  "category": "games",
+  "link": "https://store.epicgames.com/p/suicide-squad-kill-the-justice-league",
+  "source": "epic-charts",
+  "found_at": "2026-11-28",
+  "expires_at": "2026-12-01",
+  "score": 90,
+  "worth": 2299.0,
+  "pop": {},
+  "meta": null,
+  "kind": "deal",
+  "chart_rank": 89,
+  "deal": {
+   "game": "Suicide Squad: Kill the Justice League",
+   "pct": 95,
+   "old": "2 299₴",
+   "new": "115₴",
+   "store": "Epic Games Store",
+   "rank_sales": 89
+  },
+  "desc": "Genres: Action, Action-Adventure, Controller Support, Co-op, Multiplayer, Single Player. From the creators of Batman: Arkham, Suicide Squad: Kill the Justice League is a genre-defying third-person action shooter where the ultimate band of misfits must do the impossible: Kill the Justice League.",
+  "blurb": {
+   "uk": "Екшен-шутер: збираєш команду відірв і намагаєшся перемогти Лігу Справедливості",
+   "ru": "Экшен-шутер: собираешь команду отщепенцев и пытаешься победить Лигу Справедливости",
+   "en": "Action shooter: assemble a band of misfits and try to kill the Justice League",
+   "sk": "Akčný šuter: zostavíš partiu vyvrhov a pokúsiš sa zvrátiť Ligu Spravodlivosti"
+  },
+  "status": "active"
  }
 ]
