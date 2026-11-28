@@ -1928,7 +1928,12 @@
    "until": "2026-11-30"
   },
   "status": "active",
-  "blurb": null,
+  "blurb": {
+   "uk": "Пригода: грабуєш та б'єшся разом із бандою, щоб вижити у втечі від законників",
+   "ru": "Приключение: грабишь и сражаешься вместе с бандой, чтобы выжить в бегах от законников",
+   "en": "Adventure: rob and fight with your gang to survive while on the run from agents",
+   "sk": "Dobrodružstvo: rabuješ a bojuješ sa svojím gangom, aby si prežil v úteku pred agentmi"
+  },
   "miss": 0,
   "approved_at": "2026-11-28",
   "fails": 0
