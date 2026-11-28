@@ -1927,9 +1927,10 @@
    "price": "$17.99",
    "until": "2026-11-30"
   },
-  "status": "pending",
+  "status": "active",
   "blurb": null,
-  "miss": 0
+  "miss": 0,
+  "approved_at": "2026-11-28"
  },
  {
   "id": "b5ce5454f0d6",
