@@ -1932,69 +1932,6 @@
   "miss": 0
  },
  {
-  "id": "c6cd38c626b3",
-  "title": {
-   "uk": "Boots Quest DX — безкоштовно в itch.io",
-   "ru": "Boots Quest DX — бесплатно в itch.io",
-   "en": "Boots Quest DX — free on itch.io",
-   "sk": "Boots Quest DX — zadarmo na itch.io"
-  },
-  "text": {
-   "uk": "Забирай гру Boots Quest DX безкоштовно в itch.io до 30 листопада 2026 року. Просто завантаж її на сторінці роздачі 🎮",
-   "ru": "Забирай игру Boots Quest DX бесплатно в itch.io до 30 ноября 2026 года. Просто скачай её на странице раздачи 🎮",
-   "en": "Get Boots Quest DX for free on itch.io until November 30, 2026. Just download it on the giveaway page 🎮",
-   "sk": "Zober si hru Boots Quest DX zadarmo na itch.io do 30. novembra 2026. Stač si ju stiahnuť na stránke s rozdaním 🎮"
-  },
-  "category": "games",
-  "link": "https://www.gamerpower.com/open/boots-quest-dx-itch-io-giveaway",
-  "source": "gamerpower",
-  "found_at": "2026-11-28",
-  "expires_at": "2026-11-30",
-  "score": 100,
-  "worth": 9.99,
-  "pop": {
-   "rating": 4.9,
-   "ratings": 25.0,
-   "claimed_users": 23860
-  },
-  "meta": {
-   "genre": [
-    "Adventure",
-    "Puzzle",
-    "Role Playing"
-   ],
-   "tags": [
-    "Casual",
-    "Collectathon",
-    "Exploration",
-    "Funny",
-    "Parody",
-    "zelda-like"
-   ],
-   "made_with": [
-    "GameMaker"
-   ],
-   "status": "Released",
-   "session": "About a half-hour"
-  },
-  "kind": null,
-  "chart_rank": null,
-  "give": {
-   "game": "Boots Quest DX",
-   "store": "itch.io",
-   "price": "$9.99",
-   "until": "2026-11-30"
-  },
-  "status": "pending",
-  "blurb": {
-   "uk": "Пригода: розгадуєш пазли та збираєш предмети",
-   "ru": "Приключение: разгадываешь пазлы и собираешь предметы",
-   "en": "Adventure: solve puzzles and collect items",
-   "sk": "Dobrodružstvo: riešiš hádanky a zbieraš predmety"
-  },
-  "miss": 0
- },
- {
   "id": "b5ce5454f0d6",
   "title": {
    "uk": "Hogwarts Legacy",
